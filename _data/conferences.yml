@@ -1,5 +1,37 @@
 ---
-# Security and Privacy
+# CORE A*
+- name: ACM CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2021
+  link: https://www.sigsac.org/ccs/CCS2021/
+  deadline:
+    - "2021-01-20 23:59"
+    - "2021-05-06 23:59"
+  comment: 2 review cycles
+  date: "November 15-19"
+  place: Virtual Event
+  tags: [ALL, PRACT, APPLIED, COREAS]
+  
+- name: CRYPTO
+  description: International Cryptology Conference
+  year: 2021
+  link: https://crypto.iacr.org/2021
+  deadline: "2021-02-24 20:59"
+  timezone: Etc/UTC
+  date: August 16-20
+  place: Virtual Event
+  tags: [ALL, THEORY, COREAS]
+  
+- name: EUROCRYPT
+  description: European Cryptology Conference
+  year: 2022
+  link: https://eurocrypt.iacr.org/2022/
+  deadline: "2021-10-01 15:59"
+  timezone: Europe/Zurich
+  date: May 30 - June 03
+  place: Trondheim, Norway
+  tags: [ALL, THEORY, COREAS]
+
 - name: IEEE S&P (Oakland)
   year: 2022
   date: "May 22 – 26 2022"
@@ -11,8 +43,46 @@
     - "2021-08-19 23:59"
     - "2021-12-02 23:59"
   place: San Francisco, California, USA
-  tags: [SEC, PRIV, CRYPTO, PRACT, APPLIED]
+  tags: [ALL, PRACT, APPLIED, COREAS]
   
+- name: NDSS
+  description: ISOC Network and Distributed System Security Symposium
+  year: 2022
+  link: https://www.ndss-symposium.org/ndss2022/
+  comment: 2 review cycles
+  deadline:
+    - "2021-05-21 23:59"
+    - "2021-07-23 23:59"
+  date: "February 27 - March 3"
+  place: San Diego, CA, USA (Hybrid)
+  tags: [ALL, PRACT, APPLIED, COREAS]
+
+- name: USENIX Security
+  description: Usenix Security Symposium
+  year: 2022
+  link: https://www.usenix.org/conference/usenixsecurity22
+  deadline:
+    - "2021-06-08 23:59"
+    - "2021-10-12 23:59"
+    - "2022-02-01 23:59"
+  comment: 3 review cycles
+  date: "August 10-12"
+  place: Boston, MA, USA.
+  tags: [ALL, PRACT, APPLIED, COREAS]
+
+# CORE A
+
+
+
+# CORE B
+
+
+
+# CORE Others
+
+
+
+
 - name: ICICS
   year: 2022
   date: "Sept 05 – 08 2022"
@@ -31,18 +101,6 @@
   place: Genova, Italy
   tags: [PRACT, APPLIED]
 
-- name: ACM CCS
-  description: ACM Conference on Computer and Communications Security
-  year: 2021
-  link: https://www.sigsac.org/ccs/CCS2021/
-  deadline:
-    - "2021-01-20 23:59"
-    - "2021-05-06 23:59"
-  comment: 2 review cycles
-  date: "November 14-19"
-  place: Seoul, South Korea
-  tags: [PRACT, APPLIED]
-
 - name: AsiaCCS
   description: ACM Asia Conference on Computer and Communications Security
   year: 2022
@@ -55,30 +113,7 @@
   place: Nagasaki, Japan
   tags: [SEC, PRIV]
 
-- name: Usenix
-  description: Usenix Security Symposium
-  year: 2022
-  link: https://www.usenix.org/conference/usenixsecurity22
-  deadline:
-    - "2021-06-08 23:59"
-    - "2021-10-12 23:59"
-    - "2022-02-01 23:59"
-  comment: 3 review cycles
-  date: "August 10-12"
-  place: Boston, MA, USA.
-  tags: [SEC, PRIV]
 
-- name: NDSS
-  description: ISOC Network and Distributed System Security Symposium
-  year: 2022
-  link: https://www.ndss-symposium.org/ndss2022/
-  comment: 2 review cycles
-  deadline:
-    - "2021-05-21 23:59"
-    - "2021-07-23 23:59"
-  date: "February 27 - March 3"
-  place: San Diego, CA, USA
-  tags: SEC
 
 - name: ESORICS
   description: European Symposium on Research in Computer Security
@@ -168,26 +203,6 @@
   tags: PRIV
 
 # Crypto
-
-- name: Crypto
-  description: International Cryptology Conference
-  year: 2020
-  link: https://crypto.iacr.org/2020
-  deadline: "2020-02-11 16:00"
-  timezone: Etc/GMT+5
-  date: August 16-20
-  place: Santa Barbara, CA, USA
-  tags: CRYPTO
-
-- name: Eurocrypt
-  description: European Cryptology Conference
-  year: 2020
-  link: https://eurocrypt.iacr.org/2020/
-  deadline: "2019-09-26 11:59"
-  timezone: Europe/Zurich
-  date: May 10 - May 14
-  place: Zagreb, Croatia
-  tags: CRYPTO
 
 - name: Asiacrypt
   description: International Conference on the Theory and Application of Cryptology and Information Security

@@ -5,9 +5,19 @@
   tag: PRIV
 - name: Crypto
   tag: CRYPTO
+- name: All
+  tag: ALL
 - name: Theory
   tag: THEORY
 - name: Practical
   tag: PRACT
 - name: Applied
   tag: APPLIED
+- name: CORE A*
+  tag: COREAS
+- name: CORE A
+  tag: COREA
+- name: CORE B
+  tag: COREB
+- name: CORE (Others)
+  tag: COREO
