@@ -1,0 +1,14 @@
+title: MPC Conference Deadlines
+description: Countdowns to top MPC conference deadlines.
+author: Ajith Suresh
+
+domain: "mpc-deadlines.github.io"
+baseurl: ""
+
+twitter_username: hiddenmarkov
+github_username: mpc-deadlines
+github_repo: mpc-deadlines
+ga_id: G-ZY66C08954
+
+markdown: kramdown
+
