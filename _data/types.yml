@@ -5,3 +5,9 @@
   tag: PRIV
 - name: Crypto
   tag: CRYPTO
+- name: Theory
+  tag: THEORY
+- name: Practical
+  tag: PRACT
+- name: Applied
+  tag: APPLIED
