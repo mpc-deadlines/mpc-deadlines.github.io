@@ -2,15 +2,28 @@
 # CORE A*
 - name: ACM CCS
   description: ACM Conference on Computer and Communications Security
-  year: 2021
-  link: https://www.sigsac.org/ccs/CCS2021/
+  year: 2022
+  link: https://www.sigsac.org/ccs/CCS2022/
   deadline:
-    - "2021-01-20 23:59"
-    - "2021-05-06 23:59"
-  comment: 2 review cycles
-  date: "November 15-19"
-  place: Virtual Event
+    - "2022-01-14 23:59"
+    - "2022-05-02 23:59"
+  rebut: Feb 25 - Mar 07, Jun 26 - Jul 08
+  comment: 2 deadlines
+  date: "November"
+  place: Los Angeles, USA
   tags: [PRACT, COREAS]
+  rank: A*
+  
+- name: ACM STOC
+  description: ACM Symposium on Theory of Computing
+  year: 2022
+  link: http://acm-stoc.org/stoc2022/
+  deadline: "2021-11-04 16:59"
+  timezone: EST
+  date: June 20-24
+  place: Rome, Italy
+  tags: [THEORY, COREAS]
+  rank: A*
   
 - name: CRYPTO
   description: International Cryptology Conference
@@ -21,6 +34,7 @@
   date: August 16-20
   place: Virtual Event
   tags: [THEORY, COREAS]
+  rank: A*
   
 - name: EUROCRYPT
   description: European Cryptology Conference
@@ -31,41 +45,67 @@
   date: May 30 - June 03
   place: Trondheim, Norway
   tags: [THEORY, COREAS]
+  rank: A*
+
+- name: IEEE FOCS
+  description: IEEE Symposium on Foundations of Computer Science
+  year: 2021
+  link: https://focs2021.cs.colorado.edu
+  deadline: "2021-06-03 16:59"
+  timezone: EST
+  date: February 07-10 (2022)
+  place: Denver, Colorado
+  tags: [THEORY, COREAS]
+  rank: A*
+
+- name: IEEE INFOCOMM
+  year: 2022
+  date: "May 02–05"
+  description: IEEE International Conference on Computer Communications
+  link: https://infocom2022.ieee-infocom.org
+  deadline: "2021-07-24 23:59"
+  timezone: EST
+  place: Virtual Event
+  tags: [PRACT, APPLIED, COREAS]
+  rank: A*
 
 - name: IEEE S&P (Oakland)
   year: 2022
   date: "May 22–26"
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2022/
-  comment: 3 review cycles
+  comment: 3 deadlines
   deadline:
     - "2021-04-15 23:59"
     - "2021-08-19 23:59"
     - "2021-12-02 23:59"
   place: San Francisco, California, USA
   tags: [PRACT, COREAS]
+  rank: A*
   
 - name: NDSS
   description: ISOC Network and Distributed System Security Symposium
   year: 2022
   link: https://www.ndss-symposium.org/ndss2022/
-  comment: 2 review cycles
+  comment: 2 deadlines
   deadline:
     - "2021-05-21 23:59"
     - "2021-07-23 23:59"
   date: "February 27 - March 3"
   place: San Diego, CA, USA (Hybrid)
   tags: [PRACT, COREAS]
+  rank: A*
 
 - name: ACM PODC
   description: ACM Symposium on Principles of Distributed Computing
   year: 2022
   link: https://www.podc.org/podc2022/
   deadline: "2022-02-13 23:59"
-  comment: Abstract submission on February 10, 2022
+  abdeadline: Feb 10, 2022
   date: July 25-29
   place: Salerno, Italy
   tags: [THEORY, COREAS]
+  rank: A*
 
 - name: USENIX Security
   description: Usenix Security Symposium
@@ -75,10 +115,12 @@
     - "2021-06-08 23:59"
     - "2021-10-12 23:59"
     - "2022-02-01 23:59"
-  comment: 3 review cycles
+  rebut: Aug 23-25, Jan 10-12, Apr 18-20
+  comment: 3 deadlines
   date: "August 10-12"
   place: Boston, MA, USA.
   tags: [PRACT, COREAS]
+  rank: A*
 
 # CORE A
 
@@ -89,10 +131,11 @@
   deadline:
     - "2021-07-30 23:59"
     - "2021-11-19 23:59"
-  comment: 2 review cycles
+  comment: 2 deadlines
   date: "May 30 - June 3"
   place: Nagasaki, Japan (Hybrid)
   tags: [PRACT, COREA]
+  rank: A
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
@@ -103,20 +146,22 @@
   date: December 6-10
   place: Virtual Event
   tags: [THEORY, COREA]
+  rank: A
 
 - name: ESORICS
   description: European Symposium on Research in Computer Security
   year: 2022
   link: https://esorics2022.compute.dtu.dk
-  deadline: "2022-01-05 23:59"
   deadline:
     - "2022-01-12 23:59"
     - "2022-05-12 23:59"
+  abdeadline: Jan 05 & May 05, 2022
   timezone: Europe/Copenhagen
-  comment: 2 review cycles. Title and abstract deadline on Jan 5 and May 5
+  comment: 2 deadlines
   date: September 26-30
   place: Copenhagen, Denmark
   tags: [PRACT, COREA]
+  rank: A
 
 - name: FC
   description: Financial Cryptography and Data Security
@@ -126,6 +171,7 @@
   date: February 14-18
   place: Grenada
   tags: [PRACT, COREA]
+  rank: A
   
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
@@ -139,6 +185,18 @@
   date: August 2022
   place: Haifa, Israel
   tags: [THEORY, COREA]
+  rank: A
+  
+- name: ITCS
+  description: Innovations in Theoretical Computer Science
+  year: 2022
+  link: http://itcs-conf.org/itcs22/itcs22-cfp.html
+  deadline: "2021-09-13 19:59"
+  abdeadline: Sep 06, 2021
+  date: "January 31 - February 3"
+  place: Berkeley, USA (Hybrid)
+  tags: [THEORY, COREA]
+  rank: A
   
 - name: PoPETS
   description: Privacy Enhancing Technologies Symposium
@@ -149,11 +207,24 @@
     - "%y-08-31 23:59"
     - "%y-11-30 23:59"
     - "%y-02-28 23:59"
+  rebut: Jul 12-14, Oct 11-13, Jan 10-12, Apr 11-13
   comment: Rolling deadline every quarter
   timezone: Etc/GMT+11
   date: July 18-23
   place: Sydney, Australia
   tags: [PRACT, COREA]
+  rank: A
+  
+- name: STACS
+  description: International Symposium on Theoretical Aspects of Computer Science
+  year: 2022
+  link: https://stacs2022.sciencesconf.org
+  deadline: "2021-10-01 23:59"
+  rebut: Nov 23-28
+  date: March 15-18
+  place: Marseille, France (Hybrid)
+  tags: [THEORY, COREA]
+  rank: A
 
 - name: TCC
   description: Theory of Cryptography Conference
@@ -163,20 +234,23 @@
   date: "November 08-11"
   place: Durham, NC, USA
   tags: [THEORY, COREA]
+  rank: A
 
 - name: TCHES
   description: IACR Transactions on Cryptographic Hardware and Embedded Systems
-  year: 2021
+  year: 2022
   link: https://ches.iacr.org/
   deadline:
     - "%y-07-15 23:59"
     - "%y-10-15 23:59"
     - "%y-01-15 23:59"
     - "%y-04-15 23:59"
+  rebut: Aug 23-27, Nov 22-26, Feb 21-25, May 23-27
   comment: Rolling deadline every quarter
   date: September 12-15
   place: Beijing, China
   tags: [PRACT, APPLIED, COREA]
+  rank: A
   
 - name: ACSAC
   description: Annual Computer Security Applications Conference
@@ -186,6 +260,7 @@
   date: Dec 6-10
   place: Virutal Event
   tags: [PRACT, APPLIED, COREA]
+  rank: A
 
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
@@ -195,6 +270,7 @@
   date: "June 6 - 10"
   place: Genova, Italy
   tags: [PRACT, COREA, COREO]
+  rank: A (NEW)
   
 
 # CORE B
@@ -206,10 +282,11 @@
   deadline: 
     - "2021-09-03 23:59"
     - "2022-01-14 23:59"
-  comment: 2 review cycles
+  comment: 2 deadlines
   date: June 20-23
   place: Rome, Italy
   tags: [THEORY, PRACT, APPLIED, COREB]
+  rank: B
   
 - name: CANS
   description: International Conference on Cryptology and Network Security
@@ -220,6 +297,7 @@
   date: December 13-15
   place: Vienna, Austria
   tags: [PRACT, COREB]
+  rank: B
   
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
@@ -230,6 +308,27 @@
   date: December 12-15
   place: Jaipur, India (Hybrid)
   tags: [THEORY, COREB]
+  rank: B (National India)
+  
+- name: IEEE ISIT
+  description: IEEE International Symposium on Information Theory
+  year: 2021
+  link: https://2021.ieee-isit.org/default.asp
+  deadline: "2021-02-03 23:59"
+  date: July 12-20
+  place: Melbourne, Australia
+  tags: [THEORY, COREB]
+  rank: B
+  
+- name: IEEE ITW
+  description: IEEE Information Theory Workshop
+  year: 2021
+  link: https://www.itw2021.org
+  deadline: "2021-05-14 23:59"
+  date: October 17-21
+  place: Kanazawa, Japan (Virtual)
+  tags: [THEORY, COREB]
+  rank: B
   
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
@@ -240,6 +339,7 @@
   date: March 7-11
   place: Yokohama, Japan
   tags: [THEORY, COREB]
+  rank: B
 
 - name: SAC
   description: Conference on Selected Areas in Cryptography
@@ -249,6 +349,7 @@
   date: September 29 - October 1
   place: Online Event
   tags: [THEORY, COREB]
+  rank: B
   
 - name: SECRYPT
   description: International Conference on Information Security and Cryptography
@@ -259,6 +360,7 @@
   date: July 11-13
   place: Lisbon, Portugal
   tags: [THEORY, COREB]
+  rank: B
 
 
 # CORE Others
@@ -273,4 +375,51 @@
   date: February 07-10
   place: San Francisco, CA, USA
   tags: [THEORY, COREB, COREO]
+  rank: Unranked (B)
+  
+- name: ITC
+  description: Information-Theoretic Cryptography
+  year: 2022
+  link: https://itcrypto.github.io/2022/index.html
+  deadline: "2022-01-10 23:59"
+  comment: Spotlight track deadline on February 28, 2022
+  timezone: Etc/UTC
+  date: July 05-07
+  place: Boston, MA
+  tags: [THEORY, COREO]
+  rank: Unranked (C)
 
+
+# Workshops
+
+- name: ACM CCSW
+  description: The ACM Cloud Computing Security Workshop
+  year: 2021
+  link: https://ccsw.io
+  deadline: "2021-08-08 23:59"
+  timezone: Etc/UTC
+  date: November 15
+  place: Seol, Korea (Virtual Event)
+  tags: [PRACT, WK]
+  comment: co-located with CCS + proceedings
+  
+- name: DLS
+  description: Deep Learning and Security Workshop
+  year: 2021
+  link: https://www.ieee-security.org/TC/SP2021/SPW2021/dls_website/
+  deadline: "2021-01-14 23:59"
+  date: May 27
+  place: (Virtual Event)
+  tags: [PRACT, WK]
+  comment: co-located with IEEE S&P + proceedings
+
+- name: RWC
+  description: Real World Crypto
+  year: 2022
+  link: https://rwc.iacr.org/2022/
+  deadline: "2021-09-01 23:59"
+  timezone: Etc/UTC
+  date: January 10-12
+  place: Amsterdam, Netherlands
+  tags: [THEORY, WK]
+  comment: Workshop

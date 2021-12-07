@@ -75,6 +75,8 @@ $(function() {
       $('#{{ conf_id }}').addClass('past');
     }
     $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+   // $('#{{ conf_id }} .abdeadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+    //$('#{{ conf_id }} .abdeadline-time').html(('#{{ conf_id }} .abdeadline-time').format('D MMM YYYY, h:mm:ss a'));  
     deadlineByConf["{{ conf_id }}"] = confDeadline;
   }
   {% endif %}

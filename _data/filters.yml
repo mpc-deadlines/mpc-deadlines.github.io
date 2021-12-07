@@ -1,0 +1,9 @@
+---
+- name: CORE A*
+  tag: COREAS
+- name: CORE A
+  tag: COREA
+- name: CORE B
+  tag: COREB
+- name: CORE (Others)
+  tag: COREO

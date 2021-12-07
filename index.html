@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/styles.css" | prepend:site.baseurl }}" media="screen,projection">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
@@ -37,6 +38,7 @@
             <!-- <div class="well"> -->
               <form class="form-inline">
                 <div class="form-group">
+                  <!--<span class="mytitle">Category: </span> -->
                   {% for type in site.data.types %}
                   <div class="checkbox">
                     <label>
@@ -48,6 +50,20 @@
               </form>
             <!-- </div> -->
           </div>
+          <!--<div class="col-xs-12">
+              <form class="form-inline">
+                <div class="form-group">
+                 <span class="mytitle">CORE Ranking: </span>
+                  {% for type in site.data.filters %}
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" id="{{ type.tag }}-checkbox" class=""> {{ type.name }}
+                    </label>
+                  </div>
+                  {% endfor %}
+                </div>
+              </form>
+          </div> -->
         </div>
       </div>
       <div class="conf-container">
@@ -55,10 +71,11 @@
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
               <div class="col-xs-12 col-sm-6">
-                <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
+                <a class="conf-title" href="{{conf.link}}" target="_blank">{{conf.name}} {{conf.year}}</a>
                 <div class="meta">
                   {{ conf.description }}<br>
-                  {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
+                  {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}" target="_blank">{{conf.place}}</a>{% endif %} <br>
+                  {% if conf.rank %}<span class="corerank"><a href="http://portal.core.edu.au/conf-ranks/" target="_blank">CORE</a>: {{ conf.rank }} </span> <br>{% endif %}
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6">
@@ -67,6 +84,8 @@
                   <div>Deadline:
                     <span class="deadline-time"></span>
                     <div class="meta">
+                      {% if conf.abdeadline %} Abstract Deadline: {{ conf.abdeadline }} <br> {% endif %}
+                      {% if conf.rebut %} Rebuttal: {{ conf.rebut }} <br> {% endif %}
                       {{ conf.comment }}
                     </div>
                   </div>
