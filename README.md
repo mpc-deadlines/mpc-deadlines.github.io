@@ -20,7 +20,7 @@ Example record:
   deadline: "2017-08-15 23:59"
   date: April 24-26
   place: London, UK
-  tags: [SEC, PRIV]
+  tags: [PRACT, APPLIED]
 ```
 
 Descriptions of the fields:
@@ -35,7 +35,7 @@ Descriptions of the fields:
 | `timezone`    | Timezone in [tz][1] format. By default is UTC-12 ([AoE][2]) |
 | `date`        | When the conference is happening                            |
 | `place`       | Where the conference is happening                           |
-| `tags`        | One or multiple tags: `SEC`, `PRIV`, or `CRYPTO`            |
+| `tags`        | One or multiple tags: `THEORY`, `PRACT`, or `WK`            |
 
 Fields marked with asterisk (\*) are required.
 
