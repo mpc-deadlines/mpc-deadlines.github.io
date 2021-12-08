@@ -426,7 +426,7 @@
   
 # Posters
 
-- name: [Poster] NDSS
+- name: (Poster) NDSS
   description: ISOC Network and Distributed System Security Symposium
   year: 2022
   link: https://www.ndss-symposium.org/ndss2022/call-for-posters/
