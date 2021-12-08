@@ -423,3 +423,15 @@
   place: Amsterdam, Netherlands
   tags: [THEORY, WK]
   comment: Workshop
+  
+# Posters
+
+- name: [Poster] NDSS
+  description: ISOC Network and Distributed System Security Symposium
+  year: 2022
+  link: https://www.ndss-symposium.org/ndss2022/call-for-posters/
+  comment: No proceedings
+  deadline: "2022-01-24 23:59"
+  date: "February 27 - March 3"
+  place: San Diego, CA, USA (Hybrid)
+  tags: [WK]
