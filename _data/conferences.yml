@@ -299,6 +299,16 @@
   tags: [PRACT, COREB]
   rank: B
   
+- name: ICICS
+  description: International Conference on Information and Communications Security
+  year: 2022
+  link: https://icics2022.cyber.kent.ac.uk/submission.php
+  deadline: "2021-03-21 23:59"
+  date: September 05-08
+  place: Canterbury, UK
+  tags: [PRACT, COREB]
+  rank: B
+  
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
   year: 2021
@@ -431,7 +441,7 @@
   year: 2022
   link: https://www.ndss-symposium.org/ndss2022/call-for-posters/
   comment: No proceedings
-  deadline: "2022-01-24 23:59"
+  deadline: "2022-01-21 23:59"
   date: "February 27 - March 3"
   place: San Diego, CA, USA (Hybrid)
   tags: [WK]
