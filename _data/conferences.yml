@@ -153,10 +153,9 @@
   year: 2022
   link: https://esorics2022.compute.dtu.dk
   deadline:
-    - "2022-01-12 23:59"
-    - "2022-05-12 23:59"
-  abdeadline: Jan 05 & May 05, 2022
-  timezone: Europe/Copenhagen
+    - "2022-01-31 23:59"
+    - "2022-05-22 23:59"
+  abdeadline: Jan 25 & May 15, 2022
   comment: 2 deadlines
   date: September 26-30
   place: Copenhagen, Denmark
