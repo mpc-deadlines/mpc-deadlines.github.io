@@ -448,7 +448,7 @@
 
 # CryptoSchools
 
-- name: [School] BIU Winter School
+- name: (School) BIU Winter School
   description: The 12th BIU Winter School on Cryptography 
   year: 2022
   link: https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/
@@ -459,7 +459,7 @@
   tags: [CRS]
   comment: Advances in Secure Computation
 
-- name: [School] IACR-CROSSING School
+- name: (School) IACR-CROSSING School
   description: 2022 School on Combinatorial Techniques in Cryptography
   year: 2022
   link: https://www.crossing.tu-darmstadt.de/news_events/schools/2022_school/index.en.jsp
