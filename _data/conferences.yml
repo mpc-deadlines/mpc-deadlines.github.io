@@ -428,8 +428,8 @@
   link: https://rwc.iacr.org/2022/
   deadline: "2021-09-01 23:59"
   timezone: Etc/UTC
-  date: January 10-12
-  place: Amsterdam, Netherlands
+  date: April 13-15
+  place: Amsterdam, Netherlands (Hybrid)
   tags: [THEORY, WK]
   comment: Workshop
   
@@ -444,3 +444,27 @@
   date: "February 27 - March 3"
   place: San Diego, CA, USA (Hybrid)
   tags: [WK]
+  
+
+# CryptoSchools
+
+- name: [School] BIU Winter School
+  description: The 12th BIU Winter School on Cryptography 
+  year: 2022
+  link: https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/
+  deadline: "2022-01-22 23:59"
+  timezone: Etc/UTC
+  date: January 23-26
+  place: Ramat Gan, Israel (Hybrid)
+  tags: [CRS]
+  comment: Advances in Secure Computation
+
+- name: [School] IACR-CROSSING School
+  description: 2022 School on Combinatorial Techniques in Cryptography
+  year: 2022
+  link: https://www.crossing.tu-darmstadt.de/news_events/schools/2022_school/index.en.jsp
+  deadline: "2022-04-24 23:59"
+  timezone: Etc/UTC
+  date: April 25-29
+  place: Valetta, Malta
+  tags: [CRS]
