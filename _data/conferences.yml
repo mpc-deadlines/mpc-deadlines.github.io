@@ -186,6 +186,18 @@
   tags: [THEORY, COREA]
   rank: A
   
+- name: IEEE ICDCS
+  description: IEEE International Conference on Distributed Computing Systems
+  year: 2022
+  link: https://icdcs2022.icdcs.org/cfp/
+  deadline: "2022-01-24 23:59"
+  abdeadline: Jan 17, 2022
+  timezone: EST
+  date: July 10-13
+  place: Bologna, Italy
+  tags: [THEORY, PRACT, COREA]
+  rank: A
+  
 - name: ITCS
   description: Innovations in Theoretical Computer Science
   year: 2022
