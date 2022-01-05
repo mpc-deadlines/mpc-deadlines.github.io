@@ -419,6 +419,16 @@
   tags: [APPLIED, COREO]
   rank: Unranked
 
+- name: CSCML
+  description: International Symposium on Cyber Security Cryptography and Machine Learning
+  year: 2022
+  link: https://www.cscml.org/submissions
+  deadline: "2022-02-07 23:59"
+  comment: Extended and revised versions of selected papers in a special issue of the Journal of Computer and System Sciences.
+  date: June 30
+  place: Beer Sheva, Israel
+  tags: [THEORY, PRACT, COREO]
+  rank: Unranked
 
 # Workshops
 
