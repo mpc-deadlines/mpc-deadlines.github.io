@@ -27,12 +27,11 @@
   
 - name: CRYPTO
   description: International Cryptology Conference
-  year: 2021
-  link: https://crypto.iacr.org/2021
-  deadline: "2021-02-24 20:59"
-  timezone: Etc/UTC
-  date: August 16-20
-  place: Virtual Event
+  year: 2022
+  link: https://crypto.iacr.org/2022
+  deadline: "2022-02-16 23:59"
+  date: August 13-18
+  place: Santa Barbara, USA
   tags: [THEORY, COREAS]
   rank: A*
   
