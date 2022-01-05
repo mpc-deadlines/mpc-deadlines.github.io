@@ -408,6 +408,16 @@
   place: Boston, MA
   tags: [THEORY, COREO]
   rank: Unranked (C)
+  
+- name: IEEE HOST
+  description: IEEE International Symposium on Hardware Oriented Security and Trust
+  year: 2022
+  link: http://www.hostsymposium.org/index.php
+  deadline: "2022-01-22 23:59"
+  date: July 27-30
+  place: Washington DC, USA
+  tags: [APPLIED, COREO]
+  rank: Unranked
 
 
 # Workshops
