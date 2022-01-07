@@ -371,6 +371,16 @@
   tags: [THEORY, COREB]
   rank: B
   
+- name: SCN
+  description: Conference on Security and Cryptography for Networks
+  year: 2022
+  link: https://scn.unisa.it/scn22/
+  deadline: "2022-04-24 23:59"
+  date: September 12-14
+  place: Amalfi, Italy
+  tags: [PRACT, APPLIED, COREB]
+  rank: B (National Italy)
+  
 - name: SECRYPT
   description: International Conference on Information Security and Cryptography
   year: 2022
