@@ -395,6 +395,16 @@
 
 # CORE Others
 
+- name: ACM WiSec
+  description: Security and Privacy in Wireless and Mobile Networks
+  year: 2022
+  link: https://wisec2022.cs.utsa.edu
+  deadline: "2022-02-02 23:59"
+  date: May 16-19
+  place: San Antonio, Texas, USA
+  tags: [PRACT, APPLIED, COREO]
+  rank: Unranked
+
 
 - name: CT-RSA
   description: RSA Conference Cryptographers’ Track
