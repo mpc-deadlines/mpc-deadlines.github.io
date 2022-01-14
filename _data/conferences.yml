@@ -120,6 +120,19 @@
   place: Boston, MA, USA.
   tags: [PRACT, COREAS]
   rank: A*
+  
+- name: The Web Conference
+  description: The Web Conference (WWW)
+  year: 2022
+  link: https://www2022.thewebconf.org/
+  deadline: "2021-10-21 23:59"
+  rebut: Dec 02-06
+  abdeadline: Oct 14, 2021
+  comment: special tracks
+  date: "April 25-29"
+  place: Lyon, France (Online)
+  tags: [PRACT, APPLIED, COREAS]
+  rank: A*
 
 # CORE A
 
