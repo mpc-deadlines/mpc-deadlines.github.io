@@ -295,6 +295,16 @@
   tags: [PRACT, COREA, COREO]
   rank: A (NEW)
   
+- name: ICALP
+  description: EATCS International Colloquium on Automata, Languages, and Programming 
+  year: 2022
+  link: https://icalp2022.irif.fr/
+  deadline: "2022-02-10 23:59"
+  date: "July 4 - 8"
+  place: Paris, France (Hybrid)
+  tags: [THEORY, COREA]
+  rank: A
+  
 
 # CORE B
 
