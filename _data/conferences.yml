@@ -308,6 +308,17 @@
 
 # CORE B
 
+- name: ACISP
+  description: Australasian Conference on Information Security and Privacy
+  year: 2022
+  link: https://uow-ic2.github.io/acisp2022/
+  deadline: "2022-02-21 23:59"
+  comment: Track for SoK papers
+  date: July 13-17
+  place: Wollongong, Australia (Hybrid)
+  tags: [PRACT, APPLIED, COREB]
+  rank: B (Australasian)
+
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
   year: 2022
@@ -563,4 +574,15 @@
   date: June 13-17
   place: Sibenik, Croatia
   tags: [CRS]
+  
+- name: (School) TPMPC 2022
+  description: Theory and Practice of Multi-Party Computation Workshop 
+  year: 2022
+  link: https://www.multipartycomputation.com/
+  deadline: "2022-06-05 23:59"
+  timezone: Etc/UTC
+  date: June 06-10
+  place: Aarhus, Denmark
+  tags: [CRS]
+  comment: Contibuted Talks Deadline - April 1
   
