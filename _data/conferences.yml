@@ -578,11 +578,11 @@
 - name: (School) TPMPC 2022
   description: Theory and Practice of Multi-Party Computation Workshop 
   year: 2022
-  link: https://www.multipartycomputation.com/
-  deadline: "2022-06-05 23:59"
+  link: https://www.multipartycomputation.com/tpmpc-2022
+  deadline: "2022-06-06 23:59"
   timezone: Etc/UTC
-  date: June 06-10
+  date: June 07-10
   place: Aarhus, Denmark
   tags: [CRS]
-  comment: Contibuted Talks Deadline - April 1
+  comment: Contibuted Talks Deadline - March 26
   
