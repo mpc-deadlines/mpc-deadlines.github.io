@@ -48,11 +48,11 @@
 
 - name: IEEE FOCS
   description: IEEE Symposium on Foundations of Computer Science
-  year: 2021
-  link: https://focs2021.cs.colorado.edu
-  deadline: "2021-06-03 16:59"
-  timezone: EST
-  date: February 07-10 (2022)
+  year: 2022
+  link: https://focs2022.eecs.berkeley.edu
+  deadline: "2022-04-04 16:59"
+  timezone: PDT
+  date: October 31 - November 03
   place: Denver, Colorado
   tags: [THEORY, COREAS]
   rank: A*
