@@ -346,7 +346,7 @@
   description: International Conference on Cryptology and Network Security
   year: 2022
   link: https://www.cans2022.com
-  deadline: "2022-06-17 23:59"
+  deadline: "2022-05-29 23:59"
   timezone: Etc/UTC
   date: November 13-16
   place: Abu Dhabi, UAE
@@ -540,6 +540,17 @@
   comment: Workshop
   
 # Posters
+
+- name: (Poster) IEEE S&P
+  description: 43rd IEEE Symposium on Security and Privacy
+  year: 2022
+  link: https://www.ieee-security.org/TC/SP2022/cfposters.html
+  comment: No proceedings
+  deadline: "2022-04-04 23:59"
+  date: "May 23 - 26"
+  timezone: PST
+  place: San Francisco, California, USA
+  tags: [WK]
 
 - name: (Poster) NDSS
   description: ISOC Network and Distributed System Security Symposium
