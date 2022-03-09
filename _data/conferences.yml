@@ -548,7 +548,7 @@
   comment: No proceedings
   deadline: "2022-04-04 23:59"
   date: "May 23 - 26"
-  timezone: PST
+  timezone: Etc/GMT+8
   place: San Francisco, California, USA
   tags: [WK]
 
