@@ -84,14 +84,14 @@
   
 - name: NDSS
   description: ISOC Network and Distributed System Security Symposium
-  year: 2022
-  link: https://www.ndss-symposium.org/ndss2022/
+  year: 2023
+  link: https://www.ndss-symposium.org/ndss2023/
   comment: 2 deadlines
   deadline:
-    - "2021-05-21 23:59"
-    - "2021-07-23 23:59"
+    - "2022-05-21 23:59"
+    - "2022-07-23 23:59"
   date: "February 27 - March 3"
-  place: San Diego, CA, USA (Hybrid)
+  place: San Diego, CA, USA
   tags: [PRACT, COREAS]
   rank: A*
 
@@ -108,16 +108,16 @@
 
 - name: USENIX Security
   description: Usenix Security Symposium
-  year: 2022
-  link: https://www.usenix.org/conference/usenixsecurity22
+  year: 2023
+  link: https://www.usenix.org/conference/usenixsecurity23
   deadline:
-    - "2021-06-08 23:59"
-    - "2021-10-12 23:59"
-    - "2022-02-01 23:59"
+    - "2022-06-08 23:59"
+    - "2022-10-12 23:59"
+    - "2023-02-01 23:59"
   rebut: Aug 23-25, Jan 10-12, Apr 18-20
   comment: 3 deadlines
-  date: "August 10-12"
-  place: Boston, MA, USA.
+  date: "August 09-11"
+  place: ANAHEIM, CA, USA.
   tags: [PRACT, COREAS]
   rank: A*
   
@@ -196,15 +196,15 @@
   
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
-  year: 2022
-  link: https://www.ieee-security.org/TC/CSF2022
+  year: 2023
+  link: https://www.ieee-security.org/TC/CSF2023
   deadline:
-    - "2021-05-14 23:59"
-    - "2021-10-01 23:59"
-    - "2022-02-04 23:59"
+    - "2022-05-14 23:59"
+    - "2022-10-01 23:59"
+    - "2023-02-04 23:59"
   comment: 3 deadlines
-  date: August 2022
-  place: Haifa, Israel
+  date: August 2023
+  place: TBD
   tags: [THEORY, COREA]
   rank: A
   
