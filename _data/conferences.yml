@@ -541,6 +541,17 @@
   
 # Posters
 
+- name: (Poster) ACM ASIACCS
+  description: ACM Asia Conference on Computer and Communications Security
+  year: 2022
+  link: https://conferenceservice.jp/www/asiaccs2022-test/dateandcall/callforposters/
+  deadline: "2022-03-07 23:59"
+  comment: Published in the proceedings
+  date: "May 30 - June 03"
+  place: Nagasaki, Japan (Hybrid)
+  tags: [PRACT, COREA]
+  rank: A
+
 - name: (Poster) IEEE S&P
   description: 43rd IEEE Symposium on Security and Privacy
   year: 2022
@@ -606,4 +617,53 @@
   place: Aarhus, Denmark
   tags: [CRS]
   comment: Contibuted Talks Deadline - March 26
+  
+# Machine Learning and Data Science
+
+- name: AAAI
+  description: Conference on Artificial Intelligence
+  year: 2022
+  link: https://aaai.org/Conferences/AAAI-22/
+  deadline:
+    - "2021-09-08 23:59"
+    - "2021-10-01 23:59"
+  abdeadline: August 30, 2022
+  date: February 22 - March 01
+  place: Virtual
+  tags: [PRACT, COREAS, PPML]
+  rank: A*
+  
+- name: KDD
+  description: SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2022
+  link: https://kdd.org/kdd2022/
+  deadline: "2022-02-10 23:59"
+  date: August 18-18
+  place: Washington DC, USA
+  tags: [PRACT, COREAS, PPML]
+  rank: A*
+  comment: Research Track on Data Privacy
+  
+- name: ICML
+  description: International Conference on Machine Learning
+  year: 2022
+  link: https://icml.cc
+  deadline: "2022-01-27 23:59"
+  abdeadline: January 20, 2022
+  date: July 17-23
+  place: Baltimore, Maryland USA
+  tags: [PRACT, COREAS, PPML]
+  rank: A*
+
+- name: NeurIPS
+  description: Conference on Neural Information Processing Systems
+  year: 2022
+  link: https://neurips.cc
+  deadline: "2022-05-19 12:59"
+  timezone: Etc/GMT+7
+  abdeadline: May 16, 2022
+  date: November 28 - December 09
+  place: New Orleans, USA (Hybrid)
+  tags: [PRACT, COREAS, PPML]
+  rank: A*
   
