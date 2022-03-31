@@ -151,12 +151,12 @@
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
-  year: 2021
-  link: https://asiacrypt.iacr.org/2021
-  deadline: "2021-05-27 11:59"
+  year: 2022
+  link: https://asiacrypt.iacr.org/2022/
+  deadline: "2022-05-27 11:59"
   timezone: Etc/UTC
-  date: December 6-10
-  place: Virtual Event
+  date: December 05-09
+  place: Taipei, Taiwan
   tags: [THEORY, COREA]
   rank: A
   
