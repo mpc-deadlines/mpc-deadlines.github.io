@@ -551,6 +551,18 @@
   place: Nagasaki, Japan (Hybrid)
   tags: [PRACT, COREA]
   rank: A
+  
+- name: (Poster) IEEE Euro S&P
+  description: IEEE European Symposium on Security and Privacy
+  year: 2022
+  link: https://www.ieee-security.org/TC/EuroSP2022/cfposters.html
+  deadline: "2022-04-29 23:59"
+  abdeadline: April 22, 2022
+  date: "June 6 - 10"
+  place: Genova, Italy
+  comment: No proceedings
+  tags: [PRACT, COREA, COREO]
+  rank: A (NEW)
 
 - name: (Poster) IEEE S&P
   description: 43rd IEEE Symposium on Security and Privacy
