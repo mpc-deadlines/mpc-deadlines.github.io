@@ -58,13 +58,13 @@
   rank: A*
 
 - name: IEEE INFOCOMM
-  year: 2022
-  date: "May 02–05"
+  year: 2023
+  date: "April 25–27"
   description: IEEE International Conference on Computer Communications
   link: https://infocom2022.ieee-infocom.org
-  deadline: "2021-07-24 23:59"
+  deadline: "2022-07-24 23:59"
   timezone: EST
-  place: Virtual Event
+  place: Tokyo, Japan
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
 
@@ -287,11 +287,11 @@
   
 - name: ACSAC
   description: Annual Computer Security Applications Conference
-  year: 2021
-  link: https://www.acsac.org/2021/
-  deadline: "2021-06-23 23:59"
-  date: Dec 6-10
-  place: Virutal Event
+  year: 2022
+  link: https://www.acsac.org/2022/submissions/papers/
+  deadline: "2022-06-29 23:59"
+  date: Dec 05-09
+  place: Austin, Texas, USA
   tags: [PRACT, APPLIED, COREA]
   rank: A
 
@@ -386,11 +386,12 @@
   
 - name: IEEE ITW
   description: IEEE Information Theory Workshop
-  year: 2021
-  link: https://www.itw2021.org
-  deadline: "2021-05-14 23:59"
-  date: October 17-21
-  place: Kanazawa, Japan (Virtual)
+  year: 2022
+  link: https://itw2022.in
+  deadline: "2022-04-29 23:59"
+  comment: Nov 1-2 (Online) and Nov 6-9 (in-person)
+  date: November 06-09
+  place: Mumbai, India
   tags: [THEORY, COREB]
   rank: B
   
@@ -520,11 +521,11 @@
   
 - name: DLS
   description: Deep Learning and Security Workshop
-  year: 2021
-  link: https://www.ieee-security.org/TC/SP2021/SPW2021/dls_website/
-  deadline: "2021-01-14 23:59"
-  date: May 27
-  place: (Virtual Event)
+  year: 2022
+  link: https://dls2022.ieee-security.org
+  deadline: "2022-02-08 23:59"
+  date: May 26
+  place: San Fransisco, CA (Hybrid)
   tags: [PRACT, WK]
   comment: co-located with IEEE S&P + proceedings
 
@@ -619,7 +620,7 @@
   place: Sibenik, Croatia
   tags: [CRS]
   
-- name: (School) TPMPC 2022
+- name: (School) TPMPC
   description: Theory and Practice of Multi-Party Computation Workshop 
   year: 2022
   link: https://www.multipartycomputation.com/tpmpc-2022
