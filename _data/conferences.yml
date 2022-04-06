@@ -550,7 +550,7 @@
   comment: Published in the proceedings
   date: "May 30 - June 03"
   place: Nagasaki, Japan (Hybrid)
-  tags: [PRACT, COREA]
+  tags: [PRACT, WK]
   rank: A
   
 - name: (Poster) IEEE Euro S&P
@@ -562,7 +562,7 @@
   date: "June 6 - 10"
   place: Genova, Italy
   comment: No proceedings
-  tags: [PRACT, COREA, COREO]
+  tags: [PRACT, WK]
   rank: A (NEW)
 
 - name: (Poster) IEEE S&P
@@ -574,7 +574,7 @@
   date: "May 23 - 26"
   timezone: Etc/GMT+8
   place: San Francisco, California, USA
-  tags: [WK]
+  tags: [PRACT, WK]
 
 - name: (Poster) NDSS
   description: ISOC Network and Distributed System Security Symposium
@@ -584,7 +584,7 @@
   deadline: "2022-01-21 23:59"
   date: "February 27 - March 3"
   place: San Diego, CA, USA (Hybrid)
-  tags: [WK]
+  tags: [PRACT, WK]
   
 
 # CryptoSchools
