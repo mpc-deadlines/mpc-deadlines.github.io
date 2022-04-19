@@ -345,7 +345,7 @@
 - name: CANS
   description: International Conference on Cryptology and Network Security
   year: 2022
-  link: https://www.cans2022.com
+  link: https://www.cans2022.com/call-for-paper.html
   deadline: "2022-05-29 23:59"
   timezone: Etc/UTC
   date: November 13-16
@@ -586,6 +586,17 @@
   place: San Diego, CA, USA (Hybrid)
   tags: [PRACT, WK]
   
+- name: (Poster) SOUPS
+  description: Eighteenth Symposium on Usable Privacy and Security
+  year: 2022
+  link: https://www.usenix.org/conference/soups2022/call-for-posters?s=08
+  deadline: "2022-05-26 23:59"
+  comment: co-located with USENIX Security
+  date: "August 07 - 09"
+  place: Boston, MA, USA
+  comment: No proceedings
+  tags: [PRACT, WK]
+  rank: B
 
 # CryptoSchools
 
