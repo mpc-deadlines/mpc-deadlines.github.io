@@ -133,6 +133,17 @@
   place: Lyon, France (Online)
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
+  
+- name: JoC Special Call for Papers
+  description: Topical Collection on Computing on Encrypted Data
+  year: 2023
+  link: https://www2022.thewebconf.org/
+  deadline: "2022-10-01 23:59"
+  comment: Research related to implementation aspects and other more applied aspects.
+  date: "February 01"
+  place: Journal (Online)
+  tags: [THEORY, PRACT, APPLIED, COREAS]
+  rank: A*
 
 # CORE A
 
@@ -629,6 +640,16 @@
   timezone: Etc/UTC
   date: June 13-17
   place: Sibenik, Croatia
+  tags: [CRS]
+  
+- name: (School) Cryptography
+  description: Summer School on Cryptography
+  year: 2022
+  link: https://casa.rub.de/en/news/casa/call-for-participation-summer-school-on-cryptography?s=08
+  deadline: "2022-06-26 23:59"
+  date: September 12-16
+  place: Bonn, Germany
+  comment: Speakers - Luca De Feo, Jonathan Katz, Maximilian Gebhardt  
   tags: [CRS]
   
 - name: (School) TPMPC
