@@ -244,18 +244,17 @@
   
 - name: PoPETS
   description: Privacy Enhancing Technologies Symposium
-  year: 2022
-  link: https://petsymposium.org
+  year: 2023
+  link: https://petsymposium.org/cfp23.php
   deadline:
     - "%y-05-31 23:59"
     - "%y-08-31 23:59"
     - "%y-11-30 23:59"
     - "%y-02-28 23:59"
-  rebut: Jul 12-14, Oct 11-13, Jan 10-12, Apr 11-13
-  comment: Rolling deadline every quarter
-  timezone: Etc/GMT+11
-  date: July 18-23
-  place: Sydney, Australia
+  rebut: Jul 13-18, Oct 12-17, Jan 11-16, Apr 10-14
+  comment: Rolling deadline every quarter. Notifications - Aug 01, Nov 01, Feb 01, May 01.
+  date: July 10-14
+  place: Lausanne, Switzerland
   tags: [PRACT, COREA]
   rank: A
   
