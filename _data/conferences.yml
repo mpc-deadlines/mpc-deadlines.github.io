@@ -713,6 +713,17 @@
   place: Baltimore, Maryland USA
   tags: [PRACT, COREAS, PPML]
   rank: A*
+  
+- name: IEEE SaTML
+  description: IEEE Conference on Secure and Trustworthy Machine Learning
+  year: 2023
+  link: http://satml.org
+  deadline: "2022-09-01 23:59"
+  abdeadline: August 22, 2022
+  comment: Notification - Nov 15. Research papers, SoKs, and position papers.
+  date: February 08-10
+  place: TBD
+  tags: [PRACT, PPML]
 
 - name: NeurIPS
   description: Conference on Neural Information Processing Systems
@@ -726,3 +737,4 @@
   tags: [PRACT, COREAS, PPML]
   rank: A*
   
+
