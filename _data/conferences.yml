@@ -109,13 +109,13 @@
 - name: USENIX Security
   description: Usenix Security Symposium
   year: 2023
-  link: https://www.usenix.org/conference/usenixsecurity23
+  link: https://www.usenix.org/conference/usenixsecurity23/call-for-papers
   deadline:
-    - "2022-06-08 23:59"
-    - "2022-10-12 23:59"
-    - "2023-02-01 23:59"
-  rebut: Aug 23-25, Jan 10-12, Apr 18-20
-  comment: 3 deadlines
+    - "2022-06-07 23:59"
+    - "2022-10-11 23:59"
+    - "2023-02-07 23:59"
+  rebut: Aug 22-24, Jan 17-19, Apr 24-26
+  comment: Notification - Sep 02, Jan 27, May 08
   date: "August 09-11"
   place: ANAHEIM, CA, USA.
   tags: [PRACT, COREAS]
@@ -375,12 +375,13 @@
   
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
-  year: 2021
-  link: https://indocrypt2021.lnmiit.ac.in
-  deadline: "2021-09-06 23:59"
+  year: 2022
+  link: https://www.tcgcrest.org/indocrypt-2022/
+  deadline: "2022-09-01 23:59"
+  comment: Notification - Oct 15
   timezone: Etc/UTC
-  date: December 12-15
-  place: Jaipur, India (Hybrid)
+  date: December 12-14
+  place: Kolkata, India
   tags: [THEORY, COREB]
   rank: B (National India)
   
