@@ -123,14 +123,14 @@
   
 - name: The Web Conference
   description: The Web Conference (WWW)
-  year: 2022
-  link: https://www2022.thewebconf.org/
-  deadline: "2021-10-21 23:59"
+  year: 2023
+  link: https://www2023.thewebconf.org
+  deadline: "2022-10-21 23:59"
   rebut: Dec 02-06
-  abdeadline: Oct 14, 2021
-  comment: special tracks
-  date: "April 25-29"
-  place: Lyon, France (Online)
+  abdeadline: Oct 14, 2022
+  comment: Notification - Jan 13
+  date: "May 01-05"
+  place: Austin, Texas, USA
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
   
@@ -524,14 +524,24 @@
 
 - name: ACM CCSW
   description: The ACM Cloud Computing Security Workshop
-  year: 2021
+  year: 2022
   link: https://ccsw.io
-  deadline: "2021-08-08 23:59"
-  timezone: Etc/UTC
-  date: November 15
-  place: Seol, Korea (Virtual Event)
+  deadline: "2022-08-08 23:59"
+  date: November 07
+  place: Los Angeles, USA
   tags: [PRACT, WK]
   comment: co-located with CCS + proceedings
+  
+- name: ACM AISec
+  description: ACM Workshop On Artificial Intelligence and Security
+  year: 2022
+  link: https://aisec.cc
+  deadline: "2022-06-24 23:59"
+  rebut: Jul 25 - Aug 01
+  date: November 07
+  place: Los Angeles, USA
+  tags: [PRACT, WK]
+  comment: co-located with CCS + proceedings. Notification - Aug 05
   
 - name: DLS
   description: Deep Learning and Security Workshop
