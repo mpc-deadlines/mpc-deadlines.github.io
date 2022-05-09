@@ -304,6 +304,20 @@
   place: Austin, Texas, USA
   tags: [PRACT, APPLIED, COREA]
   rank: A
+  
+- name: EuroSys
+  description: The European Conference on Computer Systems
+  year: 2023
+  link: https://2023.eurosys.org/index.html
+  deadline: 
+    - "2022-05-18 23:59"
+    - "2022-10-19 23:59"
+  abdeadline: May 11, Oct 12
+  comment: Notification - Aug 10, Jan 18
+  date: "May 09 - 12"
+  place: Rome, Italy
+  tags: [THEORY, COREA]
+  rank: A
 
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
