@@ -4,8 +4,9 @@ $(function() {
   deadlineByConf = {};
 
   {% for conf in site.data.conferences %}
-  {% assign conf_id = conf.name | append: conf.year | slugify %}
-  {% if conf.deadline == "TBA" %}
+  // {{ conf.name }} {{ conf.year }}
+  {% if conf.deadline[0] == "TBA" %}
+  {% assign conf_id = conf.name | append: conf.year | append: '-0' | slugify %}
   $('#{{ conf_id }} .timer').html("TBA");
   $('#{{ conf_id }} .deadline-time').html("TBA");
   deadlineByConf["{{ conf_id }}"] = null;
@@ -18,105 +19,78 @@ $(function() {
   var parsedDeadlines = [];
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
-    // check if date is template
-    if (rawDeadline.indexOf('%m') >= 0) {
-      for (var m = 1; m <= 12; m++) {
-        rawDeadlines.push(rawDeadline.replace('%m', m < 10 ? '0' + m : m));
-      }
-    } else if (rawDeadline.indexOf('%y') >= 0) {
-      year = parseInt(moment().year());
-      rawDeadlines.push(rawDeadline.replace('%y', year));
-      rawDeadlines.push(rawDeadline.replace('%y', year + 1));
+    // deal with year template in deadline
+    year = {{ conf.year }};
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    {% if conf.timezone %}
+    var deadline = moment.tz(rawDeadline, "{{ conf.timezone }}");
+    {% else %}
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    {% endif %}
 
-    } else {
-      // adjust date according to deadline timezone
-      {% if conf.timezone %}
-      var deadline = moment.tz(rawDeadline, "{{ conf.timezone }}");
-      {% else %}
-      var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
-      {% endif %}
-
-      // post-process date
-      if (deadline.minutes() === 0) {
-        deadline.subtract(1, 'seconds');
-      }
-      if (deadline.minutes() === 59) {
-        deadline.seconds(59);
-      }
-      parsedDeadlines.push(deadline);
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
     }
-  }
-
-  // check which deadline is closest
-  var confDeadline = parsedDeadlines[0];
-  var today = moment();
-  for (var i = 1; i < parsedDeadlines.length; i++) {
-    deadlineCandidate = parsedDeadlines[i];
-    if ((today.diff(deadlineCandidate) < 0 && today.diff(deadlineCandidate) > today.diff(confDeadline))) {
-      confDeadline = deadlineCandidate;
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
     }
+    parsedDeadlines.push(deadline);
   }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
 
-  // render countdown timer
-  if (confDeadline) {
-    function make_update_countdown_fn(confDeadline) {
-      return function(event) {
-        diff = moment() - confDeadline
-        if (diff <= 0) {
-           $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-        } else {
-          $(this).html(confDeadline.fromNow());
+  {% assign range_end = conf.deadline.size | minus: 1 %}
+  {% for i in (0..range_end) %}
+  {% assign conf_id = conf.name | append: conf.year | append: '-' | append: i | slugify %}
+  var deadlineId = {{ i }};
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
         }
       }
+      $('#{{ conf_id }} .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#{{ conf_id }}').addClass('past');
+      }
+      $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["{{ conf_id }}"] = confDeadline;
     }
-    $('#{{ conf_id }} .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-    // check if date has passed, add 'past' class to it
-    if (moment() - confDeadline > 0) {
-      $('#{{ conf_id }}').addClass('past');
-    }
-    $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-   // $('#{{ conf_id }} .abdeadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-    //$('#{{ conf_id }} .abdeadline-time').html(('#{{ conf_id }} .abdeadline-time').format('D MMM YYYY, h:mm:ss a'));  
-    deadlineByConf["{{ conf_id }}"] = confDeadline;
+  } else {
+    // TODO: hide the conf_id ?
   }
+  {% endfor %}
   {% endif %}
   {% endfor %}
 
   // Reorder list
-  confs = $('.conf');
-  confs.detach().sort(function(a, b) {
-    var today = moment();
-    var a = deadlineByConf[a.id];
-    var b = deadlineByConf[b.id];
-    var diff1 = today.diff(a)
-    var diff2 = today.diff(b)
-    if (a == null && b == null) {
-      return 0;
-    }
-    if (a == null && diff2 > 0) {
+  var today = moment();
+  var confs = $('.conf').detach();
+  confs.sort(function(a, b) {
+    var aDeadline = deadlineByConf[a.id];
+    var bDeadline = deadlineByConf[b.id];
+    var aDiff = today.diff(aDeadline);
+    var bDiff = today.diff(bDeadline);
+    if (aDiff < 0 && bDiff > 0) {
       return -1;
     }
-    if (a == null && diff2 < 0) {
-      return +1;
+    if (aDiff > 0 && bDiff < 0) {
+      return 1;
     }
-    if (b == null && diff1 > 0) {
-      return +1;
-    }
-    if (b == null && diff1 < 0) {
-      return -1;
-    }
-    if (diff1 < 0 && diff2 > 0) {
-      return -1;
-    }
-    if (diff1 > 0 && diff2 < 0) {
-      return +1;
-    }
-    if (diff1 < 0 && diff2 < 0) {
-      return -1 ? diff1 < diff2 : +1;
-    }
-    if (diff1 > 0 && diff2 > 0) {
-      return -1 ? a < b : +1;
-    }
+    return bDiff - aDiff;
   });
   $('.conf-container').append(confs);
 
