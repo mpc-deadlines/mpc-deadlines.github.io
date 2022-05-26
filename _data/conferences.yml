@@ -513,6 +513,17 @@
   tags: [THEORY, COREO]
   rank: Unranked (C)
   
+- name: IEEE CNS
+  description: IEEE Conference on Communications and Network Security
+  year: 2022
+  link: https://cns2022.ieee-cns.org
+  deadline: ["2022-06-03 23:59"]
+  comment: Notification - Jul 29
+  date: September 26-28
+  place: Austin, TX, USA (Hybrid)
+  tags: [PRACT, COREO]
+  rank: Unranked
+  
 - name: IEEE HOST
   description: IEEE International Symposium on Hardware Oriented Security and Trust
   year: 2022
