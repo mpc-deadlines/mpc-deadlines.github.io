@@ -723,6 +723,16 @@
   tags: [CRS]
   comment: Contibuted Talks Deadline - March 26
   
+- name: (School) Privacy-Preserving Machine Learning
+  description: Summer School on Privacy-Preserving Machine Learning
+  year: 2022
+  link: https://www.conferencemanager.dk/ppmlschool2022
+  deadline: ["2022-06-30 23:59"]
+  timezone: Etc/UTC
+  date: August 01-04
+  place: Copenhagen, Denmark
+  tags: [CRS]
+  
 # Machine Learning and Data Science
 
 - name: AAAI
