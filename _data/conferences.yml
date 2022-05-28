@@ -155,7 +155,7 @@
     - "2022-09-01 23:59"
     - "2022-12-15 23:59"
   comment: Early Reject - Oct 02, Jan 30, Notifications - Nov 23, Mar 22
-  date: "June 05 - 09"
+  date: "June 10 - 14"
   place: Melbourne, Australia
   tags: [PRACT, COREA]
   rank: A
@@ -370,8 +370,8 @@
   description: International Conference on Cryptology and Network Security
   year: 2022
   link: https://www.cans2022.com/call-for-paper.html
-  deadline: ["2022-05-29 23:59"]
-  timezone: Etc/UTC
+  deadline: ["2022-06-13 23:59"]
+  comment: Notification - Jul 31
   date: November 13-16
   place: Abu Dhabi, UAE
   tags: [PRACT, COREB]
