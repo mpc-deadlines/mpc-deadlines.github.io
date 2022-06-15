@@ -62,7 +62,9 @@
   date: "April 25–27"
   description: IEEE International Conference on Computer Communications
   link: https://infocom2022.ieee-infocom.org
-  deadline: ["2022-07-24 23:59"]
+  deadline: ["2022-07-32 23:59"]
+  abdeadline: July 24, 2022
+  comment: Notification - Dec 03
   timezone: EST
   place: Tokyo, Japan
   tags: [PRACT, APPLIED, COREAS]
