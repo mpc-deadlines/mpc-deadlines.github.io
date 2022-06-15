@@ -62,7 +62,7 @@
   date: "April 25–27"
   description: IEEE International Conference on Computer Communications
   link: https://infocom2022.ieee-infocom.org
-  deadline: ["2022-07-32 23:59"]
+  deadline: ["2022-07-31 23:59"]
   abdeadline: July 24, 2022
   comment: Notification - Dec 03
   timezone: EST
@@ -286,10 +286,10 @@
   year: 2023
   link: https://ches.iacr.org/2023/
   deadline:
-    - "%y-07-15 23:59"
-    - "%y-10-15 23:59"
-    - "%y-01-15 23:59"
-    - "%y-04-15 23:59"
+    - "2022-07-15 23:59"
+    - "2022-10-15 23:59"
+    - "2023-01-15 23:59"
+    - "2023-04-15 23:59"
   rebut: Aug 23-27, Nov 22-26, Feb 21-25, May 23-27
   comment: Rolling deadline every quarter. (invites MPC topics)
   date: September 12-15
