@@ -280,18 +280,18 @@
   rank: A
 
 - name: TCHES
-  description: IACR Transactions on Cryptographic Hardware and Embedded Systems
-  year: 2022
-  link: https://ches.iacr.org/
+  description: Cryptographic Hardware and Embedded Systems
+  year: 2023
+  link: https://ches.iacr.org/2023/
   deadline:
     - "%y-07-15 23:59"
     - "%y-10-15 23:59"
     - "%y-01-15 23:59"
     - "%y-04-15 23:59"
   rebut: Aug 23-27, Nov 22-26, Feb 21-25, May 23-27
-  comment: Rolling deadline every quarter
+  comment: Rolling deadline every quarter. (invites MPC topics)
   date: September 12-15
-  place: Beijing, China
+  place: Prague, Czech Republic
   tags: [PRACT, APPLIED, COREA]
   rank: A
   
@@ -547,7 +547,7 @@
 
 # Workshops
 
-- name: ACM CCSW
+- name: (Workshop) ACM CCSW
   description: The ACM Cloud Computing Security Workshop
   year: 2022
   link: https://ccsw.io
@@ -557,7 +557,7 @@
   tags: [PRACT, WK]
   comment: co-located with CCS + proceedings
   
-- name: ACM AISec
+- name: (Workshop) ACM AISec
   description: ACM Workshop On Artificial Intelligence and Security
   year: 2022
   link: https://aisec.cc
@@ -568,7 +568,29 @@
   tags: [PRACT, WK]
   comment: co-located with CCS + proceedings. Notification - Aug 05
   
-- name: DLS
+- name: (Workshop) CBT
+  description: International Workshop on Cryptocurrencies and Blockchain Technology
+  year: 2022
+  link: https://deic.uab.cat/cbt/cbt2022/
+  deadline: 
+    - "2022-04-18 23:59"
+    - "2022-06-24 23:59"
+  date: September 26 - 30
+  place: Copenhagen, Denmark
+  tags: [THEORY, PRACT, WK]
+  comment: co-located with ESORICS + proceedings. Notification - May 23 and Aug 29
+  
+- name: (Workshop) CPSIoTSec
+  description: Workshop on CPS&IoT Security and Privacy
+  year: 2022
+  link: https://cpsiotsec2022.github.io/cpsiotsec/
+  deadline: ["2022-06-25 23:59"]
+  date: November 07
+  place: Los Angeles, USA
+  tags: [THEORY, PRACT, WK]
+  comment: co-located with CCS + proceedings. Notification - Aug 18
+  
+- name: (Workshop) DLS
   description: Deep Learning and Security Workshop
   year: 2022
   link: https://dls2022.ieee-security.org
@@ -578,7 +600,7 @@
   tags: [PRACT, WK]
   comment: co-located with IEEE S&P + proceedings
 
-- name: RWC
+- name: (Workshop) RWC
   description: Real World Crypto
   year: 2022
   link: https://rwc.iacr.org/2022/
@@ -588,6 +610,26 @@
   place: Amsterdam, Netherlands (Hybrid)
   tags: [THEORY, WK]
   comment: Workshop
+  
+- name: (Workshop) WAHC
+  description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
+  year: 2022
+  link: https://homomorphicencryption.org/workshops/wahc22/
+  deadline: ["2022-06-24 23:59"]
+  date: November 07
+  place: Los Angeles, USA
+  tags: [THEORY, PRACT, WK]
+  comment: co-located with CCS + proceedings. Notification - Aug 05
+  
+- name: (Workshop) WPES
+  description: Workshop on Privacy in the Electronic Society
+  year: 2022
+  link: https://arc.encs.concordia.ca/wpes22/
+  deadline: ["2022-07-16 23:59"]
+  date: November 07
+  place: Los Angeles, USA
+  tags: [THEORY, PRACT, WK]
+  comment: co-located with CCS + proceedings. Notification - Aug 31
   
 # Posters
 
