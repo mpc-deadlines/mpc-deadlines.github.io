@@ -601,6 +601,17 @@
   place: San Fransisco, CA (Hybrid)
   tags: [PRACT, WK]
   comment: co-located with IEEE S&P + proceedings
+  
+- name: (Workshop) ML4H
+  description: Machine Learning for Health
+  year: 2022
+  link: https://ml4health.github.io/2022/
+  deadline: ["2022-09-01 23:59"]
+  rebut: Sep 30 - Oct 05
+  date: November 28 - December 09
+  place: New Orleans, USA (Hybrid)
+  tags: [PRACT, WK, PPML]
+  comment: co-located with NeurIPS + formal proceedings and extended abstracts. Notification - Oct 21.
 
 - name: (Workshop) RWC
   description: Real World Crypto
@@ -791,6 +802,19 @@
   place: Virtual
   tags: [PRACT, COREAS, PPML]
   rank: A*
+  
+- name: ACML
+  description: Asian Conference on Machine Learning
+  year: 2022
+  link: https://www.acml-conf.org/2022/
+  deadline:
+    - "2022-05-26 23:59"
+    - "2022-06-23 23:59"
+  date: December 01 (TBA)
+  place: Hyderabad, India (Hybrid)
+  tags: [PRACT, COREO, PPML]
+  comment: Journal and Conference tracks. Notification - Sep 08.
+  rank: Unranked
   
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
