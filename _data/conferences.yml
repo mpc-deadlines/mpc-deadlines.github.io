@@ -553,22 +553,22 @@
   description: The ACM Cloud Computing Security Workshop
   year: 2022
   link: https://ccsw.io
-  deadline: ["2022-08-08 23:59"]
+  deadline: ["2022-07-22 23:59"]
   date: November 07
   place: Los Angeles, USA
   tags: [PRACT, WK]
-  comment: co-located with CCS + proceedings
+  comment: co-located with CCS + proceedings. Notification - Aug 19.
   
 - name: (Workshop) ACM AISec
   description: ACM Workshop On Artificial Intelligence and Security
   year: 2022
   link: https://aisec.cc
-  deadline: ["2022-06-24 23:59"]
-  rebut: Jul 25 - Aug 01
-  date: November 07
+  deadline: ["2022-07-20 23:59"]
+  rebut: Aug 23 - 26
+  date: November 11
   place: Los Angeles, USA
   tags: [PRACT, WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 05
+  comment: co-located with CCS + proceedings. Notification - Sep 02
   
 - name: (Workshop) CBT
   description: International Workshop on Cryptocurrencies and Blockchain Technology
