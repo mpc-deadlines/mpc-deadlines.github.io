@@ -612,6 +612,16 @@
   place: New Orleans, USA (Hybrid)
   tags: [PRACT, WK, PPML]
   comment: co-located with NeurIPS + formal proceedings and extended abstracts. Notification - Oct 21.
+  
+- name: (Workshop) PPML CRYPTO
+  description: Privacy-Preserving Machine Learning Workshop 2022
+  year: 2022
+  link: https://crypto-ppml.github.io/2022/
+  deadline: ["2022-07-15 23:59"]
+  date: August 14
+  place: Santa Barbara, USA
+  tags: [Theory, PRACT, WK]
+  comment: co-located with CRYPTO. Notification - Jul 25
 
 - name: (Workshop) RWC
   description: Real World Crypto
@@ -628,11 +638,11 @@
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2022
   link: https://homomorphicencryption.org/workshops/wahc22/
-  deadline: ["2022-06-24 23:59"]
+  deadline: ["2022-07-18 23:59"]
   date: November 07
   place: Los Angeles, USA
   tags: [THEORY, PRACT, WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 05
+  comment: co-located with CCS + proceedings. Notification - Aug 15
   
 - name: (Workshop) WPES
   description: Workshop on Privacy in the Electronic Society
