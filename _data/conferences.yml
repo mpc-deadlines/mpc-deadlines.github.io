@@ -826,6 +826,19 @@
   comment: Journal and Conference tracks. Notification - Sep 08.
   rank: Unranked
   
+- name: IJCAI-ECAI
+  description: International Joint Conference on Artificial Intelligence and European Conference on Artificial Intelligence
+  year: 2023
+  link: https://ijcai-22.org
+  deadline: ["2023-01-12 23:59"]
+  abdeadline: January 07, 2023
+  rebut: Mar 16 - 18
+  date: July 23-29
+  place: TBD
+  tags: [PRACT, COREAS, PPML]
+  rank: A*
+  comment: Notification - April 20, 2023
+  
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2022
