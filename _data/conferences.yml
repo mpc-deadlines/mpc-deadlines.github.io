@@ -139,7 +139,7 @@
 - name: JoC Special Call for Papers
   description: Topical Collection on Computing on Encrypted Data
   year: 2023
-  link: https://www2022.thewebconf.org/
+  link: https://iacr.org/jofc/TopicalCollection-COED.html
   deadline: ["2022-10-01 23:59"]
   comment: Research related to implementation aspects and other more applied aspects.
   date: "February 01"
