@@ -59,14 +59,14 @@
 
 - name: IEEE INFOCOMM
   year: 2023
-  date: "April 25–27"
+  date: "May 12 - 20"
   description: IEEE International Conference on Computer Communications
-  link: https://infocom2022.ieee-infocom.org
-  deadline: ["2022-07-31 23:59"]
-  abdeadline: July 24, 2022
-  comment: Notification - Dec 03
+  link: https://infocom2023.ieee-infocom.org
+  deadline: ["2022-08-01 23:59"]
+  abdeadline: July 25, 2022
+  comment: Notification - Dec 02
   timezone: EST
-  place: Tokyo, Japan
+  place: New York, USA (Hybrid)
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
 
@@ -75,7 +75,8 @@
   date: "May 22–26"
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2023/
-  comment: 3 deadlines
+  rebut: Jun 07 - 21, Oct 24 - Nov 07, Feb 21 - Mar 07
+  comment: 3 deadlines. Notification - Jun 24, Nov 09, Mar 10.
   deadline:
     - "2022-04-01 23:59"
     - "2022-08-19 23:59"
