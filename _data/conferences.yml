@@ -59,7 +59,7 @@
 
 - name: IEEE INFOCOMM
   year: 2023
-  date: "May 12 - 20"
+  date: "May 17 - 20"
   description: IEEE International Conference on Computer Communications
   link: https://infocom2023.ieee-infocom.org
   deadline: ["2022-08-01 23:59"]
@@ -669,7 +669,7 @@
   comment: Included in proceedings. Notifications - Sep 06
   date: "November 07-11"
   place: Los Angeles, USA
-  tags: [PRACT, COREAS]
+  tags: [PRACT, WK]
   rank: A*
 
 - name: (Poster) ACNS
@@ -680,7 +680,7 @@
   comment: Published in the proceedings. Notification - Apr 30
   date: June 19-22
   place: Kyoto, Japan
-  tags: [THEORY, PRACT, APPLIED, COREB]
+  tags: [THEORY, PRACT, WK]
   rank: B
 
 - name: (Poster) ACSAC
@@ -691,7 +691,7 @@
   comment: Another track for Works in Progress as well.
   date: Dec 05-09
   place: Austin, Texas, USA
-  tags: [PRACT, APPLIED, COREA]
+  tags: [PRACT, APPLIED, WK]
   rank: A
 
 - name: (Poster) ACM ASIACCS
