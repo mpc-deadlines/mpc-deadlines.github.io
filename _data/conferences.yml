@@ -326,10 +326,10 @@
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2023
-  link: https://www.ieee-security.org/TC/EuroSP2022/
+  link: https://www.ieee-security.org/TC/EuroSP2023/
   deadline: ["2022-09-22 23:59"]
   date: "June 6 - 10"
-  place: Genova, Italy
+  place: TBD
   tags: [PRACT, COREA, COREO]
   rank: A (NEW)
   
@@ -632,12 +632,12 @@
   description: Real World Crypto
   year: 2023
   link: https://rwc.iacr.org/2023/
-  deadline: ["2022-09-01 23:59"]
+  deadline: ["2022-11-09 23:59"]
   timezone: Etc/UTC
-  date: April 13-15
-  place: TBD
+  date: March 27-29
+  place: Tokyo, Japan
   tags: [THEORY, WK]
-  comment: Workshop
+  comment: Notification - Jan 16
   
 - name: (Workshop) WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
