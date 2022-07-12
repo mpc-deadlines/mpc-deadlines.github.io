@@ -856,6 +856,18 @@
   comment: Journal and Conference tracks. Notification - Sep 08.
   rank: Unranked
   
+- name: ECMLPKDD
+  description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+  year: 2023
+  link: https://2022.ecmlpkdd.org
+  deadline: ["2023-04-06 23:59"]
+  abdeadline: March 30, 2023
+  date: September 19-23
+  place: TBA
+  tags: [PRACT, COREA, PPML]
+  rank: A
+  comment: Applied Data Science and Journal Track. Notification - June 14
+  
 - name: IJCAI-ECAI
   description: International Joint Conference on Artificial Intelligence and European Conference on Artificial Intelligence
   year: 2023
@@ -871,9 +883,9 @@
   
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2022
-  link: https://kdd.org/kdd2022/
-  deadline: ["2022-02-10 23:59"]
+  year: 2023
+  link: https://kdd.org/kdd2023/
+  deadline: ["2023-02-10 23:59"]
   date: August 18-18
   place: Washington DC, USA
   tags: [PRACT, COREAS, PPML]
@@ -882,9 +894,9 @@
   
 - name: ICML
   description: International Conference on Machine Learning
-  year: 2022
+  year: 2023
   link: https://icml.cc
-  deadline: ["2022-01-27 23:59"]
+  deadline: ["2023-01-27 23:59"]
   abdeadline: January 20, 2022
   date: July 17-23
   place: Baltimore, Maryland USA
@@ -913,5 +925,16 @@
   place: New Orleans, USA (Hybrid)
   tags: [PRACT, COREAS, PPML]
   rank: A*
+  
+- name: PAKDD
+  description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
+  year: 2023
+  link: http://www.pakdd.net
+  deadline: ["2022-10-31 23:59"]
+  date: May 16-19
+  place: TBA
+  tags: [PRACT, COREA, PPML]
+  rank: A
+  comment: Notification - Dec 17
   
 
