@@ -495,6 +495,18 @@
   place: San Antonio, Texas, USA
   tags: [PRACT, APPLIED, COREO]
   rank: Unranked
+  
+- name: AsianHOST
+  description: Asian Hardware Oriented Security and Trust Symposium
+  year: 2022
+  link: http://asianhost.org/2022/
+  deadline: ["2022-07-26 23:59"]
+  timezone: CST
+  date: December 14-16
+  place: Singapore (Hybrid)
+  comment: Notification - September 05
+  tags: [APPLIED, COREO]
+  rank: Unranked
 
 
 - name: CT-RSA
