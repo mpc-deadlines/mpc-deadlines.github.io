@@ -39,11 +39,11 @@
   description: European Cryptology Conference
   year: 2023
   link: https://eurocrypt.iacr.org/2023/
-  deadline: ["2023-10-01 15:59"]
-  timezone: Europe/Zurich
+  deadline: ["2022-10-06 23:59"]
   date: April 23 - 27
   place: Lyon, France
   tags: [THEORY, COREAS]
+  comment: Early Reject - Dec 08, Notification - Jan 31
   rank: A*
 
 - name: IEEE FOCS
@@ -665,7 +665,7 @@
   description: Workshop on Privacy in the Electronic Society
   year: 2022
   link: https://arc.encs.concordia.ca/wpes22/
-  deadline: ["2022-07-16 23:59"]
+  deadline: ["2022-08-01 23:59"]
   date: November 07
   place: Los Angeles, USA
   tags: [THEORY, PRACT, WK]
