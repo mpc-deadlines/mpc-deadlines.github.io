@@ -500,11 +500,11 @@
   description: Asian Hardware Oriented Security and Trust Symposium
   year: 2022
   link: http://asianhost.org/2022/
-  deadline: ["2022-07-25 23:59"]
+  deadline: ["2022-08-15 23:59"]
   timezone: Etc/GMT+7
-  date: December 14-17
+  date: December 14-16
   place: Singapore (Hybrid)
-  comment: Notification - September 05
+  comment: Notification - September 12
   tags: [APPLIED, COREO]
   rank: Unranked
 
@@ -512,11 +512,11 @@
 - name: CT-RSA
   description: RSA Conference Cryptographers’ Track
   year: 2023
-  link: https://ct-rsa-2022.auckland.ac.nz
-  deadline: ["2022-09-23 23:59"]
-  timezone: Etc/UTC
-  date: February 07-10
+  link: https://ct-rsa-2023.eecs.oregonstate.edu
+  deadline: ["2022-10-18 23:59"]
+  date: April 24-27
   place: San Francisco, CA, USA
+  comment: Notification - January 10, 2023
   tags: [THEORY, COREB, COREO]
   rank: B
   
