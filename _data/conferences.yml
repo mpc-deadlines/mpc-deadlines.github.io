@@ -202,8 +202,9 @@
   description: Financial Cryptography and Data Security
   year: 2023
   link: https://fc23.ifca.ai/
-  deadline: ["2022-09-09 23:59"]
+  deadline: ["2022-10-19 23:59"]
   date: May 08-12 (Tentative)
+  comment: Notification - January 19
   place: (Southern Europe) TBA
   tags: [PRACT, COREA]
   rank: A
@@ -245,6 +246,18 @@
   tags: [THEORY, COREA]
   rank: A
   comment: Notification - November 01
+  
+- name: MCFS
+  description: International Symposium on Mathematical Foundations of Computer Science
+  year: 2022
+  link: https://www.ac.tuwien.ac.at/mfcs2022/cfp/
+  deadline: ["2023-04-27 11:59"]
+  abdeadline: Apr 22, 2022
+  date: August 22-26
+  place: Vienna, Austria
+  comment: Notification - June 21.
+  tags: [THEORY, COREA]
+  rank: A
   
 - name: PoPETS
   description: Privacy Enhancing Technologies Symposium
@@ -717,6 +730,17 @@
   tags: [PRACT, WK]
   rank: A
   
+- name: (Poster) CANS
+  description: International Conference on Cryptology and Network Security
+  year: 2022
+  link: https://www.cans2022.com/call-for-poster.php
+  deadline: ["2022-09-30 23:59"]
+  comment: Rolling Deadline from Aug 15. Notification within two weeks of submission. No proceedings.
+  date: November 13-16
+  place: Abu Dhabi, UAE
+  tags: [PRACT, WK]
+  rank: B
+  
 - name: (Poster) IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2022
@@ -938,3 +962,15 @@
   comment: Notification - Dec 17
   
 
+# Others
+
+- name: (Misc) Cybersecurity Artifacts Competition and Impact Award
+  description: ACSAC
+  year: 2022
+  link: https://www.acsac.org/2022/submissions/artifacts_competition/
+  deadline: ["2022-09-26 23:59"]
+  timezone: Etc/UTC
+  date: Dec 05-09
+  place: Austin, Texas, USA
+  tags: [MISC]
+  comment: Open to cybersecurity artifacts previously published in all peer-reviewed venues. Notification - Oct 21
