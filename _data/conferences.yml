@@ -25,6 +25,21 @@
   tags: [THEORY, COREAS]
   rank: A*
   
+- name: MobiCom
+  description: Annual International Conference On Mobile Computing And Networking
+  year: 2023
+  link: https://www.sigmobile.org/mobicom/2023/
+  deadline:
+    - "2022-08-19 23:59"
+    - "2023-03-17 23:59"
+  abdeadline: August 12 and March 10
+  rebut: Oct 21 - 28, May 26 - June 03
+  comment: 2 deadlines. Notifications - Nov 18, June 20
+  date: "October"
+  place: Madrid, Spain
+  tags: [APPLIED, COREAS]
+  rank: A*
+  
 - name: CRYPTO
   description: International Cryptology Conference
   year: 2023
@@ -409,7 +424,8 @@
   description: International Conference on Cryptology in India
   year: 2022
   link: https://www.tcgcrest.org/indocrypt-2022/
-  deadline: ["2022-09-01 23:59"]
+  deadline: ["2022-09-07 23:59"]
+  abdeadline: September 01
   comment: Notification - Oct 15
   timezone: Etc/UTC
   date: December 12-14
@@ -632,6 +648,17 @@
   place: San Fransisco, CA (Hybrid)
   tags: [PRACT, WK]
   comment: co-located with IEEE S&P + proceedings
+  
+- name: (Workshop) FL-NeurIPS
+  description: International Workshop on Federated Learning: Recent Advances and New Challenges
+  year: 2022
+  link: https://federated-learning.org/fl-neurips-2022/
+  deadline: ["2022-09-21 23:59"]
+  timezone: Etc/GMT+7
+  date: December 02
+  place: New Orleans, USA (Hybrid)
+  tags: [PRACT, WK]
+  comment: Notification - Oct 20. In Conjunction with NeurIPS 2022 and no proceedings
   
 - name: (Workshop) ML4H
   description: Machine Learning for Health
