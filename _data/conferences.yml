@@ -650,7 +650,7 @@
   comment: co-located with IEEE S&P + proceedings
   
 - name: (Workshop) FL-NeurIPS
-  description: International Workshop on Federated Learning: Recent Advances and New Challenges
+  description: International Workshop on Federated Learning&colon; Recent Advances and New Challenges
   year: 2022
   link: https://federated-learning.org/fl-neurips-2022/
   deadline: ["2022-09-21 23:59"]
