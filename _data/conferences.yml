@@ -356,9 +356,11 @@
   description: IEEE European Symposium on Security and Privacy
   year: 2023
   link: https://www.ieee-security.org/TC/EuroSP2023/
-  deadline: ["2022-09-22 23:59"]
-  date: "June 6 - 10"
-  place: TBD
+  deadline: ["2022-10-26 23:59"]
+  date: "July 03 - 07"
+  rebut: January 18 - 25
+  comment: Notification - February 12
+  place: Delft, Netherlands
   tags: [PRACT, COREA, COREO]
   rank: A (NEW)
   

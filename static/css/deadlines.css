@@ -189,6 +189,10 @@ footer {
   background-color: #bb2d3b;
 }
 
+.abstractdeadline {
+  color: crimson;    
+}
+
 @media only screen and (max-width: 780px) {
   #conf-timer {
     font-size: 64px;
