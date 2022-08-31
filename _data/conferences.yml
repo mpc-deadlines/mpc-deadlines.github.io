@@ -473,11 +473,11 @@
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
   year: 2023
-  link: https://pkc.iacr.org/2022/
-  deadline: ["2022-09-16 20:59"]
-  timezone: Etc/UTC
-  date: March 7-11
-  place: Yokohama, Japan
+  link: https://pkc.iacr.org/2023/
+  deadline: ["2022-11-01 20:59"]
+  date: May 07-10
+  place: Atlanta, USA
+  comment: Notification - Jan 25.
   tags: [THEORY, COREB]
   rank: B
 
@@ -577,11 +577,14 @@
   
 - name: IEEE HOST
   description: IEEE International Symposium on Hardware Oriented Security and Trust
-  year: 2022
+  year: 2023
   link: http://www.hostsymposium.org/index.php
-  deadline: ["2022-01-22 23:59"]
-  date: July 27-30
-  place: Washington DC, USA
+  deadline: 
+    - "2022-10-17 23:59"
+    - "2023-01-16 23:59"
+  date: May 01-04
+  place: San Jose, California
+  comment: Notification - Dec 15 and Mar 01. 
   tags: [APPLIED, COREO]
   rank: Unranked
 
