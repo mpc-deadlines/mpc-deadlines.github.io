@@ -17,12 +17,13 @@
 - name: ACM STOC
   description: ACM Symposium on Theory of Computing
   year: 2023
-  link: http://acm-stoc.org/stoc2022/
+  link: http://acm-stoc.org/stoc2023/
   deadline: ["2022-11-04 16:59"]
-  timezone: EST
-  date: June 20-24
-  place: Rome, Italy
+  timezone: EDT
+  date: June 20-23
+  place: Orlando, Florida
   tags: [THEORY, COREAS]
+  comment: Notification - February 06, 2023.
   rank: A*
   
 - name: MobiCom
@@ -654,6 +655,16 @@
   tags: [PRACT, WK]
   comment: co-located with IEEE S&P + proceedings
   
+- name: (Workshop) FHE Conference
+  description: Annual FHE.org Conference on Fully Homomorphic Encryption
+  year: 2023
+  link: https://fhe.org/conferences/conference-2023/home
+  deadline: ["2022-11-19 23:59"]
+  date: March 26
+  place: Tokyo, Japan
+  tags: [THEORY, PRACT, WK]
+  comment: Notification - Jan 25. In Conjunction with RWC 2023 and no proceedings.
+  
 - name: (Workshop) FL-NeurIPS
   description: International Workshop on Federated Learning&colon; Recent Advances and New Challenges
   year: 2022
@@ -706,6 +717,16 @@
   place: Los Angeles, USA
   tags: [THEORY, PRACT, WK]
   comment: co-located with CCS + proceedings. Notification - Aug 15
+  
+- name: (Workshop) WEB3SEC
+  description: Workshop Encouraging Building Better Blockchain Security
+  year: 2023
+  link: https://web3sec.ws/#/
+  deadline: ["2022-09-30 23:59"]
+  date: Dec 05
+  place: Austin, Texas, USA
+  tags: [PRACT, APPLIED, WK]
+  comment: Notification - Nov 14. In conjunction with ACSAC22 + proceedings.
   
 - name: (Workshop) WPES
   description: Workshop on Privacy in the Electronic Society
