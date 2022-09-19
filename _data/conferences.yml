@@ -149,7 +149,7 @@
   rebut: Dec 22
   abdeadline: Oct 06, 2022
   comment: Notification - Jan 25
-  date: "May 01-05"
+  date: "April 30 - May 04"
   place: Austin, Texas, USA
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
@@ -220,9 +220,9 @@
   year: 2023
   link: https://fc23.ifca.ai/
   deadline: ["2022-10-19 23:59"]
-  date: May 08-12 (Tentative)
+  date: May 01-05
   comment: Notification - January 19
-  place: (Southern Europe) TBA
+  place: Bol, Brač, Croatia
   tags: [PRACT, COREA]
   rank: A
   
@@ -839,6 +839,17 @@
   comment: No proceedings
   tags: [PRACT, WK]
   rank: B
+  
+- name: (Poster) The Web Conference
+  description: The Web Conference (WWW)
+  year: 2023
+  link: https://www2023.thewebconf.org/calls/posters-demos/
+  deadline: ["2023-02-03 23:59"]
+  comment: Notification - March 03 + Proceedings
+  date: "April 30 - May 04"
+  place: Austin, Texas, USA
+  tags: [PRACT, APPLIED, COREAS]
+  rank: A*
 
 # CryptoSchools
 
@@ -1028,3 +1039,14 @@
   place: Austin, Texas, USA
   tags: [MISC]
   comment: Open to cybersecurity artifacts previously published in all peer-reviewed venues. Notification - Oct 21
+
+- name: (Misc) PhD Symposium at The Web Conference
+  description: The Web Conference (WWW)
+  year: 2023
+  link: https://www2023.thewebconf.org/calls/phd-symposium/
+  deadline: ["2023-02-03 23:59"]
+  comment: Notification - Feb 24 + Proceedings
+  date: "April 30 - May 04"
+  place: Austin, Texas, USA
+  tags: [PRACT, APPLIED, COREAS]
+  rank: A*
