@@ -945,6 +945,18 @@
   comment: Journal and Conference tracks. Notification - Sep 08.
   rank: Unranked
   
+- name: ECAI
+  description: European Conference on Artificial Intelligence
+  year: 2023
+  link: https://ecai2023.eu
+  deadline: ["2023-04-15 23:59"]
+  abdeadline: April 07, 2023
+  date: October 01-06
+  place: Kraków, Poland
+  tags: [PRACT, COREA, PPML]
+  rank: A
+  comment: Notification - TBA.
+  
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
   year: 2023
@@ -957,15 +969,15 @@
   rank: A
   comment: Applied Data Science and Journal Track. Notification - June 14
   
-- name: IJCAI-ECAI
-  description: International Joint Conference on Artificial Intelligence and European Conference on Artificial Intelligence
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
   year: 2023
-  link: https://ijcai-22.org
+  link: https://ijcai-23.org
   deadline: ["2023-01-12 23:59"]
   abdeadline: January 07, 2023
   rebut: Mar 16 - 18
-  date: July 23-29
-  place: TBD
+  date: August 19-25
+  place: Cape Town, South Africa
   tags: [PRACT, COREAS, PPML]
   rank: A*
   comment: Notification - April 20, 2023
