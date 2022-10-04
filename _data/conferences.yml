@@ -521,13 +521,16 @@
 
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
-  year: 2022
-  link: https://wisec2022.cs.utsa.edu
-  deadline: ["2022-02-12 23:59"]
-  date: May 16-19
-  place: San Antonio, Texas, USA
+  year: 2023
+  link: https://wisec2023.surrey.ac.uk
+  deadline: 
+    - "2022-11-18 23:59"
+    - "2023-02-17 23:59"
+  date: May 29 - June 01
+  place: Guildford, United Kingdom
   tags: [PRACT, APPLIED, COREO]
   rank: Unranked
+  comment: Notification - Dec 20 and Mar 29.
   
 - name: AsianHOST
   description: Asian Hardware Oriented Security and Trust Symposium
@@ -960,11 +963,11 @@
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
   year: 2023
-  link: https://2022.ecmlpkdd.org
+  link: https://2023.ecmlpkdd.org
   deadline: ["2023-04-06 23:59"]
   abdeadline: March 30, 2023
-  date: September 19-23
-  place: TBA
+  date: September 19-22
+  place: Turin, Italy
   tags: [PRACT, COREA, PPML]
   rank: A
   comment: Applied Data Science and Journal Track. Notification - June 14
@@ -1030,13 +1033,14 @@
 - name: PAKDD
   description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
   year: 2023
-  link: http://www.pakdd.net
-  deadline: ["2022-10-31 23:59"]
-  date: May 16-19
-  place: TBA
+  link: http://pakdd2023.org
+  deadline: ["2022-11-24 23:59"]
+  timezone: PST
+  date: May 25-28
+  place: Osaka, Japan (Hybrid)
   tags: [PRACT, COREA, PPML]
   rank: A
-  comment: Notification - Dec 17
+  comment: Notification - Jan 24
   
 
 # Others
