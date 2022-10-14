@@ -117,12 +117,13 @@
 
 - name: ACM PODC
   description: ACM Symposium on Principles of Distributed Computing
-  year: 2022
-  link: https://www.podc.org/podc2022/
-  deadline: ["2022-02-13 23:59"]
-  abdeadline: Feb 10, 2022
-  date: July 25-29
-  place: Salerno, Italy
+  year: 2023
+  link: https://www.podc.org
+  deadline: ["2023-01-10 23:59"]
+  abdeadline: Jan 06, 2022
+  comment: Notification - March 30
+  date: June 19-23
+  place: Orlando, Florida
   tags: [THEORY, COREAS]
   rank: A*
 
@@ -203,15 +204,15 @@
 
 - name: ESORICS
   description: European Symposium on Research in Computer Security
-  year: 2022
-  link: https://esorics2022.compute.dtu.dk
+  year: 2023
+  link: https://esorics2023.org
   deadline:
-    - "2022-01-31 23:59"
-    - "2022-05-29 23:59"
-  abdeadline: Jan 25 & May 22, 2022
+    - "2023-01-31 23:59"
+    - "2023-05-29 23:59"
+  abdeadline: Jan 25 & May 22
   comment: 2 deadlines
-  date: September 26-30
-  place: Copenhagen, Denmark
+  date: September 25-29
+  place: The Hague, The Netherlands
   tags: [PRACT, COREA]
   rank: A
 
@@ -242,13 +243,14 @@
   
 - name: IEEE ICDCS
   description: IEEE International Conference on Distributed Computing Systems
-  year: 2022
-  link: https://icdcs2022.icdcs.org/cfp/
-  deadline: ["2022-01-24 23:59"]
-  abdeadline: Jan 17, 2022
+  year: 2023
+  link: https://icdcs2023.icdcs.org
+  deadline: ["2023-01-21 23:59"]
+  abdeadline: Jan 14, 2023
   timezone: EST
-  date: July 10-13
-  place: Bologna, Italy
+  date: July 18-21
+  comment: Notification - April 03.
+  place: Hong Kong, China
   tags: [THEORY, PRACT, COREA]
   rank: A
   
@@ -367,11 +369,14 @@
   
 - name: ICALP
   description: EATCS International Colloquium on Automata, Languages, and Programming 
-  year: 2022
-  link: https://icalp2022.irif.fr/
-  deadline: ["2022-02-10 23:59"]
-  date: "July 4 - 8"
-  place: Paris, France (Hybrid)
+  year: 2023
+  link: https://icalp2023.cs.upb.de
+  deadline: ["2023-02-11 11:00"]
+  date: "July 10 - 14"
+  timezone: CET
+  rebut: March 22-25
+  comment: Notification - April 21 
+  place: Paderborn, Germany
   tags: [THEORY, COREA]
   rank: A
   
@@ -543,6 +548,17 @@
   comment: Notification - September 12
   tags: [APPLIED, COREO]
   rank: Unranked
+  
+- name: CSCML
+  description: International Symposium on Cyber Security Cryptography and Machine Learning
+  year: 2023
+  link: https://www.cscml.org
+  deadline: ["2023-02-07 23:59"]
+  comment: Extended and revised versions of selected papers in a special issue of the Journal of Computer and System Sciences.
+  date: June 29-30
+  place: Virtual
+  tags: [THEORY, PRACT, COREO]
+  rank: Unranked
 
 
 - name: CT-RSA
@@ -558,11 +574,10 @@
   
 - name: ITC
   description: Information-Theoretic Cryptography
-  year: 2022
-  link: https://itcrypto.github.io/2022/index.html
-  deadline: ["2022-02-08 23:59"]
-  comment: Spotlight track deadline on February 28, 2022
-  timezone: Etc/UTC
+  year: 2023
+  link: https://itcrypto.github.io/
+  deadline: ["2023-02-08 23:59"]
+  comment: Spotlight track deadline on February 28
   date: July 05-07
   place: Boston, MA
   tags: [THEORY, COREO]
@@ -584,23 +599,24 @@
   year: 2023
   link: http://www.hostsymposium.org/index.php
   deadline: 
-    - "2022-10-17 23:59"
+    - "2022-10-24 23:59"
     - "2023-01-16 23:59"
+  abdeadline: Oct 17, Jan 09
   date: May 01-04
   place: San Jose, California
   comment: Notification - Dec 15 and Mar 01. 
   tags: [APPLIED, COREO]
   rank: Unranked
-
-- name: CSCML
-  description: International Symposium on Cyber Security Cryptography and Machine Learning
-  year: 2022
-  link: https://www.cscml.org/submissions
-  deadline: ["2022-02-07 23:59"]
-  comment: Extended and revised versions of selected papers in a special issue of the Journal of Computer and System Sciences.
-  date: June 30
-  place: Beer Sheva, Israel
-  tags: [THEORY, PRACT, COREO]
+  
+- name: IEEE MetaCom
+  description: International Conference on Metaverse Computing, Networking and Applications
+  year: 2023
+  link: https://www.ieee-metacom.org/2023/cf-papers.php
+  deadline: ["2022-12-30 23:59"]
+  comment: Notification - Mar 15.
+  date: June 26--28
+  place: Kyoto, Japan
+  tags: [PRACT, COREO]
   rank: Unranked
 
 # Workshops
@@ -798,6 +814,7 @@
   tags: [PRACT, WK]
   rank: B
   
+  
 - name: (Poster) IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2022
@@ -842,6 +859,17 @@
   comment: No proceedings
   tags: [PRACT, WK]
   rank: B
+  
+- name: (Poster) USENIX Security
+  description: Usenix Security Symposium
+  year: 2023
+  link: https://www.usenix.org/conference/usenixsecurity23/call-for-papers
+  deadline: ["2023-07-26 23:59"]
+  comment: Notification - Jul 13. No proceedings
+  date: "August 09-11"
+  place: ANAHEIM, CA, USA.
+  tags: [PRACT, COREAS]
+  rank: A*
   
 - name: (Poster) The Web Conference
   description: The Web Conference (WWW)
@@ -1002,8 +1030,8 @@
   link: https://icml.cc
   deadline: ["2023-01-27 23:59"]
   abdeadline: January 20, 2022
-  date: July 17-23
-  place: Baltimore, Maryland USA
+  date: July 24-30
+  place: Seoul, South Korea
   tags: [PRACT, COREAS, PPML]
   rank: A*
   
@@ -1066,3 +1094,14 @@
   place: Austin, Texas, USA
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
+  
+- name: (Misc) CSCML
+  description: International Symposium on Cyber Security Cryptography and Machine Learning
+  year: 2023
+  link: https://www.cscml.org
+  deadline: ["2023-06-12 23:59"]
+  comment: The PhD and Masters Track. No formal proceedings.
+  date: June 29-30
+  place: Virtual
+  tags: [THEORY, PRACT, COREO]
+  rank: Unranked
