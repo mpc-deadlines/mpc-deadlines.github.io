@@ -1070,6 +1070,18 @@
   rank: A
   comment: Notification - Jan 24
   
+- name: CIKM
+  description: Conference on Information and Knowledge Management
+  year: 2023
+  link: https://cikm2023.github.io
+  deadline: ["2023-05-19 23:59"]
+  abdeadline: May 12
+  date: Oct 17-21
+  place: Birmingham, UK
+  tags: [PRACT, COREA, PPML]
+  rank: A
+  comment: Notification - Aug 01. 
+  
 
 # Others
 
