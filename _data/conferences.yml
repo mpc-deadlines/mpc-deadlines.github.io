@@ -3,11 +3,11 @@
 - name: ACM CCS
   description: ACM Conference on Computer and Communications Security
   year: 2023
-  link: https://www.sigsac.org/ccs/CCS2022/
+  link: https://www.sigsac.org/ccs/CCS2023/
   deadline:
     - "2023-01-14 23:59"
     - "2023-05-02 23:59"
-  rebut: Feb 18 - Mar 06, Jun 19 - Jul 07
+  rebut: Feb 25 - Mar 07, Jun 26 - Jul 08
   comment: 2 deadlines. Notifications - March 10, July 15
   date: "November 07-11"
   place: Los Angeles, USA
@@ -198,7 +198,7 @@
   link: http://www.disc-conference.org/wp/disc2023/
   deadline: ["2023-05-13 11:59"]
   rebut: Jun 29 - Jul 04
-  date: October 25-27
+  date: October 09-13
   place: LAquila, Italy
   tags: [THEORY, PRACT, COREA]
   comment: Best paper at DISC will be invited to the JACM. Notification - Jul 25.
@@ -539,6 +539,17 @@
   rank: Unranked
   comment: Notification - Dec 20 and Mar 29.
   
+- name: AfricaCrypt
+  description: International Conference on Cryptology
+  year: 2023
+  link: https://africacrypt2023.tn
+  deadline: ["2023-02-26 23:59"]
+  comment: Notification - Apr 22
+  date: July 19-21
+  place: Sousse, Tunisia
+  tags: [THEORY, PRACT, COREO]
+  rank: Unranked
+  
 - name: AsianHOST
   description: Asian Hardware Oriented Security and Trust Symposium
   year: 2022
@@ -644,6 +655,16 @@
   tags: [PRACT, WK]
   comment: co-located with CCS + proceedings. Notification - Sep 02
   
+- name: (Workshop) AI4SG
+  description: AAAI Workshop on Artificial Intelligence for Social Good
+  year: 2023
+  link: https://amulyayadav.github.io/AI4SG2023/
+  deadline: ["2022-11-30 23:59"]
+  date: February 14
+  place: Washington, DC, USA
+  tags: [Theory, PRACT, WK]
+  comment: co-located with AAAI. Notification - Dec 14
+  
 - name: (Workshop) CBT
   description: International Workshop on Cryptocurrencies and Blockchain Technology
   year: 2022
@@ -717,6 +738,16 @@
   place: New Orleans, USA (Hybrid)
   tags: [PRACT, WK, PPML]
   comment: co-located with NeurIPS + formal proceedings and extended abstracts. Notification - Oct 21.
+
+- name: (Workshop) PPAI
+  description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
+  year: 2023
+  link: https://aaai-ppai23.github.io
+  deadline: ["2022-11-21 23:59"]
+  date: February 13
+  place: Washington, DC, USA
+  tags: [Theory, PRACT, WK]
+  comment: co-located with AAAI. Notification - Dec 22
   
 - name: (Workshop) PPML CRYPTO
   description: Privacy-Preserving Machine Learning Workshop 2022
@@ -727,7 +758,7 @@
   place: Santa Barbara, USA
   tags: [Theory, PRACT, WK]
   comment: co-located with CRYPTO. Notification - Jul 25
-
+  
 - name: (Workshop) RWC
   description: Real World Crypto
   year: 2023
@@ -814,6 +845,17 @@
   place: Nagasaki, Japan (Hybrid)
   tags: [PRACT, WK]
   rank: A
+  
+- name: (Poster) AfricaCrypt
+  description: International Conference on Cryptology
+  year: 2023
+  link: https://africacrypt2023.tn
+  deadline: ["2023-06-01 23:59"]
+  comment: Notification - June 08
+  date: July 19-21
+  place: Sousse, Tunisia
+  tags: [THEORY, PRACT, COREO]
+  rank: Unranked
   
 - name: (Poster) CANS
   description: International Conference on Cryptology and Network Security
@@ -908,15 +950,14 @@
 # CryptoSchools
 
 - name: (School) BIU Winter School
-  description: The 12th BIU Winter School on Cryptography 
-  year: 2022
-  link: https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/
-  deadline: ["2022-01-22 23:59"]
-  timezone: Etc/UTC
-  date: January 23-26
-  place: Ramat Gan, Israel (Hybrid)
+  description: The 13th BIU Winter School on Cryptography 
+  year: 2023
+  link: https://cyber.biu.ac.il/event/the-13th-biu-winter-school-on-cryptography/
+  deadline: ["2023-01-22 23:59"]
+  date: February 20-23
+  place: Bar-Ilan University, Israel
   tags: [CRS]
-  comment: Advances in Secure Computation
+  comment: Blockchain Technologies
 
 - name: (School) IACR-CROSSING School
   description: 2022 School on Combinatorial Techniques in Cryptography
@@ -1051,7 +1092,7 @@
   description: International Conference on Machine Learning
   year: 2023
   link: https://icml.cc
-  deadline: ["2023-01-27 23:59"]
+  deadline: ["2023-01-26 23:59"]
   abdeadline: January 20, 2022
   date: July 23-29
   place: Honolulu, Hawaii
@@ -1152,3 +1193,14 @@
   place: Virtual
   tags: [THEORY, PRACT, COREO]
   rank: Unranked
+  
+- name: (Misc) Google Research Week
+  description: Research Week with Google India
+  year: 2023
+  link: https://sites.google.com/view/researchweek2023/
+  deadline: ["2022-11-28 23:59"]
+  date: Jan 29-31
+  timezone: IST
+  place: Bengaluru, India
+  tags: [MISC]
+  comment: Research lectures and discussions with select undergraduate, Master’s and Ph.D students.
