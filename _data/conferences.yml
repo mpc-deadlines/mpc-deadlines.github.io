@@ -10,7 +10,7 @@
   rebut: Feb 25 - Mar 07, Jun 26 - Jul 08
   comment: 2 deadlines. Notifications - March 10, July 15
   date: "November 07-11"
-  place: Los Angeles, USA
+  place: Copenhagen, Denmark
   tags: [PRACT, COREAS]
   rank: A*
   
@@ -1102,8 +1102,8 @@
   description: International Conference on Machine Learning
   year: 2023
   link: https://icml.cc
-  deadline: ["2023-01-26 23:59"]
-  abdeadline: January 20, 2022
+  deadline: ["2023-01-26 19:59"]
+  timezone: UTC
   date: July 23-29
   place: Honolulu, Hawaii
   tags: [PRACT, COREAS, PPML]
