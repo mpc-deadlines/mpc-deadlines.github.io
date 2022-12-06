@@ -782,6 +782,26 @@
   tags: [Theory, PRACT, WK]
   comment: co-located with CRYPTO. Notification - Jul 25
   
+- name: (Workshop) SecTL
+  description: Secure and Trustworthy Deep Learning Systems (SecTL) Workshop
+  year: 2023
+  link: https://asiaccs-sectl.github.io
+  deadline: ["2023-02-15 23:59"]
+  comment: co-located with AsiaCCS. Published in the proceedings. Notification - March 31
+  date: "July 10"
+  place: Melbourne, Australia
+  tags: [PRACT, WK]
+  
+- name: (Workshop) S&P-FL
+  description: Workshop on Security and Privacy of Federated Learning
+  year: 2023
+  link: https://u-aizu.ac.jp/~pengli/spfl2023/index.html
+  deadline: ["2023-03-15 23:59"]
+  comment: co-located with ACNS. Published in the proceedings. Notification - April 19
+  date: June 19-22
+  place: Kyoto, Japan
+  tags: [PRACT, WK]
+  
 - name: (Workshop) RWC
   description: Real World Crypto
   year: 2023
@@ -860,13 +880,13 @@
 
 - name: (Poster) ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
-  year: 2022
-  link: https://conferenceservice.jp/www/asiaccs2022-test/dateandcall/callforposters/
-  deadline: ["2022-03-07 23:59"]
+  year: 2023
+  link: https://asiaccs2023.org
+  deadline: ["2023-03-07 23:59"]
   comment: Published in the proceedings
-  date: "May 30 - June 03"
-  place: Nagasaki, Japan (Hybrid)
-  tags: [PRACT, WK]
+  date: "June 10 - 14"
+  place: Melbourne, Australia
+  tags: [PRACT, COREA]
   rank: A
   
 - name: (Poster) AfricaCrypt
