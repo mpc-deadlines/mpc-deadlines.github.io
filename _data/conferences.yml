@@ -103,13 +103,13 @@
   rank: A*
   
 - name: NDSS
-  description: ISOC Network and Distributed System Security Symposium
-  year: 2023
-  link: https://www.ndss-symposium.org/ndss2023-call-for-papers/
-  comment: No rebuttal. Notifications on Jul 22 and Oct 21
+  description: Network and Distributed System Security Symposium
+  year: 2024
+  link: https://www.ndss-symposium.org/ndss2024-call-for-papers/
+  comment: Notifications on Jul 22 and Oct 21
   deadline:
-    - "2022-05-13 23:59"
-    - "2022-07-29 23:59"
+    - "2023-05-13 23:59"
+    - "2023-07-29 23:59"
   date: "February 27 - March 3"
   place: San Diego, CA, USA
   tags: [PRACT, COREAS]
@@ -163,6 +163,30 @@
   comment: Research related to implementation aspects and other more applied aspects.
   date: "February 01"
   place: Journal (Online)
+  tags: [THEORY, PRACT, APPLIED, COREAS]
+  rank: A*
+  
+- name: VLDB
+  description: International Conference on Very Large Data Bases
+  year: 2023
+  link: http://vldb.org/pvldb/volumes/16/submission
+  deadline:
+    - "2022-04-01 16:59"
+    - "2022-05-01 16:59"
+    - "2022-06-01 16:59"
+    - "2022-07-01 16:59"
+    - "2022-08-01 16:59"
+    - "2022-09-01 16:59"
+    - "2022-10-01 16:59"
+    - "2022-11-01 16:59"
+    - "2022-12-01 16:59"
+    - "2023-01-01 16:59"
+    - "2023-02-01 16:59"
+    - "2023-03-01 16:59"
+  timezone: Etc/GMT+8
+  comment: Rolling deadline every month. Notification on 15th of next month.
+  date: "August 28 - September 01"
+  place: Vancouver, Canada
   tags: [THEORY, PRACT, APPLIED, COREAS]
   rank: A*
 
@@ -386,12 +410,12 @@
 
 - name: ACISP
   description: Australasian Conference on Information Security and Privacy
-  year: 2022
-  link: https://uow-ic2.github.io/acisp2022/
-  deadline: ["2022-02-21 23:59"]
-  comment: Track for SoK papers
-  date: July 13-17
-  place: Wollongong, Australia (Hybrid)
+  year: 2023
+  link: https://www.qut.edu.au/about/faculty-of-science/school-of-computer-science/acisp
+  deadline: ["2022-02-07 23:59"]
+  comment: Notification - Apr 15
+  date: July 05-07
+  place: Brisbane, Australia
   tags: [PRACT, APPLIED, COREB]
   rank: B (Australasian)
 
@@ -421,11 +445,11 @@
   
 - name: ICICS
   description: International Conference on Information and Communications Security
-  year: 2022
-  link: https://icics2022.cyber.kent.ac.uk/submission.php
-  deadline: ["2022-03-21 23:59"]
-  date: September 05-08
-  place: Canterbury, UK
+  year: 2023
+  link: https://waset.org/information-and-computer-security-conference-in-january-2023-in-amsterdam
+  deadline: ["2022-11-30 23:59"]
+  date: January 23-24
+  place: Amsterdam, Netherlands
   tags: [PRACT, COREB]
   rank: B
   
@@ -457,23 +481,23 @@
   
 - name: IEEE ITW
   description: IEEE Information Theory Workshop
-  year: 2022
-  link: https://itw2022.in
-  deadline: ["2022-04-29 23:59"]
-  comment: Nov 1-2 (Online) and Nov 6-9 (in-person)
-  date: November 06-09
-  place: Mumbai, India
+  year: 2023
+  link: https://itw2023.org
+  deadline: ["2022-12-15 23:59"]
+  comment: Notification - Jan 15
+  date: April 23-28
+  place: Saint-Malo, France
   tags: [THEORY, COREB]
   rank: B
   
 - name: MDAI
   description: International Conference on Modeling Decisions for Artificial Intelligence
-  year: 2022
-  link: http://www.mdai.cat/mdai2022/
-  deadline: ["2022-03-15 23:59"]
+  year: 2023
+  link: http://www.mdai.cat/mdai2023/
+  deadline: ["2022-12-15 23:59"]
   comment: Track on data privacy
-  date: August 30 - September 02
-  place: Catalonia, Spain
+  date: June 19-22
+  place: Umeå, Sweden
   tags: [PRACT, APPLIED, COREB]
   rank: B
   
@@ -502,23 +526,23 @@
   
 - name: SCN
   description: Conference on Security and Cryptography for Networks
-  year: 2022
+  year: 2023
   link: https://scn.unisa.it/scn22/
-  deadline: ["2022-05-01 23:59"]
+  deadline: ["2023-04-24 23:59"]
   comment: Notification on June 12
   date: September 12-14
-  place: Amalfi, Italy
+  place: Italy
   tags: [PRACT, APPLIED, COREB]
   rank: B (National Italy)
   
 - name: SECRYPT
   description: International Conference on Information Security and Cryptography
-  year: 2022
-  link: https://secrypt.scitevents.org/Home.aspx
-  deadline: ["2022-04-28 23:59"]
-  comment: Abstracts Track Submission May 25, 2022
-  date: July 11-13
-  place: Lisbon, Portugal
+  year: 2023
+  link: https://secrypt.scitevents.org
+  deadline: ["2023-02-23 23:59"]
+  comment: Notification - April 21
+  date: July 10-12
+  place: Rome, Italy
   tags: [THEORY, COREB]
   rank: B
 
@@ -892,24 +916,22 @@
   
 - name: (Poster) IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
-  year: 2022
-  link: https://www.ieee-security.org/TC/EuroSP2022/cfposters.html
-  deadline: ["2022-04-29 23:59"]
-  abdeadline: April 22, 2022
-  date: "June 6 - 10"
-  place: Genova, Italy
+  year: 2023
+  link: https://www.ieee-security.org/TC/EuroSP2023/cfposters.html
+  deadline: ["2023-04-29 23:59"]
+  date: "July 03-07"
+  place: Delft, Netherlands
   comment: No proceedings
   tags: [PRACT, WK]
   rank: A (NEW)
 
 - name: (Poster) IEEE S&P
-  description: 43rd IEEE Symposium on Security and Privacy
-  year: 2022
-  link: https://www.ieee-security.org/TC/SP2022/cfposters.html
+  description: IEEE Symposium on Security and Privacy
+  year: 2023
+  link: https://www.ieee-security.org/TC/SP2023/cfposters.html
   comment: No proceedings
-  deadline: ["2022-04-11 23:59"]
-  date: "May 23 - 26"
-  timezone: Etc/GMT+8
+  deadline: ["2023-04-11 23:59"]
+  date: "May 22 - 25"
   place: San Francisco, California, USA
   tags: [PRACT, WK]
 
@@ -1214,3 +1236,14 @@
   place: Bengaluru, India
   tags: [MISC]
   comment: Research lectures and discussions with select undergraduate, Master’s and Ph.D students.
+  
+- name: (Misc) SECRYPT Doctoral Consortium
+  description: International Conference on Information Security and Cryptography
+  year: 2023
+  link: https://secrypt.scitevents.org/DoctoralConsortium.aspx
+  deadline: ["2023-05-18 23:59"]
+  comment: Notification - May 31
+  date: July 10-12
+  place: Rome, Italy
+  tags: [THEORY, COREB]
+  rank: B
