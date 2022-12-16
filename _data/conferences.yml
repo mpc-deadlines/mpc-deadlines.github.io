@@ -1289,3 +1289,92 @@
   place: Rome, Italy
   tags: [THEORY, COREB, MISC]
   rank: B
+  
+# Journals
+
+- name: (Journal) IACR JoC
+  description: Journal of Cryptology
+  year: 2023
+  link: https://www.iacr.org/jofc/
+  deadline: ["2023-12-31 23:59"]
+  comment: No deadline. <a href="https://www.editorialmanager.com/jcryptology/" target="blank">Submission Portal</a>.
+  tags: [THEORY, COREAS, JRN]
+  rank: A*
+  
+- name: (Journal) JACM
+  description: Journal of the ACM
+  year: 2023
+  link: https://dl.acm.org/journal/jacm
+  deadline: ["2023-12-31 23:59"]
+  comment: No deadline. <a href="https://mc.manuscriptcentral.com/jacm" target="blank">Submission Portal</a>.
+  tags: [THEORY, PRACT, COREAS, JRN]
+  rank: A*
+  
+- name: (Journal) JCSS
+  description: Journal of Computer and System Sciences
+  year: 2023
+  link: https://www.elsevier.com/journals/journal-of-computer-and-system-sciences/0022-0000/guide-for-authors
+  deadline: ["2023-12-31 23:59"]
+  comment: No deadline. <a href="https://www.editorialmanager.com/jcss/" target="blank">Submission Portal</a>.
+  tags: [THEORY, COREAS, JRN]
+  rank: A*
+  
+
+- name: (Journal) IEEE TC
+  description: IEEE Transactions on Computers
+  year: 2023
+  link: https://www.computer.org/digital-library/journals/tc/call-for-papers-general-submissions
+  deadline: ["2023-12-31 23:59"]
+  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tc-cs" target="blank">Submission Portal</a>.
+  tags: [PRACT, APPLIED, COREAS, JRN]
+  rank: A*
+  
+- name: (Journal) IEEE TPDS
+  description: IEEE Transactions on Parallel and Distributed Systems
+  year: 2023
+  link: https://www.computer.org/csdl/journal/td/write-for-us/15085
+  deadline: ["2023-12-31 23:59"]
+  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tpds-cs" target="blank">Submission Portal</a>.
+  tags: [PRACT, APPLIED, COREAS, JRN]
+  rank: A*
+  
+  
+  
+- name: (Journal) ACM TOPS
+  description: ACM Transactions on Privacy and Security
+  year: 2023
+  link: https://dl.acm.org/journal/tops/author-guidelines
+  deadline: ["2023-12-31 23:59"]
+  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tops" target="blank">Submission Portal</a>.
+  tags: [PRACT, APPLIED, COREA, JRN]
+  rank: A
+  
+- name: (Journal) JPDC
+  description: Journal of Parallel and Distributed Computing
+  year: 2023
+  link: https://www.elsevier.com/journals/journal-of-parallel-and-distributed-computing/0743-7315/guide-for-authors
+  deadline: ["2023-12-31 23:59"]
+  comment: No deadline. <a href="https://www.editorialmanager.com/jpdc/" target="blank">Submission Portal</a>.
+  tags: [THEORY, PRACT, COREA, JRN]
+  rank: A
+  
+- name: (Journal) IEEE TDSC
+  description: IEEE Transactions on Dependable and Secure Computing
+  year: 2023
+  link: https://www.computer.org/csdl/journal/tq/write-for-us/15068
+  deadline: ["2023-12-31 23:59"]
+  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tdsc-cs" target="blank">Submission Portal</a>.
+  tags: [PRACT, APPLIED, COREA, JRN]
+  rank: A
+
+- name: (Journal) IEEE TIFS
+  description: IEEE Transactions on Computers
+  year: 2023
+  link: https://signalprocessingsociety.org/publications-resources/information-authors
+  deadline: ["2023-12-31 23:59"]
+  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tifs-ieee" target="blank">Submission Portal</a>.
+  tags: [PRACT, APPLIED, COREA, JRN]
+  rank: A
+  
+
+  
