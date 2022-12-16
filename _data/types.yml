@@ -11,5 +11,7 @@
   tag: CRS
 - name: Machine Learning
   tag: PPML
+- name: Journals
+  tag: JRN
 - name: Others
   tag: MISC

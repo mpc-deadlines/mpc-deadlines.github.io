@@ -194,14 +194,14 @@
 
 - name: ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
-  year: 2023
-  link: https://asiaccs2023.org
+  year: 2024
+  link: https://asiaccs2024.sutd.edu.sg
   deadline:
-    - "2022-09-01 23:59"
-    - "2022-12-15 23:59"
-  comment: Early Reject - Oct 02, Jan 30, Notifications - Nov 23, Mar 22
-  date: "June 10 - 14"
-  place: Melbourne, Australia
+    - "2023-08-24 23:59"
+    - "2023-12-07 23:59"
+  comment: Early Reject - Sep 26, Jan 23, Notifications - Nov 14, Mar 12
+  date: "June 01 - 05"
+  place: Singapore
   tags: [PRACT, COREA]
   rank: A
 
@@ -720,15 +720,15 @@
   tags: [THEORY, PRACT, WK]
   comment: co-located with CCS + proceedings. Notification - Aug 18
   
-- name: (Workshop) DLS
-  description: Deep Learning and Security Workshop
-  year: 2022
-  link: https://dls2022.ieee-security.org
-  deadline: ["2022-02-08 23:59"]
-  date: May 26
-  place: San Fransisco, CA (Hybrid)
+- name: (Workshop) DLSP
+  description: Deep Learning Security and Privacy Workshop
+  year: 2023
+  link: https://sp2023.ieee-security.org/workshops.html#DLSP
+  deadline: ["2023-02-01 23:59"]
+  date: May 25
+  place: San Fransisco, CA
   tags: [PRACT, WK]
-  comment: co-located with IEEE S&P + proceedings
+  comment: co-located with IEEE S&P + proceedings. Notification - Mar 17.
   
 - name: (Workshop) FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
@@ -832,6 +832,16 @@
   place: Austin, Texas, USA
   tags: [PRACT, APPLIED, WK]
   comment: Notification - Nov 14. In conjunction with ACSAC22 + proceedings.
+  
+- name: (Workshop) WOOT
+  description: IEEE Workshop on Offensive Technologies
+  year: 2023
+  link: https://wootconference.org
+  deadline: ["2023-01-27 23:59"]
+  date: May 25
+  place: San Fransisco, CA
+  tags: [PRACT, WK]
+  comment: co-located with IEEE S&P + proceedings. Notification - Mar 17.
   
 - name: (Workshop) WPES
   description: Workshop on Privacy in the Electronic Society
@@ -1232,7 +1242,7 @@
   comment: Notification - Feb 24 + Proceedings
   date: "April 30 - May 04"
   place: Austin, Texas, USA
-  tags: [PRACT, APPLIED, COREAS]
+  tags: [PRACT, APPLIED, COREAS, MISC]
   rank: A*
   
 - name: (Misc) CSCML
@@ -1243,8 +1253,20 @@
   comment: The PhD and Masters Track. No formal proceedings.
   date: June 29-30
   place: Virtual
-  tags: [THEORY, PRACT, COREO]
+  tags: [THEORY, PRACT, COREO, MISC]
   rank: Unranked
+  
+- name: (Misc) Disrupt 23
+  description: Disruptive Ideas and New Interdisciplinary Results
+  year: 2023
+  link: https://dsn2023.dei.uc.pt/calls_cfp-disrupt.html
+  deadline: ["2023-02-07 23:59"]
+  abdeadline: January 31, 2023
+  comment: Published in the supplementary volume of DSN proceedings. Notification - April 14.
+  date: June 27-30
+  place: Porto, Portugal
+  tags: [PRACT, APPLIED, MISC]
+  rank: A
   
 - name: (Misc) Google Research Week
   description: Research Week with Google India
@@ -1265,5 +1287,5 @@
   comment: Notification - May 31
   date: July 10-12
   place: Rome, Italy
-  tags: [THEORY, COREB]
+  tags: [THEORY, COREB, MISC]
   rank: B
