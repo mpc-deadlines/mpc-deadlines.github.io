@@ -792,6 +792,16 @@
   place: Melbourne, Australia
   tags: [PRACT, WK]
   
+- name: (Workshop) SecWeb
+  description: Designing Security for the Web
+  year: 2023
+  link: https://secweb.work/2023.html
+  deadline: ["2023-02-01 23:59"]
+  date: May 25
+  place: San Fransisco, CA
+  tags: [PRACT, WK]
+  comment: co-located with IEEE S&P + proceedings. Notification - Mar 17.
+  
 - name: (Workshop) S&P-FL
   description: Workshop on Security and Privacy of Federated Learning
   year: 2023
