@@ -1153,12 +1153,13 @@
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
   link: https://kdd.org/kdd2023/
-  deadline: ["2023-02-10 23:59"]
-  date: August 18-18
-  place: Washington DC, USA
+  deadline: ["2023-02-02 23:59"]
+  rebut: April 06-27
+  date: August 06-10
+  place: Long Beach, CA
   tags: [PRACT, COREAS, PPML]
   rank: A*
-  comment: Research Track on Data Privacy
+  comment: Research Track on Data Privacy. Notification - May 18.
   
 - name: ICML
   description: International Conference on Machine Learning
