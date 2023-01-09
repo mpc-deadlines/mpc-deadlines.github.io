@@ -3,13 +3,13 @@
 - name: ACM CCS
   description: ACM Conference on Computer and Communications Security
   year: 2023
-  link: https://cispa.saarland/group/cremers/events/CCS2023/
+  link: https://www.sigsac.org/ccs/CCS2023/
   deadline:
     - "2023-01-19 23:59"
     - "2023-05-04 23:59"
   rebut: Feb 24 - Mar 09, Jun 30 - Jul 12
   comment: 2 deadlines. Notifications - March 16, August 30
-  date: "November 13-17"
+  date: "November 26-30"
   place: Copenhagen, Denmark
   tags: [PRACT, COREAS]
   rank: A*
@@ -88,16 +88,16 @@
   rank: A*
 
 - name: IEEE S&P (Oakland)
-  year: 2023
-  date: "May 22–26"
+  year: 2024
+  date: "May 19–23"
   description: IEEE Symposium on Security and Privacy
-  link: https://www.ieee-security.org/TC/SP2023/
+  link: https://www.ieee-security.org/TC/SP2024/
   rebut: Jun 07 - 21, Oct 24 - Nov 07, Feb 21 - Mar 07
   comment: 3 deadlines. Notification - Jun 24, Nov 09, Mar 10.
   deadline:
-    - "2022-04-01 23:59"
-    - "2022-08-19 23:59"
-    - "2022-12-02 23:59"
+    - "2023-04-01 23:59"
+    - "2023-08-19 23:59"
+    - "2023-12-02 23:59"
   place: San Francisco, California, USA
   tags: [PRACT, COREAS]
   rank: A*
@@ -207,13 +207,28 @@
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
-  year: 2022
-  link: https://asiacrypt.iacr.org/2022/
-  deadline: ["2022-05-27 11:59"]
-  timezone: Etc/UTC
+  year: 2023
+  link: https://asiacrypt.iacr.org/2023/
+  deadline: ["2023-05-27 11:59"]
   date: December 05-09
-  place: Taipei, Taiwan
+  place: TBA
   tags: [THEORY, COREA]
+  rank: A
+  
+- name: CHES
+  description: Cryptographic Hardware and Embedded Systems
+  year: 2023
+  link: https://ches.iacr.org/2023/
+  deadline:
+    - "2022-07-15 23:59"
+    - "2022-10-15 23:59"
+    - "2023-01-15 23:59"
+    - "2023-04-15 23:59"
+  rebut: Aug 23-27, Nov 22-26, Feb 21-25, May 23-27
+  comment: Rolling deadline every quarter. (invites MPC topics)
+  date: September 12-15
+  place: Prague, Czech Republic
+  tags: [PRACT, APPLIED, COREA]
   rank: A
   
 - name: DISC
@@ -332,28 +347,12 @@
 
 - name: TCC
   description: Theory of Cryptography Conference
-  year: 2022
-  link: https://tcc.iacr.org/2022/
-  deadline: ["2022-05-24 11:59"]
-  date: "November 07-10"
-  place: Chicago, USA
-  tags: [THEORY, COREA]
-  rank: A
-
-- name: TCHES
-  description: Cryptographic Hardware and Embedded Systems
   year: 2023
-  link: https://ches.iacr.org/2023/
-  deadline:
-    - "2022-07-15 23:59"
-    - "2022-10-15 23:59"
-    - "2023-01-15 23:59"
-    - "2023-04-15 23:59"
-  rebut: Aug 23-27, Nov 22-26, Feb 21-25, May 23-27
-  comment: Rolling deadline every quarter. (invites MPC topics)
-  date: September 12-15
-  place: Prague, Czech Republic
-  tags: [PRACT, APPLIED, COREA]
+  link: https://tcc.iacr.org/2023/
+  deadline: ["2023-05-24 11:59"]
+  date: "November 07-10"
+  place: TBA
+  tags: [THEORY, COREA]
   rank: A
   
 - name: ACSAC
@@ -411,8 +410,8 @@
 - name: ACISP
   description: Australasian Conference on Information Security and Privacy
   year: 2023
-  link: https://www.qut.edu.au/about/faculty-of-science/school-of-computer-science/acisp
-  deadline: ["2022-02-07 23:59"]
+  link: https://www.qut.edu.au/acisp-2023
+  deadline: ["2023-02-07 23:59"]
   comment: Notification - Apr 15
   date: July 05-07
   place: Brisbane, Australia
@@ -442,6 +441,18 @@
   place: Abu Dhabi, UAE
   tags: [PRACT, COREB]
   rank: B
+  
+- name: ICDCN
+  description: International Conference on Distributed Computing and Networking
+  year: 2024
+  link: https://cse.iitkgp.ac.in/conf/ICDCN23/
+  deadline: ["2023-07-08 23:59"]
+  abdeadline: July 08
+  comment: Notification - Sep 18
+  date: January 04-07
+  place: IIT Madras, Chennai, India
+  tags: [THEORY, PRACT, COREB]
+  rank: B (National India)
   
 - name: ICICS
   description: International Conference on Information and Communications Security
@@ -550,7 +561,7 @@
   description: Symposium on Usable Privacy and Security
   year: 2023
   link: https://www.usenix.org/conference/soups2023/call-for-papers
-  deadline: ["2022-02-16 23:59"]
+  deadline: ["2023-02-16 23:59"]
   abdeadline: February 10
   rebut: April 20-27 
   date: "August 06 - 08"
@@ -762,6 +773,16 @@
   place: Los Angeles, USA
   tags: [THEORY, PRACT, WK]
   comment: co-located with CCS + proceedings. Notification - Aug 18
+  
+- name: (Workshop) CPSS
+  description: ACM Cyber-Physical System Security Workshop
+  year: 2023
+  link: https://www.nics.uma.es/CPSS2023/
+  deadline: ["2023-01-30 23:59"]
+  comment: co-located with AsiaCCS. Published in the proceedings. Notification - March 15
+  date: "July 10"
+  place: Melbourne, Australia
+  tags: [PRACT, WK]
   
 - name: (Workshop) DLSP
   description: Deep Learning Security and Privacy Workshop
@@ -1096,12 +1117,11 @@
   
 - name: (School) Real-World Crypto and Privacy
   description: Summer School on real-world crypto and privacy
-  year: 2022
-  link: https://summerschool-croatia.cs.ru.nl/2022/
-  deadline: ["2022-06-12 23:59"]
-  timezone: Etc/UTC
-  date: June 13-17
-  place: Sibenik, Croatia
+  year: 2023
+  link: https://summerschool-croatia.cs.ru.nl/2023/
+  deadline: ["2023-05-01 23:59"]
+  date: June 05-09
+  place: Vodice, Croatia
   tags: [CRS]
   
 - name: (School) Cryptography
@@ -1154,13 +1174,13 @@
   
 - name: ACML
   description: Asian Conference on Machine Learning
-  year: 2022
-  link: https://www.acml-conf.org/2022/
+  year: 2023
+  link: https://www.acml-conf.org/2023/
   deadline:
-    - "2022-05-26 23:59"
-    - "2022-06-23 23:59"
-  date: December 01 (TBA)
-  place: Hyderabad, India (Hybrid)
+    - "2023-05-26 23:59"
+    - "2023-06-23 23:59"
+  date: TBA
+  place: TBA
   tags: [PRACT, COREO, PPML]
   comment: Journal and Conference tracks. Notification - Sep 08.
   rank: Unranked
@@ -1238,12 +1258,11 @@
 
 - name: NeurIPS
   description: Conference on Neural Information Processing Systems
-  year: 2022
-  link: https://neurips.cc/Conferences/2022/CallForPapers
-  deadline: ["2022-05-19 12:59"]
-  timezone: Etc/GMT+7
-  abdeadline: May 16, 2022
-  date: November 28 - December 09
+  year: 2023
+  link: https://neurips.cc/
+  deadline: ["2023-05-19 12:59"]
+  abdeadline: May 16
+  date: December 10 - 16
   place: New Orleans, USA (Hybrid)
   tags: [PRACT, COREAS, PPML]
   rank: A*
