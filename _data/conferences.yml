@@ -93,7 +93,7 @@
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2024/
   rebut: Jun 07 - 21, Oct 24 - Nov 07, Feb 21 - Mar 07
-  comment: 3 deadlines. Notification - Jun 24, Nov 09, Mar 10.
+  comment: Early Reject -  May 09, Sep 26, Jan 23. Notification - Jun 24, Nov 09, Mar 10.
   deadline:
     - "2023-04-01 23:59"
     - "2023-08-19 23:59"
@@ -464,6 +464,17 @@
   place: IIT Madras, Chennai, India
   tags: [THEORY, PRACT, COREB]
   rank: B (National India)
+  
+- name: ICICS
+  description: International Conference on Information and Communications Security
+  year: 2023
+  link: https://icics23.nankai.edu.cn/call_for_papers.php
+  deadline: ["2023-03-30 23:59"]
+  date: November 18-20
+  place: Nankai University, Tiajin, China
+  comment: Notification - June 30
+  tags: [PRACT, COREB]
+  rank: B
   
 - name: ICICS
   description: International Conference on Information and Communications Security
@@ -898,6 +909,16 @@
   place: Kyoto, Japan
   tags: [PRACT, WK]
   
+- name: (Workshop) SiMLA
+  description: Security in Machine Learning and its Applications
+  year: 2023
+  link: https://simla-workshop.github.io/Simla2023/
+  deadline: ["2023-03-09 23:59"]
+  comment: co-located with ACNS. Published in the proceedings. Notification - April 19
+  date: June 19-22
+  place: Kyoto, Japan
+  tags: [PRACT, WK]
+  
 - name: (Workshop) TrustML-(un)Limited
   description: Pitfalls of limited data anad computation of Trustworthy ML
   year: 2023
@@ -1147,14 +1168,14 @@
   
 - name: (School) TPMPC
   description: Theory and Practice of Multi-Party Computation Workshop 
-  year: 2022
-  link: https://www.multipartycomputation.com/tpmpc-2022
-  deadline: ["2022-06-06 23:59"]
+  year: 2023
+  link: https://www.multipartycomputation.com/tpmpc-2023
+  deadline: ["2023-06-08 23:59"]
   timezone: Etc/UTC
-  date: June 07-10
+  date: June 09
   place: Aarhus, Denmark
   tags: [CRS]
-  comment: Contibuted Talks Deadline - March 26
+  comment: Contibuted Talks Deadline - March 26. One day Workshop.
   
 - name: (School) Privacy-Preserving Machine Learning
   description: Summer School on Privacy-Preserving Machine Learning
