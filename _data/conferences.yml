@@ -979,7 +979,7 @@
   comment: Included in proceedings. Notifications - Sep 06
   date: "November 07-11"
   place: Los Angeles, USA
-  tags: [PRACT, WK]
+  tags: [WK]
   rank: A*
 
 - name: (Poster) ACNS
@@ -990,7 +990,7 @@
   comment: Published in the proceedings. Notification - Apr 30
   date: June 19-22
   place: Kyoto, Japan
-  tags: [THEORY, PRACT, WK]
+  tags: [WK]
   rank: B
 
 - name: (Poster) ACSAC
@@ -1001,7 +1001,7 @@
   comment: Another track for Works in Progress as well.
   date: Dec 05-09
   place: Austin, Texas, USA
-  tags: [PRACT, APPLIED, WK]
+  tags: [WK]
   rank: A
 
 - name: (Poster) ACM ASIACCS
@@ -1012,7 +1012,7 @@
   comment: Published in the proceedings
   date: "June 10 - 14"
   place: Melbourne, Australia
-  tags: [PRACT, COREA]
+  tags: [WK]
   rank: A
   
 - name: (Poster) AfricaCrypt
@@ -1023,7 +1023,7 @@
   comment: Notification - June 08
   date: July 19-21
   place: Sousse, Tunisia
-  tags: [THEORY, PRACT, COREO]
+  tags: [WK]
   rank: Unranked
   
 - name: (Poster) CANS
@@ -1034,7 +1034,7 @@
   comment: Rolling Deadline from Aug 15. Notification within two weeks of submission. No proceedings.
   date: November 13-16
   place: Abu Dhabi, UAE
-  tags: [PRACT, WK]
+  tags: [WK]
   rank: B
   
 - name: (Poster) ESORICS
@@ -1045,7 +1045,7 @@
   comment: Notification - Aug 03.
   date: September 25-29
   place: The Hague, The Netherlands
-  tags: [PRACT, COREA]
+  tags: [WK]
   rank: A
   
 - name: (Poster) FC
@@ -1056,7 +1056,7 @@
   date: May 01-05
   comment: Notification - February 08
   place: Bol, Brač, Croatia
-  tags: [PRACT, COREA]
+  tags: [WK]
   rank: A
   
   
@@ -1068,7 +1068,7 @@
   date: "July 03-07"
   place: Delft, Netherlands
   comment: No proceedings
-  tags: [PRACT, WK]
+  tags: [WK]
   rank: A (NEW)
 
 - name: (Poster) IEEE S&P
@@ -1079,7 +1079,7 @@
   deadline: ["2023-04-11 23:59"]
   date: "May 22 - 25"
   place: San Francisco, California, USA
-  tags: [PRACT, WK]
+  tags: [WK]
 
 - name: (Poster) NDSS
   description: ISOC Network and Distributed System Security Symposium
@@ -1089,7 +1089,7 @@
   deadline: ["2023-01-20 23:59"]
   date: "February 27 - March 3"
   place: San Diego, CA, USA
-  tags: [PRACT, WK]
+  tags: [WK]
   
 - name: (Poster) SOUPS
   description: Symposium on Usable Privacy and Security
@@ -1100,7 +1100,7 @@
   date: "August 06 - 08"
   place: Anaheim, CA, USA
   comment: No proceedings
-  tags: [PRACT, WK]
+  tags: [WK]
   rank: B
   
 - name: (Poster) USENIX Security
@@ -1111,7 +1111,7 @@
   comment: Notification - Jul 13. No proceedings
   date: "August 09-11"
   place: ANAHEIM, CA, USA.
-  tags: [PRACT, COREAS]
+  tags: [WK]
   rank: A*
   
 - name: (Poster) The Web Conference
@@ -1122,7 +1122,7 @@
   comment: Notification - March 03 + Proceedings
   date: "April 30 - May 04"
   place: Austin, Texas, USA
-  tags: [PRACT, APPLIED, COREAS]
+  tags: [WK]
   rank: A*
 
 # CryptoSchools
