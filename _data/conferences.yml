@@ -907,7 +907,7 @@
   comment: co-located with ACNS. Published in the proceedings. Notification - April 19
   date: June 19-22
   place: Kyoto, Japan
-  tags: [PRACT, WK]
+  tags: [WK]
   
 - name: (Workshop) SiMLA
   description: Security in Machine Learning and its Applications
@@ -1200,7 +1200,7 @@
   rebut: October 20 - 23
   date: February 07 - 14
   place: Washington, DC, USA
-  tags: [PRACT, COREAS, PPML]
+  tags: [COREAS, PPML]
   comment: Notification - November 18.
   rank: A*
   
@@ -1213,7 +1213,7 @@
     - "2023-06-23 23:59"
   date: TBA
   place: TBA
-  tags: [PRACT, COREO, PPML]
+  tags: [COREO, PPML]
   comment: Journal and Conference tracks. Notification - Sep 08.
   rank: Unranked
   
@@ -1225,7 +1225,7 @@
   abdeadline: April 07, 2023
   date: October 01-06
   place: Kraków, Poland
-  tags: [PRACT, COREA, PPML]
+  tags: [COREA, PPML]
   rank: A
   comment: Notification - TBA.
   
@@ -1237,7 +1237,7 @@
   abdeadline: March 30, 2023
   date: September 19-22
   place: Turin, Italy
-  tags: [PRACT, COREA, PPML]
+  tags: [COREA, PPML]
   rank: A
   comment: Applied Data Science and Journal Track. Notification - June 14
   
@@ -1250,7 +1250,7 @@
   rebut: Mar 16 - 18
   date: August 19-25
   place: Cape Town, South Africa
-  tags: [PRACT, COREAS, PPML]
+  tags: [COREAS, PPML]
   rank: A*
   comment: Notification - April 20, 2023
   
@@ -1262,7 +1262,7 @@
   rebut: April 06-27
   date: August 06-10
   place: Long Beach, CA
-  tags: [PRACT, COREAS, PPML]
+  tags: [COREAS, PPML]
   rank: A*
   comment: Research Track on Data Privacy. Notification - May 18.
   
@@ -1274,7 +1274,7 @@
   timezone: UTC
   date: July 23-29
   place: Honolulu, Hawaii
-  tags: [PRACT, COREAS, PPML]
+  tags: [COREAS, PPML]
   rank: A*
   
 - name: IEEE SaTML
@@ -1286,7 +1286,7 @@
   comment: Notification - Nov 15. Research papers, SoKs, and position papers.
   date: February 08-10
   place: TBD
-  tags: [PRACT, PPML]
+  tags: [PPML]
 
 - name: NeurIPS
   description: Conference on Neural Information Processing Systems
@@ -1296,7 +1296,7 @@
   abdeadline: May 16
   date: December 10 - 16
   place: New Orleans, USA (Hybrid)
-  tags: [PRACT, COREAS, PPML]
+  tags: [COREAS, PPML]
   rank: A*
   
 - name: PAKDD
@@ -1319,7 +1319,7 @@
   abdeadline: May 12
   date: Oct 17-21
   place: Birmingham, UK
-  tags: [PRACT, COREA, PPML]
+  tags: [COREA, PPML]
   rank: A
   comment: Notification - Aug 01. 
   
@@ -1331,7 +1331,7 @@
   rebut: Jan 16-20
   date: June 04-08
   place: Southern Florida
-  tags: [PRACT, COREO, PPML]
+  tags: [COREO, PPML]
   rank: Unranked
   comment: Notification - Feb 17. 
   
@@ -1346,7 +1346,7 @@
   comment: Notification - Jan 07.
   date: "February 09-10"
   place: Bhopal, India
-  tags: [THEORY, PRACT, MISC]
+  tags: [MISC]
 
 - name: (Misc) Cybersecurity Artifacts Competition and Impact Award
   description: ACSAC
@@ -1367,7 +1367,7 @@
   comment: Notification - Feb 24 + Proceedings
   date: "April 30 - May 04"
   place: Austin, Texas, USA
-  tags: [PRACT, APPLIED, COREAS, MISC]
+  tags: [MISC]
   rank: A*
   
 - name: (Misc) CSCML
@@ -1378,7 +1378,7 @@
   comment: The PhD and Masters Track. No formal proceedings.
   date: June 29-30
   place: Virtual
-  tags: [THEORY, PRACT, COREO, MISC]
+  tags: [MISC]
   rank: Unranked
   
 - name: (Misc) Disrupt 23
@@ -1390,7 +1390,7 @@
   comment: Published in the supplementary volume of DSN proceedings. Notification - April 14.
   date: June 27-30
   place: Porto, Portugal
-  tags: [PRACT, APPLIED, MISC]
+  tags: [MISC]
   rank: A
   
 - name: (Misc) Google Research Week
@@ -1412,7 +1412,7 @@
   comment: Notification - May 31
   date: July 10-12
   place: Rome, Italy
-  tags: [THEORY, COREB, MISC]
+  tags: [MISC]
   rank: B
   
 # Journals
