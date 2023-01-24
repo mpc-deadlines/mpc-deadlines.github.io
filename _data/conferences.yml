@@ -810,11 +810,11 @@
   description: Deep Learning Security and Privacy Workshop
   year: 2023
   link: https://sp2023.ieee-security.org/workshops.html#DLSP
-  deadline: ["2023-02-01 23:59"]
+  deadline: ["2023-02-02 23:59"]
   date: May 25
   place: San Fransisco, CA
   tags: [WK]
-  comment: co-located with IEEE S&P + proceedings. Notification - Mar 17.
+  comment: co-located with IEEE S&P + proceedings. Notification - Mar 01.
   
 - name: (Workshop) FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
@@ -953,11 +953,11 @@
   description: IEEE Workshop on Offensive Technologies
   year: 2023
   link: https://wootconference.org
-  deadline: ["2023-01-27 23:59"]
+  deadline: ["2023-02-10 23:59"]
   date: May 25
   place: San Fransisco, CA
   tags: [WK]
-  comment: co-located with IEEE S&P + proceedings. Notification - Mar 17.
+  comment: co-located with IEEE S&P + proceedings. Notification - Mar 07.
   
 - name: (Workshop) WPES
   description: Workshop on Privacy in the Electronic Society
@@ -1292,11 +1292,13 @@
   description: Conference on Neural Information Processing Systems
   year: 2023
   link: https://neurips.cc/
-  deadline: ["2023-05-19 12:59"]
-  abdeadline: May 16
-  date: December 10 - 16
+  deadline: ["2023-05-17 07:59"]
+  abdeadline: May 11, 08:00 PM UTC
+  timezone: UTC
+  date: November 28 - December 09
   place: New Orleans, USA (Hybrid)
   tags: [COREAS, PPML]
+  comment: Notification - September 22.
   rank: A*
   
 - name: PAKDD
