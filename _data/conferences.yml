@@ -810,11 +810,11 @@
   description: Deep Learning Security and Privacy Workshop
   year: 2023
   link: https://sp2023.ieee-security.org/workshops.html#DLSP
-  deadline: ["2023-02-02 23:59"]
+  deadline: ["2023-02-09 23:59"]
   date: May 25
   place: San Fransisco, CA
   tags: [WK]
-  comment: co-located with IEEE S&P + proceedings. Notification - Mar 01.
+  comment: co-located with IEEE S&P + proceedings. Notification - Mar 08.
   
 - name: (Workshop) FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
@@ -893,11 +893,11 @@
   description: Designing Security for the Web
   year: 2023
   link: https://secweb.work/2023.html
-  deadline: ["2023-02-01 23:59"]
+  deadline: ["2023-02-24 23:59"]
   date: May 25
   place: San Fransisco, CA
   tags: [WK]
-  comment: co-located with IEEE S&P + proceedings. Notification - Mar 17.
+  comment: co-located with IEEE S&P + proceedings. Notification - Mar 23.
   
 - name: (Workshop) S&P-FL
   description: Workshop on Security and Privacy of Federated Learning
@@ -1170,12 +1170,12 @@
   description: Theory and Practice of Multi-Party Computation Workshop 
   year: 2023
   link: https://www.multipartycomputation.com/tpmpc-2023
-  deadline: ["2023-06-08 23:59"]
+  deadline: ["2023-02-28 23:59"]
   timezone: Etc/UTC
   date: June 09
   place: Aarhus, Denmark
   tags: [CRS]
-  comment: Contibuted Talks Deadline - March 26. One day Workshop.
+  comment: One day Workshop. Notification - March 31.
   
 - name: (School) Privacy-Preserving Machine Learning
   description: Summer School on Privacy-Preserving Machine Learning
