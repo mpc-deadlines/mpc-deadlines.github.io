@@ -267,6 +267,18 @@
   tags: [PRACT, COREA]
   rank: A
   
+- name: IEEE/ACM CCGRID
+  description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
+  year: 2023
+  link: https://ccgrid2023.iisc.ac.in/
+  deadline: ["2022-12-12 23:59"]
+  abdeadline: Dec 12, 2022
+  date: May 01-04
+  comment: Notification - Jan 27.
+  place: Bangalore, India
+  tags: [THEORY, PRACT, COREA]
+  rank: A
+  
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
   year: 2023
@@ -1057,6 +1069,18 @@
   comment: Notification - February 08
   place: Bol, Brač, Croatia
   tags: [WK]
+  rank: A
+  
+- name: (Poster) IEEE/ACM CCGRID
+  description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
+  year: 2023
+  link: https://ccgrid2023.iisc.ac.in/
+  deadline: ["2023-02-07 23:59"]
+  abdeadline: Jan 24, 2023 (optional)
+  date: May 01-04
+  comment: Notification - Feb 17 + Proceedings.
+  place: Bangalore, India
+  tags: [THEORY, PRACT, COREA]
   rank: A
   
   
