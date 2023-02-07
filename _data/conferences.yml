@@ -647,7 +647,7 @@
   description: International Symposium on Cyber Security Cryptography and Machine Learning
   year: 2023
   link: https://www.cscml.org
-  deadline: ["2023-02-07 23:59"]
+  deadline: ["2023-02-11 23:59"]
   comment: Extended and revised versions of selected papers in a special issue of the Journal of Computer and System Sciences.
   date: June 29-30
   place: Virtual
@@ -821,7 +821,7 @@
 - name: (Workshop) DLSP
   description: Deep Learning Security and Privacy Workshop
   year: 2023
-  link: https://sp2023.ieee-security.org/workshops.html#DLSP
+  link: https://dls2023.ieee-security.org
   deadline: ["2023-02-09 23:59"]
   date: May 25
   place: San Fransisco, CA
