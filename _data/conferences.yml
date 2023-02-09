@@ -130,16 +130,16 @@
 
 - name: USENIX Security
   description: Usenix Security Symposium
-  year: 2023
-  link: https://www.usenix.org/conference/usenixsecurity23/call-for-papers
+  year: 2024
+  link: https://www.usenix.org/conference/usenixsecurity24
   deadline:
-    - "2022-06-07 23:59"
-    - "2022-10-11 23:59"
-    - "2023-02-07 23:59"
-  rebut: Aug 22-24, Jan 17-19, Apr 24-26
-  comment: Notification - Sep 02, Jan 27, May 08
-  date: "August 09-11"
-  place: ANAHEIM, CA, USA.
+    - "2023-06-06 23:59"
+    - "2023-10-17 23:59"
+    - "2024-02-08 23:59"
+  rebut: Aug 21-23, Jan 22-24, Apr 24-26
+  comment: Early Reject - Jul 13, Nov 27, Mar 18. Notification - Sep 01, Feb 01, May 08
+  date: "August 14-16"
+  place: Philadelphia, PA, USA.
   tags: [PRACT, COREAS]
   rank: A*
   
