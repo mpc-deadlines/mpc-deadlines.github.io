@@ -433,14 +433,14 @@
 
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
-  year: 2023
-  link: https://sulab-sever.u-aizu.ac.jp/ACNS2023/
+  year: 2024
+  link: http://jianying.space/acns/
   deadline: 
-    - "2022-09-08 23:59"
-    - "2023-01-12 23:59"
-  comment: Notification - Nov 10, Mar 16
-  date: June 19-22
-  place: Kyoto, Japan
+    - "2023-08-08 23:59"
+    - "2023-02-12 23:59"
+  comment: Notification - TBA
+  date: March 05-08
+  place: Abu Dhabi, UAE
   tags: [THEORY, PRACT, APPLIED, COREB]
   rank: B
   
