@@ -90,15 +90,15 @@
 
 - name: IEEE S&P (Oakland)
   year: 2024
-  date: "May 19–23"
+  date: "May 20–23"
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2024/
-  rebut: Jun 07 - 21, Oct 24 - Nov 07, Feb 21 - Mar 07
-  comment: Early Reject -  May 09, Sep 26, Jan 23. Notification - Jun 24, Nov 09, Mar 10.
+  rebut: Jun 19-30, Oct 09-20, Feb 19-Mar 01
+  comment: Early Reject -  May 22, Sep 11, Jan 22. Notification - Jul 10, Oct 27, Mar 08.
   deadline:
-    - "2023-04-01 23:59"
-    - "2023-08-19 23:59"
-    - "2023-12-02 23:59"
+    - "2023-04-13 23:59"
+    - "2023-08-03 23:59"
+    - "2023-12-06 23:59"
   place: San Francisco, California, USA
   tags: [PRACT, COREAS]
   rank: A*
@@ -437,7 +437,7 @@
   link: http://jianying.space/acns/
   deadline: 
     - "2023-08-08 23:59"
-    - "2023-02-12 23:59"
+    - "2024-02-12 23:59"
   comment: Notification - TBA
   date: March 05-08
   place: Abu Dhabi, UAE
@@ -936,7 +936,7 @@
   description: Pitfalls of limited data anad computation of Trustworthy ML
   year: 2023
   link: https://sites.google.com/view/trustml-unlimited/home
-  deadline: ["2023-02-15 23:59"]
+  deadline: ["2023-02-15 11:59"]
   date: May 04-05
   place: Kigali, Rwanda
   tags: [WK]
