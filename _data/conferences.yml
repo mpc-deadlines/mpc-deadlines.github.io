@@ -363,8 +363,8 @@
   year: 2023
   link: https://tcc.iacr.org/2023/
   deadline: ["2023-05-24 11:59"]
-  date: "November 07-10"
-  place: TBA
+  date: "November 29 - December 02"
+  place: Taipei, Taiwan
   tags: [THEORY, COREA]
   rank: A
   
@@ -448,7 +448,7 @@
   description: International Conference on Availability, Reliability and Security
   year: 2023
   link: https://www.ares-conference.eu
-  deadline: ["2023-03-09 23:59"]
+  deadline: ["2023-03-16 23:59"]
   comment: Notification - May 23
   date: August 29 - September 01
   place: Benevento, Italy
@@ -625,8 +625,8 @@
   description: International Conference on Cryptology
   year: 2023
   link: https://africacrypt2023.tn
-  deadline: ["2023-02-26 23:59"]
-  comment: Notification - Apr 23
+  deadline: ["2023-03-05 23:59"]
+  comment: Notification - Apr 30
   date: July 19-21
   place: Sousse, Tunisia
   tags: [THEORY, PRACT, COREO]
@@ -1203,6 +1203,17 @@
   tags: [CRS]
   comment: One day Workshop. Notification - March 31.
   
+- name: (School) TPMPC
+  description: Theory and Practice of Multi-Party Computation Workshop 
+  year: 2024
+  link: https://www.multipartycomputation.com/tpmpc-2024
+  deadline: ["2024-02-28 23:59"]
+  timezone: Etc/UTC
+  date: June 03-06
+  place: Darmstadt, Germany
+  tags: [CRS]
+  comment: Notification - March 31.
+  
 - name: (School) Privacy-Preserving Machine Learning
   description: Summer School on Privacy-Preserving Machine Learning
   year: 2022
@@ -1329,18 +1340,6 @@
   comment: Notification - September 22.
   rank: A*
   
-- name: PAKDD
-  description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
-  year: 2023
-  link: http://pakdd2023.org
-  deadline: ["2022-11-24 23:59"]
-  timezone: PST
-  date: May 25-28
-  place: Osaka, Japan (Hybrid)
-  tags: [PRACT, COREA, PPML]
-  rank: A
-  comment: Notification - Jan 24
-  
 - name: CIKM
   description: Conference on Information and Knowledge Management
   year: 2023
@@ -1364,6 +1363,30 @@
   tags: [COREO, PPML]
   rank: Unranked
   comment: Notification - Feb 17. 
+
+- name: PAKDD
+  description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
+  year: 2023
+  link: http://pakdd2023.org
+  deadline: ["2022-11-24 23:59"]
+  timezone: PST
+  date: May 25-28
+  place: Osaka, Japan (Hybrid)
+  tags: [PRACT, COREA, PPML]
+  rank: A
+  comment: Notification - Jan 24
+  
+- name: UAI
+  description: Conference on Uncertainity in Artificial Intelligence
+  year: 2023
+  link: https://www.auai.org/uai2023/
+  deadline: ["2023-02-17 23:59"]
+  rebut: April 11-20
+  date: July 31 - August 04
+  place: Pittsburgh, Pennsylvania, USA (Hybrid)
+  tags: [PRACT, COREA, PPML]
+  rank: A
+  comment: Notification - May 08.
   
 
 # Others
