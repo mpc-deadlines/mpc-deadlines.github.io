@@ -1270,13 +1270,13 @@
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
   year: 2023
   link: https://2023.ecmlpkdd.org
-  deadline: ["2023-04-06 23:59"]
-  abdeadline: March 30, 2023
+  deadline: ["2023-04-02 23:59"]
+  abdeadline: March 26, 2023
   date: September 19-22
   place: Turin, Italy
   tags: [COREA, PPML]
   rank: A
-  comment: Applied Data Science and Journal Track. Notification - June 14
+  comment: Applied Data Science and Journal Track. Notification - June 05.
   
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
