@@ -236,8 +236,9 @@
   description: International Symposium on Distributed Computing
   year: 2023
   link: http://www.disc-conference.org/wp/disc2023/
-  deadline: ["2023-05-13 11:59"]
-  rebut: Jun 29 - Jul 04
+  deadline: ["2023-05-10 11:59"]
+  abdeadline: May 03
+  rebut: June 26-30
   date: October 09-13
   place: LAquila, Italy
   tags: [THEORY, PRACT, COREA]
