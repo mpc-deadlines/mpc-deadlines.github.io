@@ -107,10 +107,10 @@
   description: Network and Distributed System Security Symposium
   year: 2024
   link: https://www.ndss-symposium.org/ndss2024-call-for-papers/
-  comment: Notifications on Jul 22 and Oct 21
+  comment: Notification - Jul 22 and Oct 21
   deadline:
-    - "2023-05-13 23:59"
-    - "2023-07-29 23:59"
+    - "2023-04-19 23:59"
+    - "2023-06-18 23:59"
   date: "February 27 - March 3"
   place: San Diego, CA, USA
   tags: [PRACT, COREAS]
