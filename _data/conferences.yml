@@ -371,12 +371,15 @@
   
 - name: ACSAC
   description: Annual Computer Security Applications Conference
-  year: 2022
-  link: https://www.acsac.org/2022/submissions/papers/
-  deadline: ["2022-06-29 23:59"]
-  date: Dec 05-09
+  year: 2023
+  link: https://www.acsac.org/2023/submissions/papers/
+  deadline: ["2023-05-26 23:59"]
+  abdeadline: May 22
+  rebut: August 02-07
+  date: Dec 04-08
   place: Austin, Texas, USA
   tags: [PRACT, APPLIED, COREA]
+  comment: Early Reject - Jul 06. Notification - Aug 16.
   rank: A
   
 - name: EuroSys
