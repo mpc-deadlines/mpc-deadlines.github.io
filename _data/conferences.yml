@@ -717,6 +717,17 @@
   place: Kyoto, Japan
   tags: [PRACT, COREO]
   rank: Unranked
+  
+- name: LATINCRYPT
+  description: International Conference On Cryptology And Information Security In Latin America
+  year: 2023
+  link: https://www.espe.edu.ec/latincrypt/
+  deadline: ["2023-06-02 23:59"]
+  abdeadline: May 26
+  comment: Notification - Jul 15
+  date: October 02-06
+  place: Ecuador, South America
+  tags: [THEORY, PRACT, COREB]
 
 # Workshops
 
