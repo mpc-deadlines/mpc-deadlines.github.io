@@ -106,7 +106,7 @@
 - name: NDSS
   description: Network and Distributed System Security Symposium
   year: 2024
-  link: https://www.ndss-symposium.org/ndss2024-call-for-papers/
+  link: https://www.ndss-symposium.org/ndss2024/submissions/call-for-papers/
   comment: Notification - Jul 22 and Oct 21
   deadline:
     - "2023-04-19 23:59"
