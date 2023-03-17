@@ -814,6 +814,16 @@
   place: Kyoto, Japan
   tags: [WK]
   
+- name: (Workshop) ConsensusDay
+  description: Workshop on developments in consensus
+  year: 2023
+  link: https://research.protocol.ai/sites/consensusday23
+  deadline: ["2023-03-19 23:59"]
+  comment: Without proceedings. Notification - April 15
+  date: June 5
+  place: Online
+  tags: [WK]
+  
 - name: (Workshop) CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
   year: 2022
