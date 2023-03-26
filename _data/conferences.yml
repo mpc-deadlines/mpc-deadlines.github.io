@@ -1013,7 +1013,7 @@
 - name: (Poster) ACNS
   description: International Conference on Applied Cryptography and Network Security
   year: 2023
-  link: https://sulab-sever.u-aizu.ac.jp/ACNS2023/
+  link: https://sulab-sever.u-aizu.ac.jp/ACNS2023/call_poster.html
   deadline:  ["2023-04-20 23:59"]
   comment: Published in the proceedings. Notification - Apr 30
   date: June 19-22
