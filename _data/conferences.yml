@@ -1115,9 +1115,9 @@
 - name: (Poster) IEEE S&P
   description: IEEE Symposium on Security and Privacy
   year: 2023
-  link: https://www.ieee-security.org/TC/SP2023/cfposters.html
-  comment: No proceedings
-  deadline: ["2023-04-11 23:59"]
+  link: https://sp2023.ieee-security.org/cfposters.html
+  comment: No proceedings. Notification - April 21.
+  deadline: ["2023-04-06 23:59"]
   date: "May 22 - 25"
   place: San Francisco, California, USA
   tags: [WK]
