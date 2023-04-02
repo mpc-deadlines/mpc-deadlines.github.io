@@ -67,11 +67,12 @@
 - name: IEEE FOCS
   description: IEEE Symposium on Foundations of Computer Science
   year: 2023
-  link: https://focs2022.eecs.berkeley.edu
-  deadline: ["2023-04-04 16:59"]
+  link: https://focs.computer.org/2023/
+  deadline: ["2023-04-03 16:59"]
+  abdeadline: March 28
   timezone: Etc/GMT+7
-  date: October 31 - November 03
-  place: Denver, Colorado
+  date: November 06-09
+  place: Santa Cruz, CA
   tags: [THEORY, COREAS]
   rank: A*
 
@@ -1268,14 +1269,14 @@
 - name: ACML
   description: Asian Conference on Machine Learning
   year: 2023
-  link: https://www.acml-conf.org/2023/
+  link: https://www.acml-conf.org/2023/cfp.html
   deadline:
     - "2023-05-26 23:59"
     - "2023-06-23 23:59"
-  date: TBA
-  place: TBA
+  date: November 11-14
+  place: Istanbul, Turkey
   tags: [COREO, PPML]
-  comment: Journal and Conference tracks. Notification - Sep 08.
+  comment: Journal (May) and Conference (June) tracks. Notification - Sep 08.
   rank: Unranked
   
 - name: CIKM
