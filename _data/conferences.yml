@@ -844,6 +844,16 @@
   tags: [WK]
   comment: co-located with IEEE S&P + proceedings. Notification - Mar 08.
   
+- name: (Workshop) DSML
+  description: Dependable and Secure Machine Learning
+  year: 2023
+  link: https://dependablesecureml.github.io/cfp.html
+  deadline: ["2023-04-07 23:59"]
+  comment: Published in the supplementary volume of DSN proceedings (Optional). Notification - April 21.
+  date: June 27
+  place: Porto, Portugal
+  tags: [WK]
+  
 - name: (Workshop) FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
   year: 2023
