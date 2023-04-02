@@ -865,6 +865,16 @@
   tags: [WK]
   comment: Notification - Jan 25. In Conjunction with RWC 2023 and no proceedings.
   
+- name: (Workshop) FL-IJCAI
+  description: International Workshop on Trustworthy Federated Learning
+  year: 2023
+  link: https://federated-learning.org/fl-ijcai-2023/
+  deadline: ["2023-04-26 23:59"]
+  date: August 19-21
+  place: Macao, S.A.R
+  tags: [WK]
+  comment: Notification - May 15. In Conjunction with IJCAI. Selected papers in edited LNCS book.
+  
 - name: (Workshop) FL-NeurIPS
   description: International Workshop on Federated Learning&colon; Recent Advances and New Challenges
   year: 2022
