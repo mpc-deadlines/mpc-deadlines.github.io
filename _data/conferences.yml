@@ -170,22 +170,22 @@
   
 - name: VLDB
   description: International Conference on Very Large Data Bases
-  year: 2023
-  link: http://vldb.org/pvldb/volumes/16/submission
+  year: 2024
+  link: http://vldb.org/pvldb/volumes/17/submission
   deadline:
-    - "2022-04-01 16:59"
-    - "2022-05-01 16:59"
-    - "2022-06-01 16:59"
-    - "2022-07-01 16:59"
-    - "2022-08-01 16:59"
-    - "2022-09-01 16:59"
-    - "2022-10-01 16:59"
-    - "2022-11-01 16:59"
-    - "2022-12-01 16:59"
-    - "2023-01-01 16:59"
-    - "2023-02-01 16:59"
-    - "2023-03-01 16:59"
-  timezone: Etc/GMT+8
+    - "2023-04-01 16:59"
+    - "2023-05-01 16:59"
+    - "2023-06-01 16:59"
+    - "2023-07-01 16:59"
+    - "2023-08-01 16:59"
+    - "2023-09-01 16:59"
+    - "2023-10-01 16:59"
+    - "2023-11-01 16:59"
+    - "2023-12-01 16:59"
+    - "2024-01-01 16:59"
+    - "2024-02-01 16:59"
+    - "2024-03-01 16:59"
+  timezone: PT
   comment: Rolling deadline every month. Notification on 15th of next month.
   date: "August 28 - September 01"
   place: Vancouver, Canada
