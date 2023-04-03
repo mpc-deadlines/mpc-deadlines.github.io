@@ -1293,13 +1293,15 @@
   description: Conference on Information and Knowledge Management
   year: 2023
   link: https://cikm2023.github.io
-  deadline: ["2023-05-19 23:59"]
-  abdeadline: May 12
+  deadline:
+    - "2023-06-02 23:59"
+    - "2023-06-16 23:59"
+  abdeadline: May 26 and June 16 (Short Paper)
   date: Oct 21-25
   place: Birmingham, UK
   tags: [COREA, PPML]
   rank: A
-  comment: Notification - Aug 01. 
+  comment: Notification - Aug 01. Second deadline for short paper.
   
 - name: ECAI
   description: European Conference on Artificial Intelligence
