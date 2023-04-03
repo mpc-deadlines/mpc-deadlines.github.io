@@ -855,6 +855,16 @@
   place: Porto, Portugal
   tags: [WK]
   
+- name: (Workshop) Federated Learning and Analytics in Practice
+  description: Federated Learning and Analytics in Practice: Algorithms, Systems, Applications, and Opportunities
+  year: 2023
+  link: https://icml.cc/virtual/2023/workshop/21473
+  deadline: ["2023-05-30 19:59"]
+  date: July 27-28
+  place: Honolulu, Hawaii
+  tags: [WK, PPML]
+  comment: Notification - June 20.
+  
 - name: (Workshop) FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
   year: 2023
