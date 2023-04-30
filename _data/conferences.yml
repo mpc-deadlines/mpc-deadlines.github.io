@@ -504,16 +504,15 @@
   
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
-  year: 2022
-  link: https://www.tcgcrest.org/indocrypt-2022/
-  deadline: ["2022-09-07 23:59"]
+  year: 2023
+  link: https://crsind.in/indocrypt2023/
+  deadline: ["2023-09-07 23:59"]
   abdeadline: September 01
   comment: Notification - Oct 15
-  timezone: Etc/UTC
-  date: December 12-14
-  place: Kolkata, India
+  date: December 10-13
+  place: Goa, India
   tags: [THEORY, PRACT, COREB]
-  rank: B (National India)
+  rank: National India (B)
   
 - name: IEEE ISIT
   description: IEEE International Symposium on Information Theory
