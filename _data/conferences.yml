@@ -1202,6 +1202,16 @@
   comment: Speakers - Luca De Feo, Jonathan Katz, Maximilian Gebhardt  
   tags: [CRS]
   
+- name: (School) CySeP
+  description: Cybersecurity and Privacy (CySeP) Summer School
+  year: 2023
+  link: https://cysep.conf.kth.se/index.html
+  deadline: ["2023-05-26 23:59"]
+  date: June 12-16
+  place: Stockholm, Sweden
+  comment: Registration - May 12. Deadline is for poster/demo.
+  tags: [CRS]
+  
 - name: (School) TPMPC
   description: Theory and Practice of Multi-Party Computation Workshop 
   year: 2023
