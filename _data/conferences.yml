@@ -481,27 +481,6 @@
   tags: [THEORY, PRACT, COREB]
   rank: National India (B)
   
-- name: ICICS
-  description: International Conference on Information and Communications Security
-  year: 2023
-  link: https://icics23.nankai.edu.cn/call_for_papers.php
-  deadline: ["2023-03-30 23:59"]
-  date: November 18-20
-  place: Nankai University, Tiajin, China
-  comment: Notification - June 30
-  tags: [PRACT, COREB]
-  rank: B
-  
-- name: ICICS
-  description: International Conference on Information and Communications Security
-  year: 2023
-  link: https://waset.org/information-and-computer-security-conference-in-january-2023-in-amsterdam
-  deadline: ["2022-11-30 23:59"]
-  date: January 23-24
-  place: Amsterdam, Netherlands
-  tags: [PRACT, COREB]
-  rank: B
-  
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
   year: 2023
