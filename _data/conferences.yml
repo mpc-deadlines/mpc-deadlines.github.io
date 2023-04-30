@@ -407,7 +407,7 @@
   comment: Notification - February 12
   place: Delft, Netherlands
   tags: [PRACT, COREA, COREO]
-  rank: A (NEW)
+  rank: NEW (A)
   
 - name: ICALP
   description: EATCS International Colloquium on Automata, Languages, and Programming 
@@ -1151,7 +1151,7 @@
   place: Delft, Netherlands
   comment: No proceedings. Notification - May 24.
   tags: [WK]
-  rank: A (NEW)
+  rank: NEW (A)
 
 - name: (Poster) IEEE S&P
   description: IEEE Symposium on Security and Privacy
