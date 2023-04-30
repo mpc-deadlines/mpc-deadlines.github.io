@@ -1196,16 +1196,6 @@
   place: Bar-Ilan University, Israel
   tags: [CRS]
   comment: Blockchain Technologies. Early registration - Jan 08.
-
-- name: (School) IACR-CROSSING School
-  description: 2022 School on Combinatorial Techniques in Cryptography
-  year: 2022
-  link: https://www.crossing.tu-darmstadt.de/news_events/schools/2022_school/index.en.jsp
-  deadline: ["2022-04-24 23:59"]
-  timezone: Etc/UTC
-  date: April 25-29
-  place: Valetta, Malta
-  tags: [CRS]
   
 - name: (School) Real-World Crypto and Privacy
   description: Summer School on real-world crypto and privacy
