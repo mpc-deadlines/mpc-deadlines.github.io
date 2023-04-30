@@ -1084,17 +1084,6 @@
   tags: [WK]
   rank: A
   
-- name: (Poster) AfricaCrypt
-  description: International Conference on Cryptology
-  year: 2023
-  link: https://africacrypt2023.tn
-  deadline: ["2023-06-01 23:59"]
-  comment: Notification - June 08
-  date: July 19-21
-  place: Sousse, Tunisia
-  tags: [WK]
-  rank: Unranked
-  
 - name: (Poster) CANS
   description: International Conference on Cryptology and Network Security
   year: 2022
