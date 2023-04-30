@@ -77,15 +77,14 @@
   rank: A*
 
 - name: IEEE INFOCOMM
-  year: 2023
-  date: "May 17 - 20"
+  year: 2024
+  date: "May 13 - 16"
   description: IEEE International Conference on Computer Communications
-  link: https://infocom2023.ieee-infocom.org
-  deadline: ["2022-08-01 23:59"]
-  abdeadline: July 25, 2022
+  link: https://infocom2024.ieee-infocom.org
+  deadline: ["2023-08-01 23:59"]
+  abdeadline: July 25
   comment: Notification - Dec 02
-  timezone: EST
-  place: New York, USA (Hybrid)
+  place: Vancouver, Canada
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
 
