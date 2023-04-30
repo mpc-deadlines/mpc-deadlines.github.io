@@ -637,13 +637,13 @@
   
 - name: AsianHOST
   description: Asian Hardware Oriented Security and Trust Symposium
-  year: 2022
-  link: http://asianhost.org/2022/
-  deadline: ["2022-08-15 23:59"]
-  timezone: Etc/GMT+7
-  date: December 14-16
-  place: Singapore (Hybrid)
-  comment: Notification - September 12
+  year: 2023
+  link: http://asianhost.org/2023/
+  deadline: ["2023-07-24 23:59"]
+  timezone: Etc/GMT+6
+  date: December 13-15
+  place: Tianjin, China
+  comment: Notification - September 04.
   tags: [APPLIED, COREO]
   rank: Unranked
   
