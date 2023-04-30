@@ -386,15 +386,14 @@
   
 - name: EuroSys
   description: The European Conference on Computer Systems
-  year: 2023
-  link: https://2023.eurosys.org/index.html
+  year: 2024
+  link: https://www.eurosys.org/news/eurosys-2024
   deadline: 
-    - "2022-05-18 23:59"
-    - "2022-10-19 23:59"
-  abdeadline: May 11, Oct 12
-  comment: Notification - Aug 10, Jan 18
-  date: "May 09 - 12"
-  place: Rome, Italy
+    - "2023-05-18 23:59"
+    - "2023-10-19 23:59"
+  comment: Notification - Sep 12, Feb 07
+  date: "April 23 - 26"
+  place: Athens, Greece
   tags: [THEORY, COREA]
   rank: A
 
