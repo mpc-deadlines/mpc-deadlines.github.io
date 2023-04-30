@@ -794,16 +794,7 @@
   place: Copenhagen, Denmark
   tags: [WK]
   comment: co-located with ESORICS + proceedings. Notification - May 23 and Aug 29
-  
-- name: (Workshop) CESC
-  description: Crypto Economics Security Conference
-  year: 2023
-  link: https://cesc.io/
-  deadline: ["2023-07-28 23:59"]
-  date: October 31
-  place: UC Berkeley, California
-  tags: [WK]
-  comment: Notification - Aug 18. No proceedings.
+
   
 - name: (Workshop) Cloud S&P
   description: Cloud Security and Privacy
