@@ -860,6 +860,16 @@
   tags: [WK]
   comment: Notification - June 15. In Conjunction with IJCAI. Selected papers in edited LNCS book.
   
+- name: (Workshop) FL4DDM
+  description: International Workshop on Federated Learning for Distributed Data Mining
+  year: 2023
+  link: https://fl4data-mining.github.io
+  deadline: ["2023-05-23 23:59"]
+  date: August 07
+  place: Long Beach, California
+  tags: [WK]
+  comment: Notification - June 23. In Conjunction with KDD.
+  
 - name: (Workshop) FL-NeurIPS
   description: International Workshop on Federated Learning&colon; Recent Advances and New Challenges
   year: 2022
