@@ -785,15 +785,13 @@
   
 - name: (Workshop) CBT
   description: International Workshop on Cryptocurrencies and Blockchain Technology
-  year: 2022
-  link: https://deic.uab.cat/cbt/cbt2022/
-  deadline: 
-    - "2022-04-18 23:59"
-    - "2022-06-24 23:59"
-  date: September 26 - 30
-  place: Copenhagen, Denmark
+  year: 2023
+  link: https://deic.uab.cat/cbt/cbt2023/
+  deadline: ["2023-06-16 23:59"]
+  date: September 28 - 29
+  place: The Hague, The Netherlands
   tags: [WK]
-  comment: co-located with ESORICS + proceedings. Notification - May 23 and Aug 29
+  comment: co-located with ESORICS + proceedings. Notification - Jul 18.
 
   
 - name: (Workshop) Cloud S&P
