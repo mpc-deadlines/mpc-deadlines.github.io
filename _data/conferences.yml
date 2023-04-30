@@ -1145,10 +1145,11 @@
   description: IEEE European Symposium on Security and Privacy
   year: 2023
   link: https://www.ieee-security.org/TC/EuroSP2023/cfposters.html
-  deadline: ["2023-04-29 23:59"]
+  deadline: ["2023-05-12 23:59"]
+  abdeadline: May 05, 2023 (Registration)
   date: "July 03-07"
   place: Delft, Netherlands
-  comment: No proceedings
+  comment: No proceedings. Notification - May 24.
   tags: [WK]
   rank: A (NEW)
 
