@@ -146,14 +146,14 @@
   
 - name: The Web Conference
   description: The Web Conference (WWW)
-  year: 2023
-  link: https://www2023.thewebconf.org
-  deadline: ["2022-10-13 23:59"]
+  year: 2024
+  link: https://www2024.thewebconf.org
+  deadline: ["2023-10-13 23:59"]
   rebut: Dec 22
-  abdeadline: Oct 06, 2022
+  abdeadline: Oct 06
   comment: Notification - Jan 25
-  date: "April 30 - May 04"
-  place: Austin, Texas, USA
+  date: "May 13-17"
+  place: Singapore
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
   
