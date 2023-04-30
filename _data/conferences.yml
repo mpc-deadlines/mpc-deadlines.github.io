@@ -476,13 +476,12 @@
   description: International Conference on Distributed Computing and Networking
   year: 2024
   link: https://cse.iitkgp.ac.in/conf/ICDCN23/
-  deadline: ["2023-07-08 23:59"]
-  abdeadline: July 08
+  deadline: ["2023-07-25 23:59"]
   comment: Notification - Sep 18
   date: January 04-07
   place: IIT Madras, Chennai, India
   tags: [THEORY, PRACT, COREB]
-  rank: B (National India)
+  rank: National India (B)
   
 - name: ICICS
   description: International Conference on Information and Communications Security
