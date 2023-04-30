@@ -564,13 +564,13 @@
 
 - name: SAC
   description: Conference on Selected Areas in Cryptography
-  year: 2022
-  link: https://www.sac2022.ca/
-  deadline: ["2022-06-08 23:59"]
-  abdeadline: June 01, 2022
-  date: August 24 - 26
-  comment: Notification on July 18
-  place: Ontario, Canada
+  year: 2023
+  link: https://sac-workshop.github.io/sac-2023/index.html
+  deadline: ["2023-05-16 23:59"]
+  abdeadline: May 09
+  date: August 14-18
+  comment: Notification - July 03
+  place: Fredericton, New Brunswick
   tags: [THEORY, COREB]
   rank: B
   
