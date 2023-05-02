@@ -211,7 +211,9 @@
   description: International Conference on the Theory and Application of Cryptology and Information Security
   year: 2023
   link: https://asiacrypt.iacr.org/2023/
-  deadline: ["2023-05-27 11:59"]
+  deadline: ["2023-05-25 11:59"]
+  rebut: Jul 20 - Aug 01
+  comment: Early Reject - Jul 20. Notification - Aug 25.
   date: December 04-08
   place: Guangzhou, China
   tags: [THEORY, COREA]
