@@ -383,7 +383,7 @@
   place: Austin, Texas, USA
   tags: [PRACT, APPLIED, COREA]
   comment: Early Reject - Jul 06. Notification - Aug 16.
-  rank: A
+  rank: National USA (A)
   
 - name: EuroSys
   description: The European Conference on Computer Systems
@@ -562,7 +562,7 @@
   date: September 12-14
   place: Italy
   tags: [PRACT, APPLIED, COREB]
-  rank: B (National Italy)
+  rank: National Italy (B)
   
 - name: SECRYPT
   description: International Conference on Information Security and Cryptography
@@ -839,7 +839,7 @@
   deadline: ["2023-05-22 19:59"]
   date: July 28
   place: Honolulu, Hawaii
-  tags: [WK, PPML]
+  tags: [WK]
   comment: Notification - June 19. No proceedings.
   
 - name: (Workshop) FHE Conference
