@@ -366,8 +366,10 @@
   description: Theory of Cryptography Conference
   year: 2023
   link: https://tcc.iacr.org/2023/
-  deadline: ["2023-05-24 11:59"]
+  deadline: ["2023-06-01 13:59"]
+  timezone: EST
   date: "November 29 - December 02"
+  comment: Notification - Aug 31.
   place: Taipei, Taiwan
   tags: [THEORY, COREA]
   rank: A
