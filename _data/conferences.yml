@@ -902,9 +902,9 @@
   
 - name: (Workshop) ML4H
   description: Machine Learning for Health
-  year: 2022
-  link: https://ml4health.github.io/2022/
-  deadline: ["2022-09-01 23:59"]
+  year: 2023
+  link: https://ml4health.github.io/2023/
+  deadline: ["2023-09-01 23:59"]
   rebut: Sep 30 - Oct 05
   date: November 28 - December 09
   place: New Orleans, USA (Hybrid)
