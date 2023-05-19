@@ -464,11 +464,11 @@
 - name: CANS
   description: International Conference on Cryptology and Network Security
   year: 2023
-  link: https://www.cans2023.com/call-for-paper.html
+  link: https://www.augusta.edu/ccs/conferences/cans2023/
   deadline: ["2023-07-01 23:59"]
   comment: Notification - Aug 10.
-  date: October 30
-  place: Abu Dhabi, UAE
+  date: October 31 - November 02
+  place: Augusta, Georgia, USA
   tags: [PRACT, COREB]
   rank: B
   
