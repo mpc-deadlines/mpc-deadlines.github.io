@@ -474,6 +474,21 @@
   tags: [PRACT, COREB]
   rank: B
   
+- name: FSE/ToSC
+  description: International Conference on Fast Software Encryption
+  year: 2023
+  link: https://tosc.iacr.org
+  deadline: 
+    - "2023-03-01 23:59"
+    - "2023-06-01 23:59"
+    - "2023-09-01 23:59"
+    - "2023-11-01 23:59"
+  date: March 25-29
+  place: Leuven, Belgium
+  tags: [THEORY, COREB]
+  rank: B
+  comment: Open-access journal/conference hybrid mode. Published in IACR Transactions on Symmetric Cryptology.
+  
 - name: ICDCN
   description: International Conference on Distributed Computing and Networking
   year: 2024
