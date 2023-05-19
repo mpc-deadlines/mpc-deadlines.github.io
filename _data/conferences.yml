@@ -811,13 +811,13 @@
   
 - name: (Workshop) CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
-  year: 2022
-  link: https://cpsiotsec2022.github.io/cpsiotsec/
-  deadline: ["2022-06-25 23:59"]
-  date: November 07
-  place: Los Angeles, USA
+  year: 2023
+  link: https://cpsiotsec2023.github.io/
+  deadline: ["2023-06-29 23:59"]
+  date: November 26
+  place: Copenhagen, Denmark
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 18
+  comment: co-located with CCS + proceedings. Notification - Aug 10
   
 - name: (Workshop) CPSS
   description: ACM Cyber-Physical System Security Workshop
