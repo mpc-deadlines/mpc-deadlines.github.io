@@ -853,11 +853,11 @@
   description: Federated Learning and Analytics in Practice&colon; Algorithms, Systems, Applications, and Opportunities
   year: 2023
   link: https://fl-icml2023.github.io
-  deadline: ["2023-05-22 19:59"]
+  deadline: ["2023-05-28 23:59"]
   date: July 28
   place: Honolulu, Hawaii
   tags: [WK]
-  comment: Notification - June 19. No proceedings.
+  comment: co-located with ICML. Notification - June 19. No proceedings.
   
 - name: (Workshop) FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
