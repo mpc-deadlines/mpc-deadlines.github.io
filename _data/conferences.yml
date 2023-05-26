@@ -727,6 +727,16 @@
 
 # Workshops
 
+- name: (Workshop) ACAI
+  description: Workshop on Applied Cryptography and AI
+  year: 2023
+  link: https://acai2023.aisylab.com
+  deadline: ["2023-06-15 23:59"]
+  date: August 20
+  place: Santa Barbara, USA
+  tags: [WK]
+  comment: co-located with CRYPTO + no proceedings. Notification - Jul 01.
+
 - name: (Workshop) ACM CCSW
   description: The ACM Cloud Computing Security Workshop
   year: 2023
