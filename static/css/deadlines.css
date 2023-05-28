@@ -1,7 +1,7 @@
 body {
-  font-size: 16px;
-  line-height: 23px;
-  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 350;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -106,8 +106,8 @@ footer {
 }
 
 .conf-title {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .deadline,
@@ -121,8 +121,8 @@ footer {
 }
 
 .timer {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 #conf-timer {
