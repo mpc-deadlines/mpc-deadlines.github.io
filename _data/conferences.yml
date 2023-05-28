@@ -500,6 +500,17 @@
   tags: [THEORY, PRACT, COREB]
   rank: National India (B)
   
+- name: IMACC
+  description: IMA International Conference on Cryptography and Coding
+  year: 2023
+  link: https://ima.org.uk/21435/19th-ima-international-conference-on-cryptography-and-coding/
+  deadline: ["2023-06-28 23:59"]
+  comment: Notification - September 06
+  date: December 12-14
+  place: Royal Holloway, London
+  tags: [THEORY, PRACT, COREB]
+  rank: B
+  
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
   year: 2023
