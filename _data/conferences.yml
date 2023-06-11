@@ -1457,6 +1457,16 @@
   tags: [MISC]
   rank: A*
   
+- name: (Misc) DeCompute
+  description: The Conference on Decentralized Security with Multi Party Computation
+  year: 2023
+  link: https://www.decompute.xyz
+  deadline: ["2023-07-10 23:59"]
+  comment: Talks, Posters, SoKs - Deadline on June 30.
+  date: "September 12-13"
+  place: Singapore
+  tags: [MISC]
+  
 - name: (Misc) CSCML
   description: International Symposium on Cyber Security Cryptography and Machine Learning
   year: 2023
