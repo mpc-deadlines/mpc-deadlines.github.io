@@ -1179,6 +1179,16 @@
   place: San Diego, CA, USA
   tags: [WK]
   
+- name: (Poster) PoPETS
+  description: Privacy Enhancing Technologies Symposium
+  year: 2023
+  link: https://petsymposium.org/2023/cfposters.php
+  deadline: ["2023-07-05 23:59"]
+  comment: Notifications within three days of submission.
+  date: July 15-20
+  place: Lausanne, Switzerland
+  tags: [WK]
+  
 - name: (Poster) SOUPS
   description: Symposium on Usable Privacy and Security
   year: 2023
