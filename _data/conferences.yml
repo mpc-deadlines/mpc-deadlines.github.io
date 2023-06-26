@@ -263,12 +263,12 @@
 
 - name: FC
   description: Financial Cryptography and Data Security
-  year: 2023
-  link: https://fc23.ifca.ai/
-  deadline: ["2022-10-19 23:59"]
+  year: 2024
+  link: https://fc24.ifca.ai
+  deadline: ["2023-10-19 23:59"]
   date: May 01-05
   comment: Notification - January 19
-  place: Bol, Brač, Croatia
+  place: Carribean (TBD)
   tags: [PRACT, COREA]
   rank: A
   
