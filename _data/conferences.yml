@@ -430,12 +430,14 @@
 
 - name: ACISP
   description: Australasian Conference on Information Security and Privacy
-  year: 2023
-  link: https://www.qut.edu.au/acisp-2023
-  deadline: ["2023-02-07 23:59"]
-  comment: Notification - Apr 15
-  date: July 05-07
-  place: Brisbane, Australia
+  year: 2024
+  link: http://www.acisp24.com/
+  deadline: 
+    - "2023-11-06 23:59"
+    - "2024-02-19 23:59"
+  comment: Notification - Jan 22, Apr 08
+  date: July 15-17
+  place: Sydney, Australia
   tags: [PRACT, APPLIED, COREB]
   rank: B (Australasian)
 
