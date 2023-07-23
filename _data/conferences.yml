@@ -1379,9 +1379,9 @@
   description: IEEE Conference on Secure and Trustworthy Machine Learning
   year: 2024
   link: http://satml.org
-  deadline: ["2023-10-07 23:59"]
-  abdeadline: October 01
-  comment: Notification - Dec 15. Research papers, SoKs, and position papers.
+  deadline: ["2023-10-11 23:59"]
+  abdeadline: October 04
+  comment: Notification - Dec 19. Research papers, SoKs, and position papers.
   date: April 10-12
   place: Toronto, Canada
   tags: [PPML]
