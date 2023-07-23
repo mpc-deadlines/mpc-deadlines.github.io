@@ -927,12 +927,12 @@
   description: Machine Learning for Health
   year: 2023
   link: https://ml4health.github.io/2023/
-  deadline: ["2023-09-01 23:59"]
-  rebut: Sep 30 - Oct 05
-  date: November 28 - December 09
+  deadline: ["2023-09-07 23:59"]
+  rebut: Oct 13 - 18
+  date: December 10
   place: New Orleans, USA (Hybrid)
   tags: [WK]
-  comment: co-located with NeurIPS + formal proceedings and extended abstracts. Notification - Oct 21.
+  comment: co-located with NeurIPS + formal proceedings and extended abstracts. Notification - Nov 01.
 
 - name: (Workshop) PPAI
   description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
