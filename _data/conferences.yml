@@ -754,11 +754,11 @@
   description: The ACM Cloud Computing Security Workshop
   year: 2023
   link: https://ccsw.io
-  deadline: ["2023-07-22 23:59"]
+  deadline: ["2023-07-31 23:59"]
   date: November 26
   place: Copenhagen, Denmark
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 19.
+  comment: co-located with CCS + proceedings. Notification - Aug 31.
   
 - name: (Workshop) ACM AISec
   description: ACM Workshop On Artificial Intelligence and Security
