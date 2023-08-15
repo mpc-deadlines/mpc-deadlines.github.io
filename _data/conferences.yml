@@ -912,16 +912,15 @@
   tags: [WK]
   comment: Notification - June 23. In Conjunction with KDD.
   
-- name: (Workshop) FL-NeurIPS
-  description: International Workshop on Federated Learning&colon; Recent Advances and New Challenges
-  year: 2022
-  link: https://federated-learning.org/fl-neurips-2022/
-  deadline: ["2022-09-21 23:59"]
-  timezone: Etc/GMT+7
-  date: December 02
-  place: New Orleans, USA (Hybrid)
+- name: (Workshop) FL@FM-NeurIPS
+  description: International Workshop on Federated Learning in the Age of Foundation Models
+  year: 2023
+  link: https://federated-learning.org/fl@fm-neurips-2023/
+  deadline: ["2023-09-29 23:59"]
+  date: December 15
+  place: New Orleans, USA
   tags: [WK]
-  comment: Notification - Oct 20. In Conjunction with NeurIPS 2022 and no proceedings
+  comment: Notification - Oct 20. In Conjunction with NeurIPS 2023 and no proceedings
   
 - name: (Workshop) ML4H
   description: Machine Learning for Health
