@@ -1380,12 +1380,12 @@
   
 - name: MLSys
   description: Conference on Machine Learning and Systems
-  year: 2023
-  link: https://mlsys.org/Conferences/2023/CallForPapers
-  deadline: ["2022-10-28 23:59"]
+  year: 2024
+  link: https://mlsys.org/Conferences/2024
+  deadline: ["2023-10-28 23:59"]
   rebut: Jan 16-20
-  date: June 04-08
-  place: Southern Florida
+  date: May 13-16
+  place: Santa Clara, California
   tags: [COREO, PPML]
   rank: Unranked
   comment: Notification - Feb 17. 
