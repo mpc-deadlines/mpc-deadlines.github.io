@@ -393,13 +393,13 @@
 
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
-  year: 2023
-  link: https://www.ieee-security.org/TC/EuroSP2023/
-  deadline: ["2022-10-26 23:59"]
-  date: "July 03 - 07"
-  rebut: January 18 - 25
-  comment: Notification - February 12
-  place: Delft, Netherlands
+  year: 2024
+  link: https://www.ieee-security.org/TC/EuroSP2024/
+  deadline: ["2023-11-02 23:59"]
+  date: "July 09 - 11"
+  rebut: January 29 - February 01
+  comment: Notification - February 22
+  place: Vienna, Austria
   tags: [PRACT, COREA, COREO]
   rank: NEW (A)
   
@@ -1129,12 +1129,12 @@
   
 - name: (Poster) IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
-  year: 2023
-  link: https://www.ieee-security.org/TC/EuroSP2023/cfposters.html
+  year: 2024
+  link: https://www.ieee-security.org/TC/EuroSP2024/cfposters.html
   deadline: ["2023-05-12 23:59"]
-  abdeadline: May 05, 2023 (Registration)
-  date: "July 03-07"
-  place: Delft, Netherlands
+  abdeadline: May 05, 2024 (Registration)
+  date: "July 08-12"
+  place: Vienna, Austria
   comment: No proceedings. Notification - May 24.
   tags: [WK]
   rank: NEW (A)
