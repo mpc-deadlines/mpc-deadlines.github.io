@@ -1449,14 +1449,13 @@
 
 - name: (Misc) Cybersecurity Artifacts Competition and Impact Award
   description: ACSAC
-  year: 2022
-  link: https://www.acsac.org/2022/submissions/artifacts_competition/
-  deadline: ["2022-09-26 23:59"]
-  timezone: Etc/UTC
-  date: Dec 05-09
+  year: 2023
+  link: https://www.acsac.org/2023/submissions/artifacts_competition/
+  deadline: ["2023-09-15 23:59"]
+  date: Dec 04-08
   place: Austin, Texas, USA
   tags: [MISC]
-  comment: Open to cybersecurity artifacts previously published in all peer-reviewed venues. Notification - Oct 21
+  comment: Open to cybersecurity artifacts previously published in all peer-reviewed venues. Notification - Oct 13.
 
 - name: (Misc) PhD Symposium at The Web Conference
   description: The Web Conference (WWW)
