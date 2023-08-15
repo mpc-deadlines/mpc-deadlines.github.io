@@ -314,15 +314,15 @@
   
 - name: ITCS
   description: Innovations in Theoretical Computer Science
-  year: 2023
-  link: http://itcs-conf.org/itcs23/itcs23-cfp.html
-  deadline: ["2022-09-08 19:59"]
-  abdeadline: Sep 02, 2022
-  date: "January 11 - 13"
-  place: MIT in Cambridge, Massachusetts
+  year: 2024
+  link: http://itcs-conf.org/itcs24/itcs24-cfp.html
+  deadline: ["2023-09-08 19:59"]
+  abdeadline: Sep 05, 2022
+  date: "January 30 - February 02"
+  place: University of California, Berkeley
   tags: [THEORY, COREA]
   rank: A
-  comment: Notification - November 01
+  comment: Notification - November 08
   
 - name: MCFS
   description: International Symposium on Mathematical Foundations of Computer Science
