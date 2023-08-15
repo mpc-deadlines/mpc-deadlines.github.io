@@ -1028,12 +1028,12 @@
 - name: (Workshop) WEB3SEC
   description: Workshop Encouraging Building Better Blockchain Security
   year: 2023
-  link: https://web3sec.ws/#/
-  deadline: ["2022-09-30 23:59"]
-  date: Dec 05
+  link: https://web3sec.ws/
+  deadline: ["2023-10-06 23:59"]
+  date: Dec 04
   place: Austin, Texas, USA
   tags: [WK]
-  comment: Notification - Nov 14. In conjunction with ACSAC22 + proceedings.
+  comment: Notification - Nov 10. In conjunction with ACSAC23 + proceedings.
   
 - name: (Workshop) WOOT
   description: IEEE Workshop on Offensive Technologies
