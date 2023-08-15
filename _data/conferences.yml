@@ -352,16 +352,6 @@
   tags: [PRACT, COREA]
   rank: A
   
-- name: STACS
-  description: International Symposium on Theoretical Aspects of Computer Science
-  year: 2023
-  link: https://stacs2022.sciencesconf.org
-  deadline: ["2022-10-01 23:59"]
-  rebut: Nov 23-28
-  date: March 07-10
-  place: Hamburg, Germany
-  tags: [THEORY, COREA]
-  rank: A
 
 - name: TCC
   description: Theory of Cryptography Conference
@@ -705,15 +695,15 @@
   
 - name: IEEE HOST
   description: IEEE International Symposium on Hardware Oriented Security and Trust
-  year: 2023
+  year: 2024
   link: http://www.hostsymposium.org/index.php
   deadline: 
-    - "2022-10-24 23:59"
-    - "2023-01-16 23:59"
-  abdeadline: Oct 17, Jan 09
+    - "2023-08-28 23:59"
+    - "2023-12-18 23:59"
+  abdeadline: Aug 21, Dec 11
   date: May 01-04
-  place: San Jose, California
-  comment: Notification - Dec 15 and Mar 01. 
+  place: Washington DC, USA
+  comment: Notification - Oct 15 and Feb 15. 
   tags: [APPLIED, COREO]
   rank: Unranked
   
@@ -1101,16 +1091,6 @@
   tags: [WK]
   rank: A
   
-- name: (Poster) CANS
-  description: International Conference on Cryptology and Network Security
-  year: 2022
-  link: https://www.cans2022.com/call-for-poster.php
-  deadline: ["2022-09-30 23:59"]
-  comment: Rolling Deadline from Aug 15. Notification within two weeks of submission. No proceedings.
-  date: November 13-16
-  place: Abu Dhabi, UAE
-  tags: [WK]
-  rank: B
   
 - name: (Poster) ESORICS
   description: European Symposium on Research in Computer Security
