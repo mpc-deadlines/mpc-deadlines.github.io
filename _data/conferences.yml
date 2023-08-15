@@ -28,16 +28,16 @@
   
 - name: MobiCom
   description: Annual International Conference On Mobile Computing And Networking
-  year: 2023
-  link: https://www.sigmobile.org/mobicom/2023/
+  year: 2024
+  link: https://www.sigmobile.org/mobicom/2024/
   deadline:
-    - "2022-08-19 23:59"
-    - "2023-03-17 23:59"
-  abdeadline: August 12 and March 10
-  rebut: Oct 21 - 28, May 26 - June 03
-  comment: 2 deadlines. Notifications - Nov 18, June 20
-  date: "October"
-  place: Madrid, Spain
+    - "2023-08-25 23:59"
+    - "2024-03-17 23:59"
+  abdeadline: August 18 and March 10
+  rebut: Oct 31 - Nov 03, May 26 - June 03
+  comment: 2 deadlines. Notifications - Nov 27, June 20
+  date: September 30 - October 04
+  place: Washington, D.C., USA
   tags: [APPLIED, COREAS]
   rank: A*
   
@@ -885,13 +885,13 @@
   
 - name: (Workshop) FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
-  year: 2023
-  link: https://fhe.org/conferences/conference-2023/home
-  deadline: ["2022-11-19 23:59"]
+  year: 2024
+  link: https://fhe.org/conferences/conference-2024
+  deadline: ["2024-01-25 23:59"]
   date: March 26
-  place: Tokyo, Japan
+  place: Toronto, Cananda
   tags: [WK]
-  comment: Notification - Jan 25. In Conjunction with RWC 2023 and no proceedings.
+  comment: In Conjunction with RWC 2024. No call for papers annpunced.
   
 - name: (Workshop) FL-IJCAI
   description: International Workshop on Trustworthy Federated Learning
