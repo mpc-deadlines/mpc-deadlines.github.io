@@ -907,11 +907,11 @@
   description: International Workshop on Federated Learning in the Age of Foundation Models
   year: 2023
   link: https://federated-learning.org/fl@fm-neurips-2023/
-  deadline: ["2023-09-29 23:59"]
-  date: December 15
+  deadline: ["2023-10-02 23:59"]
+  date: December 16
   place: New Orleans, USA
   tags: [WK]
-  comment: Notification - Oct 20. In Conjunction with NeurIPS 2023 and no proceedings
+  comment: Notification - Oct 27. In Conjunction with NeurIPS 2023 and no proceedings
   
 - name: (Workshop) ML4H
   description: Machine Learning for Health
