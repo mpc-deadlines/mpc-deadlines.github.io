@@ -1075,10 +1075,10 @@
 - name: (Poster) ACSAC
   description: Annual Computer Security Applications Conference
   year: 2022
-  link: https://www.acsac.org/2022/submissions/posters/
-  deadline: ["2022-11-07 23:59"]
+  link: https://www.acsac.org/2023/submissions/posters/
+  deadline: ["2023-11-01 23:59"]
   comment: Another track for Works in Progress as well.
-  date: Dec 05-09
+  date: Dec 04-08
   place: Austin, Texas, USA
   tags: [WK]
   rank: A
