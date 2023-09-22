@@ -16,14 +16,15 @@
   
 - name: ACM STOC
   description: ACM Symposium on Theory of Computing
-  year: 2023
-  link: http://acm-stoc.org/stoc2023/
-  deadline: ["2022-11-04 16:59"]
-  timezone: EDT
-  date: June 20-23
-  place: Orlando, Florida
+  year: 2024
+  link: http://acm-stoc.org/stoc2024/
+  deadline: ["2023-11-13 16:59"]
+  abdeadline: November 10
+  timezone: EST
+  date: June 24-28
+  place: Vancouver, Canada
   tags: [THEORY, COREAS]
-  comment: Notification - February 06, 2023.
+  comment: Notification - February 11, 2024.
   rank: A*
   
 - name: MobiCom
