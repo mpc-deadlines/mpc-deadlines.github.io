@@ -1422,12 +1422,12 @@
 
 - name: (Misc) ARCS
   description: Academic Research and Careers for Students Symposium
-  year: 2023
-  link: https://event.india.acm.org/ARCS/
-  deadline: ["2022-12-25 23:59"]
-  comment: Notification - Jan 07.
-  date: "February 09-10"
-  place: Bhopal, India
+  year: 2024
+  link: https://event.india.acm.org/arcs/home/
+  deadline: ["2023-10-24 23:59"]
+  comment: Notification - Nov 07.
+  date: "February 08-09"
+  place: Bhubaneshwar, India
   tags: [MISC]
 
 - name: (Misc) Cybersecurity Artifacts Competition and Impact Award
