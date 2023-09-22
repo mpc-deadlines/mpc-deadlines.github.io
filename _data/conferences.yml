@@ -616,13 +616,13 @@
 
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
-  year: 2023
-  link: https://wisec2023.surrey.ac.uk
+  year: 2024
+  link: http://wisec2024.kaist.ac.kr
   deadline: 
-    - "2022-11-18 23:59"
-    - "2023-02-17 23:59"
+    - "2023-11-12 23:59"
+    - "2024-02-17 23:59"
   date: May 29 - June 01
-  place: Guildford, United Kingdom
+  place: Seol, Korea
   tags: [PRACT, APPLIED, COREO]
   rank: Unranked
   comment: Notification - Dec 20 and Mar 29.
