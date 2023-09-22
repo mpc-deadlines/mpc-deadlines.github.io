@@ -554,12 +554,13 @@
   
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
-  year: 2023
-  link: https://pkc.iacr.org/2023/
-  deadline: ["2022-11-01 20:59"]
-  date: May 07-10
-  place: Atlanta, USA
-  comment: Notification - Jan 25.
+  year: 2024
+  link: https://pkc.iacr.org/2024/
+  deadline: ["2023-10-15 23:59"]
+  date: April 15-17
+  rebut: Nov 27 - Dec 02
+  place: Sydney, Australia
+  comment: Early Reject - Nov 27. Notification - Dec 22.
   tags: [THEORY, COREB]
   rank: B
 
