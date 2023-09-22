@@ -276,13 +276,13 @@
   
 - name: IEEE/ACM CCGRID
   description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
-  year: 2023
-  link: https://ccgrid2023.iisc.ac.in/
-  deadline: ["2022-12-12 23:59"]
-  abdeadline: Dec 12, 2022
-  date: May 01-04
-  comment: Notification - Jan 27.
-  place: Bangalore, India
+  year: 2024
+  link: https://2024.ccgrid-conference.org
+  deadline: ["2023-12-04 23:59"]
+  abdeadline: November 27, 2023
+  date: May 06-09
+  comment: Notification - Feb 12.
+  place: Philadelphia
   tags: [THEORY, PRACT, COREA]
   rank: A
   
