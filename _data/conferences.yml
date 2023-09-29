@@ -619,13 +619,13 @@
   year: 2024
   link: http://wisec2024.kaist.ac.kr
   deadline: 
-    - "2023-11-12 23:59"
-    - "2024-02-17 23:59"
-  date: May 29 - June 01
+    - "2023-11-09 23:59"
+    - "2024-02-08 23:59"
+  date: May 27 - 30
   place: Seol, Korea
   tags: [PRACT, APPLIED, COREO]
   rank: Unranked
-  comment: Notification - Dec 20 and Mar 29.
+  comment: Notification - Dec 18 and Mar 22.
   
 - name: AfricaCrypt
   description: International Conference on Cryptology
