@@ -160,12 +160,17 @@
   rank: A*
   
 - name: JoC Special Call for Papers
-  description: Topical Collection on Computing on Encrypted Data
-  year: 2023
-  link: https://iacr.org/jofc/TopicalCollection-COED.html
-  deadline: ["2022-10-01 23:59"]
-  comment: Research related to implementation aspects and other more applied aspects.
-  date: "February 01"
+  description: Topical Collection on Modern Zero-Knowledge Protocols
+  year: 2024
+  link: https://iacr.org/jofc/TopicalCollection-mzkp.html
+  deadline:
+    - "2023-11-01 23:59"
+    - "2023-12-01 23:59"
+    - "2024-01-01 23:59"
+    - "2024-02-01 23:59"
+    - "2024-03-01 23:59"
+  comment: Submissions will be open from November 1st, 2023 to March 1st, 2024.
+  date: "April 01"
   place: Journal (Online)
   tags: [THEORY, PRACT, APPLIED, COREAS]
   rank: A*
