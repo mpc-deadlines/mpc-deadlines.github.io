@@ -1307,16 +1307,15 @@
   
 - name: ICML
   description: International Conference on Machine Learning
-  year: 2023
+  year: 2024
   link: https://icml.cc
-  deadline: ["2023-01-26 19:59"]
-  rebut: Mar 13-19
-  timezone: UTC
-  date: July 23-29
-  place: Honolulu, Hawaii
+  deadline: ["2024-02-01 19:59"]
+  rebut: Mar 20-28
+  date: July 21-27
+  place: Vienna, Austria
   tags: [COREAS, PPML]
   rank: A*
-  comment: Notification - Apr 22.
+  comment: Notification - May 01.
   
 - name: IEEE SaTML
   description: IEEE Conference on Secure and Trustworthy Machine Learning
