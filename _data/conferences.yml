@@ -121,13 +121,13 @@
 
 - name: ACM PODC
   description: ACM Symposium on Principles of Distributed Computing
-  year: 2023
-  link: https://www.podc.org
-  deadline: ["2023-01-10 23:59"]
-  abdeadline: Jan 06, 2022
-  comment: Notification - March 30
-  date: June 19-23
-  place: Orlando, Florida
+  year: 2024
+  link: https://www.podc.org/podc2024/
+  deadline: ["2024-02-15 23:59"]
+  abdeadline: Feb 11
+  comment: Notification - April 22
+  date: June 17-21
+  place: Nantes, France
   tags: [THEORY, COREAS]
   rank: A*
 
