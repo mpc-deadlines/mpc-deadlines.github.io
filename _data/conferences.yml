@@ -539,12 +539,12 @@
   
 - name: IEEE ITW
   description: IEEE Information Theory Workshop
-  year: 2023
-  link: https://itw2023.org
-  deadline: ["2022-12-15 23:59"]
-  comment: Notification - Jan 15
-  date: April 23-28
-  place: Saint-Malo, France
+  year: 2024
+  link: https://itw2024.org
+  deadline: ["2024-04-26 23:59"]
+  comment: Notification - Jul 29
+  date: November 24-28
+  place: Shenzhen, China
   tags: [THEORY, COREB]
   rank: B
   
