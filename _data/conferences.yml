@@ -1280,16 +1280,16 @@
   
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
-  year: 2023
-  link: https://ijcai-23.org
-  deadline: ["2023-01-12 23:59"]
-  abdeadline: January 07, 2023
+  year: 2024
+  link: https://ijcai24.org
+  deadline: ["2024-01-12 23:59"]
+  abdeadline: January 07
   rebut: Mar 16 - 18
-  date: August 19-25
-  place: Cape Town, South Africa
+  date: August 03-09
+  place: Jeju, South Korea
   tags: [COREAS, PPML]
   rank: A*
-  comment: Notification - April 20, 2023
+  comment: Notification - April 20.
   
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
