@@ -770,48 +770,7 @@
   place: Copenhagen, Denmark
   tags: [WK]
   comment: co-located with CCS + proceedings. Notification - Aug 05.
-  
-- name: (Workshop) AI4SG
-  description: AAAI Workshop on Artificial Intelligence for Social Good
-  year: 2023
-  link: https://amulyayadav.github.io/AI4SG2023/
-  deadline: ["2022-11-30 23:59"]
-  date: February 14
-  place: Washington, DC, USA
-  tags: [WK]
-  comment: co-located with AAAI. Notification - Dec 14
-  
-- name: (Workshop) AIBlock
-  description: Application Intelligence and Blockchain Security
-  year: 2023
-  link: https://aiblock.compute.dtu.dk/2023/
-  deadline: ["2023-03-20 23:59"]
-  comment: co-located with ACNS. Published in the proceedings. Notification - April 19
-  date: June 19-22
-  place: Kyoto, Japan
-  tags: [WK]
-  
-- name: (Workshop) BANDS
-  description: Backdoor Attacks and Defenses in Machine Learning
-  year: 2023
-  link: https://iclr23-bands.github.io
-  deadline: ["2023-01-25 23:59"]
-  date: May 05
-  place: Virtual
-  tags: [WK]
-  comment: co-located with ICLR23. Notification - Mar 03
-  
-- name: (Workshop) CBT
-  description: International Workshop on Cryptocurrencies and Blockchain Technology
-  year: 2023
-  link: https://deic.uab.cat/cbt/cbt2023/
-  deadline: ["2023-06-16 23:59"]
-  date: September 28 - 29
-  place: The Hague, The Netherlands
-  tags: [WK]
-  comment: co-located with ESORICS + proceedings. Notification - Jul 18.
 
-  
 - name: (Workshop) Cloud S&P
   description: Cloud Security and Privacy
   year: 2023
@@ -820,16 +779,6 @@
   comment: co-located with ACNS. Published in the proceedings. Notification - April 19
   date: June 19-22
   place: Kyoto, Japan
-  tags: [WK]
-  
-- name: (Workshop) ConsensusDay 23
-  description: Workshop on developments in consensus
-  year: 2023
-  link: https://research.protocol.ai/sites/consensusday23
-  deadline: ["2023-03-19 23:59"]
-  comment: No proceedings. Notification - April 15
-  date: June 5
-  place: Virtual
   tags: [WK]
   
 - name: (Workshop) CPSIoTSec
@@ -1494,16 +1443,6 @@
   place: Porto, Portugal
   tags: [MISC]
   
-- name: (Misc) Google Research Week
-  description: Research Week with Google India
-  year: 2023
-  link: https://sites.google.com/view/researchweek2023/
-  deadline: ["2022-11-28 23:59"]
-  date: Jan 29-31
-  timezone: IST
-  place: Bengaluru, India
-  tags: [MISC]
-  comment: Research lectures and discussions with select undergraduate, Master’s and Ph.D students.
   
 - name: (Misc) SECRYPT Doctoral Consortium
   description: International Conference on Information Security and Cryptography
