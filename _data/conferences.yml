@@ -1412,18 +1412,7 @@
   place: Virtual
   tags: [MISC]
   rank: Unranked
-  
-- name: (Misc) Disrupt 23
-  description: Disruptive Ideas and New Interdisciplinary Results
-  year: 2023
-  link: https://dsn2023.dei.uc.pt/calls_cfp-disrupt.html
-  deadline: ["2023-02-07 23:59"]
-  abdeadline: January 31, 2023
-  comment: Published in the supplementary volume of DSN proceedings. Notification - April 14.
-  date: June 27-30
-  place: Porto, Portugal
-  tags: [MISC]
-  
+
   
 - name: (Misc) SECRYPT Doctoral Consortium
   description: International Conference on Information Security and Cryptography
