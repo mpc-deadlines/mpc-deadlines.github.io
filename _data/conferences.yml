@@ -546,16 +546,6 @@
   tags: [THEORY, COREB]
   rank: B
   
-- name: MDAI
-  description: International Conference on Modeling Decisions for Artificial Intelligence
-  year: 2023
-  link: http://www.mdai.cat/mdai2023/
-  deadline: ["2022-12-15 23:59"]
-  comment: Track on data privacy
-  date: June 19-22
-  place: Umeå, Sweden
-  tags: [PRACT, APPLIED, COREB]
-  rank: B
   
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
