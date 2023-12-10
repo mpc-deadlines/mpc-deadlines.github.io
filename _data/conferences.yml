@@ -746,15 +746,6 @@
   tags: [WK]
   comment: co-located with NDSS + proceedings. Notification - Jan 29.
 
-- name: (Workshop) Cloud S&P
-  description: Cloud Security and Privacy
-  year: 2023
-  link: https://cloudsp2023.encs.concordia.ca
-  deadline: ["2023-03-20 23:59"]
-  comment: co-located with ACNS. Published in the proceedings. Notification - April 19
-  date: June 19-22
-  place: Kyoto, Japan
-  tags: [WK]
   
 - name: (Workshop) CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
@@ -788,15 +779,6 @@
   tags: [WK]
   comment: co-located with IEEE S&P + proceedings. Notification - Mar 08.
   
-- name: (Workshop) DSML
-  description: Dependable and Secure Machine Learning
-  year: 2023
-  link: https://dependablesecureml.github.io/cfp.html
-  deadline: ["2023-04-07 23:59"]
-  comment: Published in the supplementary volume of DSN proceedings (Optional). Notification - April 21.
-  date: June 27
-  place: Porto, Portugal
-  tags: [WK]
   
 - name: (Workshop) Federated Learning and Analytics in Practice
   description: Federated Learning and Analytics in Practice&colon; Algorithms, Systems, Applications, and Opportunities
@@ -914,15 +896,6 @@
   tags: [WK]
   comment: co-located with IEEE S&P + proceedings. Notification - Mar 23.
   
-- name: (Workshop) S&P-FL
-  description: Workshop on Security and Privacy of Federated Learning
-  year: 2023
-  link: https://u-aizu.ac.jp/~pengli/spfl2023/index.html
-  deadline: ["2023-03-15 23:59"]
-  comment: co-located with ACNS. Published in the proceedings. Notification - April 19
-  date: June 19-22
-  place: Kyoto, Japan
-  tags: [WK]
   
 - name: (Workshop) SiMLA
   description: Security in Machine Learning and its Applications
@@ -933,17 +906,6 @@
   date: June 19-22
   place: Kyoto, Japan
   tags: [WK]
-  
-- name: (Workshop) TrustML-(un)Limited
-  description: Pitfalls of limited data anad computation of Trustworthy ML
-  year: 2023
-  link: https://sites.google.com/view/trustml-unlimited/home
-  deadline: ["2023-02-15 11:59"]
-  timezone: CET
-  date: May 04-05
-  place: Kigali, Rwanda
-  tags: [WK]
-  comment: co-located with ICLR23. Notification - Mar 03
   
 - name: (Workshop) WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
