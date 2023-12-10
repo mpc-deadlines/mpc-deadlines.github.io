@@ -373,13 +373,13 @@
   
 - name: ACSAC
   description: Annual Computer Security Applications Conference
-  year: 2023
-  link: https://www.acsac.org/2023/submissions/papers/
-  deadline: ["2023-05-26 23:59"]
+  year: 2024
+  link: https://www.acsac.org/2024
+  deadline: ["2024-05-26 23:59"]
   abdeadline: May 22
   rebut: August 02-07
-  date: Dec 04-08
-  place: Austin, Texas, USA
+  date: Dec 09 - 13
+  place: Waikiki, Honolulu, Hawaii
   tags: [PRACT, APPLIED, COREA]
   comment: Early Reject - Jul 06. Notification - Aug 16.
   rank: A
