@@ -748,6 +748,16 @@
   place: Copenhagen, Denmark
   tags: [WK]
   comment: co-located with CCS + proceedings. Notification - Aug 05.
+  
+- name: (Workshop) AISCC
+  description: Workshop on Artificial Intelligence System with Confidential Computing
+  year: 2024
+  link: https://www.ndss-symposium.org/ndss2024/submissions/cfp-aiscc/
+  deadline: ["2024-01-06 23:59"]
+  date: February 26
+  place: San Diego, California
+  tags: [WK]
+  comment: co-located with NDSS + proceedings. Notification - Jan 29.
 
 - name: (Workshop) Cloud S&P
   description: Cloud Security and Privacy
