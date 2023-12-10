@@ -703,17 +703,7 @@
   comment: Notification - Oct 15 and Feb 15. 
   tags: [APPLIED, COREO]
   rank: Unranked
-  
-- name: IEEE MetaCom
-  description: International Conference on Metaverse Computing, Networking and Applications
-  year: 2023
-  link: https://www.ieee-metacom.org/2023/cf-papers.php
-  deadline: ["2022-12-30 23:59"]
-  comment: Notification - Mar 15.
-  date: June 26--28
-  place: Kyoto, Japan
-  tags: [PRACT, COREO]
-  rank: Unranked
+
   
 - name: LATINCRYPT
   description: International Conference On Cryptology And Information Security In Latin America
