@@ -307,14 +307,14 @@
   
 - name: IEEE ICDCS
   description: IEEE International Conference on Distributed Computing Systems
-  year: 2023
-  link: https://icdcs2023.icdcs.org
-  deadline: ["2023-01-21 23:59"]
-  abdeadline: Jan 14, 2023
+  year: 2024
+  link: https://icdcs2024.icdcs.org
+  deadline: ["2024-01-19 23:59"]
+  abdeadline: Jan 12
   timezone: EST
-  date: July 18-21
-  comment: Notification - April 03.
-  place: Hong Kong, China
+  date: July 16-19
+  comment: Notification - April 12.
+  place: New Jersey, USA
   tags: [THEORY, PRACT, COREA]
   rank: A
   
