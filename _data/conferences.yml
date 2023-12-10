@@ -781,12 +781,14 @@
   
 - name: (Workshop) CPSS
   description: ACM Cyber-Physical System Security Workshop
-  year: 2023
-  link: https://www.nics.uma.es/CPSS2023/
-  deadline: ["2023-01-30 23:59"]
-  comment: co-located with AsiaCCS. Published in the proceedings. Notification - March 15
-  date: "July 10"
-  place: Melbourne, Australia
+  year: 2024
+  link: https://asiaccs2024.sutd.edu.sg/cpss2024/
+  deadline:
+    - "2024-01-15 23:59"
+    - "2024-02-18 23:59"
+  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Feb 16, Mar 26
+  date: "July 02"
+  place: Singapore
   tags: [WK]
   
 - name: (Workshop) DLSP
@@ -1052,16 +1054,6 @@
   tags: [WK]
   rank: A
   
-- name: (Poster) FC
-  description: Financial Cryptography and Data Security
-  year: 2023
-  link: https://fc23.ifca.ai/
-  deadline: ["2023-01-26 23:59"]
-  date: May 01-05
-  comment: Notification - February 08
-  place: Bol, Brač, Croatia
-  tags: [WK]
-  rank: A
   
 - name: (Poster) IEEE/ACM CCGRID
   description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
