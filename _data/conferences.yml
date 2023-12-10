@@ -44,13 +44,13 @@
   
 - name: CRYPTO
   description: International Cryptology Conference
-  year: 2023
-  link: https://crypto.iacr.org/2023
-  deadline: ["2023-02-16 18:00"]
-  timezone: EST
-  date: August 19-24
+  year: 2024
+  link: https://crypto.iacr.org/2024
+  deadline: ["2024-02-13 23:59"]
+  rebut: Apr 07 - 12
+  date: August 18-22
   place: Santa Barbara, USA
-  comment: Notification - May 05.
+  comment: Notification - May 03.
   tags: [THEORY, COREAS]
   rank: A*
   
