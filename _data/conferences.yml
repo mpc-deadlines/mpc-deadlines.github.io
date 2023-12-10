@@ -907,12 +907,14 @@
   
 - name: (Workshop) SecTL
   description: Secure and Trustworthy Deep Learning Systems (SecTL) Workshop
-  year: 2023
-  link: https://asiaccs-sectl.github.io
-  deadline: ["2023-02-28 23:59"]
-  comment: co-located with AsiaCCS. Published in the proceedings. Notification - March 31
-  date: "July 10"
-  place: Melbourne, Australia
+  year: 2024
+  link: https://www.sectl.com
+  deadline:
+    - "2023-12-08 23:59"
+    - "2024-02-18 23:59"
+  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Jan 20, Mar 26
+  date: "July 02"
+  place: Singapore
   tags: [WK]
   
 - name: (Workshop) SecWeb
