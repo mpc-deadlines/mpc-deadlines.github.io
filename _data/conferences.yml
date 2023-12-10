@@ -965,15 +965,6 @@
   tags: [WK]
   comment: Notification - Nov 10. In conjunction with ACSAC23 + proceedings.
   
-- name: (Workshop) WOOT
-  description: IEEE Workshop on Offensive Technologies
-  year: 2023
-  link: https://wootconference.org
-  deadline: ["2023-02-10 23:59"]
-  date: May 25
-  place: San Fransisco, CA
-  tags: [WK]
-  comment: co-located with IEEE S&P + proceedings. Notification - Mar 07.
   
 - name: (Workshop) WPES
   description: Workshop on Privacy in the Electronic Society
@@ -1378,39 +1369,7 @@
   place: Singapore
   tags: [WK]
   rank: A*
-  
-- name: (Misc) DeCompute
-  description: The Conference on Decentralized Security with Multi Party Computation
-  year: 2023
-  link: https://www.decompute.xyz
-  deadline: ["2023-07-10 23:59"]
-  comment: Talks, Posters, SoKs - Deadline on June 30.
-  date: "September 12-13"
-  place: Singapore
-  tags: [MISC]
-  
-- name: (Misc) CSCML
-  description: International Symposium on Cyber Security Cryptography and Machine Learning
-  year: 2023
-  link: https://www.cscml.org
-  deadline: ["2023-06-12 23:59"]
-  comment: The PhD and Masters Track. No formal proceedings.
-  date: June 29-30
-  place: Virtual
-  tags: [MISC]
-  rank: Unranked
 
-  
-- name: (Misc) SECRYPT Doctoral Consortium
-  description: International Conference on Information Security and Cryptography
-  year: 2023
-  link: https://secrypt.scitevents.org/DoctoralConsortium.aspx
-  deadline: ["2023-05-12 23:59"]
-  comment: Notification - May 26
-  date: July 10-12
-  place: Rome, Italy
-  tags: [MISC]
-  rank: B
   
 # Journals
 
