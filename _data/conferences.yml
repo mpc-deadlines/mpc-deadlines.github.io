@@ -1031,12 +1031,12 @@
 
 - name: (Poster) ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
-  year: 2023
-  link: https://asiaccs2023.org
-  deadline: ["2023-04-02 23:59"]
-  comment: Published in the proceedings. Notification - April 09.
-  date: "June 10 - 14"
-  place: Melbourne, Australia
+  year: 2024
+  link: https://asiaccs2024.sutd.edu.sg/call-for-posters/
+  deadline: ["2024-02-26 23:59"]
+  comment: Published in the proceedings. Notification - March 26.
+  date: "July 01 - 05"
+  place: Singapore
   tags: [WK]
   rank: A
   
