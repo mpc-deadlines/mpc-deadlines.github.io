@@ -670,12 +670,12 @@
   
 - name: ITC
   description: Information-Theoretic Cryptography
-  year: 2023
-  link: https://itcrypto.github.io/2023/index.html
-  deadline: ["2023-02-06 23:59"]
-  comment: Spotlight track deadline on February 28. Notification - April 17.
-  date: June 06-08
-  place: Aarhus, Denmark
+  year: 2024
+  link: https://itcrypto.github.io/2024/index.html
+  deadline: ["2024-02-06 23:59"]
+  comment: Notification - April 17.Just before CRYPTO 2024.
+  date: "August 14 - 16"
+  place: Stanford, CA, USA
   tags: [THEORY, COREO]
   rank: Unranked (C)
   
