@@ -1383,13 +1383,13 @@
 
 - name: (Misc) PhD Symposium at The Web Conference
   description: The Web Conference (WWW)
-  year: 2023
-  link: https://www2023.thewebconf.org/calls/phd-symposium/
-  deadline: ["2023-02-03 23:59"]
-  comment: Notification - Feb 24 + Proceedings
-  date: "April 30 - May 04"
-  place: Austin, Texas, USA
-  tags: [MISC]
+  year: 2024
+  link: https://www2024.thewebconf.org/calls/short-papers/
+  deadline: ["2024-02-05 23:59"]
+  comment: Notification - March 04 + Proceedings
+  date: "May 13 - 17"
+  place: Singapore
+  tags: [WK]
   rank: A*
   
 - name: (Misc) DeCompute
