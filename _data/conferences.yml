@@ -411,19 +411,6 @@
   tags: [PRACT, COREA, COREO]
   rank: NEW (A)
   
-- name: ICALP
-  description: EATCS International Colloquium on Automata, Languages, and Programming 
-  year: 2023
-  link: https://icalp2023.cs.upb.de
-  deadline: ["2023-02-11 11:00"]
-  date: "July 10 - 14"
-  timezone: CET
-  rebut: March 22-25
-  comment: Notification - April 21 
-  place: Paderborn, Germany
-  tags: [THEORY, COREA]
-  rank: A
-  
 
 # CORE B
 
