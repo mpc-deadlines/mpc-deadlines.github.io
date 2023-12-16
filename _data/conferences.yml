@@ -292,18 +292,7 @@
   place: Willemstad, Curaçao
   tags: [PRACT, COREA]
   rank: A
-  
-- name: IEEE/ACM CCGRID
-  description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
-  year: 2024
-  link: https://2024.ccgrid-conference.org
-  deadline: ["2023-12-04 23:59"]
-  abdeadline: November 27, 2023
-  date: May 06-09
-  comment: Notification - Feb 12.
-  place: Philadelphia
-  tags: [THEORY, PRACT, COREA]
-  rank: A
+
   
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
@@ -344,7 +333,7 @@
   rank: A
   comment: Notification - November 08
   
-- name: MCFS
+- name: MFCS
   description: International Symposium on Mathematical Foundations of Computer Science
   year: 2023
   link: https://mfcs2023.labri.fr
@@ -440,6 +429,32 @@
   place: Sydney, Australia
   tags: [PRACT, APPLIED, COREB]
   rank: B (Australasian)
+  
+  
+- name: IEEE/ACM CCGRID
+  description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
+  year: 2024
+  link: https://2024.ccgrid-conference.org
+  deadline: ["2023-12-04 23:59"]
+  abdeadline: November 27, 2023
+  date: May 06-09
+  comment: Notification - Feb 12.
+  place: Philadelphia
+  tags: [THEORY, PRACT, COREB]
+  rank: B
+  
+- name: ACM WiSec
+  description: Security and Privacy in Wireless and Mobile Networks
+  year: 2024
+  link: http://wisec2024.kaist.ac.kr
+  deadline: 
+    - "2023-11-09 23:59"
+    - "2024-02-08 23:59"
+  date: May 27 - 30
+  place: Seol, Korea
+  tags: [PRACT, APPLIED, COREB]
+  rank: B
+  comment: Notification - Dec 18 and Mar 22.
 
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
@@ -476,6 +491,17 @@
   tags: [PRACT, COREB]
   rank: B
   
+- name: CT-RSA
+  description: RSA Conference Cryptographers’ Track
+  year: 2024
+  link: https://ct-rsa-2024.aau.at
+  deadline: ["2023-10-02 23:59"]
+  date: May 06-09
+  place: San Francisco, CA, USA
+  comment: Notification - December 18, 2023.
+  tags: [THEORY, COREB]
+  rank: B
+  
 - name: FSE/ToSC
   description: International Conference on Fast Software Encryption
   year: 2023
@@ -501,17 +527,7 @@
   place: IIT Madras, Chennai, India
   tags: [THEORY, PRACT, COREB]
   rank: National India (B)
-  
-- name: IMACC
-  description: IMA International Conference on Cryptography and Coding
-  year: 2023
-  link: https://ima.org.uk/21435/19th-ima-international-conference-on-cryptography-and-coding/
-  deadline: ["2023-06-28 23:59"]
-  comment: Notification - September 06
-  date: December 12-14
-  place: Royal Holloway, London
-  tags: [THEORY, PRACT, COREB]
-  rank: B
+
   
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
@@ -582,17 +598,7 @@
   place: Italy
   tags: [PRACT, APPLIED, COREB]
   rank: National Italy (B)
-  
-- name: SECRYPT
-  description: International Conference on Information Security and Cryptography
-  year: 2023
-  link: https://secrypt.scitevents.org
-  deadline: ["2023-02-23 23:59"]
-  comment: Notification - April 21
-  date: July 10-12
-  place: Rome, Italy
-  tags: [THEORY, COREB]
-  rank: B
+
   
 - name: SOUPS
   description: Symposium on Usable Privacy and Security
@@ -610,19 +616,6 @@
 
 # CORE Others
 
-- name: ACM WiSec
-  description: Security and Privacy in Wireless and Mobile Networks
-  year: 2024
-  link: http://wisec2024.kaist.ac.kr
-  deadline: 
-    - "2023-11-09 23:59"
-    - "2024-02-08 23:59"
-  date: May 27 - 30
-  place: Seol, Korea
-  tags: [PRACT, APPLIED, COREO]
-  rank: Unranked
-  comment: Notification - Dec 18 and Mar 22.
-  
 - name: AfricaCrypt
   description: International Conference on Cryptology
   year: 2023
@@ -658,17 +651,6 @@
   rank: Unranked
 
 
-- name: CT-RSA
-  description: RSA Conference Cryptographers’ Track
-  year: 2024
-  link: https://ct-rsa-2024.aau.at
-  deadline: ["2023-10-02 23:59"]
-  date: May 06-09
-  place: San Francisco, CA, USA
-  comment: Notification - December 18, 2023.
-  tags: [THEORY, COREB, COREO]
-  rank: B
-  
 - name: ITC
   description: Information-Theoretic Cryptography
   year: 2024
@@ -704,7 +686,17 @@
   comment: Notification - Oct 15 and Feb 15. 
   tags: [APPLIED, COREO]
   rank: Unranked
-
+ 
+- name: IMACC
+  description: IMA International Conference on Cryptography and Coding
+  year: 2023
+  link: https://ima.org.uk/21435/19th-ima-international-conference-on-cryptography-and-coding/
+  deadline: ["2023-06-28 23:59"]
+  comment: Notification - September 06
+  date: December 12-14
+  place: Royal Holloway, London
+  tags: [THEORY, PRACT, COREO]
+  rank: C
   
 - name: LATINCRYPT
   description: International Conference On Cryptology And Information Security In Latin America
@@ -715,7 +707,19 @@
   comment: Notification - Jul 15
   date: October 02-06
   place: Ecuador, South America
-  tags: [THEORY, PRACT, COREB]
+  tags: [THEORY, PRACT, COREO]
+  rank: Unranked
+  
+- name: SECRYPT
+  description: International Conference on Information Security and Cryptography
+  year: 2024
+  link: https://secrypt.scitevents.org
+  deadline: ["2024-02-15 23:59"]
+  comment: Notification - April 15
+  date: July 08-10
+  place: Dijon, France
+  tags: [THEORY, COREB]
+  rank: C
 
 # Workshops
 
