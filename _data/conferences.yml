@@ -800,6 +800,16 @@
   tags: [WK]
   comment: In Conjunction with RWC 2024. Notification - Jan 22.
   
+- name: (Workshop) FL@FM-TheWebConf24
+  description: International Workshop on Federated Foundation Models for the Web
+  year: 2024
+  link: https://federated-learning.org/fl@fm-www-2024/
+  deadline: ["2024-02-05 23:59"]
+  date: May 14
+  place: Singapore
+  tags: [WK]
+  comment: Notification - May 14. In Conjunction with WWW 2024.
+  
 - name: (Workshop) FL-IJCAI
   description: International Workshop on Trustworthy Federated Learning
   year: 2023
