@@ -11,6 +11,8 @@
   tag: CRS
 - name: Machine Learning
   tag: PPML
+- name: Hardware
+  tag: HW
 - name: Journals
   tag: JRN
 - name: Others

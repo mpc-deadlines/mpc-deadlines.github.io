@@ -241,6 +241,7 @@
   place: Halifax, Canada
   tags: [PRACT, APPLIED, COREA]
   rank: A
+
   
 - name: DISC
   description: International Symposium on Distributed Computing
@@ -1309,7 +1310,26 @@
   tags: [PRACT, COREA, PPML]
   rank: A
   comment: Notification - May 08.
+
+
+# Hardware
+
   
+- name: DAC
+  description: Design Automation Conference
+  year: 2024
+  link: https://www.dac.com/Conference/2024-Call-for-Contributions
+  deadline: ["2023-11-20 23:59"]
+  abdeadline: November 13
+  date: June 23 - 27
+  place: Moscone West, San Francisco
+  tags: [HW, COREA]
+  comment: Notification - Feb 26.
+  rank: A
+  
+  
+  
+
 
 # Others
 
