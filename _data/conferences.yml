@@ -244,15 +244,15 @@
   
 - name: DISC
   description: International Symposium on Distributed Computing
-  year: 2023
-  link: http://www.disc-conference.org/wp/disc2023/
-  deadline: ["2023-05-10 11:59"]
-  abdeadline: May 03
-  rebut: June 26-30
-  date: October 09-13
-  place: LAquila, Italy
+  year: 2024
+  link: https://www.disc-conference.org/wp/disc2024/
+  deadline: ["2024-05-14 23:59"]
+  abdeadline: May 07
+  rebut: July 04-10
+  date: October 28 - November 01
+  place: Madrid, Spain
   tags: [THEORY, PRACT, COREA]
-  comment: Best paper at DISC will be invited to the JACM. Notification - Jul 25.
+  comment: Best paper at DISC will be invited to the JACM. Notification - Aug 02.
   rank: A
 
 - name: ESORICS
