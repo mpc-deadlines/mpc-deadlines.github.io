@@ -198,6 +198,19 @@
   place: Guangzhou, China (Hybrid)
   tags: [THEORY, PRACT, APPLIED, COREAS]
   rank: A*
+  
+- name: VLDB (Industrial Track)
+  description: International Conference on Very Large Data Bases
+  year: 2024
+  link: https://vldb.org/2024/?call-for-industrial-track
+  deadline: ["2024-03-01 16:59"]
+  abdeadline: February 16
+  timezone: PT
+  comment: One author should have industry affiliation. Notification - May 08.
+  date: "August 25 - 29"
+  place: Guangzhou, China (Hybrid)
+  tags: [THEORY, PRACT, APPLIED, COREAS]
+  rank: A*
 
 # CORE A
 
