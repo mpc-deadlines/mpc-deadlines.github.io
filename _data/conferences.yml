@@ -178,7 +178,7 @@
 - name: VLDB
   description: International Conference on Very Large Data Bases
   year: 2024
-  link: http://vldb.org/pvldb/volumes/17/submission
+  link: https://vldb.org/2024/
   deadline:
     - "2023-04-01 16:59"
     - "2023-05-01 16:59"
@@ -194,8 +194,8 @@
     - "2024-03-01 16:59"
   timezone: PT
   comment: Rolling deadline every month. Notification on 15th of next month.
-  date: "August 28 - September 01"
-  place: Vancouver, Canada
+  date: "August 25 - 29"
+  place: Guangzhou, China (Hybrid)
   tags: [THEORY, PRACT, APPLIED, COREAS]
   rank: A*
 
