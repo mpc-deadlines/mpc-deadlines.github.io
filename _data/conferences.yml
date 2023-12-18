@@ -789,13 +789,13 @@
   
 - name: (Workshop) DLSP
   description: Deep Learning Security and Privacy Workshop
-  year: 2023
-  link: https://dls2023.ieee-security.org
-  deadline: ["2023-02-09 23:59"]
-  date: May 25
+  year: 2024
+  link: https://dls2024.ieee-security.org
+  deadline: ["2024-02-02 23:59"]
+  date: May 23
   place: San Fransisco, CA
   tags: [WK]
-  comment: co-located with IEEE S&P + proceedings. Notification - Mar 08.
+  comment: co-located with IEEE S&P + proceedings. Notification - Mar 04.
   
   
 - name: (Workshop) Federated Learning and Analytics in Practice
