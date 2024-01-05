@@ -758,11 +758,11 @@
   description: Workshop on Artificial Intelligence System with Confidential Computing
   year: 2024
   link: https://www.ndss-symposium.org/ndss2024/submissions/cfp-aiscc/
-  deadline: ["2024-01-06 23:59"]
+  deadline: ["2024-01-13 23:59"]
   date: February 26
   place: San Diego, California
   tags: [WK]
-  comment: co-located with NDSS + proceedings. Notification - Jan 29.
+  comment: co-located with NDSS + proceedings. Notification - Jan 31.
 
   
 - name: (Workshop) CPSIoTSec
