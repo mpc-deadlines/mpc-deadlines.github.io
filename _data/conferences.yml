@@ -602,13 +602,13 @@
   
 - name: SOUPS
   description: Symposium on Usable Privacy and Security
-  year: 2023
-  link: https://www.usenix.org/conference/soups2023/call-for-papers
-  deadline: ["2023-02-16 23:59"]
-  abdeadline: February 10
+  year: 2024
+  link: https://www.usenix.org/conference/soups2024
+  deadline: ["2024-02-15 23:59"]
+  abdeadline: February 08
   rebut: April 20-27 
-  date: "August 06 - 08"
-  place: Anaheim, CA, USA
+  date: "August 11 - 13"
+  place: Philadelphia, USA
   comment: co-located with USENIX Security. Notification - May 15.
   tags: [PRACT, COREB]
   rank: B
