@@ -708,16 +708,6 @@
 
 # Workshops
 
-- name: (Workshop) ACAI
-  description: Workshop on Applied Cryptography and AI
-  year: 2023
-  link: https://acai2023.aisylab.com
-  deadline: ["2023-06-15 23:59"]
-  date: August 20
-  place: Santa Barbara, USA
-  tags: [WK]
-  comment: co-located with CRYPTO + no proceedings. Notification - Jul 01.
-
 - name: (Workshop) ACM CCSW
   description: The ACM Cloud Computing Security Workshop
   year: 2023
@@ -748,7 +738,6 @@
   place: San Diego, California
   tags: [WK]
   comment: co-located with NDSS + proceedings. Notification - Jan 31.
-
   
 - name: (Workshop) CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
@@ -781,7 +770,6 @@
   place: San Fransisco, CA
   tags: [WK]
   comment: co-located with IEEE S&P + proceedings. Notification - Mar 04.
-  
   
 - name: (Workshop) Federated Learning and Analytics in Practice
   description: Federated Learning and Analytics in Practice&colon; Algorithms, Systems, Applications, and Opportunities
@@ -832,28 +820,6 @@
   place: Long Beach, California
   tags: [WK]
   comment: Notification - June 23. In Conjunction with KDD.
-  
-- name: (Workshop) FL@FM-NeurIPS
-  description: International Workshop on Federated Learning in the Age of Foundation Models
-  year: 2023
-  link: https://federated-learning.org/fl@fm-neurips-2023/
-  deadline: ["2023-10-02 23:59"]
-  date: December 16
-  place: New Orleans, USA
-  tags: [WK]
-  comment: Notification - Oct 27. In Conjunction with NeurIPS 2023 and no proceedings
-  
-- name: (Workshop) ML4H
-  description: Machine Learning for Health
-  year: 2023
-  link: https://ml4health.github.io/2023/
-  deadline: ["2023-09-12 23:59"]
-  abdeadline: Sep 07
-  rebut: Oct 13 - 18
-  date: December 10
-  place: New Orleans, USA (Hybrid)
-  tags: [WK]
-  comment: co-located with NeurIPS + formal proceedings and extended abstracts. Notification - Nov 01.
 
 - name: (Workshop) PPAI
   description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
@@ -909,17 +875,6 @@
   tags: [WK]
   comment: co-located with IEEE S&P + proceedings. Notification - Mar 23.
   
-  
-- name: (Workshop) SiMLA
-  description: Security in Machine Learning and its Applications
-  year: 2023
-  link: https://simla-workshop.github.io/Simla2023/
-  deadline: ["2023-03-09 23:59"]
-  comment: co-located with ACNS. Published in the proceedings. Notification - April 19
-  date: June 19-22
-  place: Kyoto, Japan
-  tags: [WK]
-  
 - name: (Workshop) WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2023
@@ -939,7 +894,6 @@
   place: Austin, Texas, USA
   tags: [WK]
   comment: Notification - Nov 10. In conjunction with ACSAC23 + proceedings.
-  
   
 - name: (Workshop) WPES
   description: Workshop on Privacy in the Electronic Society
