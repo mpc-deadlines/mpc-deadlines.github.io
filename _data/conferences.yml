@@ -618,12 +618,12 @@
 
 - name: AfricaCrypt
   description: International Conference on Cryptology
-  year: 2023
-  link: https://africacrypt2023.tn
-  deadline: ["2023-03-05 23:59"]
-  comment: Notification - Apr 30
-  date: July 19-21
-  place: Sousse, Tunisia
+  year: 2024
+  link: https://www.africacrypt2024.com
+  deadline: ["2024-02-16 23:59"]
+  comment: Notification - Apr 26
+  date: July 10-12
+  place: Douala, Cameroon
   tags: [THEORY, PRACT, COREO]
   rank: Unranked
   
