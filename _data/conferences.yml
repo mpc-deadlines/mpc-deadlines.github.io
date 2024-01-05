@@ -1062,11 +1062,11 @@
 
 - name: (Poster) NDSS
   description: ISOC Network and Distributed System Security Symposium
-  year: 2023
-  link: https://www.ndss-symposium.org/ndss2023/submissions/call-for-posters/
-  comment: No proceedings. Novel Ideas/ Recently published research. Notification - Feb 06
-  deadline: ["2023-01-20 23:59"]
-  date: "February 27 - March 3"
+  year: 2024
+  link: https://www.ndss-symposium.org/ndss2024/submissions/call-for-posters/
+  comment: No proceedings. Novel Ideas/ Recently published research. Notification - Feb 05
+  deadline: ["2024-01-19 23:59"]
+  date: "February 26 - March 01"
   place: San Diego, CA, USA
   tags: [WK]
   
