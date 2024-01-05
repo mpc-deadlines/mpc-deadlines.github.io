@@ -1025,19 +1025,6 @@
   rank: A
   
   
-- name: (Poster) IEEE/ACM CCGRID
-  description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
-  year: 2023
-  link: https://ccgrid2023.iisc.ac.in/
-  deadline: ["2023-02-07 23:59"]
-  abdeadline: Jan 24, 2023 (optional)
-  date: May 01-04
-  comment: Notification - Feb 17 + Proceedings.
-  place: Bangalore, India
-  tags: [THEORY, PRACT, COREA]
-  rank: A
-  
-  
 - name: (Poster) IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2024
