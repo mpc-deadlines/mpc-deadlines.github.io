@@ -744,6 +744,16 @@
   tags: [WK]
   comment: co-located with CCS + proceedings. Notification - Aug 05.
   
+- name: (Workshop) AICRYPT
+  description: Workshop on Artificial Intelligence and Cryptography
+  year: 2024
+  link: https://aicrypt2024.aisylab.com
+  deadline: ["2024-04-05 23:59"]
+  date: May 26
+  place: ETH Zurich, Switzerland
+  tags: [WK]
+  comment: co-located with Eurocrypt + no proceedings. Notification - April 19.
+  
 - name: (Workshop) AISCC
   description: Workshop on Artificial Intelligence System with Confidential Computing
   year: 2024
