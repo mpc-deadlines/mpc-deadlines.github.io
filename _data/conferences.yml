@@ -754,6 +754,16 @@
   tags: [WK]
   comment: co-located with NDSS + proceedings. Notification - Jan 31.
   
+- name: (Workshop) CAW
+  description: Cryptographic Applications Workshop
+  year: 2024
+  link: https://caw.cryptanalysis.fun
+  deadline: ["2024-02-29 23:59"]
+  date: May 26
+  place: ETH Zurich, Switzerland
+  tags: [WK]
+  comment: co-located with Eurocrypt + no proceedings. Notification - mid to end of March.
+  
 - name: (Workshop) CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
   year: 2023
