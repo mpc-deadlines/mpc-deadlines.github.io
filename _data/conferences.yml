@@ -1112,12 +1112,11 @@
   description: Theory and Practice of Multi-Party Computation Workshop 
   year: 2024
   link: https://www.multipartycomputation.com/tpmpc-2024
-  deadline: ["2024-02-28 23:59"]
-  timezone: Etc/UTC
+  deadline: ["2024-02-26 23:59"]
   date: June 03-06
   place: Darmstadt, Germany
   tags: [CRS]
-  comment: Notification - March 31.
+  comment: Notification - March 22.
   
   
 # Machine Learning and Data Science
