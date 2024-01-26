@@ -159,7 +159,7 @@
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
   
-- name: JoC Special Call for Papers
+- name: JoC Topical Collection (ZK)
   description: Topical Collection on Modern Zero-Knowledge Protocols
   year: 2024
   link: https://iacr.org/jofc/TopicalCollection-mzkp.html
@@ -175,7 +175,7 @@
   tags: [THEORY, PRACT, APPLIED, COREAS]
   rank: A*
   
-- name: JoC Special Call for Papers
+- name: JoC Topical Collection (Boolean)
   description: Topical Collection on Advances in Boolean Functions with Applications in Cryptography
   year: 2024
   link: https://iacr.org/jofc/TopicalCollection-abfac.html
