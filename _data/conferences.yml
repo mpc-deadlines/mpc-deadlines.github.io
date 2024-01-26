@@ -638,17 +638,6 @@
   comment: Notification - September 04.
   tags: [APPLIED, COREO]
   rank: Unranked
-  
-- name: CSCML
-  description: International Symposium on Cyber Security Cryptography and Machine Learning
-  year: 2023
-  link: https://www.cscml.org
-  deadline: ["2023-02-11 23:59"]
-  comment: Extended and revised versions of selected papers in a special issue of the Journal of Computer and System Sciences.
-  date: June 29-30
-  place: Virtual
-  tags: [THEORY, PRACT, COREO]
-  rank: Unranked
 
 
 - name: ITC
