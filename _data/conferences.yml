@@ -1207,15 +1207,14 @@
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
   link: https://kdd.org/kdd2024/
-  deadline: 
-    - "2024-02-01 23:59"
-    - "2024-07-25 23:59"
-  rebut: April 06-27
-  date: August 25 - 29
+  deadline: ["2024-02-08 19:59"]
+  abdeadline: Feb 01
+  rebut: April 04-18
+  date: August 25-29
   place: Barcelona, Spain
   tags: [COREAS, PPML]
   rank: A*
-  comment: Research Track on Data Privacy. Notification - May 18.
+  comment: Research Track on Data Privacy. Notification - May 16.
   
 - name: ICML
   description: International Conference on Machine Learning
