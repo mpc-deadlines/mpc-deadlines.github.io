@@ -106,14 +106,14 @@
   
 - name: NDSS
   description: Network and Distributed System Security Symposium
-  year: 2024
-  link: https://www.ndss-symposium.org/ndss2024/submissions/call-for-papers/
+  year: 2025
+  link: https://www.ndss-symposium.org/ndss2025/submissions/call-for-papers/
   comment: Early Reject - May 17, Aug 01. Notification - Jun 21 and Sep 13.
   deadline:
-    - "2023-04-19 23:59"
-    - "2023-06-28 23:59"
+    - "2024-04-19 23:59"
+    - "2024-06-28 23:59"
   rebut: 
-  date: "February 26 - March 01"
+  date: "February 27 - March 03"
   place: San Diego, CA, USA
   tags: [PRACT, COREAS]
   rank: A*
