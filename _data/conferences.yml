@@ -366,13 +366,12 @@
 
 - name: TCC
   description: Theory of Cryptography Conference
-  year: 2023
-  link: https://tcc.iacr.org/2023/
-  deadline: ["2023-06-01 13:59"]
-  timezone: EST
-  date: "November 29 - December 02"
+  year: 2024
+  link: https://tcc.iacr.org/2024/
+  deadline: ["2024-06-01 13:59"]
+  date: "December 02-06"
   comment: Notification - Aug 31.
-  place: Taipei, Taiwan
+  place: Milan, Italy
   tags: [THEORY, COREA]
   rank: A
   
