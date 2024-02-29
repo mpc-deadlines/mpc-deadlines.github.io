@@ -710,16 +710,6 @@
   tags: [WK]
   comment: co-located with CCS + proceedings. Notification - Aug 31.
   
-- name: (Workshop) ACM AISec
-  description: ACM Workshop On Artificial Intelligence and Security
-  year: 2023
-  link: https://aisec.cc
-  deadline: ["2023-06-24 23:59"]
-  rebut: Jul 25 - Aug 01
-  date: November 30
-  place: Copenhagen, Denmark
-  tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 05.
   
 - name: (Workshop) AICRYPT
   description: Workshop on Artificial Intelligence and Cryptography
