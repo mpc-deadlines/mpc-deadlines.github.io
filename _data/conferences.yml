@@ -589,12 +589,12 @@
   
 - name: SCN
   description: Conference on Security and Cryptography for Networks
-  year: 2023
-  link: https://scn.unisa.it/scn22/
-  deadline: ["2023-04-24 23:59"]
-  comment: Notification on June 12
-  date: September 12-14
-  place: Italy
+  year: 2024
+  link: https://scn.unisa.it/scn24/
+  deadline: ["2024-04-24 23:59"]
+  comment: Notification on June 24
+  date: September 11-13
+  place: Amalfy, Italy
   tags: [PRACT, APPLIED, COREB]
   rank: National Italy (B)
 
