@@ -347,18 +347,6 @@
   rank: A
   comment: Notification - November 08
   
-- name: MFCS
-  description: International Symposium on Mathematical Foundations of Computer Science
-  year: 2023
-  link: https://mfcs2023.labri.fr
-  deadline: ["2023-04-28 11:59"]
-  abdeadline: Apr 24, 2022
-  date: August 28 - September 01
-  place: Bordeaux, France
-  comment: Notification - June 27.
-  tags: [THEORY, COREA]
-  rank: A
-  
 - name: PoPETS
   description: Privacy Enhancing Technologies Symposium
   year: 2024
