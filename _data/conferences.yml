@@ -1194,12 +1194,12 @@
 
 - name: NeurIPS
   description: Conference on Neural Information Processing Systems
-  year: 2023
+  year: 2024
   link: https://neurips.cc/
-  deadline: ["2023-05-17 07:59"]
+  deadline: ["2024-05-17 07:59"]
   abdeadline: May 11, 08:00 PM UTC
-  date: December 10-16
-  place: New Orleans, USA
+  date: December 09-15
+  place: Vancouver, Canada
   tags: [COREAS, PPML]
   comment: Notification - September 21.
   rank: A*
