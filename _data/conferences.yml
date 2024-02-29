@@ -939,18 +939,6 @@
   date: "October 14-18"
   place: Salt Lake City, USA
   tags: [WK]
-  rank: A*
-
-- name: (Poster) ACNS
-  description: International Conference on Applied Cryptography and Network Security
-  year: 2023
-  link: https://sulab-sever.u-aizu.ac.jp/ACNS2023/call_poster.html
-  deadline:  ["2023-04-20 23:59"]
-  comment: Published in the proceedings. Notification - Apr 30
-  date: June 19-22
-  place: Kyoto, Japan
-  tags: [WK]
-  rank: B
 
 - name: (Poster) ACSAC
   description: Annual Computer Security Applications Conference
@@ -961,7 +949,6 @@
   date: Dec 04-08
   place: Austin, Texas, USA
   tags: [WK]
-  rank: A
 
 - name: (Poster) ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
@@ -972,7 +959,6 @@
   date: "July 01 - 05"
   place: Singapore
   tags: [WK]
-  rank: A
   
   
 - name: (Poster) ESORICS
@@ -984,7 +970,6 @@
   date: September 25-29
   place: The Hague, The Netherlands
   tags: [WK]
-  rank: A
   
   
 - name: (Poster) IEEE Euro S&P
@@ -1029,17 +1014,6 @@
   place: Lausanne, Switzerland
   tags: [WK]
   
-- name: (Poster) SOUPS
-  description: Symposium on Usable Privacy and Security
-  year: 2023
-  link: https://www.usenix.org/conference/soups2023/call-for-posters
-  deadline: ["2023-05-25 23:59"]
-  comment: Notification - June 08. Co-located with USENIX Security + no proceedings. 
-  date: "August 06 - 08"
-  place: Anaheim, CA, USA
-  comment: No proceedings
-  tags: [WK]
-  rank: B
   
 - name: (Poster) USENIX Security
   description: Usenix Security Symposium
@@ -1050,7 +1024,7 @@
   date: "August 09-11"
   place: ANAHEIM, CA, USA.
   tags: [WK]
-  rank: A*
+
   
 - name: (Poster) The Web Conference
   description: The Web Conference (WWW)
@@ -1061,7 +1035,6 @@
   date: "May 13 - 17"
   place: Singapore
   tags: [WK]
-  rank: A*
 
 # CryptoSchools
 
