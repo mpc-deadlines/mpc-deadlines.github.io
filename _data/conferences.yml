@@ -1114,16 +1114,16 @@
   
 - name: ECAI
   description: European Conference on Artificial Intelligence
-  year: 2023
-  link: https://ecai2023.eu
-  deadline: ["2023-05-08 23:59"]
-  abdeadline: May 02, 2023
-  rebut: June 25-28
-  date: October 02-05
-  place: Kraków, Poland
+  year: 2024
+  link: https://www.ecai2024.eu
+  deadline: ["2024-04-25 23:59"]
+  abdeadline: April 19
+  rebut: June 17-19
+  date: October 19-24
+  place: Santiago de Compostela
   tags: [COREA, PPML]
   rank: A
-  comment: Notification - July 15.
+  comment: Notification - July 04.
   
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
