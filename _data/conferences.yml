@@ -641,12 +641,12 @@
   
 - name: IEEE CNS
   description: IEEE Conference on Communications and Network Security
-  year: 2023
-  link: https://cns2023.ieee-cns.org
-  deadline: ["2023-06-18 23:59"]
-  comment: Notification - Aug 11.
-  date: October 02-05
-  place: Orlando, FL
+  year: 2024
+  link: https://cns2024.ieee-cns.org
+  deadline: ["2024-06-10 23:59"]
+  comment: Notification - Aug 09.
+  date: September 30 - October 03
+  place: Taipei, Taiwan
   tags: [PRACT, COREO]
   rank: Unranked
   
