@@ -1017,12 +1017,12 @@
   
 - name: (Poster) USENIX Security
   description: Usenix Security Symposium
-  year: 2023
-  link: https://www.usenix.org/conference/usenixsecurity23/call-for-papers
-  deadline: ["2023-07-06 23:59"]
-  comment: Notification - Jul 13. No proceedings
-  date: "August 09-11"
-  place: ANAHEIM, CA, USA.
+  year: 2024
+  link: https://www.usenix.org/conference/usenixsecurity24/call-for-papers
+  deadline: ["2024-07-09 23:59"]
+  comment: Notification - Jul 16. No proceedings
+  date: "August 14-16"
+  place: Philadelphia, PA, USA.
   tags: [WK]
 
   
