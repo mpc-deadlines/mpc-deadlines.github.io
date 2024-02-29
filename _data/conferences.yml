@@ -565,14 +565,15 @@
 
 - name: SAC
   description: Conference on Selected Areas in Cryptography
-  year: 2023
-  link: https://sac-workshop.github.io/sac-2023/index.html
-  deadline: ["2023-05-16 23:59"]
-  abdeadline: May 09
-  date: August 14-18
-  comment: Notification - July 03
-  place: Fredericton, New Brunswick
-  tags: [THEORY, COREB]
+  year: 2024
+  link: https://sacworkshop.org/SAC24/
+  deadline: 
+    - "2024-02-07 23:59"
+    - "2024-05-07 23:59"
+  date: August 28-30
+  comment: Notification - March 20, June 20
+  place: Montreal, Quebec
+  tags: [THEORY, PRACT, COREB]
   rank: B
   
 - name: SCN
@@ -972,6 +973,7 @@
   tags: [WK]
   rank: NEW (A)
 
+
 - name: (Short Talk) IEEE S&P
   description: IEEE Symposium on Security and Privacy
   year: 2024
@@ -982,6 +984,7 @@
   place: San Francisco, California, USA
   tags: [WK]
 
+
 - name: (Poster) NDSS
   description: ISOC Network and Distributed System Security Symposium
   year: 2024
@@ -991,6 +994,7 @@
   date: "February 26 - March 01"
   place: San Diego, CA, USA
   tags: [WK]
+  
   
 - name: (Poster) PoPETS
   description: Privacy Enhancing Technologies Symposium
