@@ -1105,17 +1105,17 @@
   
 - name: CIKM
   description: Conference on Information and Knowledge Management
-  year: 2023
-  link: https://cikm2023.github.io
+  year: 2024
+  link: https://www.cikm2024.org/home
   deadline:
-    - "2023-06-02 23:59"
-    - "2023-06-16 23:59"
-  abdeadline: May 26 and June 16 (Short Paper)
+    - "2024-05-20 23:59"
+    - "2024-06-03 23:59"
+  abdeadline: May 13 and May 27 (Short Paper)
   date: Oct 21-25
-  place: Birmingham, UK
+  place: Boise, Idaho, USA
   tags: [COREA, PPML]
   rank: A
-  comment: Notification - Aug 01. Second deadline for short paper. Multiple Tracks.
+  comment: Notification - July 16. Second deadline for short paper. Multiple Tracks.
   
 - name: ECAI
   description: European Conference on Artificial Intelligence
