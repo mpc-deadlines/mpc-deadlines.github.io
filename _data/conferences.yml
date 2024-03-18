@@ -793,15 +793,15 @@
   tags: [WK]
   comment: Notification - May 14. In Conjunction with WWW 2024.
   
-- name: (Workshop) FL-IJCAI
-  description: International Workshop on Trustworthy Federated Learning
-  year: 2023
-  link: https://federated-learning.org/fl-ijcai-2023/
-  deadline: ["2023-05-14 23:59"]
-  date: August 19-21
-  place: Macao, S.A.R
+- name: (Workshop) FL@FM-IJCAI
+  description: International Workshop on Federated Learning in the Age of Foundation Models
+  year: 2024
+  link: https://federated-learning.org/fl@fm-ijcai-2024/
+  deadline: ["2024-04-26 23:59"]
+  date: August 03-05
+  place: Jeju Island, South Korea
   tags: [WK]
-  comment: Notification - June 15. In Conjunction with IJCAI. Selected papers in edited LNCS book.
+  comment: Notification - May 25. In Conjunction with IJCAI. Selected papers in edited LNCS book.
   
 - name: (Workshop) FL4DDM
   description: International Workshop on Federated Learning for Distributed Data Mining
