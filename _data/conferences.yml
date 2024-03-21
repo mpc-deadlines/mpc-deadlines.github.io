@@ -298,12 +298,12 @@
 
 - name: FC
   description: Financial Cryptography and Data Security
-  year: 2024
-  link: https://fc24.ifca.ai
-  deadline: ["2023-09-20 23:59"]
+  year: 2025
+  link: https://fc25.ifca.ai
+  deadline: ["2024-09-20 23:59"]
   date: March 04-08
   comment: Notification - Nov 25
-  place: Willemstad, Curaçao
+  place: TBD
   tags: [PRACT, COREA]
   rank: A
 
