@@ -191,25 +191,25 @@
   
 - name: VLDB
   description: International Conference on Very Large Data Bases
-  year: 2024
-  link: https://vldb.org/2024/
+  year: 2025
+  link: https://vldb.org/2025/
   deadline:
-    - "2023-04-01 16:59"
-    - "2023-05-01 16:59"
-    - "2023-06-01 16:59"
-    - "2023-07-01 16:59"
-    - "2023-08-01 16:59"
-    - "2023-09-01 16:59"
-    - "2023-10-01 16:59"
-    - "2023-11-01 16:59"
-    - "2023-12-01 16:59"
-    - "2024-01-01 16:59"
-    - "2024-02-01 16:59"
-    - "2024-03-01 16:59"
+    - "2024-04-01 16:59"
+    - "2024-05-01 16:59"
+    - "2024-06-01 16:59"
+    - "2024-07-01 16:59"
+    - "2024-08-01 16:59"
+    - "2024-09-01 16:59"
+    - "2024-10-01 16:59"
+    - "2024-11-01 16:59"
+    - "2024-12-01 16:59"
+    - "2025-01-01 16:59"
+    - "2025-02-01 16:59"
+    - "2025-03-01 16:59"
   timezone: PT
   comment: Rolling deadline every month. Notification on 15th of next month.
   date: "August 25 - 29"
-  place: Guangzhou, China (Hybrid)
+  place: London, UK (Hybrid)
   tags: [THEORY, PRACT, APPLIED, COREAS]
   rank: A*
   
