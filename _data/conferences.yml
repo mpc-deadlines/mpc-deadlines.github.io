@@ -310,15 +310,15 @@
   
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
-  year: 2024
-  link: https://www.ieee-security.org/TC/CSF2024/
+  year: 2025
+  link: https://www.ieee-security.org/TC/CSF2025/
   deadline:
-    - "2023-05-15 23:59"
-    - "2023-09-30 23:59"
-    - "2024-02-03 23:59"
+    - "2024-05-15 23:59"
+    - "2024-09-30 23:59"
+    - "2025-02-03 23:59"
   comment: 3 deadlines. Notification - Jul 06, Dec 02, Apr 07.
   date: July 08-12
-  place: Enschede, The Netherlands
+  place: TBD
   tags: [THEORY, COREA]
   rank: A
   
