@@ -763,16 +763,6 @@
   tags: [WK]
   comment: co-located with IEEE S&P + proceedings. Notification - Mar 04.
   
-- name: (Workshop) Federated Learning and Analytics in Practice
-  description: Federated Learning and Analytics in Practice&colon; Algorithms, Systems, Applications, and Opportunities
-  year: 2023
-  link: https://fl-icml2023.github.io
-  deadline: ["2023-05-28 23:59"]
-  date: July 28
-  place: Honolulu, Hawaii
-  tags: [WK]
-  comment: co-located with ICML. Notification - June 19. No proceedings.
-  
 - name: (Workshop) FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
   year: 2024
@@ -802,16 +792,6 @@
   place: Jeju Island, South Korea
   tags: [WK]
   comment: Notification - May 25. In Conjunction with IJCAI. Selected papers in edited LNCS book.
-  
-- name: (Workshop) FL4DDM
-  description: International Workshop on Federated Learning for Distributed Data Mining
-  year: 2023
-  link: https://fl4data-mining.github.io
-  deadline: ["2023-05-30 23:59"]
-  date: August 07
-  place: Long Beach, California
-  tags: [WK]
-  comment: Notification - June 23. In Conjunction with KDD.
 
 - name: (Workshop) PPAI
   description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
@@ -876,16 +856,6 @@
   place: Copenhagen, Denmark
   tags: [WK]
   comment: co-located with CCS + proceedings. Notification - Aug 25
-  
-- name: (Workshop) WEB3SEC
-  description: Workshop Encouraging Building Better Blockchain Security
-  year: 2023
-  link: https://web3sec.ws/
-  deadline: ["2023-10-14 23:59"]
-  date: Dec 04
-  place: Austin, Texas, USA
-  tags: [WK]
-  comment: Notification - Nov 10. In conjunction with ACSAC23 + proceedings.
   
 - name: (Workshop) WPES
   description: Workshop on Privacy in the Electronic Society
@@ -1018,28 +988,7 @@
   date: February 20-23
   place: Bar-Ilan University, Israel
   tags: [CRS]
-  comment: Blockchain Technologies. Early registration - Jan 08.
-  
-- name: (School) Real-World Crypto and Privacy
-  description: Summer School on real-world crypto and privacy
-  year: 2023
-  link: https://summerschool-croatia.cs.ru.nl/2023/
-  deadline: ["2023-05-01 23:59"]
-  date: June 05-09
-  place: Vodice, Croatia
-  tags: [CRS]
-
-  
-- name: (School) CySeP
-  description: Cybersecurity and Privacy (CySeP) Summer School
-  year: 2023
-  link: https://cysep.conf.kth.se/index.html
-  deadline: ["2023-05-26 23:59"]
-  date: June 12-16
-  place: Stockholm, Sweden
-  comment: Registration - May 12. Deadline is for poster/demo.
-  tags: [CRS]
-  
+  comment: Blockchain Technologies. Early registration - Jan 08. 
   
 - name: (School) TPMPC
   description: Theory and Practice of Multi-Party Computation Workshop 
