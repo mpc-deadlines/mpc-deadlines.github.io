@@ -107,13 +107,13 @@
 - name: NDSS
   description: Network and Distributed System Security Symposium
   year: 2025
-  link: https://www.ndss-symposium.org/ndss2025/submissions/call-for-papers/
-  comment: Early Reject - May 17, Aug 01. Notification - Jun 21 and Sep 13.
+  link: https://www.ndss-symposium.org/ndss2025/
+  comment: Early Reject - May 21, Aug 20. Notification - Jun 20 and Sep 19.
   deadline:
-    - "2024-04-19 23:59"
-    - "2024-06-28 23:59"
-  rebut: 
-  date: "February 27 - March 03"
+    - "2024-04-17 23:59"
+    - "2024-07-10 23:59"
+  rebut: June 10-13, September 09-13
+  date: "February 23 - 28"
   place: San Diego, CA, USA
   tags: [PRACT, COREAS]
   rank: A*
@@ -937,11 +937,11 @@
 
 - name: (Poster) NDSS
   description: ISOC Network and Distributed System Security Symposium
-  year: 2024
-  link: https://www.ndss-symposium.org/ndss2024/submissions/call-for-posters/
+  year: 2025
+  link: https://www.ndss-symposium.org/ndss2025/
   comment: No proceedings. Novel Ideas/ Recently published research. Notification - Feb 05
-  deadline: ["2024-01-26 23:59"]
-  date: "February 26 - March 01"
+  deadline: ["2025-01-26 23:59"]
+  date: "February 23 - 28"
   place: San Diego, CA, USA
   tags: [WK]
   
