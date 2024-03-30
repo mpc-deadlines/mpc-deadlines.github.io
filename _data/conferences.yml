@@ -1145,12 +1145,12 @@
   description: Conference on Neural Information Processing Systems
   year: 2024
   link: https://neurips.cc/
-  deadline: ["2024-05-17 07:59"]
-  abdeadline: May 11, 08:00 PM UTC
+  deadline: ["2024-05-22 07:59"]
+  abdeadline: May 15, 08:00 AM AoE
   date: December 09-15
   place: Vancouver, Canada
   tags: [COREAS, PPML]
-  comment: Notification - September 21.
+  comment: Notification - September 25.
   rank: A*
   
 - name: MLSys
