@@ -817,13 +817,23 @@
   
 - name: (Workshop) RWC
   description: Real World Crypto
-  year: 2024
-  link: https://rwc.iacr.org/2024/
-  deadline: ["2023-11-16 23:59"]
-  date: March 25-27
-  place: Toronto, Canada
+  year: 2025
+  link: https://rwc.iacr.org/2025/
+  deadline: ["2024-11-16 23:59"]
+  date: March 26-28
+  place: Sofia, Bulgaria
   tags: [WK]
   comment: Notification - Jan 23
+  
+- name: (Workshop) RWC
+  description: Real World Crypto
+  year: 2026
+  link: https://rwc.iacr.org/2026/
+  deadline: ["2025-11-16 23:59"]
+  date: March 09-11
+  place: Taipei, Taiwan
+  tags: [WK]
+  comment: Notification - Jan 10
   
 - name: (Workshop) SecTL
   description: Secure and Trustworthy Deep Learning Systems (SecTL) Workshop
