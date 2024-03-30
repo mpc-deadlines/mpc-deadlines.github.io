@@ -68,13 +68,12 @@
 
 - name: IEEE FOCS
   description: IEEE Symposium on Foundations of Computer Science
-  year: 2024
-  link: https://focs.computer.org/2024/
-  deadline: ["2024-04-04 19:59"]
-  timezone: ET
-  date: October 27-30
-  place: Chicago, USA
-  comment: Notification - July 01.
+  year: 2025
+  link: https://focs.computer.org/2025/
+  deadline: ["2025-05-04 19:59"]
+  date: December 14-17
+  place: Sydney, Australia
+  comment: Notification - August 01.
   tags: [THEORY, COREAS]
   rank: A*
 
