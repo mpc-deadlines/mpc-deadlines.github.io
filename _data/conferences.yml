@@ -933,6 +933,15 @@
   tags: [WK]
   rank: NEW (A)
 
+- name: (Poster) IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2024
+  link: https://www.ieee-security.org/TC/SP2024/cfposters.html
+  deadline: ["2024-04-12 23:59"]
+  date: "May 20-23"
+  comment: No proceedings. Notification - April 26.
+  place: San Francisco, California, USA
+  tags: [WK]
 
 - name: (Short Talk) IEEE S&P
   description: IEEE Symposium on Security and Privacy
