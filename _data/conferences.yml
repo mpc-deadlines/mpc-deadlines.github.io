@@ -378,13 +378,12 @@
   description: Annual Computer Security Applications Conference
   year: 2024
   link: https://www.acsac.org/2024
-  deadline: ["2024-05-26 23:59"]
-  abdeadline: May 22
+  deadline: ["2024-05-28 23:59"]
   rebut: August 02-07
   date: Dec 09 - 13
   place: Waikiki, Honolulu, Hawaii
   tags: [PRACT, APPLIED, COREA]
-  comment: Early Reject - Jul 06. Notification - Aug 16.
+  comment: Early Reject - Jul 06. Notification - Aug 19.
   rank: A
   
 - name: EuroSys
