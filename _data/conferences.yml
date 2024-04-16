@@ -924,11 +924,10 @@
   description: IEEE European Symposium on Security and Privacy
   year: 2024
   link: https://www.ieee-security.org/TC/EuroSP2024/cfposters.html
-  deadline: ["2024-05-12 23:59"]
-  abdeadline: May 05, 2024 (Registration)
+  deadline: ["2024-05-03 23:59"]
   date: "July 08-12"
   place: Vienna, Austria
-  comment: No proceedings. Notification - May 24.
+  comment: No proceedings. Notification - May 21.
   tags: [WK]
   rank: NEW (A)
 
