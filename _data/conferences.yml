@@ -541,7 +541,7 @@
 - name: IEEE ITW
   description: IEEE Information Theory Workshop
   year: 2024
-  link: https://itw2024.org
+  link: http://www.ieee-itw2024.org
   deadline: ["2024-04-26 23:59"]
   comment: Notification - Jul 29
   date: November 24-28
