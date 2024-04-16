@@ -347,17 +347,17 @@
   
 - name: PoPETS
   description: Privacy Enhancing Technologies Symposium
-  year: 2024
-  link: https://petsymposium.org/cfp24.php
+  year: 2025
+  link: https://petsymposium.org/cfp25.php
   deadline:
-    - "2023-05-31 23:59"
-    - "2023-08-31 23:59"
-    - "2023-11-30 23:59"
-    - "2024-02-28 23:59"
-  rebut: Jul 13-18, Oct 12-17, Jan 11-16, Apr 10-14
+    - "2024-05-31 23:59"
+    - "2024-08-31 23:59"
+    - "2024-11-30 23:59"
+    - "2025-02-28 23:59"
+  rebut: Jul 16-19, Oct 15-18, Jan 14-17, Apr 15-18
   comment: Rolling deadline every quarter. Notifications - Aug 01, Nov 01, Feb 01, May 01.
   date: July 15-20
-  place: Bristol, UK (Hybrid)
+  place: Washington, DC (Hybrid)
   tags: [PRACT, COREA]
   rank: A
   
