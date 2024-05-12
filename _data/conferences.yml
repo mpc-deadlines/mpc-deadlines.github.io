@@ -1056,15 +1056,15 @@
 
 - name: AAAI
   description: Conference on Artificial Intelligence
-  year: 2024
-  link: https://aaai.org/aaai-conference/
+  year: 2025
+  link: https://aaai.org/conference/aaai-25/
   deadline:
-    - "2023-08-15 23:59"
-    - "2023-09-25 23:59"
+    - "2024-08-15 23:59"
+    - "2024-09-25 23:59"
   abdeadline: August 08
   rebut: November 02-05
   date: February 20-28
-  place: Vancouver, Canada
+  place: Philadelphia, PA, USA
   tags: [COREAS, PPML]
   comment: Notification - Dec 09. September deadline for NeurIPS fast track submissions.
   rank: A*
