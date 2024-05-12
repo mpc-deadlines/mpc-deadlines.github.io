@@ -895,7 +895,7 @@
   
 - name: (Workshop) WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
-  year: 2023
+  year: 2024
   link: https://homomorphicencryption.org/wahc-2024/
   deadline: ["2024-07-12 23:59"]
   date: "October 14"
