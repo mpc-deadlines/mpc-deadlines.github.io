@@ -690,14 +690,13 @@
 
 - name: (Workshop) ACM CCSW
   description: The ACM Cloud Computing Security Workshop
-  year: 2023
+  year: 2024
   link: https://ccsw.io
-  deadline: ["2023-07-31 23:59"]
-  date: November 26
-  place: Copenhagen, Denmark
+  deadline: ["2024-06-25 23:59"]
+  date: "October 18"
+  place: Salt Lake City, USA
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 31.
-  
+  comment: co-located with CCS + proceedings. Notification - Aug 12.
   
 - name: (Workshop) AICRYPT
   description: Workshop on Artificial Intelligence and Cryptography
@@ -719,6 +718,16 @@
   tags: [WK]
   comment: co-located with NDSS + proceedings. Notification - Jan 31.
   
+- name: (Workshop) AISec
+  description: Workshop on Artificial Intelligence and Security
+  year: 2024
+  link: https://aisec.cc
+  deadline: ["2024-06-21 23:59"]
+  date: "October 18"
+  place: Salt Lake City, USA
+  tags: [WK]
+  comment: co-located with CCS + proceedings. Notification - Aug 02.
+  
 - name: (Workshop) CAW
   description: Cryptographic Applications Workshop
   year: 2024
@@ -729,15 +738,25 @@
   tags: [WK]
   comment: co-located with Eurocrypt + no proceedings. Notification - mid to end of March.
   
+- name: (Workshop) CCSW
+  description: Cloud Computing Workshop
+  year: 2024
+  link: https://ccsw.io
+  deadline: ["2024-06-25 23:59"]
+  date: "October 18"
+  place: Salt Lake City, USA
+  tags: [WK]
+  comment: co-located with CCS + proceedings. Notification - Aug 12.
+  
 - name: (Workshop) CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
-  year: 2023
-  link: https://cpsiotsec2023.github.io/
-  deadline: ["2023-06-29 23:59"]
-  date: November 26
-  place: Copenhagen, Denmark
+  year: 2024
+  link: https://cpsiotsec2024.github.io
+  deadline: ["2024-06-25 23:59"]
+  date: "October 18"
+  place: Salt Lake City, USA
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 10
+  comment: co-located with CCS + proceedings. Notification - Aug 12.
   
 - name: (Workshop) CPSS
   description: ACM Cyber-Physical System Security Workshop
@@ -750,6 +769,16 @@
   date: "July 02"
   place: Singapore
   tags: [WK]
+  
+- name: (Workshop) DeFi
+  description: Workshop on Decentralized Finance and Security
+  year: 2024
+  link: https://defi.security
+  deadline: ["2024-07-15 23:59"]
+  date: "October 14"
+  place: Salt Lake City, USA
+  tags: [WK]
+  comment: co-located with CCS + proceedings. Notification - Aug 25.
   
 - name: (Workshop) DLSP
   description: Deep Learning Security and Privacy Workshop
@@ -790,6 +819,16 @@
   place: Jeju Island, South Korea
   tags: [WK]
   comment: Notification - May 25. In Conjunction with IJCAI. Selected papers in edited LNCS book.
+  
+- name: (Workshop) LAMPS
+  description: Workshop on Large AI Systems and Models with Privacy and Safety Analysis
+  year: 2024
+  link: https://lamps-ccs.com
+  deadline: ["2024-07-15 23:59"]
+  date: "October 14"
+  place: Salt Lake City, USA
+  tags: [WK]
+  comment: co-located with CCS + proceedings. Notification - Aug 25.
 
 - name: (Workshop) PPAI
   description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
@@ -858,22 +897,22 @@
 - name: (Workshop) WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2023
-  link: https://homomorphicencryption.org/workshops-wahc23/
-  deadline: ["2023-07-24 23:59"]
-  date: November 26
-  place: Copenhagen, Denmark
+  link: https://homomorphicencryption.org/wahc-2024/
+  deadline: ["2024-07-12 23:59"]
+  date: "October 14"
+  place: Salt Lake City, USA
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 25
+  comment: co-located with CCS + proceedings. Notification - Aug 26.
   
 - name: (Workshop) WPES
   description: Workshop on Privacy in the Electronic Society
-  year: 2023
-  link: https://www.wpes2023.conf.kth.se/
-  deadline: ["2023-07-24 23:59"]
-  date: November 26
-  place: Copenhagen, Denmark
+  year: 2024
+  link: https://cseapps.case.edu/wpes2024/
+  deadline: ["2024-07-08 23:59"]
+  date: "October 14"
+  place: Salt Lake City, USA
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Sep 12.
+  comment: co-located with CCS + proceedings. Notification - Aug 29.
   
 # Posters
 
