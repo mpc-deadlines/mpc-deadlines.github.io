@@ -311,10 +311,10 @@
   year: 2025
   link: https://www.ieee-security.org/TC/CSF2025/
   deadline:
-    - "2024-05-15 23:59"
-    - "2024-09-30 23:59"
-    - "2025-02-03 23:59"
-  comment: 3 deadlines. Notification - Jul 06, Dec 02, Apr 07.
+    - "2024-05-28 23:59"
+    - "2024-10-01 23:59"
+    - "2025-02-04 23:59"
+  comment: 3 deadlines. Notification - Jul 30, Dec 03, Apr 08.
   date: July 08-12
   place: TBD
   tags: [THEORY, COREA]
