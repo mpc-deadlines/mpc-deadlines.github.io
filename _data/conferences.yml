@@ -228,14 +228,14 @@
 
 - name: ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
-  year: 2024
-  link: https://asiaccs2024.sutd.edu.sg
+  year: 2025
+  link: https://asiaccs2025.hust.edu.vn
   deadline:
-    - "2023-08-21 23:59"
-    - "2023-12-07 23:59"
-  comment: Early Reject - Sep 26, Jan 23, Notifications - Nov 14, Mar 12
-  date: "July 01 - 05"
-  place: Singapore
+    - "2024-09-20 23:59"
+    - "2025-01-15 23:59"
+  comment: Early Reject - Oct 25, Feb 28, Notifications - Dec 13, Apr 19
+  date: "August 25-29"
+  place: Ha Noi, Vietnam
   tags: [PRACT, COREA]
   rank: A
 
