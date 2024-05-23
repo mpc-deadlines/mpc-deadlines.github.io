@@ -79,13 +79,13 @@
 
 - name: IEEE INFOCOM
   year: 2025
-  date: "May 20 - 23"
+  date: "May 05 - 08"
   description: IEEE International Conference on Computer Communications
   link: https://infocom2025.ieee-infocom.org
   deadline: ["2024-07-31 23:59"]
   abdeadline: July 24 AoE
   comment: Notification - Dec 01
-  place: Vancouver, Canada
+  place: London, United Kingdom
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
 
