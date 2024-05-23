@@ -91,9 +91,9 @@
 
 - name: IEEE S&P (Oakland)
   year: 2025
-  date: "May 20–23"
+  date: "May 12–15"
   description: IEEE Symposium on Security and Privacy
-  link: https://www.ieee-security.org/TC/SP2025/
+  link: https://sp2025.ieee-security.org/
   rebut: Aug 19-30, Feb 17-28
   comment: Early Reject -  Jul 22, Jan 20. Notification - Sep 09, Mar 10.
   deadline:
