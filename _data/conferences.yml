@@ -547,7 +547,17 @@
   place: Shenzhen, China
   tags: [THEORY, COREB]
   rank: B
-  
+
+- name: NSS-SocialSec
+  description: International Conference on Network and System Security and International Symposium on Security and Privacy in Social 
+  year: 2024
+  link: http://nsclab.org/nss-socialsec2024/cfp.html
+  deadline: ["2024-07-01 23:59"]
+  comment: Notification - August 30
+  date: November 20-22
+  place: Abu Dhabi, UAE
+  tags: [THEORY, COREB]
+  rank: B
   
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
