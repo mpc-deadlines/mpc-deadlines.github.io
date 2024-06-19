@@ -731,11 +731,11 @@
   description: Workshop on Artificial Intelligence and Security
   year: 2024
   link: https://aisec.cc
-  deadline: ["2024-06-21 23:59"]
+  deadline: ["2024-07-07 23:59"]
   date: "October 18"
   place: Salt Lake City, USA
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 02.
+  comment: co-located with CCS + proceedings. Notification - Aug 06.
   
 - name: (Workshop) CAW
   description: Cryptographic Applications Workshop
@@ -751,11 +751,11 @@
   description: Cloud Computing Workshop
   year: 2024
   link: https://ccsw.io
-  deadline: ["2024-06-25 23:59"]
+  deadline: ["2024-06-20 23:59"]
   date: "October 18"
   place: Salt Lake City, USA
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 12.
+  comment: co-located with CCS + proceedings. Notification - Aug 08.
   
 - name: (Workshop) CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
@@ -833,11 +833,11 @@
   description: Workshop on Large AI Systems and Models with Privacy and Safety Analysis
   year: 2024
   link: https://lamps-ccs.com
-  deadline: ["2024-07-15 23:59"]
+  deadline: ["2024-07-11 23:59"]
   date: "October 14"
   place: Salt Lake City, USA
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 25.
+  comment: co-located with CCS + proceedings. Notification - Aug 11.
 
 - name: (Workshop) PPAI
   description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
