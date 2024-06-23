@@ -866,13 +866,13 @@
   
 - name: (Workshop) PPML CRYPTO
   description: Privacy-Preserving Machine Learning Workshop
-  year: 2023
-  link: https://crypto-ppml.github.io/2023/
-  deadline: ["2023-07-15 23:59"]
+  year: 2025
+  link: https://crypto-ppml.github.io/2025/
+  deadline: ["2025-06-12 23:59"]
   date: August 20
   place: Santa Barbara, USA
   tags: [WK]
-  comment: co-located with CRYPTO. Notification - Jul 25
+  comment: co-located with CRYPTO. Notification - June 21
   
 - name: (Workshop) RWC
   description: Real World Crypto
