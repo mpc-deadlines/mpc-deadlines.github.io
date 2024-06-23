@@ -56,12 +56,12 @@
   
 - name: EUROCRYPT
   description: European Cryptology Conference
-  year: 2024
-  link: https://eurocrypt.iacr.org/2024/
-  deadline: ["2023-10-06 23:59"]
+  year: 2025
+  link: https://eurocrypt.iacr.org/2025/
+  deadline: ["2024-10-06 23:59"]
   rebut: Dec 08 - 13
-  date: May 26 - 30
-  place: Zurich, Switzerland
+  date: May 04 - 08
+  place: Madrid, Spain
   tags: [THEORY, COREAS]
   comment: Early Reject - Dec 08, Notification - Jan 31
   rank: A*
@@ -145,14 +145,14 @@
   
 - name: The Web Conference
   description: The Web Conference (WWW)
-  year: 2024
-  link: https://www2024.thewebconf.org
-  deadline: ["2023-10-12 23:59"]
+  year: 2025
+  link: https://www2025.thewebconf.org
+  deadline: ["2024-10-12 23:59"]
   rebut: Dec 01 - 14
   abdeadline: Oct 05
   comment: Notification - Feb 01
-  date: "May 13-17"
-  place: Singapore
+  date: April 28 - May 02
+  place: Sydney, Australia
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
   
@@ -404,14 +404,14 @@
 
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
-  year: 2024
-  link: https://www.ieee-security.org/TC/EuroSP2024/
-  deadline: ["2023-11-02 23:59"]
+  year: 2025
+  link: https://www.ieee-security.org/TC/EuroSP2025/
+  deadline: ["2024-11-02 23:59"]
   abdeadline: October 30
-  date: "July 09 - 11"
+  date: June 30 - July 04
   rebut: January 29 - February 01
   comment: Notification - February 22
-  place: Vienna, Austria
+  place: Venice, Italy
   tags: [PRACT, COREA, COREO]
   rank: NEW (A)
   
@@ -561,12 +561,12 @@
   
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
-  year: 2024
-  link: https://pkc.iacr.org/2024/
-  deadline: ["2023-10-15 23:59"]
+  year: 2025
+  link: https://pkc.iacr.org/2025/
+  deadline: ["2024-10-15 23:59"]
   date: April 15-17
   rebut: Nov 27 - Dec 02
-  place: Sydney, Australia
+  place: Røros, Norway
   comment: Early Reject - Nov 27. Notification - Dec 22.
   tags: [THEORY, COREB]
   rank: B
@@ -672,11 +672,11 @@
   
 - name: IEEE HOST
   description: IEEE International Symposium on Hardware Oriented Security and Trust
-  year: 2024
+  year: 2025
   link: http://www.hostsymposium.org/index.php
   deadline: 
-    - "2023-08-28 23:59"
-    - "2023-12-18 23:59"
+    - "2024-08-28 23:59"
+    - "2024-12-18 23:59"
   abdeadline: Aug 21, Dec 11
   date: May 01-04
   place: Washington DC, USA
@@ -1187,9 +1187,9 @@
   
 - name: IEEE SaTML
   description: IEEE Conference on Secure and Trustworthy Machine Learning
-  year: 2024
+  year: 2025
   link: http://satml.org
-  deadline: ["2023-10-11 23:59"]
+  deadline: ["2024-10-11 23:59"]
   abdeadline: October 04
   comment: Notification - Dec 19. Research papers, SoKs, and position papers.
   date: April 10-12
