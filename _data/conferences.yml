@@ -1352,9 +1352,18 @@
 - name: (Journal) IEEE TPDS
   description: IEEE Transactions on Parallel and Distributed Systems
   year: 2024
-  link: https://www.computer.org/csdl/journal/td/write-for-us/15085
+  link: https://www.computer.org/csdl/journal/td/
   deadline: ["2024-12-31 23:59"]
   comment: No deadline. <a href="https://mc.manuscriptcentral.com/tpds-cs" target="blank">Submission Portal</a>.
+  tags: [PRACT, APPLIED, COREAS, JRN]
+  rank: A*
+  
+- name: (Journal) IEEE ToSC
+  description: IEEE Transactions on Services Computing
+  year: 2024
+  link: https://www.computer.org/csdl/journal/sc
+  deadline: ["2024-12-31 23:59"]
+  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tsc-cs" target="blank">Submission Portal</a>.
   tags: [PRACT, APPLIED, COREAS, JRN]
   rank: A*
   
