@@ -253,17 +253,17 @@
 
 - name: CHES
   description: Cryptographic Hardware and Embedded Systems
-  year: 2024
-  link: https://ches.iacr.org/2024/
+  year: 2025
+  link: https://ches.iacr.org/2025/
   deadline:
-    - "2023-07-15 23:59"
-    - "2023-10-15 23:59"
-    - "2024-01-15 23:59"
-    - "2024-04-15 23:59"
-  rebut: Aug 21-25, Nov 20-24, Feb 19-23, May 20-24
+    - "2024-07-15 23:59"
+    - "2024-10-15 23:59"
+    - "2025-01-15 23:59"
+    - "2025-04-15 23:59"
+  rebut: Aug 19-23, Nov 18-22, Feb 17-21, May 19-23
   comment: Rolling deadline every quarter. (invites MPC topics)
   date: September 
-  place: Halifax, Canada
+  place: Malaysia
   tags: [PRACT, APPLIED, COREA]
   rank: A
 
