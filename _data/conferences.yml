@@ -608,6 +608,19 @@
   comment: co-located with USENIX Security. Notification - May 15.
   tags: [PRACT, COREB]
   rank: B
+  
+- name: WISE
+  description: International Web Information Systems Engineering conference
+  year: 2024
+  link: https://wise2024-qatar.com
+  deadline: 
+    - "2024-06-30 23:59"
+    - "2024-07-15 23:59"
+  comment: Notification - August 30. July deadline for special tracks.
+  date: December 02-05
+  place: Qatar University, Doha
+  tags: [PRACT, COREB]
+  rank: B
 
 
 # CORE Others
