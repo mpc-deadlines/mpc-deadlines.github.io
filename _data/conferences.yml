@@ -714,11 +714,11 @@
   description: The ACM Cloud Computing Security Workshop
   year: 2024
   link: https://ccsw.io
-  deadline: ["2024-06-25 23:59"]
+  deadline: ["2024-07-22 23:59"]
   date: "October 18"
   place: Salt Lake City, USA
   tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 12.
+  comment: co-located with CCS + proceedings. Notification - Aug 26.
   
 - name: (Workshop) AICRYPT
   description: Workshop on Artificial Intelligence and Cryptography
@@ -760,15 +760,6 @@
   tags: [WK]
   comment: co-located with Eurocrypt + no proceedings. Notification - mid to end of March.
   
-- name: (Workshop) CCSW
-  description: Cloud Computing Workshop
-  year: 2024
-  link: https://ccsw.io
-  deadline: ["2024-06-20 23:59"]
-  date: "October 18"
-  place: Salt Lake City, USA
-  tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 08.
   
 - name: (Workshop) CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
