@@ -1180,11 +1180,11 @@
   description: IEEE Conference on Secure and Trustworthy Machine Learning
   year: 2025
   link: http://satml.org
-  deadline: ["2024-10-11 23:59"]
-  abdeadline: October 04
-  comment: Notification - Dec 19. Research papers, SoKs, and position papers.
-  date: April 10-12
-  place: Toronto, Canada
+  deadline: ["2024-09-18 23:59"]
+  rebut: November 13-17
+  comment: Early Reject - Oct 23. Notification - Dec 11. Research papers, SoKs, and position papers.
+  date: April 11-15
+  place: Copenhagen, Denmark
   tags: [PPML]
 
 - name: NeurIPS
