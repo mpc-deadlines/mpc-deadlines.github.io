@@ -636,6 +636,17 @@
   tags: [THEORY, PRACT, COREO]
   rank: Unranked
   
+- name: ArcticCrypt
+  description: European Cryptology Conference
+  year: 2025
+  link: https://simula-uib.com/arcticcrypt2025/
+  deadline: ["2024-09-13 23:59"]
+  date: July 06 - 11
+  place: Longyearbyen
+  tags: [THEORY, COREO]
+  comment: Notification - October 23
+  rank: Unranked
+  
 - name: AsianHOST
   description: Asian Hardware Oriented Security and Trust Symposium
   year: 2024
