@@ -959,15 +959,6 @@
   place: Ha Noi, Vietnam
   tags: [WK]
   
-- name: (Poster) ESORICS
-  description: European Symposium on Research in Computer Security
-  year: 2024
-  link: https://esorics2024.org
-  deadline:  ["2024-07-21 23:59"]
-  date: September 16-20
-  place: Bydgoszcz, Poland
-  tags: [WK]
-  
 - name: (Poster) IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2024
