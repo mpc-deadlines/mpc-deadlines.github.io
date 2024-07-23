@@ -686,12 +686,12 @@
   year: 2025
   link: http://www.hostsymposium.org/index.php
   deadline: 
-    - "2024-08-28 23:59"
-    - "2024-12-18 23:59"
-  abdeadline: Aug 21, Dec 11
+    - "2024-08-26 23:59"
+    - "2024-12-16 23:59"
+  abdeadline: Aug 19, Dec 09
   date: May 01-04
   place: Washington DC, USA
-  comment: Notification - Oct 15 and Feb 15. 
+  comment: Notification - Oct 27 and Feb 17. 
   tags: [APPLIED, COREO]
   rank: Unranked
  
