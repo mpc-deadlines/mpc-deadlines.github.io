@@ -1140,31 +1140,18 @@
   rank: A
   comment: Applied Data Science and Journal Track (Dec 05). Notification - June 05.
   
-- name: IJCAI
-  description: International Joint Conference on Artificial Intelligence
-  year: 2024
-  link: https://ijcai24.org
-  deadline: ["2024-01-17 23:59"]
-  abdeadline: January 10
-  rebut: Mar 18 - 21
-  date: August 03-09
-  place: Jeju, South Korea
+- name: ICLR
+  description: International Conference on Learning Representations
+  year: 2025
+  link: https://iclr.cc
+  deadline: ["2024-10-01 23:59"]
+  abdeadline: September 27
+  rebut: Nov 12-26
+  date: April 24-28
+  place: Singapore
   tags: [COREAS, PPML]
   rank: A*
-  comment: Notification - April 16. Appendix deadline - Jan 24.
-  
-- name: KDD
-  description: SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2024
-  link: https://kdd.org/kdd2024/
-  deadline: ["2024-02-08 19:59"]
-  abdeadline: Feb 01
-  rebut: April 04-18
-  date: August 25-29
-  place: Barcelona, Spain
-  tags: [COREAS, PPML]
-  rank: A*
-  comment: Research Track on Data Privacy. Notification - May 16.
+  comment: Notification - Jan 22, 2025.
   
 - name: ICML
   description: International Conference on Machine Learning
@@ -1178,6 +1165,19 @@
   rank: A*
   comment: Notification - May 01. Special track on Position papers.
   
+- name: IJCAI
+  description: International Joint Conference on Artificial Intelligence
+  year: 2024
+  link: https://ijcai24.org
+  deadline: ["2024-01-17 23:59"]
+  abdeadline: January 10
+  rebut: Mar 18 - 21
+  date: August 03-09
+  place: Jeju, South Korea
+  tags: [COREAS, PPML]
+  rank: A*
+  comment: Notification - April 16. Appendix deadline - Jan 24.
+
 - name: IEEE SaTML
   description: IEEE Conference on Secure and Trustworthy Machine Learning
   year: 2025
@@ -1188,6 +1188,19 @@
   date: April 11-15
   place: Copenhagen, Denmark
   tags: [PPML]
+  
+- name: KDD
+  description: SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2024
+  link: https://kdd.org/kdd2024/
+  deadline: ["2024-02-08 19:59"]
+  abdeadline: Feb 01
+  rebut: April 04-18
+  date: August 25-29
+  place: Barcelona, Spain
+  tags: [COREAS, PPML]
+  rank: A*
+  comment: Research Track on Data Privacy. Notification - May 16.
 
 - name: NeurIPS
   description: Conference on Neural Information Processing Systems
