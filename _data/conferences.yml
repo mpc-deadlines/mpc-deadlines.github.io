@@ -494,13 +494,13 @@
   
 - name: CT-RSA
   description: RSA Conference Cryptographers’ Track
-  year: 2024
-  link: https://ct-rsa-2024.aau.at
-  deadline: ["2023-10-02 23:59"]
-  date: May 06-09
+  year: 2025
+  link: https://ct-rsa-2025.csa.iisc.ac.in/
+  deadline: ["2024-10-15 23:59"]
+  date: April 28 - May 01
   place: San Francisco, CA, USA
-  comment: Notification - December 18, 2023.
-  tags: [THEORY, COREB]
+  comment: Notification - January 10, 2025.
+  tags: [THEORY, PRACT, COREB]
   rank: B
   
 - name: ICDCN
