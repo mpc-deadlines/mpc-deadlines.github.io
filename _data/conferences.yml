@@ -181,7 +181,10 @@
     - "2024-05-01 23:59"
     - "2024-06-01 23:59"
     - "2024-07-01 23:59"
-  comment: Submissions will be open from April 1st to July 1st, 2024.
+    - "2024-08-01 23:59"
+    - "2024-09-01 23:59"
+    - "2024-10-01 23:59"
+  comment: Submissions will be open from April 1st to October 1st, 2024.
   date: "July 01"
   place: Journal (Online)
   tags: [THEORY, PRACT, APPLIED, COREAS]
