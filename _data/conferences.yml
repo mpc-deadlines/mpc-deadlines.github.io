@@ -29,16 +29,15 @@
   
 - name: MobiCom
   description: Annual International Conference On Mobile Computing And Networking
-  year: 2024
-  link: https://www.sigmobile.org/mobicom/2024/
+  year: 2025
+  link: https://www.sigmobile.org/mobicom/2025/
   deadline:
-    - "2023-08-25 23:59"
-    - "2024-03-15 23:59"
-  abdeadline: August 18 and March 08
-  rebut: Oct 31 - Nov 03, May 24 - 31
-  comment: 2 deadlines. Notifications - Nov 27, June 21
-  date: September 30 - October 04
-  place: Washington, D.C., USA
+    - "2024-09-05 23:59"
+    - "2025-03-18 23:59"
+  abdeadline: August 29 and March 11
+  comment: 2 deadlines. Notifications - Dec 10, June 24
+  date: November
+  place: Hong Kong, China
   tags: [APPLIED, COREAS]
   rank: A*
   
