@@ -1216,15 +1216,14 @@
   
 - name: MLSys
   description: Conference on Machine Learning and Systems
-  year: 2024
-  link: https://mlsys.org/Conferences/2024
-  deadline: ["2023-10-28 23:59"]
-  rebut: Jan 16-20
-  date: May 13-16
+  year: 2025
+  link: https://mlsys.org/Conferences/2025
+  deadline: ["2024-11-01 23:59"]
+  date: May 12-15
   place: Santa Clara, California
   tags: [COREO, PPML]
   rank: Unranked
-  comment: Notification - Feb 17. 
+  comment: Notification - Feb 10. 
 
 - name: PAKDD
   description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
