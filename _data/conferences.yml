@@ -337,10 +337,10 @@
   
 - name: ITCS
   description: Innovations in Theoretical Computer Science
-  year: 2024
-  link: http://itcs-conf.org/itcs24/itcs24-cfp.html
-  deadline: ["2023-09-08 19:59"]
-  abdeadline: Sep 05, 2022
+  year: 2026
+  link: http://itcs-conf.org/
+  deadline: ["2025-09-08 19:59"]
+  abdeadline: Sep 05
   date: "January 30 - February 02"
   place: University of California, Berkeley
   tags: [THEORY, COREA]
@@ -1271,16 +1271,6 @@
 
 
 # Others
-
-- name: (Misc) ARCS
-  description: Academic Research and Careers for Students Symposium
-  year: 2024
-  link: https://event.india.acm.org/arcs/home/
-  deadline: ["2023-10-24 23:59"]
-  comment: Notification - Nov 07.
-  date: "February 08-09"
-  place: Bhubaneshwar, India
-  tags: [MISC]
 
 - name: (Misc) Cybersecurity Artifacts Competition and Impact Award
   description: ACSAC
