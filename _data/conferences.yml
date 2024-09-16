@@ -660,6 +660,16 @@
   tags: [APPLIED, COREO]
   rank: Unranked
 
+- name: FLTA
+  description: International Conference on Federated Learning Technologies and Applications
+  year: 2025
+  link: https://flta-conference.org
+  deadline: ["2025-07-07 23:59"]
+  comment: Notification - July 31
+  date: September 17-19
+  place: TBA
+  tags: [PRACT, APPLIED, COREO]
+  rank: Unranked
 
 - name: ITC
   description: Information-Theoretic Cryptography
