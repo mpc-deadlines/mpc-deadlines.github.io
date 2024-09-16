@@ -1138,17 +1138,17 @@
   
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
-  year: 2024
-  link: https://2024.ecmlpkdd.org
+  year: 2025
+  link: https://ecmlpkdd.org/2025/
   deadline: 
-    - "2023-12-05 23:59"
-    - "2024-03-22 23:59"
-  abdeadline: March 15
-  date: September 09-13
-  place: Vilnius, Lithuania
+    - "2024-10-11 23:59"
+    - "2024-12-13 23:59"
+    - "2025-02-14 23:59"
+  date: September 15-19
+  place: Porto, Portugal
   tags: [COREA, PPML]
   rank: A
-  comment: Applied Data Science and Journal Track (Dec 05). Notification - June 05.
+  comment: Notification - June 05.
   
 - name: ICLR
   description: International Conference on Learning Representations
