@@ -868,13 +868,13 @@
 
 - name: (Workshop) PPAI
   description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
-  year: 2024
+  year: 2025
   link: https://ppai-workshop.github.io
   deadline: 
-    - "2023-11-22 23:59"
-    - "2023-12-12 23:59"
-  date: February 16
-  place: Vancouver Canada
+    - "2024-11-22 23:59"
+    - "2024-12-12 23:59"
+  date: February 25
+  place: Philadelphia, Pennsylvania
   tags: [WK]
   comment: co-located with AAAI. Notification - Dec 22. Second deadline - NeurIPS/AAAI fasttrack. 
   
