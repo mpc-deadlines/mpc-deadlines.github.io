@@ -379,9 +379,9 @@
   
 - name: ACSAC
   description: Annual Computer Security Applications Conference
-  year: 2024
-  link: https://www.acsac.org/2024
-  deadline: ["2024-05-28 23:59"]
+  year: 2025
+  link: https://www.acsac.org/2025
+  deadline: ["2025-05-28 23:59"]
   rebut: August 02-07
   date: Dec 09 - 13
   place: Waikiki, Honolulu, Hawaii
@@ -964,9 +964,9 @@
 
 - name: (Poster) ACSAC
   description: Annual Computer Security Applications Conference
-  year: 2024
-  link: https://www.acsac.org/2024/submissions/posters/
-  deadline: ["2024-09-06 23:59"]
+  year: 2025
+  link: https://www.acsac.org/2025/submissions/posters/
+  deadline: ["2025-09-06 23:59"]
   rebut: August 02-07
   date: Dec 09 - 13
   place: Waikiki, Honolulu, Hawaii
@@ -1283,9 +1283,9 @@
 
 - name: (Misc) Cybersecurity Artifacts Competition and Impact Award
   description: ACSAC
-  year: 2023
-  link: https://www.acsac.org/2023/submissions/artifacts_competition/
-  deadline: ["2023-09-15 23:59"]
+  year: 2025
+  link: https://www.acsac.org/2025/submissions/artifacts_competition/
+  deadline: ["2025-09-15 23:59"]
   date: Dec 04-08
   place: Austin, Texas, USA
   tags: [MISC]
