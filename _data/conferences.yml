@@ -422,14 +422,14 @@
 
 - name: ACISP
   description: Australasian Conference on Information Security and Privacy
-  year: 2024
-  link: http://www.acisp24.com/
+  year: 2025
+  link: https://uow-ic2.github.io/acisp2025/
   deadline: 
-    - "2023-11-06 23:59"
-    - "2024-02-19 23:59"
+    - "2024-11-06 23:59"
+    - "2025-02-19 23:59"
   comment: Notification - Jan 22, Apr 08
-  date: July 15-17
-  place: Sydney, Australia
+  date: July 14-16
+  place: Wollongong, Australia
   tags: [PRACT, APPLIED, COREB]
   rank: B (Australasian)
   
