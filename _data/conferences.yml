@@ -285,11 +285,11 @@
 
 - name: ESORICS
   description: European Symposium on Research in Computer Security
-  year: 2024
-  link: https://esorics2024.org
+  year: 2025
+  link: https://esorics2025.org
   deadline:
-    - "2024-01-08 23:59"
-    - "2024-04-19 23:59"
+    - "2025-01-08 23:59"
+    - "2025-04-19 23:59"
   comment: 2 deadlines. Notification - Mar 18, Jun 14.
   date: September 16-20
   place: Bydgoszcz, Poland
