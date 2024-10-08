@@ -1232,11 +1232,12 @@
   
 - name: DAC
   description: Design Automation Conference
-  year: 2024
-  link: https://www.dac.com/Conference/2024-Call-for-Contributions
-  deadline: ["2023-11-20 23:59"]
-  abdeadline: November 13
-  date: June 23 - 27
+  year: 2025
+  link: https://www.dac.com/Conference/2025-Call-for-Contributions
+  deadline: ["2024-11-19 16:59"]
+  abdeadline: November 12
+  timezone: PST
+  date: June 22-25
   place: Moscone West, San Francisco
   tags: [HW, COREA]
   comment: Notification - Feb 26.
