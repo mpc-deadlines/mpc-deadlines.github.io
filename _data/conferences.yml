@@ -156,41 +156,7 @@
   place: Sydney, Australia
   tags: [PRACT, APPLIED, COREAS]
   rank: A*
-  
-- name: JoC Topical Collection (ZK)
-  description: Topical Collection on Modern Zero-Knowledge Protocols
-  year: 2024
-  link: https://iacr.org/jofc/TopicalCollection-mzkp.html
-  deadline:
-    - "2023-11-01 23:59"
-    - "2023-12-01 23:59"
-    - "2024-01-01 23:59"
-    - "2024-02-01 23:59"
-    - "2024-03-01 23:59"
-  comment: Submissions will be open from November 1st, 2023 to March 1st, 2024.
-  date: "April 01"
-  place: Journal (Online)
-  tags: [THEORY, PRACT, APPLIED, COREAS]
-  rank: A*
-  
-- name: JoC Topical Collection (Boolean)
-  description: Topical Collection on Advances in Boolean Functions with Applications in Cryptography
-  year: 2024
-  link: https://iacr.org/jofc/TopicalCollection-abfac.html
-  deadline:
-    - "2024-04-01 23:59"
-    - "2024-05-01 23:59"
-    - "2024-06-01 23:59"
-    - "2024-07-01 23:59"
-    - "2024-08-01 23:59"
-    - "2024-09-01 23:59"
-    - "2024-10-01 23:59"
-  comment: Submissions will be open from April 1st to October 1st, 2024.
-  date: "July 01"
-  place: Journal (Online)
-  tags: [THEORY, PRACT, APPLIED, COREAS]
-  rank: A*
-  
+
 - name: VLDB
   description: International Conference on Very Large Data Bases
   year: 2025
@@ -210,21 +176,21 @@
     - "2025-03-01 16:59"
   timezone: PT
   comment: Rolling deadline every month. Notification on 15th of next month.
-  date: "August 25 - 29"
+  date: "September 01-05"
   place: London, UK (Hybrid)
   tags: [THEORY, PRACT, APPLIED, COREAS]
   rank: A*
   
 - name: VLDB (Industrial Track)
   description: International Conference on Very Large Data Bases
-  year: 2024
-  link: https://vldb.org/2024/?call-for-industrial-track
-  deadline: ["2024-03-01 16:59"]
+  year: 2025
+  link: https://vldb.org/2025/?call-for-industrial-track
+  deadline: ["2025-03-01 16:59"]
   abdeadline: February 16
   timezone: PT
   comment: One author should have industry affiliation. Notification - May 08.
-  date: "August 25 - 29"
-  place: Guangzhou, China (Hybrid)
+  date: "September 01-05"
+  place: London, UK (Hybrid)
   tags: [THEORY, PRACT, APPLIED, COREAS]
   rank: A*
 
