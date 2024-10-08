@@ -416,11 +416,11 @@
   
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
-  year: 2024
+  year: 2025
   link: http://wisec2024.kaist.ac.kr
   deadline: 
-    - "2023-11-09 23:59"
-    - "2024-02-12 23:59"
+    - "2024-11-09 23:59"
+    - "2025-02-12 23:59"
   date: May 27 - 30
   place: Seol, Korea
   tags: [PRACT, APPLIED, COREB]
