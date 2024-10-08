@@ -146,10 +146,12 @@
   description: The Web Conference (WWW)
   year: 2025
   link: https://www2025.thewebconf.org
-  deadline: ["2024-10-14 23:59"]
-  abdeadline: October 07
+  deadline:
+    - "2024-10-14 23:59"
+    - "2024-11-18 23:59"
+  abdeadline: October 07, November 11
   rebut: Dec 01 - 14
-  comment: Notification - Feb 01
+  comment: Notification - Feb 01. Nov deadline for industry track.
   date: April 28 - May 02
   place: Sydney, Australia
   tags: [PRACT, APPLIED, COREAS]
