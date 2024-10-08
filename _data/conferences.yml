@@ -1205,15 +1205,14 @@
 
 - name: PAKDD
   description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
-  year: 2024
-  link: https://pakdd2024.org
-  deadline: ["2023-11-15 23:59"]
-  timezone: PST
-  date: May 07-10
-  place: Taipei, Taiwan
+  year: 2025
+  link: https://pakdd2025.org
+  deadline: ["2024-11-30 23:59"]
+  date: June 10-13
+  place: Sydney, Australia
   tags: [PRACT, COREB, PPML]
   rank: B
-  comment: Notification - Jan 20
+  comment: Notification - Jan 25
   
 - name: UAI
   description: Conference on Uncertainity in Artificial Intelligence
