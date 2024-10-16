@@ -533,11 +533,11 @@
   description: International Conference on Practice and Theory of Public Key Cryptography
   year: 2025
   link: https://pkc.iacr.org/2025/
-  deadline: ["2024-10-15 23:59"]
-  date: April 15-17
-  rebut: Nov 27 - Dec 02
+  deadline: ["2024-10-16 23:59"]
+  date: May 12-15
+  rebut: Dec 11-18
   place: Røros, Norway
-  comment: Early Reject - Nov 27. Notification - Dec 22.
+  comment: Early Reject - Dec 11. Notification - Feb 05.
   tags: [THEORY, COREB]
   rank: B
 
