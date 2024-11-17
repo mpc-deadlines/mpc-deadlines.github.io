@@ -42,9 +42,9 @@
   
 - name: CRYPTO
   description: International Cryptology Conference
-  year: 2024
-  link: https://crypto.iacr.org/2024
-  deadline: ["2024-02-13 23:59"]
+  year: 2025
+  link: https://crypto.iacr.org/2025
+  deadline: ["2025-02-13 23:59"]
   rebut: Apr 07 - 12
   date: August 18-22
   place: Santa Barbara, USA
@@ -117,13 +117,13 @@
 
 - name: ACM PODC
   description: ACM Symposium on Principles of Distributed Computing
-  year: 2024
-  link: https://www.podc.org/podc2024/
-  deadline: ["2024-02-15 23:59"]
+  year: 2025
+  link: https://www.podc.org/podc2025/
+  deadline: ["2025-02-15 23:59"]
   abdeadline: Feb 11
   comment: Notification - April 22
-  date: June 17-21
-  place: Nantes, France
+  date: June 16-20
+  place: Huatulco, Mexico
   tags: [THEORY, COREAS]
   rank: A*
 
@@ -210,9 +210,9 @@
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
-  year: 2024
-  link: https://asiacrypt.iacr.org/2024/
-  deadline: ["2024-05-25 11:59"]
+  year: 2025
+  link: https://asiacrypt.iacr.org/2025/
+  deadline: ["2025-05-25 11:59"]
   rebut: Jul 20 - Aug 01
   comment: Early Reject - Jul 20. Notification - Aug 25.
   date: December 04-08
@@ -239,9 +239,9 @@
   
 - name: DISC
   description: International Symposium on Distributed Computing
-  year: 2024
-  link: https://www.disc-conference.org/wp/disc2024/
-  deadline: ["2024-05-14 23:59"]
+  year: 2025
+  link: https://www.disc-conference.org/wp/disc2025/
+  deadline: ["2025-05-14 23:59"]
   abdeadline: May 07
   rebut: July 04-10
   date: October 28 - November 01
@@ -291,14 +291,13 @@
   
 - name: IEEE ICDCS
   description: IEEE International Conference on Distributed Computing Systems
-  year: 2024
-  link: https://icdcs2024.icdcs.org
-  deadline: ["2024-01-19 23:59"]
-  abdeadline: Jan 12
-  timezone: EST
-  date: July 16-19
-  comment: Notification - April 12.
-  place: New Jersey, USA
+  year: 2025
+  link: https://icdcs2025.icdcs.org
+  deadline: ["2024-12-11 23:59"]
+  abdeadline: December 04
+  date: July 20-23
+  comment: Notification - April 02.
+  place: Glasgow, Scotland, UK
   tags: [THEORY, PRACT, COREA]
   rank: A
   
@@ -333,11 +332,10 @@
 
 - name: TCC
   description: Theory of Cryptography Conference
-  year: 2024
-  link: https://tcc.iacr.org/2024/
-  deadline: ["2024-05-20 19:59"]
+  year: 2025
+  link: https://tcc.iacr.org/2025/
+  deadline: ["2025-05-20 19:59"]
   date: "December 02-06"
-  timezone: CET
   rebut: Jul 21-26
   comment: Notification - Aug 31.
   place: Milan, Italy
@@ -400,31 +398,18 @@
   tags: [PRACT, APPLIED, COREB]
   rank: B (Australasian)
   
-  
-- name: IEEE/ACM CCGRID
-  description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
-  year: 2024
-  link: https://2024.ccgrid-conference.org
-  deadline: ["2023-12-04 23:59"]
-  abdeadline: November 27, 2023
-  date: May 06-09
-  comment: Notification - Feb 12.
-  place: Philadelphia
-  tags: [THEORY, PRACT, COREB]
-  rank: B
-  
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
   year: 2025
-  link: http://wisec2024.kaist.ac.kr
+  link: https://wisec2025.gmu.edu
   deadline: 
-    - "2024-11-09 23:59"
-    - "2025-02-12 23:59"
-  date: May 27 - 30
-  place: Seol, Korea
+    - "2024-11-21 23:59"
+    - "2025-03-12 23:59"
+  date: June 30 - July 03
+  place: Arlington, Virginia
   tags: [PRACT, APPLIED, COREB]
   rank: B
-  comment: Notification - Dec 18 and Mar 22.
+  comment: Notification - Jan 15 and Apr 23.
 
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
@@ -441,9 +426,9 @@
   
 - name: ARES
   description: International Conference on Availability, Reliability and Security
-  year: 2024
+  year: 2025
   link: https://www.ares-conference.eu
-  deadline: ["2024-03-13 23:59"]
+  deadline: ["2025-03-13 23:59"]
   comment: Notification - May 03
   date: July 30 - August 02
   place: Vienna, Austria
@@ -452,9 +437,9 @@
   
 - name: CANS
   description: International Conference on Cryptology and Network Security
-  year: 2024
-  link: https://2024.cansconference.org/home
-  deadline: ["2024-04-24 23:59"]
+  year: 2025
+  link: https://2025.cansconference.org/home
+  deadline: ["2025-04-24 23:59"]
   comment: Notification - June 17.
   date: September 24-27
   place: Cambridge, UK
@@ -483,48 +468,48 @@
   tags: [THEORY, PRACT, COREB]
   rank: National India (B)
 
-  
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
-  year: 2024
+  year: 2025
   link: https://setsindia.in/indocrypt2024/indocrypt
-  deadline: ["2024-09-20 23:59"]
+  deadline: ["2025-09-20 23:59"]
   comment: Notification - Oct 18
   date: December 18-21
   place: Chennai, India
   tags: [THEORY, PRACT, COREB]
   rank: National India (B)
   
+- name: IEEE/ACM CCGRID
+  description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
+  year: 2025
+  link: https://2025.ccgrid-conference.org
+  deadline: ["2024-12-04 23:59"]
+  abdeadline: November 27
+  date: May 06-09
+  comment: Notification - Feb 12.
+  place: Philadelphia
+  tags: [THEORY, PRACT, COREB]
+  rank: B
+  
 - name: IEEE ISIT
   description: IEEE International Symposium on Information Theory
-  year: 2024
-  link: https://2024.ieee-isit.org
-  deadline: ["2024-01-29 23:59"]
-  date: July 07-12
-  place: Athens, Greece
+  year: 2025
+  link: https://2025.ieee-isit.org
+  deadline: ["2025-01-22 23:59"]
+  date: June 22-27
+  place: Ann Arbor, USA
   tags: [THEORY, COREB]
   rank: B
   comment: Notification - April 15
   
 - name: IEEE ITW
   description: IEEE Information Theory Workshop
-  year: 2024
-  link: http://www.ieee-itw2024.org
-  deadline: ["2024-04-26 23:59"]
+  year: 2025
+  link: http://www.ieee-itw2025.org
+  deadline: ["2025-04-26 23:59"]
   comment: Notification - Jul 29
   date: November 24-28
   place: Shenzhen, China
-  tags: [THEORY, COREB]
-  rank: B
-
-- name: NSS-SocialSec
-  description: International Conference on Network and System Security and International Symposium on Security and Privacy in Social 
-  year: 2024
-  link: http://nsclab.org/nss-socialsec2024/cfp.html
-  deadline: ["2024-07-01 23:59"]
-  comment: Notification - August 30
-  date: November 20-22
-  place: Abu Dhabi, UAE
   tags: [THEORY, COREB]
   rank: B
   
@@ -542,11 +527,11 @@
 
 - name: SAC
   description: Conference on Selected Areas in Cryptography
-  year: 2024
-  link: https://sacworkshop.org/SAC24/
+  year: 2025
+  link: https://sacworkshop.org/SAC25/
   deadline: 
-    - "2024-02-07 23:59"
-    - "2024-05-07 23:59"
+    - "2025-02-07 23:59"
+    - "2025-05-07 23:59"
   date: August 28-30
   comment: Notification - March 20, June 20
   place: Montreal, Quebec
@@ -555,39 +540,25 @@
   
 - name: SCN
   description: Conference on Security and Cryptography for Networks
-  year: 2024
-  link: https://scn.unisa.it/scn24/
-  deadline: ["2024-04-24 23:59"]
+  year: 2025
+  link: https://scn.unisa.it/scn25/
+  deadline: ["2025-04-24 23:59"]
   comment: Notification on June 24
   date: September 11-13
   place: Amalfy, Italy
   tags: [PRACT, APPLIED, COREB]
   rank: National Italy (B)
 
-  
 - name: SOUPS
   description: Symposium on Usable Privacy and Security
-  year: 2024
-  link: https://www.usenix.org/conference/soups2024
-  deadline: ["2024-02-15 23:59"]
+  year: 2025
+  link: https://www.usenix.org/conference/soups2025
+  deadline: ["2025-02-15 23:59"]
   abdeadline: February 08
   rebut: April 20-27 
   date: "August 11 - 13"
   place: Philadelphia, USA
   comment: co-located with USENIX Security. Notification - May 15.
-  tags: [PRACT, COREB]
-  rank: B
-  
-- name: WISE
-  description: International Web Information Systems Engineering conference
-  year: 2024
-  link: https://wise2024-qatar.com
-  deadline: 
-    - "2024-06-30 23:59"
-    - "2024-07-15 23:59"
-  comment: Notification - August 30. July deadline for special tracks.
-  date: December 02-05
-  place: Qatar University, Doha
   tags: [PRACT, COREB]
   rank: B
 
@@ -596,9 +567,9 @@
 
 - name: AfricaCrypt
   description: International Conference on Cryptology
-  year: 2024
-  link: https://www.africacrypt2024.com
-  deadline: ["2024-02-16 23:59"]
+  year: 2025
+  link: https://www.africacrypt2025.com
+  deadline: ["2025-02-16 23:59"]
   comment: Notification - Apr 26
   date: July 10-12
   place: Douala, Cameroon
@@ -618,9 +589,9 @@
   
 - name: AsianHOST
   description: Asian Hardware Oriented Security and Trust Symposium
-  year: 2024
-  link: http://asianhost.org/2024/
-  deadline: ["2024-07-14 14:59"]
+  year: 2025
+  link: http://asianhost.org/2025/
+  deadline: ["2025-07-14 14:59"]
   date: December 16-18
   place: Kobe, Japan
   comment: Notification - September 11.
@@ -640,10 +611,10 @@
 
 - name: ITC
   description: Information-Theoretic Cryptography
-  year: 2024
-  link: https://itcrypto.github.io/2024/index.html
-  deadline: ["2024-02-06 23:59"]
-  comment: Notification - April 17.Just before CRYPTO 2024.
+  year: 2025
+  link: https://itcrypto.github.io/2025/index.html
+  deadline: ["2025-02-06 23:59"]
+  comment: Notification - April 17.
   date: "August 14 - 16"
   place: Stanford, CA, USA
   tags: [THEORY, COREO]
@@ -651,9 +622,9 @@
   
 - name: IEEE CNS
   description: IEEE Conference on Communications and Network Security
-  year: 2024
-  link: https://cns2024.ieee-cns.org
-  deadline: ["2024-06-10 23:59"]
+  year: 2025
+  link: https://cns2025.ieee-cns.org
+  deadline: ["2025-06-10 23:59"]
   comment: Notification - Aug 09.
   date: September 30 - October 03
   place: Taipei, Taiwan
@@ -689,9 +660,9 @@
   
 - name: SECRYPT
   description: International Conference on Information Security and Cryptography
-  year: 2024
+  year: 2025
   link: https://secrypt.scitevents.org
-  deadline: ["2024-02-15 23:59"]
+  deadline: ["2025-02-15 23:59"]
   comment: Notification - April 15
   date: July 08-10
   place: Dijon, France
@@ -749,7 +720,6 @@
   place: ETH Zurich, Switzerland
   tags: [WK]
   comment: co-located with Eurocrypt + no proceedings. Notification - mid to end of March.
-  
   
 - name: (Workshop) CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
