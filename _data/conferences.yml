@@ -598,6 +598,17 @@
   tags: [APPLIED, COREO]
   rank: Unranked
 
+- name: FinTech
+  description: FinTech and Financial Institutions Conference
+  year: 2025
+  link: https://fintech25.org/
+  deadline: ["2025-01-14 23:59"]
+  date: April 10-11
+  place: Philadelphia, PA, USA
+  comment: Technical Track proceedings published by Springer Nature.
+  tags: [PRACT, APPLIED, COREO, WK]
+  rank: Unranked
+
 - name: FLTA
   description: International Conference on Federated Learning Technologies and Applications
   year: 2025
