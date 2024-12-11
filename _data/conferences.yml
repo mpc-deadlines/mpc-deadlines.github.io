@@ -744,14 +744,14 @@
   
 - name: (Workshop) CPSS
   description: ACM Cyber-Physical System Security Workshop
-  year: 2024
-  link: https://asiaccs2024.sutd.edu.sg/cpss2024/
+  year: 2025
+  link: http://jianying.space/cpss/CPSS2025/
   deadline:
-    - "2024-01-15 23:59"
-    - "2024-02-18 23:59"
-  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Feb 16, Mar 26
-  date: "July 02"
-  place: Singapore
+    - "2025-01-10 23:59"
+    - "2025-03-15 23:59"
+  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Feb 15, Apr 25
+  date: "August 26"
+  place: Hanoi, Vietnam
   tags: [WK]
   
 - name: (Workshop) DeFi
@@ -783,6 +783,16 @@
   place: Sofia, Bulgaria
   tags: [WK]
   comment: In Conjunction with RWC 2025. Notification - Jan 22.
+  
+- name: (Workshop) FL-AsiaCCS
+  description: Secure and Efficient Federated Learning
+  year: 2025
+  link: https://federated-learning.org/fl-asiaccs-2025/
+  deadline: ["2025-02-21 23:59"]
+  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Apr 08
+  date: "August 26"
+  place: Hanoi, Vietnam
+  tags: [WK]
   
 - name: (Workshop) FL@FM-TheWebConf24
   description: International Workshop on Federated Foundation Models for the Web
@@ -836,6 +846,16 @@
   tags: [WK]
   comment: co-located with CRYPTO. Notification - June 21
   
+- name: (Workshop) PROTECT-IT
+  description: Security, Privacy and Information Theory
+  year: 2025
+  link: https://protectitworkshop.github.io/2025/
+  deadline: ["2025-02-21 23:59"]
+  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Apr 08
+  date: "August 26"
+  place: Hanoi, Vietnam
+  tags: [WK]
+  
 - name: (Workshop) RWC
   description: Real World Crypto
   year: 2025
@@ -858,14 +878,14 @@
   
 - name: (Workshop) SecTL
   description: Secure and Trustworthy Deep Learning Systems (SecTL) Workshop
-  year: 2024
-  link: https://www.sectl.com
+  year: 2025
+  link: https://asiaccs-sectl.github.io/cfp/
   deadline:
-    - "2023-12-08 23:59"
-    - "2024-03-18 23:59"
-  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Jan 20, Apr 26
-  date: "July 02"
-  place: Singapore
+    - "2024-12-22 23:59"
+    - "2025-03-18 23:59"
+  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Feb 03, Apr 28
+  date: "August 26"
+  place: Hanoi, Vietnam
   tags: [WK]
   
 - name: (Workshop) SecWeb
