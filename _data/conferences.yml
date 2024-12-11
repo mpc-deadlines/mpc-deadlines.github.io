@@ -1121,15 +1121,14 @@
   
 - name: ICML
   description: International Conference on Machine Learning
-  year: 2024
+  year: 2025
   link: https://icml.cc
-  deadline: ["2024-02-01 23:59"]
-  rebut: Mar 20-28
-  date: July 21-27
-  place: Vienna, Austria
+  deadline: ["2025-01-31 23:59"]
+  abdeadline: Jan 23
+  date: July 13-19
+  place: Vancouver Convention Center
   tags: [COREAS, PPML]
   rank: A*
-  comment: Notification - May 01. Special track on Position papers.
   
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
