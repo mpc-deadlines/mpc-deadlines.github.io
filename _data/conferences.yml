@@ -648,7 +648,7 @@
   link: http://www.hostsymposium.org/index.php
   deadline: 
     - "2024-08-26 23:59"
-    - "2024-12-16 23:59"
+    - "2024-12-23 23:59"
   abdeadline: Aug 19, Dec 09
   date: May 01-04
   place: Washington DC, USA
@@ -1088,15 +1088,13 @@
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
   year: 2025
   link: https://ecmlpkdd.org/2025/
-  deadline: 
-    - "2024-10-11 23:59"
-    - "2024-12-13 23:59"
-    - "2025-02-14 23:59"
+  deadline: ["2025-03-14 23:59"]
+  abdeadline: March 07
   date: September 15-19
   place: Porto, Portugal
   tags: [COREA, PPML]
   rank: A
-  comment: Notification - June 05.
+  comment: Notification - June 26.
   
 - name: ICLR
   description: International Conference on Learning Representations
