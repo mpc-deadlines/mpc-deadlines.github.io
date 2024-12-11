@@ -786,23 +786,13 @@
   
 - name: (Workshop) FL@FM-TheWebConf24
   description: International Workshop on Federated Foundation Models for the Web
-  year: 2024
-  link: https://federated-learning.org/fl@fm-www-2024/
-  deadline: ["2024-02-05 23:59"]
-  date: May 14
-  place: Singapore
+  year: 2025
+  link: https://federated-learning.org/fl@fm-www-2025/
+  deadline: ["2024-12-31 23:59"]
+  date: April 28-29
+  place: Sydney, Australia
   tags: [WK]
-  comment: Notification - May 14. In Conjunction with WWW 2024.
-  
-- name: (Workshop) FL@FM-IJCAI
-  description: International Workshop on Federated Learning in the Age of Foundation Models
-  year: 2024
-  link: https://federated-learning.org/fl@fm-ijcai-2024/
-  deadline: ["2024-04-26 23:59"]
-  date: August 03-05
-  place: Jeju Island, South Korea
-  tags: [WK]
-  comment: Notification - May 25. In Conjunction with IJCAI. Selected papers in edited LNCS book.
+  comment: Notification - Jan 24. In Conjunction with WWW 2025.
   
 - name: (Workshop) LAMPS
   description: Workshop on Large AI Systems and Models with Privacy and Safety Analysis
