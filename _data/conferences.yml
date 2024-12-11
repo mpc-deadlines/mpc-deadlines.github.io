@@ -631,6 +631,17 @@
   tags: [PRACT, COREO]
   rank: Unranked
   
+- name: IEEE CSR
+  description: IEEE Cyber Security and Resilience
+  year: 2025
+  link: https://www.ieee-csr.org
+  deadline: ["2025-02-10 23:59"]
+  comment: Notification - Mar 10.
+  date: August 04 - 06
+  place: Chania, Crete, Greece
+  tags: [PRACT, COREO]
+  rank: Unranked
+  
 - name: IEEE HOST
   description: IEEE International Symposium on Hardware Oriented Security and Trust
   year: 2025
@@ -666,7 +677,7 @@
   comment: Notification - April 15
   date: July 08-10
   place: Dijon, France
-  tags: [THEORY, COREB]
+  tags: [THEORY, COREO]
   rank: C
 
 # Workshops
