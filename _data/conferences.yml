@@ -46,7 +46,7 @@
   link: https://crypto.iacr.org/2025
   deadline: ["2025-02-13 23:59"]
   rebut: Apr 07 - 12
-  date: August 18-22
+  date: August 17-21
   place: Santa Barbara, USA
   comment: Notification - May 03.
   tags: [THEORY, COREAS]
@@ -1273,15 +1273,15 @@
 
 - name: (Journal) IACR CiC
   description: Communications in Cryptology
-  year: 2024
+  year: 2025
   link: https://cic.iacr.org/callforpapers
   deadline: 
-    - "2024-01-08 23:59"
-    - "2024-04-08 23:59"
-    - "2024-07-08 23:59"
-    - "2024-10-08 23:59"
-  rebut: Feb 12 - 16
-  comment: Notification - Mar 05. The journal will start in 2024 as a Diamond open access journal with 4 deadlines an year.
+    - "2025-01-08 23:59"
+    - "2025-04-08 23:59"
+    - "2025-07-08 23:59"
+    - "2025-10-08 23:59"
+  rebut: Feb 17-21
+  comment: Notification - Mar 11. 
   tags: [THEORY, JRN]
 
 - name: (Journal) IACR JoC
