@@ -674,10 +674,12 @@
   description: International Conference on Information Security and Cryptography
   year: 2025
   link: https://secrypt.scitevents.org
-  deadline: ["2025-02-15 23:59"]
-  comment: Notification - April 15
-  date: July 08-10
-  place: Dijon, France
+  deadline: 
+    - "2025-01-17 23:59"
+    - "2025-03-03 23:59"
+  comment: Notification - March 17, April 07
+  date: June 11-13
+  place: Bilbao, Spain
   tags: [THEORY, COREO]
   rank: C
 
