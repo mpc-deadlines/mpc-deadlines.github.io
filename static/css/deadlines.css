@@ -123,6 +123,14 @@ footer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.mytitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: #444;
+  padding: 8px 0;
+  display: inline-block;
+}
+
 .deadline,
 .meta {
   font-size: 13px;
@@ -240,7 +248,7 @@ footer {
 }
 
 .checkbox {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .calendar {
