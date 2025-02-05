@@ -129,7 +129,9 @@
                     <div class="meta">
                       {% if conf.abdeadline %} <span class="abstractdeadline">Abstract Deadline: {{ conf.abdeadline }}</span> <br> {% endif %}
                       {% if conf.rebut %} Rebuttal: {{ conf.rebut }} <br> {% endif %}
-                      {{ conf.comment }}
+                      <span class="conf-comment">
+                        {{ conf.comment }}
+                      </span>
                     </div>
                   </div>
                 </div>

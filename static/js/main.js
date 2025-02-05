@@ -93,6 +93,27 @@ $(function() {
     return bDiff - aDiff;
   });
   $('.conf-container').append(confs);
+   
+  $(document).ready(function () {
+    $(".conf").each(function () {
+      let conf = $(this);
+
+      // Check if it has the EXP tag
+      if (conf.hasClass("EXP")) {
+        // Append " (Expected)" to the conference name
+        let confTitle = conf.find(".conf-title");
+        confTitle.text(confTitle.text() + " (Expected)");
+
+        // Replace date and place with "TBA"
+        conf.find(".conf-date").text("TBA");
+        conf.find(".conf-place").text("TBA");
+
+        // Change comment to "CFP yet to be announced"
+        conf.find(".conf-comment").text("CFP yet to be announced");
+      }
+    });
+  });
+
 
   // Set checkboxes
   var conf_type_data = {{ site.data.types | jsonify }};

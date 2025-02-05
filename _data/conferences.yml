@@ -12,18 +12,18 @@
   comment: 2 deadlines. Notifications - March 27, June 30
   date: "October 13-17"
   place: Taipei, Taiwan
-  tags: [PRACT, COREAS]
+  tags: [PRACT, APPLIED, CNF, COREAS]
   rank: A*
   
 - name: ACM STOC
   description: ACM Symposium on Theory of Computing
-  year: 2025
-  link: https://acm-stoc.org/stoc2025/
-  deadline: ["2024-11-04 19:59"]
+  year: 2026
+  link: https://acm-stoc.org/stoc2026/
+  deadline: ["2025-11-04 19:59"]
   timezone: EST
   date: June 23-27
   place: Prague, Czech Republic
-  tags: [THEORY, COREAS]
+  tags: [THEORY, CNF, COREAS, EXP]
   comment: Notification - February 01
   rank: A*
   
@@ -38,7 +38,7 @@
   comment: 2 deadlines. Notifications - Dec 10, June 24
   date: November
   place: Hong Kong, China
-  tags: [APPLIED, COREAS]
+  tags: [APPLIED, CNF, COREAS]
   rank: A*
   
 - name: CRYPTO
@@ -50,7 +50,7 @@
   date: August 17-21
   place: Santa Barbara, USA
   comment: Notification - May 03.
-  tags: [THEORY, COREAS]
+  tags: [THEORY, CNF, COREAS]
   rank: A*
   
 - name: EUROCRYPT
@@ -61,7 +61,7 @@
   rebut: Dec 08 - 12
   date: May 04 - 08
   place: Madrid, Spain
-  tags: [THEORY, COREAS]
+  tags: [THEORY, CNF, COREAS]
   comment: Early Reject - Dec 08, Notification - Jan 31
   rank: A*
 
@@ -73,7 +73,7 @@
   date: December 14-17
   place: Sydney, Australia
   comment: Notification - August 01.
-  tags: [THEORY, COREAS]
+  tags: [THEORY, CNF, COREAS]
   rank: A*
 
 - name: IEEE INFOCOM
@@ -85,7 +85,7 @@
   abdeadline: July 24 AoE
   comment: Notification - Dec 01
   place: London, United Kingdom
-  tags: [PRACT, APPLIED, COREAS]
+  tags: [PRACT, APPLIED, CNF, COREAS]
   rank: A*
 
 - name: IEEE S&P (Oakland)
@@ -99,7 +99,7 @@
     - "2024-06-06 23:59"
     - "2024-11-14 23:59"
   place: San Francisco, California, USA
-  tags: [PRACT, COREAS]
+  tags: [PRACT, CNF, COREAS]
   rank: A*
   
 - name: NDSS
@@ -113,7 +113,7 @@
   rebut: June 10-13, September 09-13
   date: "February 23 - 28"
   place: San Diego, CA, USA
-  tags: [PRACT, COREAS]
+  tags: [PRACT, CNF, COREAS]
   rank: A*
 
 - name: ACM PODC
@@ -125,7 +125,7 @@
   comment: Notification - April 22
   date: June 16-20
   place: Huatulco, Mexico
-  tags: [THEORY, COREAS]
+  tags: [THEORY, CNF, COREAS]
   rank: A*
 
 - name: USENIX Security
@@ -139,7 +139,7 @@
   comment: Early Reject - Oct 15, Mar 04. Notification - Dec 11, Apr 30
   date: "August 13-15"
   place: Seattle, WA, USA
-  tags: [PRACT, COREAS]
+  tags: [PRACT, CNF, COREAS]
   rank: A*
   
 - name: The Web Conference
@@ -154,7 +154,7 @@
   comment: Notification - Feb 01. Nov deadline for industry track.
   date: April 28 - May 02
   place: Sydney, Australia
-  tags: [PRACT, APPLIED, COREAS]
+  tags: [PRACT, APPLIED, CNF, COREAS]
   rank: A*
 
 - name: VLDB
@@ -178,7 +178,7 @@
   comment: Rolling deadline every month. Notification on 15th of next month.
   date: "September 01-05"
   place: London, UK (Hybrid)
-  tags: [THEORY, PRACT, APPLIED, COREAS]
+  tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
   rank: A*
   
 - name: VLDB (Industrial Track)
@@ -191,7 +191,7 @@
   comment: One author should have industry affiliation. Notification - May 08.
   date: "September 01-05"
   place: London, UK (Hybrid)
-  tags: [THEORY, PRACT, APPLIED, COREAS]
+  tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
   rank: A*
 
 # CORE A
@@ -206,7 +206,7 @@
   comment: Early Reject - Oct 25, Feb 28, Notifications - Dec 13, Apr 19
   date: "August 25-29"
   place: Ha Noi, Vietnam
-  tags: [PRACT, COREA]
+  tags: [PRACT, CNF, COREA]
   rank: A
 
 - name: ASIACRYPT
@@ -218,7 +218,7 @@
   comment: Early Reject - Jul 20. Notification - Aug 25.
   date: December 04-08
   place: Kolkata, India
-  tags: [THEORY, COREA]
+  tags: [THEORY, CNF, COREA]
   rank: A  
 
 - name: CHES
@@ -234,7 +234,7 @@
   comment: Rolling deadline every quarter. (invites MPC topics)
   date: September 
   place: Malaysia
-  tags: [PRACT, APPLIED, COREA]
+  tags: [PRACT, APPLIED, CNF, COREA]
   rank: A
 
   
@@ -247,7 +247,7 @@
   rebut: July 04-10
   date: October 28 - November 01
   place: Madrid, Spain
-  tags: [THEORY, PRACT, COREA]
+  tags: [THEORY, PRACT, CNF, COREA]
   comment: Best paper at DISC will be invited to the JACM. Notification - Aug 02.
   rank: A
 
@@ -261,7 +261,7 @@
   comment: 2 deadlines. Notification - Mar 21, Jun 13.
   date: September 22-26
   place: Toulouse, France
-  tags: [PRACT, COREA]
+  tags: [PRACT, CNF, COREA]
   rank: A
 
 - name: FC
@@ -272,7 +272,7 @@
   date: April 14-18
   comment: Notification - December 06.
   place: Miyakojima, Japan
-  tags: [PRACT, COREA]
+  tags: [PRACT, CNF, COREA]
   rank: A
 
   
@@ -287,7 +287,7 @@
   comment: 3 deadlines. Notification - Jul 30, Dec 03, Apr 08.
   date: July 08-12
   place: Santa Cruz, CA, USA
-  tags: [THEORY, COREA]
+  tags: [THEORY, CNF, COREA]
   rank: A
   
 - name: IEEE ICDCS
@@ -299,7 +299,7 @@
   date: July 20-23
   comment: Notification - April 02.
   place: Glasgow, Scotland, UK
-  tags: [THEORY, PRACT, COREA]
+  tags: [THEORY, PRACT, CNF, COREA]
   rank: A
   
 - name: ITCS
@@ -310,7 +310,7 @@
   abdeadline: Sep 05
   date: "January 30 - February 02"
   place: University of California, Berkeley
-  tags: [THEORY, COREA]
+  tags: [THEORY, CNF, COREA]
   rank: A
   comment: Notification - November 08
   
@@ -327,7 +327,7 @@
   comment: Rolling deadline every quarter. Notifications - Aug 01, Nov 01, Feb 01, May 01.
   date: July 15-20
   place: Washington, DC (Hybrid)
-  tags: [PRACT, COREA]
+  tags: [PRACT, CNF, COREA]
   rank: A
   
 
@@ -340,7 +340,7 @@
   rebut: Jul 21-26
   comment: Notification - Aug 31.
   place: Milan, Italy
-  tags: [THEORY, COREA]
+  tags: [THEORY, CNF, COREA]
   rank: A
   
 - name: ACSAC
@@ -351,7 +351,7 @@
   rebut: August 02-07
   date: Dec 09 - 13
   place: Waikiki, Honolulu, Hawaii
-  tags: [PRACT, APPLIED, COREA]
+  tags: [PRACT, APPLIED, CNF, COREA]
   comment: Early Reject - Jul 06. Notification - Aug 19.
   rank: A
   
@@ -367,7 +367,7 @@
   rebut: Jul 31-Aug 02, Jan 07-09
   date: "March 30 - April 03"
   place: Rotterdam, Netherlands
-  tags: [THEORY, COREA]
+  tags: [THEORY, CNF, COREA]
   rank: A
 
 - name: IEEE Euro S&P
@@ -380,7 +380,7 @@
   rebut: January 29 - February 01
   comment: Notification - February 22
   place: Venice, Italy
-  tags: [PRACT, COREA, COREO]
+  tags: [PRACT, COREA, CNF, COREO]
   rank: NEW (A)
   
 
@@ -396,7 +396,7 @@
   comment: Notification - Jan 22, Apr 08
   date: July 14-16
   place: Wollongong, Australia
-  tags: [PRACT, APPLIED, COREB]
+  tags: [PRACT, APPLIED, CNF, COREB]
   rank: B (Australasian)
   
 - name: ACM WiSec
@@ -408,7 +408,7 @@
     - "2025-03-12 23:59"
   date: June 30 - July 03
   place: Arlington, Virginia
-  tags: [PRACT, APPLIED, COREB]
+  tags: [PRACT, APPLIED, CNF, COREB]
   rank: B
   comment: Notification - Jan 15 and Apr 23.
 
@@ -422,7 +422,7 @@
   comment: Notification - Nov 11, Mar 17.
   date: June 23-26
   place: Munich, Germany
-  tags: [THEORY, PRACT, APPLIED, COREB]
+  tags: [THEORY, PRACT, APPLIED, CNF, COREB]
   rank: B
   
 - name: ARES
@@ -433,7 +433,7 @@
   comment: Notification - May 03
   date: July 30 - August 02
   place: Vienna, Austria
-  tags: [PRACT, COREB]
+  tags: [PRACT, CNF, COREB]
   rank: B
   
 - name: CANS
@@ -444,7 +444,7 @@
   comment: Notification - June 17.
   date: September 24-27
   place: Cambridge, UK
-  tags: [PRACT, COREB]
+  tags: [PRACT, CNF, COREB]
   rank: B
   
 - name: CT-RSA
@@ -455,7 +455,7 @@
   date: April 28 - May 01
   place: San Francisco, CA, USA
   comment: Notification - January 10, 2025.
-  tags: [THEORY, PRACT, COREB]
+  tags: [THEORY, PRACT, CNF, COREB]
   rank: B
   
 - name: ICDCN
@@ -466,7 +466,7 @@
   comment: Notification - September 27
   date: January 04-07
   place: IIT Hyderabad, India
-  tags: [THEORY, PRACT, COREB]
+  tags: [THEORY, PRACT, CNF, COREB]
   rank: National India (B)
 
 - name: INDOCRYPT
@@ -477,7 +477,7 @@
   comment: Notification - Oct 18
   date: December 18-21
   place: Chennai, India
-  tags: [THEORY, PRACT, COREB]
+  tags: [THEORY, PRACT, CNF, COREB]
   rank: National India (B)
   
 - name: IEEE/ACM CCGRID
@@ -489,7 +489,7 @@
   date: May 06-09
   comment: Notification - Feb 12.
   place: Philadelphia
-  tags: [THEORY, PRACT, COREB]
+  tags: [THEORY, PRACT, CNF, COREB]
   rank: B
   
 - name: IEEE ISIT
@@ -499,7 +499,7 @@
   deadline: ["2025-01-22 23:59"]
   date: June 22-27
   place: Ann Arbor, USA
-  tags: [THEORY, COREB]
+  tags: [THEORY, CNF, COREB]
   rank: B
   comment: Notification - April 15
   
@@ -511,7 +511,7 @@
   comment: Notification - Jul 29
   date: November 24-28
   place: Shenzhen, China
-  tags: [THEORY, COREB]
+  tags: [THEORY, CNF, COREB]
   rank: B
   
 - name: PKC
@@ -523,7 +523,7 @@
   rebut: Dec 11-18
   place: Røros, Norway
   comment: Early Reject - Dec 11. Notification - Feb 05.
-  tags: [THEORY, COREB]
+  tags: [THEORY, CNF, COREB]
   rank: B
 
 - name: SAC
@@ -536,7 +536,7 @@
   date: August 28-30
   comment: Notification - March 20, June 20
   place: Montreal, Quebec
-  tags: [THEORY, PRACT, COREB]
+  tags: [THEORY, PRACT, CNF, COREB]
   rank: B
   
 - name: SCN
@@ -547,7 +547,7 @@
   comment: Notification on June 24
   date: September 11-13
   place: Amalfy, Italy
-  tags: [PRACT, APPLIED, COREB]
+  tags: [PRACT, APPLIED, CNF, COREB]
   rank: National Italy (B)
 
 - name: SOUPS
@@ -560,7 +560,7 @@
   date: "August 11 - 13"
   place: Philadelphia, USA
   comment: co-located with USENIX Security. Notification - May 15.
-  tags: [PRACT, COREB]
+  tags: [PRACT, CNF, COREB]
   rank: B
 
 
@@ -574,7 +574,7 @@
   comment: Notification - Apr 26
   date: July 10-12
   place: Douala, Cameroon
-  tags: [THEORY, PRACT, COREO]
+  tags: [THEORY, PRACT, CNF, COREO]
   rank: Unranked
   
 - name: ArcticCrypt
@@ -584,7 +584,7 @@
   deadline: ["2024-09-13 23:59"]
   date: July 06 - 11
   place: Longyearbyen
-  tags: [THEORY, COREO]
+  tags: [THEORY, CNF, COREO]
   comment: Notification - October 23
   rank: Unranked
   
@@ -596,7 +596,7 @@
   date: December 16-18
   place: Kobe, Japan
   comment: Notification - September 11.
-  tags: [APPLIED, COREO]
+  tags: [APPLIED, CNF, COREO]
   rank: Unranked
 
 - name: FLTA
@@ -607,7 +607,7 @@
   comment: Notification - July 31
   date: September 17-19
   place: TBA
-  tags: [PRACT, APPLIED, COREO]
+  tags: [PRACT, APPLIED, CNF, COREO]
   rank: Unranked
 
 - name: ITC
@@ -618,7 +618,7 @@
   comment: Notification - May 30.
   date: "August 16 - 17"
   place: Santa Barbara, CA, USA
-  tags: [THEORY, COREO]
+  tags: [THEORY, CNF, COREO]
   rank: Unranked (C)
   
 - name: IEEE CNS
@@ -629,7 +629,7 @@
   comment: Notification - Aug 09.
   date: September 30 - October 03
   place: Taipei, Taiwan
-  tags: [PRACT, COREO]
+  tags: [PRACT, CNF, COREO]
   rank: Unranked
   
 - name: IEEE CSR
@@ -640,7 +640,7 @@
   comment: Notification - Mar 10.
   date: August 04 - 06
   place: Chania, Crete, Greece
-  tags: [PRACT, COREO]
+  tags: [PRACT, CNF, COREO]
   rank: Unranked
   
 - name: IEEE HOST
@@ -654,7 +654,7 @@
   date: May 01-04
   place: Washington DC, USA
   comment: Notification - Oct 27 and Feb 17. 
-  tags: [APPLIED, COREO]
+  tags: [APPLIED, CNF, COREO]
   rank: Unranked
  
   
@@ -667,7 +667,7 @@
   comment: Notification - Jul 04
   date: October 01-03
   place: Medellín, Colombia
-  tags: [THEORY, PRACT, COREO]
+  tags: [THEORY, PRACT, CNF, COREO]
   rank: Unranked
   
 - name: SECRYPT
@@ -680,7 +680,7 @@
   comment: Notification - March 17, April 07
   date: June 11-13
   place: Bilbao, Spain
-  tags: [THEORY, COREO]
+  tags: [THEORY, CNF, COREO]
   rank: C
 
 # Workshops
