@@ -116,22 +116,42 @@ $(function() {
 
 
   // Set checkboxes
-  var conf_type_data = {{ site.data.types | jsonify }};
+  // Read filter data from Jekyll
+  var filter1 = {{ site.data.filters.filter1 | jsonify }};
+  var filter2 = {{ site.data.filters.filter2 | jsonify }};
+  var filter3 = {{ site.data.filters.filter3 | jsonify }};
+
+  // Combine all filters into a single array
   var all_tags = [];
   var toggle_status = {};
-  for (var i = 0; i < conf_type_data.length; i++) {
-    all_tags[i] = conf_type_data[i]['tag'];
-    toggle_status[all_tags[i]] = false;
+
+  function processFilters(filters) {
+    for (var i = 0; i < filters.length; i++) {
+      all_tags.push(filters[i]['tag']);
+      toggle_status[filters[i]['tag']] = false;
+    }
   }
+
+  processFilters(filter1);
+  processFilters(filter2);
+  processFilters(filter3);
+
+  // Retrieve stored preferences
   var tags = store.get('{{ site.domain }}');
   if (tags === undefined) {
-    tags = all_tags;
+    tags = all_tags; // Default to all checked
   }
+
+  // Apply stored preferences to checkboxes
   for (var i = 0; i < tags.length; i++) {
     $('#' + tags[i] + '-checkbox').prop('checked', true);
     toggle_status[tags[i]] = true;
   }
+
+  // Save updated selection to local storage
   store.set('{{ site.domain }}', tags);
+
+   
    
   // Track selected filters
   let selectedFilters = {
