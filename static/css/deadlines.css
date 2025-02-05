@@ -10,6 +10,40 @@ body *::selection {
   color: #fff;
 }
 
+.header-box {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  background: #f8f9fa;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border-left: 5px solid #007bff;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.header-box h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.4;
+}
+.header-box p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: #555;
+}
+.header-box a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.header-box a:hover {
+  text-decoration: underline;
+}
+
+
+
+
 .container {
   max-width: 980px;
 }
