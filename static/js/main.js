@@ -107,6 +107,7 @@ $(function() {
         // Replace date and place with "TBA"
         conf.find(".conf-date").text("TBA");
         conf.find(".conf-place").text("TBA");
+        conf.find(".conf-rebut").text("TBA");
 
         // Change comment to "CFP yet to be announced"
         conf.find(".conf-comment").text("CFP yet to be announced");

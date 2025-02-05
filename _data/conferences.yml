@@ -9,8 +9,8 @@
     - "2025-04-14 23:59"
   rebut: Mar 06-19, Jun 09-22
   abdeadline: Jan 02, Apr 07
-  comment: 2 deadlines. Notifications - March 27, June 30
-  date: "October 13-17"
+  comment: 2 deadlines. Notifications - March 27, June 30.
+  date: October 13-17
   place: Taipei, Taiwan
   tags: [PRACT, APPLIED, CNF, COREAS]
   rank: A*
@@ -20,11 +20,10 @@
   year: 2026
   link: https://acm-stoc.org/stoc2026/
   deadline: ["2025-11-04 19:59"]
-  timezone: EST
   date: June 23-27
   place: Prague, Czech Republic
   tags: [THEORY, CNF, COREAS, EXP]
-  comment: Notification - February 01
+  comment: Notification - February 01.
   rank: A*
   
 - name: MobiCom
@@ -35,8 +34,8 @@
     - "2024-09-05 23:59"
     - "2025-03-18 23:59"
   abdeadline: August 29 and March 11
-  comment: 2 deadlines. Notifications - Dec 10, June 24
-  date: November
+  comment: 2 deadlines. Notifications - Dec 10, June 24.
+  date: November 04-08
   place: Hong Kong, China
   tags: [APPLIED, CNF, COREAS]
   rank: A*
@@ -46,7 +45,7 @@
   year: 2025
   link: https://crypto.iacr.org/2025
   deadline: ["2025-02-13 23:59"]
-  rebut: Apr 07 - 12
+  rebut: April 07-12
   date: August 17-21
   place: Santa Barbara, USA
   comment: Notification - May 03.
@@ -55,14 +54,14 @@
   
 - name: EUROCRYPT
   description: European Cryptology Conference
-  year: 2025
-  link: https://eurocrypt.iacr.org/2025/
-  deadline: ["2024-10-02 23:59"]
-  rebut: Dec 08 - 12
-  date: May 04 - 08
+  year: 2026
+  link: https://eurocrypt.iacr.org/2026/
+  deadline: ["2025-10-02 23:59"]
+  rebut: Dec 08-12
+  date: May 04-08
   place: Madrid, Spain
-  tags: [THEORY, CNF, COREAS]
-  comment: Early Reject - Dec 08, Notification - Jan 31
+  tags: [THEORY, CNF, COREAS, EXP]
+  comment: Early Reject - Dec 08, Notification - Jan 31.
   rank: A*
 
 - name: IEEE FOCS
