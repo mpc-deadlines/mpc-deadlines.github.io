@@ -30,7 +30,13 @@ filter3:
     tag: COREA
   - name: B
     tag: COREB
-  - name: Others
+  - name: C
+    tag: COREC
+  - name: National
+    tag: COREN
+  - name: Unranked
+    tag: COREU
+  - name: Not classified
     tag: COREO
     
 filter4:
