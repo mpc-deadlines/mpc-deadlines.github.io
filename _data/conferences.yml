@@ -1043,7 +1043,7 @@
   rebut: November 02-05
   date: February 20-28
   place: Philadelphia, PA, USA
-  tags: [COREAS, PPML]
+  tags: [COREAS, CNF, PPML]
   comment: Notification - Dec 09.
   rank: A*
   
@@ -1057,7 +1057,7 @@
   rebut: Aug 14-21
   date: December 05-07
   place: Hanoi, Vietnam
-  tags: [COREO, PPML]
+  tags: [COREO, CNF, PPML]
   comment: Journal (May) and Conference (June) tracks. Notification - Sep 08.
   rank: Unranked
   
@@ -1071,7 +1071,7 @@
   abdeadline: May 13 and May 27 (Short Paper)
   date: Oct 21-25
   place: Boise, Idaho, USA
-  tags: [COREA, PPML]
+  tags: [COREA, CNF, PPML]
   rank: A
   comment: Notification - July 16. Second deadline for short paper. Multiple Tracks.
   
@@ -1084,7 +1084,7 @@
   rebut: June 17-19
   date: October 19-24
   place: Santiago de Compostela
-  tags: [COREA, PPML]
+  tags: [COREA, CNF, PPML]
   rank: A
   comment: Notification - July 04.
   
@@ -1096,7 +1096,7 @@
   abdeadline: March 07
   date: September 15-19
   place: Porto, Portugal
-  tags: [COREA, PPML]
+  tags: [COREA, CNF, PPML]
   rank: A
   comment: Notification - June 26.
   
@@ -1109,7 +1109,7 @@
   rebut: Nov 12-26
   date: April 24-28
   place: Singapore
-  tags: [COREAS, PPML]
+  tags: [COREAS, CNF, PPML]
   rank: A*
   comment: Notification - Jan 22, 2025.
   
@@ -1122,7 +1122,7 @@
   date: July 13-19
   place: Vancouver Convention Center
   comment: Special track on Position papers.
-  tags: [COREAS, PPML]
+  tags: [COREAS, CNF, PPML]
   rank: A*
   
 - name: IJCAI
@@ -1134,7 +1134,7 @@
   rebut: Apr 06-09
   date: August 16-22
   place: Montreal, Canada
-  tags: [COREAS, PPML]
+  tags: [COREAS, CNF, PPML]
   rank: A*
   comment: Notification - April 28
 
@@ -1147,7 +1147,7 @@
   comment: Early Reject - Oct 31. Notification - Dec 12. Research papers, SoKs, and position papers.
   date: April 09-11
   place: Copenhagen, Denmark
-  tags: [PPML]
+  tags: [PPML, CNF]
   
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
@@ -1158,7 +1158,7 @@
   rebut: April 04-18
   date: August 25-29
   place: Barcelona, Spain
-  tags: [COREAS, PPML]
+  tags: [COREAS, CNF, PPML]
   rank: A*
   comment: Research Track on Data Privacy. Notification - May 16.
 
@@ -1170,7 +1170,7 @@
   abdeadline: May 15, 08:00 AM AoE
   date: December 09-15
   place: Vancouver, Canada
-  tags: [COREAS, PPML]
+  tags: [COREAS, CNF, PPML]
   comment: Notification - September 25.
   rank: A*
   
@@ -1181,7 +1181,7 @@
   deadline: ["2024-11-01 23:59"]
   date: May 12-15
   place: Santa Clara, California
-  tags: [COREO, PPML]
+  tags: [COREO, CNF, PPML]
   rank: Unranked
   comment: Notification - Feb 10. 
 
@@ -1192,7 +1192,7 @@
   deadline: ["2024-11-30 23:59"]
   date: June 10-13
   place: Sydney, Australia
-  tags: [PRACT, COREB, PPML]
+  tags: [PRACT, CNF, COREB, PPML]
   rank: B
   comment: Notification - Jan 25
   
@@ -1204,7 +1204,7 @@
   rebut: April 01-08
   date: July 15 - 19
   place: Barcelona, Spain
-  tags: [PRACT, COREA, PPML]
+  tags: [PRACT, CNF, COREA, PPML]
   rank: A
   comment: Notification - April 25.
 
@@ -1221,7 +1221,7 @@
   timezone: PST
   date: June 22-25
   place: Moscone West, San Francisco
-  tags: [HW, COREA]
+  tags: [HW, CNF, COREA]
   comment: Notification - Feb 26.
   rank: A
   
