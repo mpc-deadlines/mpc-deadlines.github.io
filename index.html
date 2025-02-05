@@ -47,7 +47,7 @@
             <form class="form-inline">
               <div class="form-group">
                 <span class="mytitle">Category: </span>
-                {% for type in site.data.filters1 %}
+                {% for type in site.data.filter1 %}
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" id="{{ type.tag }}-checkbox" class="filter-checkbox" data-filter-group="filter1"> {{ type.name }}
@@ -62,7 +62,7 @@
             <form class="form-inline">
               <div class="form-group">
                 <span class="mytitle">Publication Type: </span>
-                {% for type in site.data.filters2 %}
+                {% for type in site.data.filter2 %}
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" id="{{ type.tag }}-checkbox" class="filter-checkbox" data-filter-group="filter2"> {{ type.name }}
@@ -77,7 +77,7 @@
             <form class="form-inline">
               <div class="form-group">
                 <span class="mytitle">CORE Ranking: </span>
-                {% for type in site.data.filters3 %}
+                {% for type in site.data.filter3 %}
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" id="{{ type.tag }}-checkbox" class="filter-checkbox" data-filter-group="filter3"> {{ type.name }}
