@@ -24,13 +24,13 @@ filter2:
     tag: MISC
 
 filter3:
-  - name: CORE A*
+  - name: A*
     tag: COREAS
-  - name: CORE A
+  - name: A
     tag: COREA
-  - name: CORE B
+  - name: B
     tag: COREB
-  - name: CORE (Others)
+  - name: Others
     tag: COREO
     
 filter4:
