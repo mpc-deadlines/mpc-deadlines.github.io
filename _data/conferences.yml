@@ -4,14 +4,14 @@
   description: ACM Conference on Computer and Communications Security
   year: 2025
   link: https://www.sigsac.org/ccs/CCS2025/
+  abdeadline: Jan 02, Apr 07
   deadline:
     - "2025-01-09 23:59"
     - "2025-04-14 23:59"
-  rebut: Mar 06-19, Jun 09-22
-  abdeadline: Jan 02, Apr 07
-  comment: 2 deadlines. Notifications - March 27, June 30.
+  rebut: March 06-19, June 09-22
   date: October 13-17
   place: Taipei, Taiwan
+  comment: 2 deadlines. Notifications - March 27, June 30.
   tags: [PRACT, APPLIED, CNF, COREAS] 
   
 - name: ACM STOC
@@ -28,15 +28,14 @@
   description: Annual International Conference On Mobile Computing And Networking
   year: 2025
   link: https://www.sigmobile.org/mobicom/2025/
+  abdeadline: August 29, March 11
   deadline:
     - "2024-09-05 23:59"
     - "2025-03-18 23:59"
-  abdeadline: August 29 and March 11
-  comment: 2 deadlines. Notifications - Dec 10, June 24.
   date: November 04-08
   place: Hong Kong, China
+  comment: 2 deadlines. Notifications - December 10, June 24.
   tags: [APPLIED, CNF, COREAS]
-  rank: A*
   
 - name: CRYPTO
   description: International Cryptology Conference
@@ -48,82 +47,75 @@
   place: Santa Barbara, USA
   comment: Notification - May 03.
   tags: [THEORY, CNF, COREAS]
-  rank: A*
   
 - name: EUROCRYPT
   description: European Cryptology Conference
   year: 2026
   link: https://eurocrypt.iacr.org/2026/
   deadline: ["2025-10-02 23:59"]
-  rebut: Dec 08-12
+  rebut: December 08-12
   date: May 04-08
   place: Madrid, Spain
+  comment: Early Reject - December 08, Notification - January 31.
   tags: [THEORY, CNF, COREAS, EXP]
-  comment: Early Reject - Dec 08, Notification - Jan 31.
-  rank: A*
 
 - name: IEEE FOCS
   description: IEEE Symposium on Foundations of Computer Science
-  year: 2025
-  link: https://focs.computer.org/2025/
+  year: 2026
+  link: https://focs.computer.org/2026/
   deadline: ["2025-05-04 19:59"]
   date: December 14-17
   place: Sydney, Australia
   comment: Notification - August 01.
-  tags: [THEORY, CNF, COREAS]
-  rank: A*
+  tags: [THEORY, CNF, COREAS, EXP]
 
 - name: IEEE INFOCOM
-  year: 2025
-  date: "May 19 - 22"
   description: IEEE International Conference on Computer Communications
-  link: https://infocom2025.ieee-infocom.org
-  deadline: ["2024-07-31 23:59"]
-  abdeadline: July 24 AoE
-  comment: Notification - Dec 01
+  year: 2026  
+  link: https://infocom2026.ieee-infocom.org
+  abdeadline: July 24
+  deadline: ["2025-07-31 23:59"]
+  date: May 19-22
   place: London, United Kingdom
-  tags: [PRACT, APPLIED, CNF, COREAS]
-  rank: A*
+  comment: Notification - December 01. No preprint policy.
+  tags: [PRACT, APPLIED, CNF, COREAS, EXP]
 
 - name: IEEE S&P (Oakland)
-  year: 2025
-  date: "May 12–15"
   description: IEEE Symposium on Security and Privacy
-  link: https://sp2025.ieee-security.org/
-  rebut: Aug 19-30, Feb 17-28
-  comment: Early Reject -  Jul 22, Jan 20. Notification - Sep 09, Mar 10.
+  year: 2026  
+  link: https://sp2026.ieee-security.org/
   deadline:
-    - "2024-06-06 23:59"
-    - "2024-11-14 23:59"
+    - "2025-06-05 23:59"
+    - "2025-11-13 23:59"
+  rebut: August 18-29, February 16-27
+  date: May 18–21
   place: San Francisco, California, USA
-  tags: [PRACT, CNF, COREAS]
-  rank: A*
+  comment: Early Reject -  July 21, January 19. Notification - September 09, March 19.
+  tags: [PRACT, APPLIED, CNF, COREAS]
   
 - name: NDSS
   description: Network and Distributed System Security Symposium
-  year: 2025
-  link: https://www.ndss-symposium.org/ndss2025/
-  comment: Early Reject - May 21, Aug 20. Notification - Jun 20 and Sep 19.
+  year: 2026
+  link: https://www.ndss-symposium.org/ndss2026/
   deadline:
-    - "2024-04-17 23:59"
-    - "2024-07-10 23:59"
+    - "2025-04-17 23:59"
+    - "2025-07-10 23:59"
   rebut: June 10-13, September 09-13
   date: "February 23 - 28"
   place: San Diego, CA, USA
-  tags: [PRACT, CNF, COREAS]
-  rank: A*
+  comment: Early Reject - May 21, August 20. Notification - June 20 and September 19.
+  tags: [PRACT, APPLIED, CNF, COREAS, EXP]
 
 - name: ACM PODC
   description: ACM Symposium on Principles of Distributed Computing
   year: 2025
   link: https://www.podc.org/podc2025/
-  deadline: ["2025-02-15 23:59"]
-  abdeadline: Feb 11
-  comment: Notification - April 22
+  abdeadline: February 04
+  deadline: ["2025-02-08 23:59"]
   date: June 16-20
   place: Huatulco, Mexico
+  comment: Notification - April 17. Includes Brief Announcements.
   tags: [THEORY, CNF, COREAS]
-  rank: A*
 
 - name: USENIX Security
   description: Usenix Security Symposium
@@ -132,12 +124,11 @@
   deadline:
     - "2024-09-04 23:59"
     - "2025-01-22 23:59"
-  rebut: Nov 18-25, Apr 07-14
-  comment: Early Reject - Oct 15, Mar 04. Notification - Dec 11, Apr 30
-  date: "August 13-15"
+  rebut: November 18-25, April 07-14
+  date: August 13-15
   place: Seattle, WA, USA
-  tags: [PRACT, CNF, COREAS]
-  rank: A*
+  comment: Early Reject - October 15, March 04. Notification - December 11, April 30.
+  tags: [PRACT, CNF, COREAS, EXP]
   
 - name: The Web Conference
   description: The Web Conference (WWW)
@@ -152,7 +143,6 @@
   date: April 28 - May 02
   place: Sydney, Australia
   tags: [PRACT, APPLIED, CNF, COREAS]
-  rank: A*
 
 - name: VLDB
   description: International Conference on Very Large Data Bases
@@ -176,7 +166,6 @@
   date: "September 01-05"
   place: London, UK (Hybrid)
   tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
-  rank: A*
   
 - name: VLDB (Industrial Track)
   description: International Conference on Very Large Data Bases
@@ -189,7 +178,6 @@
   date: "September 01-05"
   place: London, UK (Hybrid)
   tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
-  rank: A*
 
 # CORE A
 
@@ -763,6 +751,16 @@
   place: San Fransisco, CA
   tags: [WK]
   comment: co-located with IEEE S&P + proceedings. Notification - Mar 14.
+  
+- name: Enigma@USENIX Security
+  description: Usenix Security Enigma Track
+  year: 2025
+  link: https://www.usenix.org/conference/usenixsecurity25/enigma-cfp
+  deadline: ["2025-03-05 23:59"]
+  date: August 13-15
+  place: Seattle, WA, USA
+  comment: Notification - May 07.
+  tags: [PRACT, APPLIED, COREO]
   
 - name: (Workshop) FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
