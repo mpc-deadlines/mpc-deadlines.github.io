@@ -139,13 +139,15 @@ $(function() {
   // Retrieve stored preferences
   var tags = store.get('{{ site.domain }}');
   if (tags === undefined) {
-    tags = all_tags; // Default to all checked
+    tags = []; // Default to all unchecked
   }
 
   // Apply stored preferences to checkboxes
-  for (var i = 0; i < tags.length; i++) {
-    $('#' + tags[i] + '-checkbox').prop('checked', true);
-    toggle_status[tags[i]] = true;
+  for (var i = 0; i < all_tags.length; i++) {
+      var tag = all_tags[i];
+      var isChecked = tags.includes(tag); // Check if the tag is stored
+      $('#' + tag + '-checkbox').prop('checked', isChecked);
+      toggle_status[tag] = isChecked;
   }
 
   // Save updated selection to local storage
