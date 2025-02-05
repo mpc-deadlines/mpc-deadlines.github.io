@@ -111,41 +111,71 @@ $(function() {
     toggle_status[tags[i]] = true;
   }
   store.set('{{ site.domain }}', tags);
+   
+  // Track selected filters
+  let selectedFilters = {
+    filter1: new Set(),
+    filter2: new Set(),
+    filter3: new Set()
+  };
 
-  function update_conf_list() {
-    confs.each(function(i, conf) {
-      var conf = $(conf);
-      var show = false;
-      for (var i = 0; i < all_tags.length; i++) {
-        if(conf.hasClass(all_tags[i])) {
-          show = show | toggle_status[all_tags[i]];
+  function updateConfList() {
+    $(".conf").each(function () {
+      let conf = $(this);
+      let show = true;
+
+      // Check each filter group
+      Object.keys(selectedFilters).forEach(filterGroup => {
+        if (selectedFilters[filterGroup].size > 0) {
+          let hasTag = false;
+          selectedFilters[filterGroup].forEach(tag => {
+            if (conf.hasClass(tag)) {
+              hasTag = true;
+            }
+          });
+          if (!hasTag) {
+            show = false;
+          }
         }
-      }
+      });
+
+      // Show or hide based on filter matching
       if (show) {
         conf.show();
       } else {
-        conf.hide()
+        conf.hide();
       }
     });
   }
-  update_conf_list();
 
-  // Event handler on checkbox change
-  $('form :checkbox').change(function(e) {
-    var checked = $(this).is(':checked');
-    var tag = $(this).prop('id').slice(0, -9);
-    toggle_status[tag] = checked;
+  // Handle checkbox changes
+  $(".filter-checkbox").change(function () {
+    let tag = $(this).attr("id").replace("-checkbox", "");
+    let filterGroup = $(this).data("filter-group");
 
-    if (checked == true) {
-      if (tags.indexOf(tag) < 0)
-        tags.push(tag);
+    if ($(this).is(":checked")) {
+      selectedFilters[filterGroup].add(tag);
+    } else {
+      selectedFilters[filterGroup].delete(tag);
     }
-    else {
-      var idx = tags.indexOf(tag);
-      if (idx >= 0)
-        tags.splice(idx, 1);
-    }
-    store.set('{{ site.domain }}', tags);
-    update_conf_list();
+
+    updateConfList();
   });
+
+  // Handle "Clear Filters" button click
+  $("#clear-filters").click(function () {
+    // Uncheck all checkboxes
+    $(".filter-checkbox").prop("checked", false);
+
+    // Reset the selected filters
+    selectedFilters = {
+      filter1: new Set(),
+      filter2: new Set(),
+      filter3: new Set()
+    };
+
+    updateConfList();
+  });
+
+  updateConfList(); // Initial display
 });

@@ -44,36 +44,56 @@
         <hr>
         <div class="row">
           <div class="col-xs-12">
-            <!-- <div class="well"> -->
-              <form class="form-inline">
-                <div class="form-group">
-                  <!--<span class="mytitle">Category: </span> -->
-                  {% for type in site.data.types %}
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" id="{{ type.tag }}-checkbox" class=""> {{ type.name }}
-                    </label>
-                  </div>
-                  {% endfor %}
+            <form class="form-inline">
+              <div class="form-group">
+                <span class="mytitle">Category: </span>
+                {% for type in site.data.filters1 %}
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" id="{{ type.tag }}-checkbox" class="filter-checkbox" data-filter-group="filter1"> {{ type.name }}
+                  </label>
                 </div>
-              </form>
-            <!-- </div> -->
+                {% endfor %}
+              </div>
+            </form>
           </div>
-          <!--<div class="col-xs-12">
-              <form class="form-inline">
-                <div class="form-group">
-                 <span class="mytitle">CORE Ranking: </span>
-                  {% for type in site.data.filters %}
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" id="{{ type.tag }}-checkbox" class=""> {{ type.name }}
-                    </label>
-                  </div>
-                  {% endfor %}
+
+          <div class="col-xs-12">
+            <form class="form-inline">
+              <div class="form-group">
+                <span class="mytitle">Publication Type: </span>
+                {% for type in site.data.filters2 %}
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" id="{{ type.tag }}-checkbox" class="filter-checkbox" data-filter-group="filter2"> {{ type.name }}
+                  </label>
                 </div>
-              </form>
-          </div> -->
+                {% endfor %}
+              </div>
+            </form>
+          </div>
+
+          <div class="col-xs-12">
+            <form class="form-inline">
+              <div class="form-group">
+                <span class="mytitle">CORE Ranking: </span>
+                {% for type in site.data.filters3 %}
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" id="{{ type.tag }}-checkbox" class="filter-checkbox" data-filter-group="filter3"> {{ type.name }}
+                  </label>
+                </div>
+                {% endfor %}
+              </div>
+            </form>
+          </div>
+          
+          <div class="col-xs-12">
+            <button id="clear-filters" class="btn btn-primary">Clear Filters</button>
+          </div>
+
         </div>
+
       </div>
       <div class="conf-container">
         {% for conf in site.data.conferences %}

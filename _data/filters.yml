@@ -1,9 +1,34 @@
 ---
-- name: CORE A*
-  tag: COREAS
-- name: CORE A
-  tag: COREA
-- name: CORE B
-  tag: COREB
-- name: CORE (Others)
-  tag: COREO
+filter1:
+  - name: Theory
+    tag: THEORY
+  - name: Practical
+    tag: PRACT
+  - name: Applied
+    tag: APPLIED
+  - name: Machine Learning
+    tag: PPML
+  - name: Hardware
+    tag: HW
+
+filter2:
+  - name: Conferences
+    tag: CNF
+  - name: Journals
+    tag: JRN
+  - name: Workshops/Posters
+    tag: WK
+  - name: Crypto Schools
+    tag: CRS
+  - name: Others
+    tag: MISC
+
+filter3:
+  - name: CORE A*
+    tag: COREAS
+  - name: CORE A
+    tag: COREA
+  - name: CORE B
+    tag: COREB
+  - name: CORE (Others)
+    tag: COREO
