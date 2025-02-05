@@ -12,8 +12,7 @@
   comment: 2 deadlines. Notifications - March 27, June 30.
   date: October 13-17
   place: Taipei, Taiwan
-  tags: [PRACT, APPLIED, CNF, COREAS]
-  rank: A*
+  tags: [PRACT, APPLIED, CNF, COREAS] 
   
 - name: ACM STOC
   description: ACM Symposium on Theory of Computing
@@ -24,7 +23,6 @@
   place: Prague, Czech Republic
   tags: [THEORY, CNF, COREAS, EXP]
   comment: Notification - February 01.
-  rank: A*
   
 - name: MobiCom
   description: Annual International Conference On Mobile Computing And Networking

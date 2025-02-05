@@ -118,12 +118,14 @@
                   // <a class="conf-date" href="http://maps.google.com/?q={{conf.place}}" target="_blank">{{conf.place}}</a>
                   {% endif %}
                   <br>
-                  {% if conf.rank %}
-                  <span class="corerank">
-                    <a href="http://portal.core.edu.au/conf-ranks/" target="_blank">CORE</a>: {{ conf.rank }} 
-                  </span> 
-                  <br>
-                  {% endif %}
+                  {% for filter_item in site.data.filters.filter3 %}
+                    {% if conf.tags contains filter_item.tag %}
+                      <span class="corerank">
+                        <a href="http://portal.core.edu.au/conf-ranks/" target="_blank">CORE</a>: {{ filter_item.name }}
+                      </span>
+                      <br>
+                    {% endif %}
+                  {% endfor %}
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6">
