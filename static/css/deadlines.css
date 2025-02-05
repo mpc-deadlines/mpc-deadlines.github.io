@@ -30,6 +30,7 @@ body *::selection {
 .header-box p {
   margin: 10px 0 0;
   font-size: 16px;
+  font-weight: 400;
   color: #555;
 }
 .header-box a {
