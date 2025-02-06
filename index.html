@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/styles.css" | prepend:site.baseurl }}" media="screen,projection">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Global site tag (gtag.js) - Google Analytics
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY66C08954"></script>-->
@@ -30,7 +31,7 @@
         <div class="row">
           <div class="header-box">
             <h1>
-              {{ site.title }}<br>
+              <i class="fas fa-hourglass-half spinning-icon"></i> {{ site.title }}<br>
               <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.description }}{% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false">Tweet</a>
               <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
               <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
@@ -113,11 +114,18 @@
                 <a class="conf-title" href="{{conf.link}}" target="_blank">{{conf.name}} {{conf.year}}</a>
                 <div class="meta">
                   {{ conf.description }}<br>
-                  <span class="conf-date">{{conf.date | replace: '-', '–'}}</span>
+                  <span class="conf-date">
+                    <i class="fas fa-calendar-day"></i> {{conf.date | replace: '-', '–'}}
+                  </span>
+                  
                   {% if conf.place %}
-                  // <a class="conf-date" href="http://maps.google.com/?q={{conf.place}}" target="_blank">{{conf.place}}</a>
+                  <span class="conf-place">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a class="conf-date" href="http://maps.google.com/?q={{conf.place}}" target="_blank">{{conf.place}}</a>
+                  </span>
                   {% endif %}
                   <br>
+                  
                   {% for filter_item in site.data.filters.filter3 %}
                     {% if conf.tags contains filter_item.tag %}
                       <span class="corerank">

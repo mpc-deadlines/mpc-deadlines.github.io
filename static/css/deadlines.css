@@ -181,6 +181,36 @@ footer {
   display: inline-block;
 }
 
+.spinning-icon {
+  display: inline-block;
+  animation: spin 2s linear infinite;
+  margin-right: 8px; /* Adjust the spacing between the icon and the title */
+}
+
+/* Keyframes for the spinning effect */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.conf-date i, .conf-place i {
+  margin-right: 5px; /* Spacing between icon and text */
+  color: #007bff;
+}
+
+.conf-place a {
+  color: #007bff; /* Link color */
+}
+
+.conf-place a:hover {
+  text-decoration: underline;
+}
+
+
 .deadline,
 .meta {
   font-size: 13px;
