@@ -93,17 +93,45 @@ $(function() {
     }
   });
    
-  // Sort upcoming and past conferences separately
+  //// Sort upcoming and past conferences separately
+  //upcomingConfs.sort(function(a, b) {
+  //  var aDeadline = deadlineByConf[a.id];
+  //  var bDeadline = deadlineByConf[b.id];
+  //  return moment().diff(bDeadline) - moment().diff(aDeadline);
+  //});
+//
+  //pastConfs.sort(function(a, b) {
+  //  var aDeadline = deadlineByConf[a.id];
+  //  var bDeadline = deadlineByConf[b.id];
+  //  return moment().diff(bDeadline) - moment().diff(aDeadline);
+  //});
+   
   upcomingConfs.sort(function(a, b) {
     var aDeadline = deadlineByConf[a.id];
     var bDeadline = deadlineByConf[b.id];
-    return moment().diff(bDeadline) - moment().diff(aDeadline);
+    var aDiff = today.diff(aDeadline);
+    var bDiff = today.diff(bDeadline);
+    if (aDiff < 0 && bDiff > 0) {
+      return -1;
+    }
+    if (aDiff > 0 && bDiff < 0) {
+      return 1;
+    }
+    return bDiff - aDiff;
   });
-
+   
   pastConfs.sort(function(a, b) {
     var aDeadline = deadlineByConf[a.id];
     var bDeadline = deadlineByConf[b.id];
-    return moment().diff(bDeadline) - moment().diff(aDeadline);
+    var aDiff = today.diff(aDeadline);
+    var bDiff = today.diff(bDeadline);
+    if (aDiff < 0 && bDiff > 0) {
+      return -1;
+    }
+    if (aDiff > 0 && bDiff < 0) {
+      return 1;
+    }
+    return bDiff - aDiff;
   });
    
   $('.conf-container').append(upcomingConfs);
