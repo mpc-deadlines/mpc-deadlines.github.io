@@ -80,19 +80,6 @@ $(function() {
   var today = moment();
   var confs = $('.conf').detach();
   
-  var pastConfs = []; 
-  var upcomingConfs = []; 
-   
-  confs.each(function() {
-    var conf = $(this);
-
-    if (conf.hasClass("past")) {
-      pastConfs.push(conf);
-    } else {
-      upcomingConfs.push(conf);
-    }
-  });
-   
   //// Sort upcoming and past conferences separately
   //upcomingConfs.sort(function(a, b) {
   //  var aDeadline = deadlineByConf[a.id];
@@ -106,45 +93,7 @@ $(function() {
   //  return moment().diff(bDeadline) - moment().diff(aDeadline);
   //});
    
-  upcomingConfs.sort(function(a, b) {
-    var aDeadline = deadlineByConf[a.id];
-    var bDeadline = deadlineByConf[b.id];
-    var aDiff = today.diff(aDeadline);
-    var bDiff = today.diff(bDeadline);
-    if (aDiff < 0 && bDiff > 0) {
-      return -1;
-    }
-    if (aDiff > 0 && bDiff < 0) {
-      return 1;
-    }
-    return bDiff - aDiff;
-  });
-   
-  pastConfs.sort(function(a, b) {
-    var aDeadline = deadlineByConf[a.id];
-    var bDeadline = deadlineByConf[b.id];
-    var aDiff = today.diff(aDeadline);
-    var bDiff = today.diff(bDeadline);
-    if (aDiff < 0 && bDiff > 0) {
-      return -1;
-    }
-    if (aDiff > 0 && bDiff < 0) {
-      return 1;
-    }
-    return bDiff - aDiff;
-  });
-   
-  $('.conf-container').append(upcomingConfs);
-  $('#past-events-list').append(pastConfs); 
-   
-  // Toggle past events visibility
-  $(".past-deadlines").click(function() {
-    $("#past-events-list").slideToggle();
-    $(".glyphicon", this).toggleClass("glyphicon-chevron-down glyphicon-chevron-up");
-  });
-   
-   
-  //confs.sort(function(a, b) {
+  //upcomingConfs.sort(function(a, b) {
   //  var aDeadline = deadlineByConf[a.id];
   //  var bDeadline = deadlineByConf[b.id];
   //  var aDiff = today.diff(aDeadline);
@@ -157,7 +106,62 @@ $(function() {
   //  }
   //  return bDiff - aDiff;
   //});
-  //$('.conf-container').append(confs);
+  // 
+  //pastConfs.sort(function(a, b) {
+  //  var aDeadline = deadlineByConf[a.id];
+  //  var bDeadline = deadlineByConf[b.id];
+  //  var aDiff = today.diff(aDeadline);
+  //  var bDiff = today.diff(bDeadline);
+  //  if (aDiff < 0 && bDiff > 0) {
+  //    return -1;
+  //  }
+  //  if (aDiff > 0 && bDiff < 0) {
+  //    return 1;
+  //  }
+  //  return bDiff - aDiff;
+  //});
+  // 
+  //$('.conf-container').append(upcomingConfs);
+  //$('#past-events-list').append(pastConfs); 
+   
+  
+   
+   
+  confs.sort(function(a, b) {
+    var aDeadline = deadlineByConf[a.id];
+    var bDeadline = deadlineByConf[b.id];
+    var aDiff = today.diff(aDeadline);
+    var bDiff = today.diff(bDeadline);
+    if (aDiff < 0 && bDiff > 0) {
+      return -1;
+    }
+    if (aDiff > 0 && bDiff < 0) {
+      return 1;
+    }
+    return bDiff - aDiff;
+  });
+  
+  var pastConfs = []; 
+  var upcomingConfs = []; 
+   
+  confs.each(function() {
+    var conf = $(this);
+
+    if (conf.hasClass("past")) {
+      pastConfs.push(conf);
+    } else {
+      upcomingConfs.push(conf);
+    }
+  }); 
+   
+  $('.conf-container').append(confs); 
+  $('#past-events-list').append(pastConfs);  
+   
+  // Toggle past events visibility
+  $(".past-deadlines").click(function() {
+    $("#past-events-list").slideToggle();
+    $(".glyphicon", this).toggleClass("glyphicon-chevron-down glyphicon-chevron-up");
+  });
    
   $(document).ready(function () {
     $(".conf").each(function () {
