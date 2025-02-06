@@ -128,8 +128,8 @@ $(function() {
         confTitle.text(confTitle.text() + " (Expected)");
 
         // Replace date and place with "TBA"
-        conf.find(".conf-date").text("TBA");
-        conf.find(".conf-place").text("TBA");
+        conf.find(".conf-date").html('<i class="fas fa-calendar-day"></i> TBA');
+        conf.find(".conf-place").html('<i class="fas fa-map-marker-alt"></i> TBA');
         conf.find(".conf-rebut").text("TBA");
 
         // Change comment to "CFP yet to be announced"

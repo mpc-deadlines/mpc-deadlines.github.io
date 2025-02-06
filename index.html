@@ -114,9 +114,12 @@
                 <a class="conf-title" href="{{conf.link}}" target="_blank">{{conf.name}} {{conf.year}}</a>
                 <div class="meta">
                   {{ conf.description }}<br>
+                  
+                  {% if conf.date %}
                   <span class="conf-date">
                     <i class="fas fa-calendar-day"></i> {{conf.date | replace: '-', '–'}}
                   </span>
+                  {% endif %}
                   
                   {% if conf.place %}
                   <span class="conf-place">
@@ -185,7 +188,7 @@
           </div>
       </div>
       <footer>
-        Maintained by <a href="https://ajithsuresh.github.io/">Ajith Suresh</a>. Based on <a href="https://sec-deadlines.github.io">sec-deadlines</a>.
+        Maintained by <a class="footer-text" href="https://ajithsuresh.github.io/">Ajith Suresh</a>. Based on <a  class="footer-text" href="https://sec-deadlines.github.io">sec-deadlines</a>.
       </footer>
     </div>
 

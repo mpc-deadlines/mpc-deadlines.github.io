@@ -160,7 +160,7 @@ footer {
 
 .past-deadlines {
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: #333;
   background: #f8f9fa;
@@ -198,16 +198,20 @@ footer {
 }
 
 .conf-date i, .conf-place i {
-  margin-right: 5px; /* Spacing between icon and text */
+  margin-right: 2px; 
   color: #007bff;
 }
 
-.conf-place a {
-  color: #007bff; /* Link color */
+.conf-place {
+  margin-left: 10px; 
 }
 
-.conf-place a:hover {
-  text-decoration: underline;
+.conf-place a {
+  color: #007bff; 
+}
+
+.footer-text {
+  color: #007bff;
 }
 
 
@@ -278,6 +282,12 @@ footer {
 
 .pwc-icon {
   top: -2px;
+}
+
+#past-events-selection {
+  margin-top: 5px; 
+  margin-bottom: 5px; 
+  border-bottom: 2px solid #ddd;
 }
 
 #past-events-title {
