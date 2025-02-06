@@ -80,53 +80,6 @@ $(function() {
   var today = moment();
   var confs = $('.conf').detach();
   
-  //// Sort upcoming and past conferences separately
-  //upcomingConfs.sort(function(a, b) {
-  //  var aDeadline = deadlineByConf[a.id];
-  //  var bDeadline = deadlineByConf[b.id];
-  //  return moment().diff(bDeadline) - moment().diff(aDeadline);
-  //});
-//
-  //pastConfs.sort(function(a, b) {
-  //  var aDeadline = deadlineByConf[a.id];
-  //  var bDeadline = deadlineByConf[b.id];
-  //  return moment().diff(bDeadline) - moment().diff(aDeadline);
-  //});
-   
-  //upcomingConfs.sort(function(a, b) {
-  //  var aDeadline = deadlineByConf[a.id];
-  //  var bDeadline = deadlineByConf[b.id];
-  //  var aDiff = today.diff(aDeadline);
-  //  var bDiff = today.diff(bDeadline);
-  //  if (aDiff < 0 && bDiff > 0) {
-  //    return -1;
-  //  }
-  //  if (aDiff > 0 && bDiff < 0) {
-  //    return 1;
-  //  }
-  //  return bDiff - aDiff;
-  //});
-  // 
-  //pastConfs.sort(function(a, b) {
-  //  var aDeadline = deadlineByConf[a.id];
-  //  var bDeadline = deadlineByConf[b.id];
-  //  var aDiff = today.diff(aDeadline);
-  //  var bDiff = today.diff(bDeadline);
-  //  if (aDiff < 0 && bDiff > 0) {
-  //    return -1;
-  //  }
-  //  if (aDiff > 0 && bDiff < 0) {
-  //    return 1;
-  //  }
-  //  return bDiff - aDiff;
-  //});
-  // 
-  //$('.conf-container').append(upcomingConfs);
-  //$('#past-events-list').append(pastConfs); 
-   
-  
-   
-   
   confs.sort(function(a, b) {
     var aDeadline = deadlineByConf[a.id];
     var bDeadline = deadlineByConf[b.id];
@@ -154,7 +107,8 @@ $(function() {
     }
   }); 
    
-  $('.conf-container').append(confs); 
+  //$('.conf-container').append(confs); 
+  $('.conf-container').append(upcomingConfs); 
   $('#past-events-list').append(pastConfs);  
    
   // Toggle past events visibility
