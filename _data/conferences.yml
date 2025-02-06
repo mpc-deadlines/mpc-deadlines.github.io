@@ -119,30 +119,30 @@
 
 - name: USENIX Security
   description: Usenix Security Symposium
-  year: 2025
-  link: https://www.usenix.org/conference/usenixsecurity25
+  year: 2026
+  link: https://www.usenix.org/conference/usenixsecurity26
   deadline:
-    - "2024-09-04 23:59"
-    - "2025-01-22 23:59"
+    - "2025-09-04 23:59"
+    - "2026-01-22 23:59"
   rebut: November 18-25, April 07-14
   date: August 13-15
   place: Seattle, WA, USA
   comment: Early Reject - October 15, March 04. Notification - December 11, April 30.
-  tags: [PRACT, CNF, COREAS, EXP]
+  tags: [PRACT, APPLIED, CNF, COREAS, EXP]
   
 - name: The Web Conference
   description: The Web Conference (WWW)
-  year: 2025
+  year: 2026
   link: https://www2025.thewebconf.org
-  deadline:
-    - "2024-10-14 23:59"
-    - "2024-11-18 23:59"
   abdeadline: October 07, November 11
-  rebut: Dec 01 - 14
-  comment: Notification - Feb 01. Nov deadline for industry track.
+  deadline:
+    - "2025-10-14 23:59"
+    - "2025-11-18 23:59"
+  rebut: December 01-14
   date: April 28 - May 02
   place: Sydney, Australia
-  tags: [PRACT, APPLIED, CNF, COREAS]
+  comment: Notification - Feb 01. Nov deadline for industry track.
+  tags: [PRACT, APPLIED, CNF, COREAS, EXP]
 
 - name: VLDB
   description: International Conference on Very Large Data Bases
@@ -162,21 +162,20 @@
     - "2025-02-01 16:59"
     - "2025-03-01 16:59"
   timezone: PT
-  comment: Rolling deadline every month. Notification on 15th of next month.
-  date: "September 01-05"
+  date: September 01-05
   place: London, UK (Hybrid)
+  comment: Rolling deadline every month. Notification on 15th of next month. Multiple tracks.
   tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
   
 - name: VLDB (Industrial Track)
   description: International Conference on Very Large Data Bases
   year: 2025
   link: https://vldb.org/2025/?call-for-industrial-track
-  deadline: ["2025-03-01 16:59"]
-  abdeadline: February 16
+  deadline: ["2025-03-17 16:59"]
   timezone: PT
-  comment: One author should have industry affiliation. Notification - May 08.
-  date: "September 01-05"
+  date: September 01-05
   place: London, UK (Hybrid)
+  comment: One author should have industry affiliation. Notification - May 19.
   tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
 
 # CORE A
@@ -1250,7 +1249,16 @@
   
 # Journals
 
-- name: (Journal) IACR CiC
+- name: ACM TOPS
+  description: ACM Transactions on Privacy and Security
+  year: 2025
+  link: https://dl.acm.org/journal/tops/author-guidelines
+  deadline: ["%y-12-31 23:59"]
+  portal: https://mc.manuscriptcentral.com/tops
+  comment: Accepts submission throughout the year.
+  tags: [PRACT, APPLIED, JRN]
+  
+- name: IACR CiC
   description: Communications in Cryptology
   year: 2025
   link: https://cic.iacr.org/callforpapers
@@ -1259,99 +1267,87 @@
     - "2025-04-08 23:59"
     - "2025-07-08 23:59"
     - "2025-10-08 23:59"
-  rebut: Feb 17-21
-  comment: Notification - Mar 11. 
-  tags: [THEORY, JRN]
+  comment: Notification in two months. 
+  tags: [THEORY, PRACT, JRN]
 
-- name: (Journal) IACR JoC
+- name: IACR JoC
   description: Journal of Cryptology
-  year: 2024
+  year: 2025
   link: https://www.iacr.org/jofc/
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://www.editorialmanager.com/jcryptology/" target="blank">Submission Portal</a>.
-  tags: [THEORY, COREAS, JRN]
-  rank: A*
+  deadline: ["%y-12-31 23:59"]
+  portal: https://www.editorialmanager.com/jcryptology/
+  comment: Accepts submission throughout the year.
+  tags: [THEORY, JRN]
   
-- name: (Journal) JACM
-  description: Journal of the ACM
-  year: 2024
-  link: https://dl.acm.org/journal/jacm
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://mc.manuscriptcentral.com/jacm" target="blank">Submission Portal</a>.
-  tags: [THEORY, PRACT, COREAS, JRN]
-  rank: A*
-  
-- name: (Journal) JCSS
-  description: Journal of Computer and System Sciences
-  year: 2024
-  link: https://www.elsevier.com/journals/journal-of-computer-and-system-sciences/0022-0000/guide-for-authors
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://www.editorialmanager.com/jcss/" target="blank">Submission Portal</a>.
-  tags: [THEORY, COREAS, JRN]
-  rank: A*
-  
-- name: (Journal) IEEE TC
+- name: IEEE TC
   description: IEEE Transactions on Computers
-  year: 2024
+  year: 2025
   link: https://www.computer.org/digital-library/journals/tc/call-for-papers-general-submissions
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tc-cs" target="blank">Submission Portal</a>.
-  tags: [PRACT, APPLIED, COREAS, JRN]
-  rank: A*
-  
-- name: (Journal) IEEE TPDS
-  description: IEEE Transactions on Parallel and Distributed Systems
-  year: 2024
-  link: https://www.computer.org/csdl/journal/td/
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tpds-cs" target="blank">Submission Portal</a>.
-  tags: [PRACT, APPLIED, COREAS, JRN]
-  rank: A*
-  
-- name: (Journal) IEEE ToSC
-  description: IEEE Transactions on Services Computing
-  year: 2024
-  link: https://www.computer.org/csdl/journal/sc
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tsc-cs" target="blank">Submission Portal</a>.
-  tags: [PRACT, APPLIED, COREAS, JRN]
-  rank: A*
-  
-- name: (Journal) ACM TOPS
-  description: ACM Transactions on Privacy and Security
-  year: 2024
-  link: https://dl.acm.org/journal/tops/author-guidelines
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tops" target="blank">Submission Portal</a>.
-  tags: [PRACT, APPLIED, COREA, JRN]
-  rank: A
-  
-- name: (Journal) JPDC
-  description: Journal of Parallel and Distributed Computing
-  year: 2024
-  link: https://www.elsevier.com/journals/journal-of-parallel-and-distributed-computing/0743-7315/guide-for-authors
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://www.editorialmanager.com/jpdc/" target="blank">Submission Portal</a>.
-  tags: [THEORY, PRACT, COREA, JRN]
-  rank: A
-  
-- name: (Journal) IEEE TDSC
+  deadline: ["%y-12-31 23:59"]
+  portal: https://mc.manuscriptcentral.com/tc-cs
+  comment: Accepts submission throughout the year.
+  tags: [PRACT, APPLIED, JRN]
+
+- name: IEEE TDSC
   description: IEEE Transactions on Dependable and Secure Computing
-  year: 2024
+  year: 2025
   link: https://www.computer.org/csdl/journal/tq/write-for-us/15068
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tdsc-cs" target="blank">Submission Portal</a>.
-  tags: [PRACT, APPLIED, COREA, JRN]
-  rank: A
-
-- name: (Journal) IEEE TIFS
-  description: IEEE Transactions on Information Forensics and Security
-  year: 2024
-  link: https://signalprocessingsociety.org/publications-resources/information-authors
-  deadline: ["2024-12-31 23:59"]
-  comment: No deadline. <a href="https://mc.manuscriptcentral.com/tifs-ieee" target="blank">Submission Portal</a>.
-  tags: [PRACT, APPLIED, COREA, JRN]
-  rank: A
+  deadline: ["%y-12-31 23:59"]
+  portal: https://mc.manuscriptcentral.com/tdsc-cs
+  comment: Accepts submission throughout the year.
+  tags: [PRACT, APPLIED, JRN]
   
+- name: IEEE TIFS
+  description: IEEE Transactions on Information Forensics and Security
+  year: 2025
+  link: https://signalprocessingsociety.org/publications-resources/information-authors
+  deadline: ["%y-12-31 23:59"]
+  portal: https://mc.manuscriptcentral.com/tifs-ieee
+  comment: Accepts submission throughout the year.
+  tags: [PRACT, APPLIED, JRN]
+  
+- name: IEEE TPDS
+  description: IEEE Transactions on Parallel and Distributed Systems
+  year: 2025
+  link: https://www.computer.org/csdl/journal/td/
+  deadline: ["%y-12-31 23:59"]
+  portal: https://mc.manuscriptcentral.com/tpds-cs
+  comment: Accepts submission throughout the year.
+  tags: [PRACT, APPLIED, JRN]
+  
+- name: IEEE ToSC
+  description: IEEE Transactions on Services Computing
+  year: 2025
+  link: https://www.computer.org/csdl/journal/sc
+  deadline: ["%y-12-31 23:59"]
+  portal: https://mc.manuscriptcentral.com/tsc-cs
+  comment: Accepts submission throughout the year.
+  tags: [PRACT, APPLIED, JRN]
 
+- name: JACM
+  description: Journal of the ACM
+  year: 2025
+  link: https://dl.acm.org/journal/jacm
+  deadline: ["%y-12-31 23:59"]
+  portal: https://mc.manuscriptcentral.com/jacm
+  comment: Accepts submission throughout the year.
+  tags: [THEORY, PRACT, JRN]
+  
+- name: JCSS
+  description: Journal of Computer and System Sciences
+  year: 2025
+  link: https://www.elsevier.com/journals/journal-of-computer-and-system-sciences/0022-0000/guide-for-authors
+  deadline: ["%y-12-31 23:59"]
+  portal: https://www.editorialmanager.com/jcss/
+  comment: Accepts submission throughout the year.
+  tags: [THEORY, JRN]
+  
+- name: JPDC
+  description: Journal of Parallel and Distributed Computing
+  year: 2025
+  link: https://www.elsevier.com/journals/journal-of-parallel-and-distributed-computing/0743-7315/guide-for-authors
+  deadline: ["%y-12-31 23:59"]
+  portal: https://www.editorialmanager.com/jpdc/
+  comment: Accepts submission throughout the year.
+  tags: [THEORY, PRACT, JRN]
   

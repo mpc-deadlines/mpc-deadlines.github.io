@@ -112,6 +112,26 @@ $(function() {
         // Change comment to "CFP yet to be announced"
         conf.find(".conf-comment").text("CFP yet to be announced");
       }
+      
+      // Check if it has the JRN tag
+      if (conf.hasClass("JRN")) {
+        // Append " (Journal)" to the journal name
+        let confTitle = conf.find(".conf-title");
+        confTitle.text("(Journal) " + confTitle.text());
+
+        // Get the existing comment
+        let confComment = conf.find(".conf-comment");
+
+        // Get the submission portal or fallback to the link
+        let portalLink = conf.data("portal") ? conf.data("portal") : conf.find(".conf-title").attr("href");
+
+        // Construct the new comment by appending the submission portal link
+        let newComment = (confComment.text().trim() ? confComment.text().trim() + " " : "") +
+                         '<a href="' + portalLink + '" target="_blank">Submission Portal</a>';
+
+        // Update the comment field
+        confComment.html(newComment);
+      }
     });
   });
 
