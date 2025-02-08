@@ -16,11 +16,13 @@ filter2:
     tag: CNF
   - name: Journals
     tag: JRN
-  - name: Workshops/Posters
+  - name: Workshops
     tag: WK
+  - name: Posters
+    tag: PS
   - name: Crypto Schools
     tag: CRS
-  - name: Others
+  - name: Miscellaneous
     tag: MISC
 
 filter3:

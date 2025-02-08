@@ -182,28 +182,26 @@
 
 - name: ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
-  year: 2025
+  year: 2026
   link: https://asiaccs2025.hust.edu.vn
   deadline:
-    - "2024-09-20 23:59"
-    - "2025-01-20 23:59"
-  comment: Early Reject - Oct 25, Feb 28, Notifications - Dec 13, Apr 19
-  date: "August 25-29"
+    - "2025-09-20 23:59"
+    - "2026-01-20 23:59"
+  date: August 25-29
   place: Ha Noi, Vietnam
-  tags: [PRACT, CNF, COREA]
-  rank: A
+  comment: Early Reject - October 25, February 28. Notification - December 13, Aprril 19.
+  tags: [PRACT, CNF, COREA, EXP]
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
-  year: 2025
-  link: https://asiacrypt.iacr.org/2025/
+  year: 2026
+  link: https://asiacrypt.iacr.org/2026/
   deadline: ["2025-05-25 11:59"]
-  rebut: Jul 20 - Aug 01
-  comment: Early Reject - Jul 20. Notification - Aug 25.
+  rebut: July 20 - August 01
   date: December 04-08
   place: Kolkata, India
-  tags: [THEORY, CNF, COREA]
-  rank: A  
+  comment: Early Reject - July 20. Notification - August 25.
+  tags: [THEORY, CNF, COREA, EXP]
 
 - name: CHES
   description: Cryptographic Hardware and Embedded Systems
@@ -215,25 +213,22 @@
     - "2025-01-15 23:59"
     - "2025-04-15 23:59"
   rebut: Aug 19-23, Nov 18-22, Feb 17-21, May 19-23
+  date: September 14-18
+  place: Kuala Lumpur, Malaysia
   comment: Rolling deadline every quarter. (invites MPC topics)
-  date: September 
-  place: Malaysia
   tags: [PRACT, APPLIED, CNF, COREA]
-  rank: A
 
-  
 - name: DISC
   description: International Symposium on Distributed Computing
   year: 2025
   link: https://www.disc-conference.org/wp/disc2025/
-  deadline: ["2025-05-14 23:59"]
   abdeadline: May 07
+  deadline: ["2025-05-14 23:59"]
   rebut: July 04-10
-  date: October 28 - November 01
-  place: Madrid, Spain
-  tags: [THEORY, PRACT, CNF, COREA]
-  comment: Best paper at DISC will be invited to the JACM. Notification - Aug 02.
-  rank: A
+  date: October 27 - November 01
+  place: Berlin, Germany
+  comment: Includes Brief Announcements. Notification - August 02.
+  tags: [THEORY, PRACT, CNF, COREA, EXP]
 
 - name: ESORICS
   description: European Symposium on Research in Computer Security
@@ -242,61 +237,55 @@
   deadline:
     - "2025-01-10 23:59"
     - "2025-04-22 23:59"
-  comment: 2 deadlines. Notification - Mar 21, Jun 13.
   date: September 22-26
   place: Toulouse, France
+  comment: Notification - March 21, June 13.
   tags: [PRACT, CNF, COREA]
-  rank: A
 
 - name: FC
   description: Financial Cryptography and Data Security
-  year: 2025
-  link: https://fc25.ifca.ai
-  deadline: ["2024-10-11 23:59"]
+  year: 2026
+  link: https://fc26.ifca.ai
+  deadline: ["2025-10-11 23:59"]
   date: April 14-18
-  comment: Notification - December 06.
   place: Miyakojima, Japan
-  tags: [PRACT, CNF, COREA]
-  rank: A
+  comment: Notification - December 06.
+  tags: [PRACT, CNF, COREA, EXP]
 
-  
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
-  year: 2025
-  link: https://www.ieee-security.org/TC/CSF2025/
+  year: 2026
+  link: https://www.ieee-security.org/TC/CSF2026/
   deadline:
-    - "2024-05-28 23:59"
-    - "2024-10-01 23:59"
-    - "2025-02-04 23:59"
-  comment: 3 deadlines. Notification - Jul 30, Dec 03, Apr 08.
+    - "2025-05-28 23:59"
+    - "2025-10-01 23:59"
+    - "2026-02-04 23:59"
   date: July 08-12
   place: Santa Cruz, CA, USA
-  tags: [THEORY, CNF, COREA]
-  rank: A
+  comment: Notification - July 30, December 03, April 08.
+  tags: [THEORY, CNF, COREA, EXP]
   
 - name: IEEE ICDCS
   description: IEEE International Conference on Distributed Computing Systems
-  year: 2025
-  link: https://icdcs2025.icdcs.org
-  deadline: ["2024-12-11 23:59"]
+  year: 2026
+  link: https://icdcs2026.icdcs.org
   abdeadline: December 04
+  deadline: ["2025-12-11 23:59"]
   date: July 20-23
-  comment: Notification - April 02.
   place: Glasgow, Scotland, UK
-  tags: [THEORY, PRACT, CNF, COREA]
-  rank: A
+  comment: Notification - April 02.
+  tags: [THEORY, PRACT, CNF, COREA, EXP]
   
 - name: ITCS
   description: Innovations in Theoretical Computer Science
   year: 2026
   link: http://itcs-conf.org/
+  abdeadline: Septermber 05
   deadline: ["2025-09-08 19:59"]
-  abdeadline: Sep 05
-  date: "January 30 - February 02"
+  date: January 30 - February 02
   place: University of California, Berkeley
-  tags: [THEORY, CNF, COREA]
-  rank: A
-  comment: Notification - November 08
+  comment: Notification - November 08.
+  tags: [THEORY, CNF, COREA, EXP]
   
 - name: PoPETS
   description: Privacy Enhancing Technologies Symposium
@@ -307,25 +296,22 @@
     - "2024-08-31 23:59"
     - "2024-11-30 23:59"
     - "2025-02-28 23:59"
-  rebut: Jul 16-19, Oct 15-18, Jan 14-17, Apr 15-18
-  comment: Rolling deadline every quarter. Notifications - Aug 01, Nov 01, Feb 01, May 01.
+  rebut: July 16-19, October 15-18, January 14-17, April 15-18.
   date: July 15-20
   place: Washington, DC (Hybrid)
-  tags: [PRACT, CNF, COREA]
-  rank: A
-  
+  comment: Notifications - 1st of August, November, February, May.
+  tags: [PRACT, APPLIED, CNF, COREA]
 
 - name: TCC
   description: Theory of Cryptography Conference
   year: 2025
   link: https://tcc.iacr.org/2025/
   deadline: ["2025-05-20 19:59"]
+  rebut: July 21-26
   date: "December 02-06"
-  rebut: Jul 21-26
-  comment: Notification - Aug 31.
   place: Milan, Italy
-  tags: [THEORY, CNF, COREA]
-  rank: A
+  comment: Notification - August 31.
+  tags: [THEORY, CNF, COREA, EXP]
   
 - name: ACSAC
   description: Annual Computer Security Applications Conference
@@ -333,41 +319,37 @@
   link: https://www.acsac.org/2025
   deadline: ["2025-05-28 23:59"]
   rebut: August 02-07
-  date: Dec 09 - 13
+  date: December 09-13
   place: Waikiki, Honolulu, Hawaii
-  tags: [PRACT, APPLIED, CNF, COREA]
   comment: Early Reject - Jul 06. Notification - Aug 19.
-  rank: A
+  tags: [PRACT, APPLIED, CNF, COREA, EXP]
   
 - name: EuroSys
   description: The European Conference on Computer Systems
-  year: 2025
-  link: https://2025.eurosys.org
+  year: 2026
+  link: https://2026.eurosys.org
+  abdeadline: May 08, September 18
   deadline: 
-    - "2024-05-21 23:59"
-    - "2024-10-22 23:59"
-  abdeadline: May 14 and October 15
-  comment: Notification - Aug 21, Jan 25
-  rebut: Jul 31-Aug 02, Jan 07-09
-  date: "March 30 - April 03"
-  place: Rotterdam, Netherlands
+    - "2025-05-15 23:59"
+    - "2025-09-25 23:59"
+  rebut: July 30-August 01, January 07-09
+  date: April 13-16
+  place: Edinburgh
+  comment: Notification - August 22, January 30
   tags: [THEORY, CNF, COREA]
-  rank: A
 
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
-  year: 2025
-  link: https://www.ieee-security.org/TC/EuroSP2025/
-  deadline: ["2024-10-24 23:59"]
+  year: 2026
+  link: https://www.ieee-security.org/TC/EuroSP2026/
   abdeadline: October 21
-  date: June 30 - July 04
+  deadline: ["2025-10-24 23:59"]
   rebut: January 29 - February 01
-  comment: Notification - February 22
+  date: June 30 - July 04
   place: Venice, Italy
-  tags: [PRACT, COREA, CNF, COREO]
-  rank: NEW (A)
+  comment: Notification - February 22.
+  tags: [PRACT, APPLIED, CNF, COREA, EXP]
   
-
 # CORE B
 
 - name: ACISP
@@ -905,7 +887,7 @@
   comment: Included in proceedings. Notifications - Aug 29.
   date: "October 14-18"
   place: Salt Lake City, USA
-  tags: [WK]
+  tags: [PS]
 
 - name: (Poster) ACSAC
   description: Annual Computer Security Applications Conference
@@ -915,7 +897,7 @@
   rebut: August 02-07
   date: Dec 09 - 13
   place: Waikiki, Honolulu, Hawaii
-  tags: [WK]
+  tags: [PS]
 
 - name: (Poster) ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
@@ -925,7 +907,7 @@
   comment: Published in the proceedings. Notification - March 26.
   date: "August 25-29"
   place: Ha Noi, Vietnam
-  tags: [WK]
+  tags: [PS]
   
 - name: (Poster) IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
@@ -935,7 +917,7 @@
   date: "July 08-12"
   place: Vienna, Austria
   comment: No proceedings. Notification - May 21.
-  tags: [WK]
+  tags: [PS]
   rank: NEW (A)
 
 - name: (Poster) IEEE S&P
@@ -946,18 +928,7 @@
   date: "May 20-23"
   comment: No proceedings. Notification - April 26.
   place: San Francisco, California, USA
-  tags: [WK]
-
-- name: (Short Talk) IEEE S&P
-  description: IEEE Symposium on Security and Privacy
-  year: 2024
-  link: https://sp2024.ieee-security.org/cftalks.html
-  deadline: ["2024-04-21 23:59"]
-  date: "May 20-23"
-  comment: No proceedings. Notification - April 28.
-  place: San Francisco, California, USA
-  tags: [WK]
-
+  tags: [PS]
 
 - name: (Poster) NDSS
   description: ISOC Network and Distributed System Security Symposium
@@ -968,7 +939,7 @@
   date: "February 23 - 28"
   place: San Diego, CA, USA
   comment: Notification - Feb 03.
-  tags: [WK]
+  tags: [PS]
   
   
 - name: (Poster) PoPETS
@@ -979,7 +950,7 @@
   comment: Notifications within three days of submission.
   date: July 15-20
   place: Bristol, UK
-  tags: [WK]
+  tags: [PS]
   
   
 - name: (Poster) USENIX Security
@@ -990,7 +961,7 @@
   comment: Notification - Jul 16. No proceedings
   date: "August 14-16"
   place: Philadelphia, PA, USA.
-  tags: [WK]
+  tags: [PS]
 
   
 - name: (Poster) The Web Conference
@@ -1001,7 +972,7 @@
   comment: Notification - March 04 + Proceedings
   date: "May 13 - 17"
   place: Singapore
-  tags: [WK]
+  tags: [PS]
 
 # CryptoSchools
 
@@ -1234,6 +1205,16 @@
   place: Austin, Texas, USA
   tags: [MISC]
   comment: Open to cybersecurity artifacts previously published in all peer-reviewed venues. Notification - Oct 13.
+  
+- name: IEEE S&P Short Talk
+  description: IEEE Symposium on Security and Privacy
+  year: 2025
+  link: https://sp2025.ieee-security.org/cftalks.html
+  deadline: ["2025-04-21 23:59"]
+  date: May 12-15
+  place: San Francisco, California, USA
+  comment: No proceedings. Notification - April 28.
+  tags: [MISC, EXP]
 
 - name: (Misc) PhD Symposium at The Web Conference
   description: The Web Conference (WWW)
@@ -1243,7 +1224,7 @@
   comment: Notification - March 04 + Proceedings
   date: "May 13 - 17"
   place: Singapore
-  tags: [WK]
+  tags: [MISC]
   rank: A*
 
   
