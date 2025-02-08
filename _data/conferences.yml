@@ -436,7 +436,7 @@
   deadline: ["2026-01-22 23:59"]
   date: June 22-27
   place: Ann Arbor, USA
-    comment: Notification - April 15.
+  comment: Notification - April 15.
   tags: [THEORY, CNF, COREB, EXP]
   
 - name: IEEE ITW
@@ -485,7 +485,19 @@
   tags: [PRACT, CNF, COREB]
 
 # CORE C
- 
+
+- name: SECRYPT
+  description: International Conference on Information Security and Cryptography
+  year: 2025
+  link: https://secrypt.scitevents.org
+  deadline: 
+    - "2025-02-06 23:59"
+    - "2025-03-03 23:59"
+    - "2025-04-07 23:59"
+  date: June 11-13
+  place: Bilbao, Spain
+  comment: Notification - March 17, April 07. April deadline for Abstracts track.
+  tags: [THEORY, PRACT, CNF, COREC]
 
 # CORE National
 
@@ -525,13 +537,12 @@
 - name: AfricaCrypt
   description: International Conference on Cryptology
   year: 2025
-  link: https://www.africacrypt2025.com
-  deadline: ["2025-02-16 23:59"]
-  comment: Notification - Apr 26
-  date: July 10-12
-  place: Douala, Cameroon
+  link: https://africacrypt2025.sciencesconf.org
+  deadline: ["2025-03-01 23:59"]
+  date: July 21-23
+  place: Rabat, Morocco
+  comment: Notification - April 20.
   tags: [THEORY, PRACT, CNF, COREO]
-  rank: Unranked
   
 - name: ArcticCrypt
   description: European Cryptology Conference
@@ -540,104 +551,49 @@
   deadline: ["2024-09-13 23:59"]
   date: July 06 - 11
   place: Longyearbyen
+  comment: Notification - October 23.
   tags: [THEORY, CNF, COREO]
-  comment: Notification - October 23
-  rank: Unranked
-  
-- name: AsianHOST
-  description: Asian Hardware Oriented Security and Trust Symposium
-  year: 2025
-  link: http://asianhost.org/2025/
-  deadline: ["2025-07-14 14:59"]
-  date: December 16-18
-  place: Kobe, Japan
-  comment: Notification - September 11.
-  tags: [APPLIED, CNF, COREO]
-  rank: Unranked
 
 - name: FLTA
   description: International Conference on Federated Learning Technologies and Applications
   year: 2025
-  link: https://flta-conference.org
-  deadline: ["2025-07-07 23:59"]
-  comment: Notification - July 31
-  date: September 17-19
-  place: TBA
+  link: https://flta-conference.org/flta-2025/
+  deadline: ["2025-06-01 23:59"]
+  date: October 14-17
+  place: Dubrovnik, Croatia
+  comment: Notification - July 29.
   tags: [PRACT, APPLIED, CNF, COREO]
-  rank: Unranked
 
 - name: ITC
   description: Information-Theoretic Cryptography
   year: 2025
   link: https://itcrypto.github.io/2025/index.html
   deadline: ["2025-03-14 23:59"]
-  comment: Notification - May 30.
-  date: "August 16 - 17"
+  date: August 16-17
   place: Santa Barbara, CA, USA
+  comment: Notification - May 30.
   tags: [THEORY, CNF, COREO]
-  rank: Unranked (C)
   
 - name: IEEE CNS
   description: IEEE Conference on Communications and Network Security
   year: 2025
   link: https://cns2025.ieee-cns.org
-  deadline: ["2025-06-10 23:59"]
-  comment: Notification - Aug 09.
-  date: September 30 - October 03
-  place: Taipei, Taiwan
+  deadline: ["2025-05-05 23:59"]
+  date: September 08-11
+  place: Avignon, France
+  comment: Notification - July 07.
   tags: [PRACT, CNF, COREO]
-  rank: Unranked
-  
-- name: IEEE CSR
-  description: IEEE Cyber Security and Resilience
-  year: 2025
-  link: https://www.ieee-csr.org
-  deadline: ["2025-02-10 23:59"]
-  comment: Notification - Mar 10.
-  date: August 04 - 06
-  place: Chania, Crete, Greece
-  tags: [PRACT, CNF, COREO]
-  rank: Unranked
-  
-- name: IEEE HOST
-  description: IEEE International Symposium on Hardware Oriented Security and Trust
-  year: 2025
-  link: http://www.hostsymposium.org/index.php
-  deadline: 
-    - "2024-08-26 23:59"
-    - "2024-12-23 23:59"
-  abdeadline: Aug 19, Dec 09
-  date: May 01-04
-  place: Washington DC, USA
-  comment: Notification - Oct 27 and Feb 17. 
-  tags: [APPLIED, CNF, COREO]
-  rank: Unranked
- 
-  
+
 - name: LATINCRYPT
   description: International Conference On Cryptology And Information Security In Latin America
   year: 2025
   link: https://ciencias.medellin.unal.edu.co/eventos/latincrypt/
-  deadline: ["2025-04-18 23:59"]
   abdeadline: April 18
-  comment: Notification - Jul 04
+  deadline: ["2025-04-18 23:59"]
   date: October 01-03
   place: Medellín, Colombia
+  comment: Notification - July 04.
   tags: [THEORY, PRACT, CNF, COREO]
-  rank: Unranked
-  
-- name: SECRYPT
-  description: International Conference on Information Security and Cryptography
-  year: 2025
-  link: https://secrypt.scitevents.org
-  deadline: 
-    - "2025-01-17 23:59"
-    - "2025-03-03 23:59"
-  comment: Notification - March 17, April 07
-  date: June 11-13
-  place: Bilbao, Spain
-  tags: [THEORY, CNF, COREO]
-  rank: C
 
 # Workshops
 
@@ -1166,24 +1122,41 @@
 
 # Hardware
 
+- name: AsianHOST
+  description: Asian Hardware Oriented Security and Trust Symposium
+  year: 2025
+  link: http://asianhost.org/2025/
+  deadline: ["2025-07-14 14:59"]
+  date: December 16-18
+  place: Kobe, Japan
+  comment: Notification - September 11.
+  tags: [HW, APPLIED, CNF, COREO, EXP]
   
 - name: DAC
   description: Design Automation Conference
-  year: 2025
+  year: 2026
   link: https://www.dac.com/Conference/2025-Call-for-Contributions
-  deadline: ["2024-11-19 16:59"]
   abdeadline: November 12
-  timezone: PST
+  deadline: ["2025-11-19 16:59"]
   date: June 22-25
   place: Moscone West, San Francisco
-  tags: [HW, CNF, COREA]
-  comment: Notification - Feb 26.
-  rank: A
+  comment: Notification - February 26.
+  tags: [HW, APPLIED, CNF, COREU, EXP]
+  
+- name: IEEE HOST
+  description: IEEE International Symposium on Hardware Oriented Security and Trust
+  year: 2026
+  link: http://www.hostsymposium.org/index.php
+  abdeadline: August 19, December 09
+  deadline: 
+    - "2025-08-26 23:59"
+    - "2025-12-23 23:59"
+  date: May 01-04
+  place: Washington DC, USA
+  comment: Notification - October 27, February 17. 
+  tags: [HW, APPLIED, CNF, COREO, EXP]
   
   
-  
-
-
 # Others
 
 - name: (Misc) Cybersecurity Artifacts Competition and Impact Award
