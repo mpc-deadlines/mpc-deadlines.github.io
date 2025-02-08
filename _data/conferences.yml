@@ -359,11 +359,10 @@
   deadline: 
     - "2024-11-06 23:59"
     - "2025-02-19 23:59"
-  comment: Notification - Jan 22, Apr 08
   date: July 14-16
   place: Wollongong, Australia
+  comment: Notification - January 22, April 08.
   tags: [PRACT, APPLIED, CNF, COREB]
-  rank: B (Australasian)
   
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
@@ -374,160 +373,151 @@
     - "2025-03-12 23:59"
   date: June 30 - July 03
   place: Arlington, Virginia
-  tags: [PRACT, APPLIED, CNF, COREB]
-  rank: B
-  comment: Notification - Jan 15 and Apr 23.
+  comment: Notification - January 15, April 23.
+  tags: [APPLIED, CNF, COREB]
 
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
-  year: 2025
+  year: 2026
   link: http://acns2025.fordaysec.de
   deadline: 
-    - "2024-09-09 23:59"
-    - "2025-01-13 23:59"
-  comment: Notification - Nov 11, Mar 17.
+    - "2025-09-09 23:59"
+    - "2026-01-13 23:59"
   date: June 23-26
   place: Munich, Germany
-  tags: [THEORY, PRACT, APPLIED, CNF, COREB]
-  rank: B
+  comment: Notification - November 11, March 17.
+  tags: [PRACT, APPLIED, CNF, COREB, EXP]
   
 - name: ARES
   description: International Conference on Availability, Reliability and Security
   year: 2025
-  link: https://www.ares-conference.eu
-  deadline: ["2025-03-13 23:59"]
-  comment: Notification - May 03
-  date: July 30 - August 02
-  place: Vienna, Austria
+  link: https://2025.ares-conference.eu
+  deadline: ["2025-02-28 23:59"]
+  date: August 11-14
+  place: Ghent, Belgium
+  comment: Short paper and SoKs. Notification - May 02.
   tags: [PRACT, CNF, COREB]
-  rank: B
   
 - name: CANS
   description: International Conference on Cryptology and Network Security
   year: 2025
-  link: https://2025.cansconference.org/home
-  deadline: ["2025-04-24 23:59"]
-  comment: Notification - June 17.
-  date: September 24-27
-  place: Cambridge, UK
+  link: https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html
+  deadline: ["2025-04-17 23:59"]
+  date: November 17-20
+  place: Osaka, Japan
+  comment: Notification - July 10.
   tags: [PRACT, CNF, COREB]
-  rank: B
   
 - name: CT-RSA
   description: RSA Conference Cryptographers’ Track
-  year: 2025
+  year: 2026
   link: https://ct-rsa-2025.csa.iisc.ac.in/
-  deadline: ["2024-10-30 23:59"]
+  deadline: ["2025-10-30 23:59"]
   date: April 28 - May 01
   place: San Francisco, CA, USA
-  comment: Notification - January 10, 2025.
-  tags: [THEORY, PRACT, CNF, COREB]
-  rank: B
-  
-- name: ICDCN
-  description: International Conference on Distributed Computing and Networking
-  year: 2025
-  link: https://cse.iith.ac.in/icdcn-2025/
-  deadline: ["2024-07-25 23:59"]
-  comment: Notification - September 27
-  date: January 04-07
-  place: IIT Hyderabad, India
-  tags: [THEORY, PRACT, CNF, COREB]
-  rank: National India (B)
+  comment: Notification - January 10.
+  tags: [THEORY, PRACT, CNF, COREB, EXP]
 
-- name: INDOCRYPT
-  description: International Conference on Cryptology in India
-  year: 2025
-  link: https://setsindia.in/indocrypt2024/indocrypt
-  deadline: ["2025-09-20 23:59"]
-  comment: Notification - Oct 18
-  date: December 18-21
-  place: Chennai, India
-  tags: [THEORY, PRACT, CNF, COREB]
-  rank: National India (B)
-  
 - name: IEEE/ACM CCGRID
   description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
-  year: 2025
-  link: https://2025.ccgrid-conference.org
-  deadline: ["2024-12-04 23:59"]
-  abdeadline: November 27
-  date: May 06-09
-  comment: Notification - Feb 12.
-  place: Philadelphia
-  tags: [THEORY, PRACT, CNF, COREB]
-  rank: B
+  year: 2026
+  link: https://site.uit.no/ccgrid2025/
+  abdeadline: December 09
+  deadline: ["2025-12-23 23:59"]
+  date: May 19-22
+  place: Tromso
+  comment: Notification - February 12.
+  tags: [THEORY, PRACT, CNF, COREB, EXP]
   
 - name: IEEE ISIT
   description: IEEE International Symposium on Information Theory
-  year: 2025
-  link: https://2025.ieee-isit.org
-  deadline: ["2025-01-22 23:59"]
+  year: 2026
+  link: https://2026.ieee-isit.org
+  deadline: ["2026-01-22 23:59"]
   date: June 22-27
   place: Ann Arbor, USA
-  tags: [THEORY, CNF, COREB]
-  rank: B
-  comment: Notification - April 15
+    comment: Notification - April 15.
+  tags: [THEORY, CNF, COREB, EXP]
   
 - name: IEEE ITW
   description: IEEE Information Theory Workshop
   year: 2025
   link: http://www.ieee-itw2025.org
-  deadline: ["2025-04-26 23:59"]
-  comment: Notification - Jul 29
-  date: November 24-28
-  place: Shenzhen, China
+  deadline: ["2025-04-18 23:59"]
+  date: September 29-October 03
+  place: Sydney, Australia
+  comment: Notification - June 27.
   tags: [THEORY, CNF, COREB]
-  rank: B
   
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
-  year: 2025
-  link: https://pkc.iacr.org/2025/
-  deadline: ["2024-10-16 23:59"]
+  year: 2026
+  link: https://pkc.iacr.org/2026/
+  deadline: ["2025-10-16 23:59"]
+  rebut: December 11-18
   date: May 12-15
-  rebut: Dec 11-18
   place: Røros, Norway
-  comment: Early Reject - Dec 11. Notification - Feb 05.
-  tags: [THEORY, CNF, COREB]
-  rank: B
+  comment: Early Reject - December 11. Notification - February 05.
+  tags: [THEORY, CNF, COREB, EXP]
 
 - name: SAC
   description: Conference on Selected Areas in Cryptography
   year: 2025
   link: https://sacworkshop.org/SAC25/
   deadline: 
-    - "2025-02-07 23:59"
+    - "2025-01-27 23:59"
     - "2025-05-07 23:59"
-  date: August 28-30
-  comment: Notification - March 20, June 20
-  place: Montreal, Quebec
+  date: August 11-15
+  place: Toronto, Ontario
+  comment: Notification - March 13, June 20
   tags: [THEORY, PRACT, CNF, COREB]
-  rank: B
+
+- name: SOUPS
+  description: Symposium on Usable Privacy and Security
+  year: 2025
+  link: https://www.usenix.org/conference/soups2025
+  abdeadline: February 06
+  deadline: ["2025-02-13 23:59"]
+  rebut: April 17-24 
+  date: August 10-12
+  place: Seattle, WA, USA
+  comment: co-located with USENIX Security. Notification - May 15.
+  tags: [PRACT, CNF, COREB]
+
+# CORE C
+ 
+
+# CORE National
+
+- name: ICDCN
+  description: International Conference on Distributed Computing and Networking
+  year: 2026
+  link: https://cse.iith.ac.in/icdcn-2025/
+  deadline: ["2025-07-25 23:59"]
+  date: January 04-07
+  place: IIT Hyderabad, India
+  comment: Notification - September 27.
+  tags: [THEORY, PRACT, CNF, COREN, EXP]
+  
+- name: INDOCRYPT
+  description: International Conference on Cryptology in India
+  year: 2025
+  link: https://indocrypt.org
+  deadline: ["2025-09-20 23:59"]
+  date: December 18-21
+  place: Chennai, India
+  comment: Notification - October 18.
+  tags: [THEORY, PRACT, CNF, COREN, EXP]
   
 - name: SCN
   description: Conference on Security and Cryptography for Networks
   year: 2025
   link: https://scn.unisa.it/scn25/
   deadline: ["2025-04-24 23:59"]
-  comment: Notification on June 24
   date: September 11-13
   place: Amalfy, Italy
-  tags: [PRACT, APPLIED, CNF, COREB]
-  rank: National Italy (B)
-
-- name: SOUPS
-  description: Symposium on Usable Privacy and Security
-  year: 2025
-  link: https://www.usenix.org/conference/soups2025
-  deadline: ["2025-02-15 23:59"]
-  abdeadline: February 08
-  rebut: April 20-27 
-  date: "August 11 - 13"
-  place: Philadelphia, USA
-  comment: co-located with USENIX Security. Notification - May 15.
-  tags: [PRACT, CNF, COREB]
-  rank: B
+  comment: Notification - June 24.
+  tags: [PRACT, APPLIED, CNF, COREN, EXP]
 
 
 # CORE Others
