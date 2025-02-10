@@ -319,9 +319,9 @@
   link: https://www.acsac.org/2025
   deadline: ["2025-05-28 23:59"]
   rebut: August 02-07
-  date: December 09-13
-  place: Waikiki, Honolulu, Hawaii
-  comment: Early Reject - Jul 06. Notification - Aug 19.
+  date: December 08-12
+  place: Hawaii
+  comment: Early Reject - July 06. Notification - August 19.
   tags: [PRACT, APPLIED, CNF, COREA, EXP]
   
 - name: EuroSys
@@ -597,231 +597,197 @@
 
 # Workshops
 
-- name: (Workshop) ACM CCSW
+- name: ACM CCSW
   description: The ACM Cloud Computing Security Workshop
-  year: 2024
+  year: 2025
   link: https://ccsw.io
-  deadline: ["2024-08-04 23:59"]
-  date: "October 18"
-  place: Salt Lake City, USA
-  tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 29.
+  deadline: ["2025-08-04 23:59"]
+  date: October 17
+  place: Taipei, Taiwan
+  comment: Notification - August 29. Has proceedings.
+  conference: ACM CCS.
+  tags: [PRACT, WK, EXP]
   
-- name: (Workshop) AICRYPT
+- name: AICRYPT
   description: Workshop on Artificial Intelligence and Cryptography
   year: 2024
   link: https://aicrypt2024.aisylab.com
   deadline: ["2024-04-05 23:59"]
   date: May 26
   place: ETH Zurich, Switzerland
-  tags: [WK]
-  comment: co-located with Eurocrypt + no proceedings. Notification - April 19.
+  comment: Notification - April 19.
+  conference: Eurocrypt.
+  tags: [PRACT, PPML, WK]
   
-- name: (Workshop) AISec
+- name: AISec
   description: Workshop on Artificial Intelligence and Security
-  year: 2024
+  year: 2025
   link: https://aisec.cc
-  deadline: ["2024-07-07 23:59"]
-  date: "October 18"
-  place: Salt Lake City, USA
-  tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 06.
+  deadline: ["2025-07-07 23:59"]
+  date: October 17
+  place: Taipei, Taiwan
+  comment: Notification - August 29. Has proceedings.
+  conference: ACM CCS.
+  tags: [PRACT, PPML, WK, EXP]
   
-- name: (Workshop) CAW
+- name: CAW
   description: Cryptographic Applications Workshop
   year: 2024
   link: https://caw.cryptanalysis.fun
   deadline: ["2024-03-08 23:59"]
   date: May 26
   place: ETH Zurich, Switzerland
-  tags: [WK]
-  comment: co-located with Eurocrypt + no proceedings. Notification - mid to end of March.
+  comment: Notification - mid to end of March.
+  conference: Eurocrypt.
+  tags: [PRACT, APPLIED, WK]
   
-- name: (Workshop) CPSIoTSec
+- name: CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
-  year: 2024
-  link: https://cpsiotsec2024.github.io
-  deadline: ["2024-07-17 23:59"]
-  date: "October 18"
-  place: Salt Lake City, USA
-  tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 12.
+  year: 2025
+  link: https://cpsiotsec2025.github.io
+  deadline: ["2025-07-17 23:59"]
+  date: October 17
+  place: Taipei, Taiwan
+  comment: Notification - August 29. Has proceedings.
+  conference: ACM CCS.
+  tags: [APPLIED, WK, EXP]
   
-- name: (Workshop) CPSS
+- name: CPSS
   description: ACM Cyber-Physical System Security Workshop
   year: 2025
   link: http://jianying.space/cpss/CPSS2025/
   deadline:
     - "2025-01-10 23:59"
     - "2025-03-15 23:59"
-  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Feb 15, Apr 25
-  date: "August 26"
+  date: August 26
   place: Hanoi, Vietnam
-  tags: [WK]
+  comment: Notification - February 15, April 25. Has proceedings.
+  conference: AsiaCCS.
+  tags: [PRACT, APPLIED, WK]
   
-- name: (Workshop) DeFi
+- name: DeFi
   description: Workshop on Decentralized Finance and Security
-  year: 2024
+  year: 2025
   link: https://defi.security
-  deadline: ["2024-07-15 23:59"]
-  date: "October 14"
-  place: Salt Lake City, USA
-  tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 25.
+  deadline: ["2025-07-15 23:59"]
+  date: October 17
+  place: Taipei, Taiwan
+  comment: Notification - August 29. Has proceedings.
+  conference: ACM CCS.
+  tags: [APPLIED, WK, EXP]
   
-- name: (Workshop) DLSP
+- name: DLSP
   description: Deep Learning Security and Privacy Workshop
   year: 2025
   link: https://dlsp2025.ieee-security.org
-  deadline: ["2025-02-09 23:59"]
+  deadline: ["2025-02-14 23:59"]
   date: May 15
   place: San Fransisco, CA
-  tags: [WK]
-  comment: co-located with IEEE S&P + proceedings. Notification - Mar 14.
+  comment: Notification - March 14. Has proceedings.
+  conference: IEEE S&P.
+  tags: [PRACT, PPML, WK]
   
-- name: Enigma@USENIX Security
-  description: Usenix Security Enigma Track
-  year: 2025
-  link: https://www.usenix.org/conference/usenixsecurity25/enigma-cfp
-  deadline: ["2025-03-05 23:59"]
-  date: August 13-15
-  place: Seattle, WA, USA
-  comment: Notification - May 07.
-  tags: [PRACT, APPLIED, COREO]
-  
-- name: (Workshop) FHE Conference
+- name: FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
-  year: 2025
-  link: https://fhe.org/conferences/conference-2025
-  deadline: ["2024-11-22 23:59"]
-  date: March 25
-  place: Sofia, Bulgaria
-  tags: [WK]
-  comment: In Conjunction with RWC 2025. Notification - Jan 22.
+  year: 2026
+  link: https://fhe.org/conferences/conference-2026
+  deadline: ["2025-11-22 23:59"]
+  date: March 08
+  place: Taipei, Taiwan
+  comment: Notification - January 22.
+  conference: RWC.
+  tags: [THEORY, PRACT, WK, EXP]
   
-- name: (Workshop) FL-AsiaCCS
+- name: FL-AsiaCCS
   description: Secure and Efficient Federated Learning
   year: 2025
   link: https://federated-learning.org/fl-asiaccs-2025/
   deadline: ["2025-02-21 23:59"]
-  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Apr 08
-  date: "August 26"
+  date: August 26
   place: Hanoi, Vietnam
-  tags: [WK]
-  
-- name: (Workshop) FL@FM-TheWebConf24
-  description: International Workshop on Federated Foundation Models for the Web
-  year: 2025
-  link: https://federated-learning.org/fl@fm-www-2025/
-  deadline: ["2024-12-31 23:59"]
-  date: April 28-29
-  place: Sydney, Australia
-  tags: [WK]
-  comment: Notification - Jan 24. In Conjunction with WWW 2025.
-  
-- name: (Workshop) LAMPS
-  description: Workshop on Large AI Systems and Models with Privacy and Safety Analysis
-  year: 2024
-  link: https://lamps-ccs.com
-  deadline: ["2024-07-11 23:59"]
-  date: "October 14"
-  place: Salt Lake City, USA
-  tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 11.
+  comment: Notification - April 08. Has proceedings.
+  conference: AsiaCCS.
+  tags: [APPLIED, PPML, WK]
 
-- name: (Workshop) PPAI
+- name: PPAI
   description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
-  year: 2025
+  year: 2026
   link: https://ppai-workshop.github.io
   deadline: 
-    - "2024-11-29 23:59"
-    - "2024-12-11 23:59"
-  date: March 03
-  place: Philadelphia, Pennsylvania
-  tags: [WK]
-  comment: co-located with AAAI. Notification - Dec 15. Second deadline - NeurIPS/AAAI fasttrack. 
+    - "2025-10-29 23:59"
+    - "2025-11-11 23:59"
+  date: January 26
+  place: Singapore
+  comment: Notification - December 01. Second deadline - NeurIPS/AAAI fasttrack.
+  conference: AAAI.
+  tags: [APPLIED, PPML, WK, EXP] 
   
-- name: (Workshop) PPML CRYPTO
+- name: PPML CRYPTO
   description: Privacy-Preserving Machine Learning Workshop
   year: 2025
   link: https://crypto-ppml.github.io/2025/
   deadline: ["2025-06-12 23:59"]
-  date: August 20
+  date: August 17
   place: Santa Barbara, USA
-  tags: [WK]
-  comment: co-located with CRYPTO. Notification - June 21
+  comment: Notification - June 21
+  conference: CRYPTO.
+  tags: [PRACT, PPML, WK, EXP]
   
-- name: (Workshop) PROTECT-IT
+- name: PROTECT-IT
   description: Security, Privacy and Information Theory
   year: 2025
   link: https://protectitworkshop.github.io/2025/
   deadline: ["2025-02-21 23:59"]
-  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Apr 08
-  date: "August 26"
+  date: August 26
   place: Hanoi, Vietnam
-  tags: [WK]
+  comment: Notification - April 08. Has proceedings.
+  conference: AsiaCCS.
+  tags: [PRACT, PPML, WK]
   
-- name: (Workshop) RWC
-  description: Real World Crypto
-  year: 2025
-  link: https://rwc.iacr.org/2025/
-  deadline: ["2024-11-15 23:59"]
-  date: March 26-28
-  place: Sofia, Bulgaria
-  tags: [WK]
-  comment: Notification - Jan 24
-  
-- name: (Workshop) RWC
+- name: RWC
   description: Real World Crypto
   year: 2026
   link: https://rwc.iacr.org/2026/
   deadline: ["2025-11-16 23:59"]
   date: March 09-11
   place: Taipei, Taiwan
-  tags: [WK]
-  comment: Notification - Jan 10
+  comment: Notification - January 10.
+  tags: [PRACT, APPLIED, WK, EXP]
   
-- name: (Workshop) SecTL
+- name: SecTL
   description: Secure and Trustworthy Deep Learning Systems (SecTL) Workshop
   year: 2025
   link: https://asiaccs-sectl.github.io/cfp/
   deadline:
     - "2024-12-22 23:59"
     - "2025-03-18 23:59"
-  comment: co-located with AsiaCCS. Published in the proceedings. Notification - Feb 03, Apr 28
-  date: "August 26"
+  date: August 26
   place: Hanoi, Vietnam
-  tags: [WK]
+  comment: Notification - Feburary 03, April 28. Has proceedings.
+  conference: AsiaCCS.
+  tags: [APPLIED, PPML, WK]
   
-- name: (Workshop) SecWeb
-  description: Designing Security for the Web
-  year: 2024
-  link: https://secweb.work/2024.html
-  deadline: ["2024-02-22 23:59"]
-  date: May 23
-  place: San Fransisco, CA
-  tags: [WK]
-  comment: co-located with IEEE S&P + proceedings. Notification - Mar 23.
-  
-- name: (Workshop) WAHC
+- name: WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
-  year: 2024
-  link: https://homomorphicencryption.org/wahc-2024/
-  deadline: ["2024-07-26 23:59"]
-  date: "October 14"
-  place: Salt Lake City, USA
-  tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 26.
+  year: 2025
+  link: https://homomorphicencryption.org/wahc-2025/
+  deadline: ["2025-07-26 23:59"]
+  date: October 17
+  place: Taipei, Taiwan
+  comment: Notification - August 29. Has proceedings.
+  conference: ACM CCS.
+  tags: [APPLIED, WK, EXP]
   
-- name: (Workshop) WPES
+- name: WPES
   description: Workshop on Privacy in the Electronic Society
-  year: 2024
-  link: https://cseapps.case.edu/wpes2024/
-  deadline: ["2024-07-15 23:59"]
-  date: "October 14"
-  place: Salt Lake City, USA
-  tags: [WK]
-  comment: co-located with CCS + proceedings. Notification - Aug 29.
+  year: 2025
+  link: https://cseapps.case.edu/wpes2025/
+  deadline: ["2025-07-15 23:59"]
+  date: October 17
+  place: Taipei, Taiwan
+  comment: Notification - August 29. Has proceedings.
+  conference: ACM CCS.
+  tags: [PRACT, WK, EXP]
   
 # Posters
 
@@ -912,35 +878,35 @@
   
 - name: (Poster) The Web Conference
   description: The Web Conference (WWW)
-  year: 2024
-  link: https://www2024.thewebconf.org/calls/short-papers/
-  deadline: ["2024-02-05 23:59"]
-  comment: Notification - March 04 + Proceedings
-  date: "May 13 - 17"
-  place: Singapore
-  tags: [PS]
+  year: 2026
+  link: https://www2026.thewebconf.org/calls/short-papers/
+  deadline: ["2025-12-18 23:59"]
+  date: April 28 - May 02
+  place: Sydney, Australia
+  comment: Notification - January 20.
+  tags: [PS, EXP]
 
 # CryptoSchools
 
-- name: (School) BIU Winter School
+- name: BIU Winter School
   description: The 13th BIU Winter School on Cryptography 
   year: 2023
   link: https://cyber.biu.ac.il/event/the-13th-biu-winter-school-on-cryptography/
   deadline: ["2023-01-30 23:59"]
   date: February 20-23
   place: Bar-Ilan University, Israel
-  tags: [CRS]
-  comment: Blockchain Technologies. Early registration - Jan 08. 
+  comment: Blockchain Technologies. Early registration - January 08.
+  tags: [CRS] 
   
-- name: (School) TPMPC
+- name: TPMPC
   description: Theory and Practice of Multi-Party Computation Workshop 
   year: 2025
   link: https://www.multipartycomputation.com/tpmpc-2025
   deadline: ["2024-10-15 23:59"]
   date: March 03-06
   place: Bengaluru, India
+  comment: Notification - November 15.
   tags: [CRS]
-  comment: Notification - Nov 15.
   
   
 # Machine Learning and Data Science
@@ -1119,7 +1085,6 @@
   rank: A
   comment: Notification - April 25.
 
-
 # Hardware
 
 - name: AsianHOST
@@ -1156,18 +1121,27 @@
   comment: Notification - October 27, February 17. 
   tags: [HW, APPLIED, CNF, COREO, EXP]
   
-  
-# Others
+# Miscellaneous
 
-- name: (Misc) Cybersecurity Artifacts Competition and Impact Award
+- name: Cybersecurity Artifacts Competition and Impact Award
   description: ACSAC
   year: 2025
   link: https://www.acsac.org/2025/submissions/artifacts_competition/
   deadline: ["2025-09-15 23:59"]
-  date: Dec 04-08
-  place: Austin, Texas, USA
-  tags: [MISC]
-  comment: Open to cybersecurity artifacts previously published in all peer-reviewed venues. Notification - Oct 13.
+  date: December 08-12
+  place: Hawaii
+  comment: Cybersecurity artifacts published in all peer-reviewed venues. Notification - Oct 13.
+  tags: [MISC, EXP]
+  
+- name: Enigma@USENIX Security
+  description: Usenix Security Enigma Track
+  year: 2025
+  link: https://www.usenix.org/conference/usenixsecurity25/enigma-cfp
+  deadline: ["2025-03-05 23:59"]
+  date: August 13-15
+  place: Seattle, WA, USA
+  comment: Notification - May 07.
+  tags: [PRACT, APPLIED, MISC]
   
 - name: IEEE S&P Short Talk
   description: IEEE Symposium on Security and Privacy
@@ -1177,20 +1151,18 @@
   date: May 12-15
   place: San Francisco, California, USA
   comment: No proceedings. Notification - April 28.
-  tags: [MISC, EXP]
+  tags: [PRACT, APPLIED, MISC, EXP]
 
-- name: (Misc) PhD Symposium at The Web Conference
+- name: PhD Symposium at The Web Conference
   description: The Web Conference (WWW)
-  year: 2024
-  link: https://www2024.thewebconf.org/calls/short-papers/
-  deadline: ["2024-02-05 23:59"]
-  comment: Notification - March 04 + Proceedings
-  date: "May 13 - 17"
-  place: Singapore
-  tags: [MISC]
-  rank: A*
+  year: 2026
+  link: https://www2026.thewebconf.org/phd-symposium
+  deadline: ["2025-12-18 23:59"]
+  date: April 28 - May 02
+  place: Sydney, Australia
+  comment: Notification - January 20. Has proceedings.
+  tags: [APPLIED, MISC, EXP]
 
-  
 # Journals
 
 - name: ACM TOPS

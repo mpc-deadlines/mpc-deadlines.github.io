@@ -138,7 +138,16 @@ $(function() {
                                  `<a href="${portalLink}" target="_blank">Submission Portal</a>`;
                 confComment.html(newComment);
             },
-            "WK": () => confTitle.text("(Workshop) " + confTitle.text()),
+            "WK": () => {
+                confTitle.text("(Workshop) " + confTitle.text());
+
+                let conferenceText = conf.find(".conference").text().trim();
+                if (conferenceText) {
+                    let existingComment = confComment.text().trim();
+                    let newComment = existingComment ? existingComment + " | Co-located with " + conferenceText : "Co-located with " + conferenceText;
+                    confComment.text(newComment);
+                }
+            },
             "PS": () => confTitle.text("(Poster) " + confTitle.text()),
             "MISC": () => confTitle.text("(Misc.) " + confTitle.text()),
             "CRS": () => confTitle.text("(School) " + confTitle.text())
