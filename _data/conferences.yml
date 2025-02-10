@@ -708,6 +708,17 @@
   comment: Notification - April 08. Has proceedings.
   conference: AsiaCCS.
   tags: [APPLIED, PPML, WK]
+  
+- name: LM-SHIELD
+  description: Privacy in Large Language Models (LLM) and Natural Language Processing (NLP)
+  year: 2025
+  link: https://sites.google.com/view/lm-shield2025/
+  deadline: ["2025-02-21 23:59"]
+  date: August 26
+  place: Hanoi, Vietnam
+  comment: Notification - April 08. Has proceedings.
+  conference: AsiaCCS.
+  tags: [PRACT, PPML, WK]
 
 - name: PPAI
   description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
