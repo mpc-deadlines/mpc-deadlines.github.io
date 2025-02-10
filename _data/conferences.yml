@@ -802,100 +802,74 @@
   
 # Posters
 
-- name: (Poster) ACM CCS
-  description: ACM Conference on Computer and Communications Security
-  year: 2024
-  link: https://www.sigsac.org/ccs/CCS2024/call-for/call-for-posters.html
-  deadline: ["2024-08-01 23:59"]
-  comment: Included in proceedings. Notifications - Aug 29.
-  date: "October 14-18"
-  place: Salt Lake City, USA
-  tags: [PS]
-
-- name: (Poster) ACSAC
-  description: Annual Computer Security Applications Conference
-  year: 2025
-  link: https://www.acsac.org/2025/submissions/posters/
-  deadline: ["2025-09-06 23:59"]
-  rebut: August 02-07
-  date: Dec 09 - 13
-  place: Waikiki, Honolulu, Hawaii
-  tags: [PS]
-
-- name: (Poster) ACM ASIACCS
+- name: ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
   year: 2025
   link: https://asiaccs2025.hust.edu.vn/call-for-posters/
   deadline: ["2025-03-02 23:59"]
-  comment: Published in the proceedings. Notification - March 26.
-  date: "August 25-29"
-  place: Ha Noi, Vietnam
-  tags: [PS]
+  date: August 26
+  place: Hanoi, Vietnam
+  comment: Notification - March 26. Has proceedings.
+  tags: [PRACT, PS]
   
-- name: (Poster) IEEE Euro S&P
-  description: IEEE European Symposium on Security and Privacy
-  year: 2024
-  link: https://www.ieee-security.org/TC/EuroSP2024/cfposters.html
-  deadline: ["2024-05-03 23:59"]
-  date: "July 08-12"
-  place: Vienna, Austria
-  comment: No proceedings. Notification - May 21.
-  tags: [PS]
-  rank: NEW (A)
-
-- name: (Poster) IEEE S&P
-  description: IEEE Symposium on Security and Privacy
-  year: 2024
-  link: https://www.ieee-security.org/TC/SP2024/cfposters.html
-  deadline: ["2024-04-12 23:59"]
-  date: "May 20-23"
-  comment: No proceedings. Notification - April 26.
-  place: San Francisco, California, USA
-  tags: [PS]
-
-- name: (Poster) NDSS
-  description: ISOC Network and Distributed System Security Symposium
+- name: ACM CCS
+  description: ACM Conference on Computer and Communications Security
   year: 2025
-  link: https://www.ndss-symposium.org/ndss2025/
-  comment: No proceedings. Novel Ideas/ Recently published research. Notification - Feb 05
-  deadline: ["2025-01-17 23:59"]
-  date: "February 23 - 28"
-  place: San Diego, CA, USA
-  comment: Notification - Feb 03.
-  tags: [PS]
-  
-  
-- name: (Poster) PoPETS
-  description: Privacy Enhancing Technologies Symposium
-  year: 2024
-  link: https://petsymposium.org/2024/cfposters.php
-  deadline: ["2024-07-10 23:59"]
-  comment: Notifications within three days of submission.
-  date: July 15-20
-  place: Bristol, UK
-  tags: [PS]
-  
-  
-- name: (Poster) USENIX Security
-  description: Usenix Security Symposium
-  year: 2024
-  link: https://www.usenix.org/conference/usenixsecurity24/call-for-papers
-  deadline: ["2024-07-09 23:59"]
-  comment: Notification - Jul 16. No proceedings
-  date: "August 14-16"
-  place: Philadelphia, PA, USA.
-  tags: [PS]
+  link: https://www.sigsac.org/ccs/CCS2025/call-for-posters.html
+  deadline: ["2025-08-01 23:59"]
+  date: October 13-17
+  place: Taipei, Taiwan
+  comment: Notifications - August 29. Has proceedings.
+  tags: [PRACT, PS, EXP]
 
+- name: ACSAC
+  description: Annual Computer Security Applications Conference
+  year: 2025
+  link: https://www.acsac.org/2025/submissions/posters/
+  deadline: ["2025-09-06 23:59"]
+  date: December 09 - 13
+  place: Waikiki, Honolulu, Hawaii
+  tags: [PRACT, APPLIED, PS, EXP]
   
-- name: (Poster) The Web Conference
-  description: The Web Conference (WWW)
+- name: IEEE Euro S&P
+  description: IEEE European Symposium on Security and Privacy
+  year: 2025
+  link: https://www.ieee-security.org/TC/EuroSP2025/cfposters.html
+  deadline: ["2025-04-23 23:59"]
+  date: June 30-July 04
+  place: Venice
+  comment: Notification - May 09. No proceedings.
+  tags: [PRACT, PS]
+
+- name: IEEE S&P
+  description: IEEE Symposium on Security and Privacy
+  year: 2025
+  link: https://www.ieee-security.org/TC/SP2025/cfposters.html
+  deadline: ["2025-04-12 23:59"]
+  date: May 12-15
+  place: San Francisco, California, USA
+  comment: Notification - April 26. No proceedings. 
+  tags: [PRACT, PS, EXP]
+
+- name: NDSS
+  description: Network and Distributed System Security Symposium
   year: 2026
-  link: https://www2026.thewebconf.org/calls/short-papers/
-  deadline: ["2025-12-18 23:59"]
-  date: April 28 - May 02
-  place: Sydney, Australia
-  comment: Notification - January 20.
-  tags: [PS, EXP]
+  link: https://www.ndss-symposium.org/ndss2026/submissions/call-for-posters/
+  deadline: ["2026-01-17 23:59"]
+  date: February 23-28
+  place: San Diego, CA, USA
+  comment: Notification - February 03.
+  tags: [PRACT, APPLIED, PS, EXP]
+  
+- name: PoPETS
+  description: Privacy Enhancing Technologies Symposium
+  year: 2025
+  link: https://petsymposium.org/2025/cfposters.php
+  deadline: ["2025-07-10 23:59"]
+  date: July 14-19
+  place: Washington, DC (Hybrid)
+  comment: Notifications within three days of submission.
+  tags: [PRACT, APPLIED, PS, EXP]
 
 # CryptoSchools
 
