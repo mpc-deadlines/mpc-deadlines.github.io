@@ -893,160 +893,137 @@
   comment: Notification - November 15.
   tags: [CRS]
   
-  
 # Machine Learning and Data Science
 
 - name: AAAI
   description: Conference on Artificial Intelligence
-  year: 2025
-  link: https://aaai.org/conference/aaai-25/
-  deadline: ["2024-08-15 23:59"]
-  abdeadline: August 08
+  year: 2026
+  link: https://aaai.org/conference/aaai/aaai-26/
+  abdeadline: July 08
+  deadline: ["2025-07-15 23:59"]
   rebut: November 02-05
-  date: February 20-28
-  place: Philadelphia, PA, USA
-  tags: [COREAS, CNF, PPML]
-  comment: Notification - Dec 09.
-  rank: A*
+  date: January 20-27
+  place: Singapore
+  comment: Notification - December 09.
+  tags: [PRACT, CNF, PPML, COREAS, EXP]
   
 - name: ACML
   description: Asian Conference on Machine Learning
-  year: 2024
-  link: https://www.acml-conf.org/2024/
+  year: 2025
+  link: https://www.acml-conf.org/2025/
   deadline:
-    - "2024-05-29 23:59"
-    - "2024-06-26 23:59"
-  rebut: Aug 14-21
+    - "2025-05-29 23:59"
+    - "2025-06-26 23:59"
+  rebut: August 14-21
   date: December 05-07
   place: Hanoi, Vietnam
-  tags: [COREO, CNF, PPML]
-  comment: Journal (May) and Conference (June) tracks. Notification - Sep 08.
-  rank: Unranked
-  
-- name: CIKM
-  description: Conference on Information and Knowledge Management
-  year: 2024
-  link: https://www.cikm2024.org/home
-  deadline:
-    - "2024-05-20 23:59"
-    - "2024-06-03 23:59"
-  abdeadline: May 13 and May 27 (Short Paper)
-  date: Oct 21-25
-  place: Boise, Idaho, USA
-  tags: [COREA, CNF, PPML]
-  rank: A
-  comment: Notification - July 16. Second deadline for short paper. Multiple Tracks.
+  comment: Journal (May) and Conference (June) tracks. Notification - September 08.
+  tags: [PRACT, CNF, PPML, COREU, EXP]
   
 - name: ECAI
   description: European Conference on Artificial Intelligence
-  year: 2024
-  link: https://www.ecai2024.eu
-  deadline: ["2024-04-25 23:59"]
-  abdeadline: April 19
-  rebut: June 17-19
-  date: October 19-24
-  place: Santiago de Compostela
-  tags: [COREA, CNF, PPML]
-  rank: A
-  comment: Notification - July 04.
+  year: 2025
+  link: https://www.ecai2025.eu
+  abdeadline: April 29
+  deadline: ["2025-05-06 23:59"]
+  rebut: June 23-25
+  date: October 25-30
+  place: Bologna, Italy
+  comment: Notification - July 10.
+  tags: [PRACT, CNF, PPML, COREA]
   
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
   year: 2025
   link: https://ecmlpkdd.org/2025/
-  deadline: ["2025-03-14 23:59"]
   abdeadline: March 07
+  deadline: ["2025-03-14 23:59"]
   date: September 15-19
   place: Porto, Portugal
-  tags: [COREA, CNF, PPML]
-  rank: A
-  comment: Notification - June 26.
+  comment: Notification - June 26. Has Applied Data Science Track.
+  tags: [PRACT, CNF, PPML, COREA]
   
 - name: ICLR
   description: International Conference on Learning Representations
-  year: 2025
+  year: 2026
   link: https://iclr.cc
-  deadline: ["2024-10-01 23:59"]
   abdeadline: September 27
-  rebut: Nov 12-26
+  deadline: ["2025-10-01 23:59"]
+  rebut: November 12-26
   date: April 24-28
   place: Singapore
-  tags: [COREAS, CNF, PPML]
-  rank: A*
-  comment: Notification - Jan 22, 2025.
+  comment: Notification - January 22.
+  tags: [PRACT, CNF, PPML, COREAS, EXP]
   
 - name: ICML
   description: International Conference on Machine Learning
   year: 2025
   link: https://icml.cc
+  abdeadline: January 23
   deadline: ["2025-01-30 23:59"]
-  abdeadline: Jan 23
   date: July 13-19
   place: Vancouver Convention Center
   comment: Special track on Position papers.
-  tags: [COREAS, CNF, PPML]
-  rank: A*
+  tags: [PRACT, CNF, PPML, COREAS]
   
 - name: IJCAI
   description: International Joint Conference on Artificial Intelligence
   year: 2025
   link: https://2025.ijcai.org
-  deadline: ["2025-01-23 23:59"]
   abdeadline: January 16
-  rebut: Apr 06-09
+  deadline: ["2025-01-23 23:59"]
+  rebut: April 06-09
   date: August 16-22
   place: Montreal, Canada
-  tags: [COREAS, CNF, PPML]
-  rank: A*
   comment: Notification - April 28
+  tags: [PRACT, CNF, PPML, COREAS]
 
 - name: IEEE SaTML
   description: IEEE Conference on Secure and Trustworthy Machine Learning
-  year: 2025
+  year: 2026
   link: http://satml.org
-  deadline: ["2024-09-27 23:59"]
-  rebut: Nov 21 - Dec 05
-  comment: Early Reject - Oct 31. Notification - Dec 12. Research papers, SoKs, and position papers.
+  deadline: ["2025-09-27 23:59"]
+  rebut: November 21 - December 05
   date: April 09-11
   place: Copenhagen, Denmark
-  tags: [PPML, CNF]
+  comment: Early Reject - October 31. Notification - December 12.
+  tags: [PRACT, CNF, PPML, COREO, EXP]
   
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2024
-  link: https://kdd.org/kdd2024/
-  deadline: ["2024-02-08 19:59"]
-  abdeadline: Feb 01
-  rebut: April 04-18
-  date: August 25-29
-  place: Barcelona, Spain
-  tags: [COREAS, CNF, PPML]
-  rank: A*
-  comment: Research Track on Data Privacy. Notification - May 16.
+  year: 2025
+  link: https://kdd2025.kdd.org/
+  abdeadline: August 01, February 03  
+  deadline:
+    - "2024-08-08 23:59"
+    - "2025-02-03 23:59"
+  rebut: October 04-18, April 04-18 
+  date: August 03-07
+  place: Toronto, Canada
+  comment: Notification - November 16, May 16.
+  tags: [PRACT, CNF, PPML, COREAS]
 
 - name: NeurIPS
   description: Conference on Neural Information Processing Systems
-  year: 2024
+  year: 2025
   link: https://neurips.cc/
-  deadline: ["2024-05-22 07:59"]
-  abdeadline: May 15, 08:00 AM AoE
+  abdeadline: May 15
+  deadline: ["2025-05-22 07:59"]
   date: December 09-15
   place: Vancouver, Canada
-  tags: [COREAS, CNF, PPML]
   comment: Notification - September 25.
-  rank: A*
+  tags: [PRACT, CNF, PPML, COREAS, EXP]
   
 - name: MLSys
   description: Conference on Machine Learning and Systems
-  year: 2025
-  link: https://mlsys.org/Conferences/2025
-  deadline: ["2024-11-01 23:59"]
+  year: 2026
+  link: https://mlsys.org/Conferences/2026
+  deadline: ["2025-11-01 23:59"]
   date: May 12-15
   place: Santa Clara, California
-  tags: [COREO, CNF, PPML]
-  rank: Unranked
-  comment: Notification - Feb 10. 
-
+  comment: Notification - February 10.
+  tags: [PRACT, CNF, PPML, COREO, EXP]
+ 
 - name: PAKDD
   description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
   year: 2025
@@ -1054,21 +1031,8 @@
   deadline: ["2024-11-30 23:59"]
   date: June 10-13
   place: Sydney, Australia
-  tags: [PRACT, CNF, COREB, PPML]
-  rank: B
-  comment: Notification - Jan 25
-  
-- name: UAI
-  description: Conference on Uncertainity in Artificial Intelligence
-  year: 2024
-  link: https://www.auai.org/uai2024/
-  deadline: ["2024-02-09 23:59"]
-  rebut: April 01-08
-  date: July 15 - 19
-  place: Barcelona, Spain
-  tags: [PRACT, CNF, COREA, PPML]
-  rank: A
-  comment: Notification - April 25.
+  comment: Notification - January 25.
+  tags: [PRACT, CNF, PPML, COREB]
 
 # Hardware
 
