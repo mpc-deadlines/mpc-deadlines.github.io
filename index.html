@@ -107,7 +107,9 @@
         {% assign year = conf.year %}
         {% assign prevyear = conf.year | minus: 1 %}
         {% assign deadline = conf.deadline[i] | replace: '%y', year | replace: '%Y', prevyear %}
-        {% assign conf_id = conf.name | append: conf.year | append: '-' | append: i | slugify %}
+        <!--{% assign conf_id = conf.name | append: conf.year | append: '-' | append: i | slugify %}-->
+        {% assign conf_type = conf.tags | join: "-" | slugify %}
+        {% assign conf_id = conf.name | append: conf.year | append: '-' | append: conf_type | append: '-' | append: i | slugify %}
         <div id="{{ conf_id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
               <div class="col-xs-12 col-sm-6">

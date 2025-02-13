@@ -6,7 +6,9 @@ $(function() {
   {% for conf in site.data.conferences %}
   // {{ conf.name }} {{ conf.year }}
   {% if conf.deadline[0] == "TBA" %}
-  {% assign conf_id = conf.name | append: conf.year | append: '-0' | slugify %}
+  //{% assign conf_id = conf.name | append: conf.year | append: '-0' | slugify %}
+  {% assign conf_type = conf.tags | join: "-" | slugify %}
+  {% assign conf_id = conf.name | append: conf.year | append: '-0' | append: conf_type | slugify %}
   $('#{{ conf_id }} .timer').html("TBA");
   $('#{{ conf_id }} .deadline-time').html("TBA");
   deadlineByConf["{{ conf_id }}"] = null;
