@@ -44,7 +44,9 @@ $(function() {
 
   {% assign range_end = conf.deadline.size | minus: 1 %}
   {% for i in (0..range_end) %}
-  {% assign conf_id = conf.name | append: conf.year | append: '-' | append: i | slugify %}
+  //{% assign conf_id = conf.name | append: conf.year | append: '-' | append: i | slugify %}
+  {% assign conf_type = conf.tags | join: "-" | slugify %}
+  {% assign conf_id = conf.name | append: conf.year | append: '-' | append: conf_type | append: '-' | append: i | slugify %}
   var deadlineId = {{ i }};
   if (deadlineId < parsedDeadlines.length) {
     var confDeadline = parsedDeadlines[deadlineId];
