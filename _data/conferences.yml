@@ -392,7 +392,7 @@
   description: International Conference on Availability, Reliability and Security
   year: 2025
   link: https://2025.ares-conference.eu
-  deadline: ["2025-02-28 23:59"]
+  deadline: ["2025-03-11 23:59"]
   date: August 11-14
   place: Ghent, Belgium
   comment: Short paper and SoKs. Notification - May 02.
@@ -588,11 +588,11 @@
   description: International Conference On Cryptology And Information Security In Latin America
   year: 2025
   link: https://ciencias.medellin.unal.edu.co/eventos/latincrypt/
-  abdeadline: April 18
-  deadline: ["2025-04-18 23:59"]
+  abdeadline: May 05
+  deadline: ["2025-05-09 23:59"]
   date: October 01-03
   place: Medellín, Colombia
-  comment: Notification - July 04.
+  comment: Notification - July 18.
   tags: [THEORY, PRACT, CNF, COREO]
 
 # Workshops
@@ -806,7 +806,7 @@
   description: ACM Asia Conference on Computer and Communications Security
   year: 2025
   link: https://asiaccs2025.hust.edu.vn/call-for-posters/
-  deadline: ["2025-03-02 23:59"]
+  deadline: ["2025-03-16 23:59"]
   date: August 26
   place: Hanoi, Vietnam
   comment: Notification - March 26. Has proceedings.
