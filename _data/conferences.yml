@@ -538,10 +538,10 @@
   description: International Conference on Cryptology
   year: 2025
   link: https://africacrypt2025.sciencesconf.org
-  deadline: ["2025-03-01 23:59"]
+  deadline: ["2025-03-10 23:59"]
   date: July 21-23
   place: Rabat, Morocco
-  comment: Notification - April 20.
+  comment: Notification - May 01.
   tags: [THEORY, PRACT, CNF, COREO]
   
 - name: ArcticCrypt
@@ -748,7 +748,7 @@
   description: Security, Privacy and Information Theory
   year: 2025
   link: https://protectitworkshop.github.io/2025/
-  deadline: ["2025-03-01 23:59"]
+  deadline: ["2025-03-08 23:59"]
   date: August 26
   place: Hanoi, Vietnam
   comment: Notification - April 08. Has proceedings.
