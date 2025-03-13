@@ -194,14 +194,15 @@
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
-  year: 2026
-  link: https://asiacrypt.iacr.org/2026/
-  deadline: ["2025-05-25 11:59"]
-  rebut: July 20 - August 01
-  date: December 04-08
-  place: Kolkata, India
-  comment: Early Reject - July 20. Notification - August 25.
-  tags: [THEORY, CNF, COREA, EXP]
+  year: 2025
+  link: https://asiacrypt.iacr.org/2025/
+  deadline: ["2025-05-16 11:59"]
+  rebut: July 13-18
+  timezone: Etc/GMT
+  date: December 8-12  
+  place: Melbourne, Australia
+  comment: Early Reject - July 13. Notification - August 10.
+  tags: [THEORY, CNF, COREA]
 
 - name: CHES
   description: Cryptographic Hardware and Embedded Systems
