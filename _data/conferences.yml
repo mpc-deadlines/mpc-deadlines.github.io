@@ -1008,12 +1008,12 @@
   description: Conference on Neural Information Processing Systems
   year: 2025
   link: https://neurips.cc/
-  abdeadline: May 15
-  deadline: ["2025-05-22 07:59"]
-  date: December 09-15
-  place: Vancouver, Canada
-  comment: Notification - September 25.
-  tags: [PRACT, CNF, PPML, COREAS, EXP]
+  abdeadline: May 11
+  deadline: ["2025-05-15 07:59"]
+  date: December 02-07
+  place: San Diego, California
+  comment: Notification - September 18.
+  tags: [PRACT, CNF, PPML, COREAS]
   
 - name: MLSys
   description: Conference on Machine Learning and Systems
