@@ -290,18 +290,18 @@
   
 - name: PoPETS
   description: Privacy Enhancing Technologies Symposium
-  year: 2025
-  link: https://petsymposium.org/cfp25.php
+  year: 2026
+  link: https://petsymposium.org/cfp26.php
   deadline:
-    - "2024-05-31 23:59"
-    - "2024-08-31 23:59"
-    - "2024-11-30 23:59"
-    - "2025-02-28 23:59"
+    - "2025-05-31 23:59"
+    - "2025-08-31 23:59"
+    - "2025-11-30 23:59"
+    - "2026-02-28 23:59"
   rebut: July 16-19, October 15-18, January 14-17, April 15-18.
   date: July 15-20
   place: Washington, DC (Hybrid)
   comment: Notifications - 1st of August, November, February, May.
-  tags: [PRACT, APPLIED, CNF, COREA]
+  tags: [PRACT, APPLIED, CNF, COREA, TBA]
 
 - name: TCC
   description: Theory of Cryptography Conference
