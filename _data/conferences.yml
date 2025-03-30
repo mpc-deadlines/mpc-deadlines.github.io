@@ -767,6 +767,16 @@
   comment: Notification - January 10.
   tags: [PRACT, APPLIED, WK, EXP]
   
+- name: RWC
+  description: Real World Crypto
+  year: 2027
+  link: https://rwc.iacr.org/2027/
+  deadline: ["2026-11-16 23:59"]
+  date: March 09-11
+  place: Seattle
+  comment: Notification - January 10.
+  tags: [PRACT, APPLIED, WK, EXP]
+  
 - name: SecTL
   description: Secure and Trustworthy Deep Learning Systems (SecTL) Workshop
   year: 2025
