@@ -297,11 +297,11 @@
     - "2025-08-31 23:59"
     - "2025-11-30 23:59"
     - "2026-02-28 23:59"
-  rebut: July 16-19, October 15-18, January 14-17, April 15-18.
+  rebut: July 11-17, October 10-16, January 12-19, April 10-16.
   date: July 15-20
-  place: Washington, DC (Hybrid)
+  place: TBA
   comment: Notifications - 1st of August, November, February, May.
-  tags: [PRACT, APPLIED, CNF, COREA, EXP]
+  tags: [PRACT, APPLIED, CNF, COREA]
 
 - name: TCC
   description: Theory of Cryptography Conference
@@ -866,10 +866,10 @@
   description: Privacy Enhancing Technologies Symposium
   year: 2025
   link: https://petsymposium.org/2025/cfposters.php
-  deadline: ["2025-07-10 23:59"]
+  deadline: ["2025-06-24 23:59"]
   date: July 14-19
   place: Washington, DC (Hybrid)
-  comment: Notifications within three days of submission.
+  comment: Submit before May 13 if you need a Visa to attend PETS.
   tags: [PRACT, APPLIED, PS, EXP]
 
 # CryptoSchools
