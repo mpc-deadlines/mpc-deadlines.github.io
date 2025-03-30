@@ -97,14 +97,15 @@
   description: Network and Distributed System Security Symposium
   year: 2026
   link: https://www.ndss-symposium.org/ndss2026/
+  abdeadline: April 16, July 30
   deadline:
-    - "2025-04-17 23:59"
-    - "2025-07-10 23:59"
-  rebut: June 10-13, September 09-13
-  date: "February 23 - 28"
+    - "2025-04-23 23:59"
+    - "2025-08-06 23:59"
+  rebut: June 18-20, October 08-10
+  date: February 23-27
   place: San Diego, CA, USA
-  comment: Early Reject - May 21, August 20. Notification - June 20 and September 19.
-  tags: [PRACT, APPLIED, CNF, COREAS, EXP]
+  comment: Early Reject - May 28, September 17. Notification - July 02 and October 22.
+  tags: [PRACT, APPLIED, CNF, COREAS]
 
 - name: ACM PODC
   description: ACM Symposium on Principles of Distributed Computing
@@ -857,7 +858,7 @@
   year: 2026
   link: https://www.ndss-symposium.org/ndss2026/submissions/call-for-posters/
   deadline: ["2026-01-17 23:59"]
-  date: February 23-28
+  date: February 23-27
   place: San Diego, CA, USA
   comment: Notification - February 03.
   tags: [PRACT, APPLIED, PS, EXP]
