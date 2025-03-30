@@ -703,10 +703,10 @@
   description: Secure and Efficient Federated Learning
   year: 2025
   link: https://federated-learning.org/fl-asiaccs-2025/
-  deadline: ["2025-03-30 23:59"]
+  deadline: ["2025-04-25 23:59"]
   date: August 26
   place: Hanoi, Vietnam
-  comment: Notification - May 01. Has proceedings.
+  comment: Notification - May 30. Has proceedings.
   conference: AsiaCCS.
   tags: [APPLIED, PPML, WK]
   
