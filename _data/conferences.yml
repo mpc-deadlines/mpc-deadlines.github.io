@@ -308,12 +308,11 @@
   description: Theory of Cryptography Conference
   year: 2025
   link: https://tcc.iacr.org/2025/
-  deadline: ["2025-05-20 19:59"]
-  rebut: July 21-26
-  date: "December 02-06"
-  place: Milan, Italy
-  comment: Notification - August 31.
-  tags: [THEORY, CNF, COREA, EXP]
+  deadline: ["2025-05-27 19:59"]
+  date: December 02-05
+  place: Aarhus, Denmark
+  comment: Notification - August 28.
+  tags: [THEORY, CNF, COREA]
   
 - name: ACSAC
   description: Annual Computer Security Applications Conference
