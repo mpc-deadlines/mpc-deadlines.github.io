@@ -1,76 +1,113 @@
-# Secure Multi-party Computation deadlines countdown
+# 🚀 MPC Deadlines Hub
 
-Based on [sec-deadlines](https://sec-deadlines.github.io)
+Welcome to the **MPC Deadlines Hub**, your one-stop destination for keeping track of the latest deadlines for top Multi-Party Computation (MPC) conferences, journals, and workshops! 📅✨
 
-## Adding/updating a conference
+## 🤔 What is MPC?
 
-* Read the data format description below. **Note that the timezone format sign is inverted** (e.g., UTC+7 is written as `Etc/GMT-7`). It's [not a bug][0]. I hate this format too. I'd be happy to move to a different timezone JavaScript library that uses a friendlier format, but I don't have time for that.
-* Update `_data/conferences.yml`. You can do that on Github or locally after forking the repo.
-* Send a pull request
+Secure Multi-party Computation (MPC) allows a set of mutually distrusting parties to perform a joint computation over their private inputs while preserving the privacy of their individual inputs. Curious to learn more? Check out this **[MPC overview](https://eprint.iacr.org/2020/300)**! 🔍🔐
 
-### Conference entry record
+## 🚀 Adding/updating a conference
+
+Want to contribute? Awesome! Here’s how:
+
+* Read the data format description below. **Note that the timezone format sign is inverted** (e.g., UTC+7 is written as `Etc/GMT-7`). It's [not a bug][0]. Yeah, we know—it’s weird. If you have a better JavaScript timezone library in mind, hit us up! 😅
+* Update `_data/conferences.yml`. You can do this directly on GitHub or locally after forking the repo.
+* Send a pull request. 🎉
+
+💡 **Too lazy to create a pull request?** No worries! Drop a message on our **[Telegram Group](https://t.me/+sm414tMmhGhhNTA0)** 📢, and we’ll update the entries for you! 😎🚀
+
+### ✅ Is my entry in scope?
+
+This page is meant to host academic conferences, journals, workshops, and related event deadlines.
+
+Ask yourself these questions before adding an entry:
+
+- 📝 Is there a "Call For Papers"? A submission link? Formatting guidelines (page limits, style guides, etc.)?
+- 🔐 Does it mention 'secure multi-party computation', 'MPC', or 'privacy-preserving computing' in its topics?
+- 🧐 Is there a peer-review process? Are there named general/program chairs or a program committee?
+
+If you answered **YES** to all of the above, congratulations! Your conference/workshop is a great fit! 🎯
+
+### 🏆 Conference entry record
 
 Example record:
 
 ```
-- name: Euro S&P
-  description: IEEE European Symposium on Security and Privacy
-  year: 2018
-  link: http://www.ieee-security.org/TC/EuroSP2018/
-  deadline: "2017-08-15 23:59"
-  date: April 24-26
-  place: London, UK
-  tags: [PRACT, APPLIED]
+- name: ACM CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2025
+  link: https://www.sigsac.org/ccs/CCS2025/
+  abdeadline: Jan 02, Apr 07
+  deadline:
+    - "2025-01-09 23:59"
+    - "2025-04-14 23:59"
+  rebut: March 06-19, June 09-22
+  date: October 13-17
+  place: Taipei, Taiwan
+  comment: 2 deadlines. Notifications - March 27, June 30.
+  tags: [PRACT, APPLIED, CNF, COREAS] 
 ```
 
-Descriptions of the fields:
+📌 **Notes:**
+
+- For an event with a **single deadline**, make sure to put the deadline in square brackets, like this:
+  ```
+  deadline: ["2025-04-01 23:59"]
+  ```
+- Not all fields are mandatory! Just add the relevant ones. 😊
+
+- The events are listed in alphabetical order grouped by the categories. Please make sure to have consistency while updating the entries.
+
+
+### 🔍 Field descriptions
 
 | Field name    | Description                                                 |
-|---------------|-------------------------------------------------------------|
-| `name`\*      | Short conference name, without year                         |
-| `year`\*      | Year the conference is happening                            |
-| `description` | Description, or long name                                   |
-| `link`\*      | URL to the conference home page                             |
-| `deadline`\*  | Deadline, or list of deadlines. (Gory details below)        |
-| `timezone`    | Timezone in [tz][1] format. By default is UTC-12 ([AoE][2]) |
-| `date`        | When the conference is happening                            |
-| `place`       | Where the conference is happening                           |
-| `tags`        | One or multiple tags: `THEORY`, `PRACT`, or `WK`            |
+|--------------|-------------------------------------------------------------|
+| `name`*      | Short conference name (no year)                              |
+| `description` | Long name or a brief description                           |
+| `year`*      | Year the conference is happening                            |
+| `link`*      | URL to the conference homepage                              |
+| `abdeadline`  | Registration and/or abstract deadline.                     |
+| `deadline`*  | Submission deadline(s)                                      |
+| `rebut`      | Rebuttal window                                            |
+| `timezone`    | Timezone in [tz][1] format (Default: UTC-12, [AoE][2])     |
+| `date`        | When the conference is happening                           |
+| `place`       | Conference location                                        |
+| `tags`        | One or more tags as detailed below.                        |
 
-Fields marked with asterisk (\*) are required.
+📌 **Please try to maintain consistency in the order of the fields when updating an entry.**
+
+### 📌 Special Case of Workshops
+
+Workshops can be a bit special! Here’s what to keep in mind when adding them:
+
+- If the workshop is **affiliated with a conference**, make sure to add the `conference` tag, specifying the name of the main conference. For example:
+   ```
+   conference: CCS.
+   ```
+  This helps keep things clear and organized! 🔍
 
 
-### Deadline format
+### 🏷️ Tags - Shortlisting Made Easy! 🚀
 
-The *deadline* field can contain:
+We use three sets of tags that act as filters to help you quickly find relevant entries. 
 
-1. The simplest option: a date and time in ISO format. Example: `"2017-08-19 23:59"`.
-2. If a deadline is rolling, you can use a template date, just substitute the year with `%y`, or month with `%m`. Example: `"%y-%m-15 23:59"` means there is a deadline on the 15th day of every month, every year. `"2017-%m-15"` means a deadline on 15th day of every month, but only in 2017, i.e. `"2018-01-15"` is not a part of this template.
-2. A list of (1) or (2). Example of two rolling deadlines, with one in the end of May every year, and the second in the end of February:
-  ```
-  - "%y-05-31 23:59"
-  - "%y-02-28 23:59"
-  ```
+- **First filter**: Research Domain (e.g., THEORY, PRACT, APPLIED, etc.)
+- **Second filter**: Publication Type (e.g., CNF, JRN, WK, PS, etc.)
+- **Third filter**: [CORE](https://portal.core.edu.au/conf-ranks/) Ranking (e.g., COREAS, COREA, COREB, etc.)
 
-On the page, all deadlines are displayed in viewer's local time (that's a feature).
+For the full list of tags, check out [`/_data/filters.yml`](https://github.com/mpc-deadlines/mpc-deadlines.github.io/blob/main/_data/filters.yml). 🏷️
 
-*Note:* If the deadline hour is `{h}:00`, it will be automatically translated into `{h-1}:59:59` to avoid pain and confusion when it happens to be midnight in local time.
+### 🔥 Special Case: `EXP` Tag
 
-### Timezones
+For an event that has been **announced** but the Call for Papers is **not yet available**, you can still add an entry! Just make sure to:
+- Include the `EXP` tag.
+- Fill in details based on the **previous year’s** event.
+- This will internally set some of the fields to default placeholder values (e.g., `comment: "CFP yet to be announced"`).
 
-The timezone is specified in [tz format][1]. Unlike abbreviations (e.g. EST), these are un-ambiguous. Here are tz codes for some common timezones:
+🔥 **Let's make MPC deadlines easy to track—together!** 🚀
 
-| Common name                   | tz                                                                 |
-|-------------------------------|--------------------------------------------------------------------|
-| UTC                           | `Etc/UTC`                                                          |
-| America Pacific Time          | `America/Los_Angeles`                                              |
-| Pacific Standard Time (UTC-8) | `Etc/GMT+8` (Yes, the sign is inverted for some weird reason)      |
-| America Eastern Time          | `America/New_York`                                                 |
-| Eastern Standard Time (UTC-5) | `Etc/GMT+5`                                                        |
-| American Samoa Time (UTC-11)  | `Pacific/Samoa` or `Etc/GMT+11`. This timezone does not use DST.   |
-| Aleutian Islands              | `America/Adak`                                                     |
 
-[0]: https://momentjs.com/timezone/docs/#/zone-object/offset/
-[1]: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-[2]: https://www.timeanddate.com/time/zones/aoe
+## 🙏 Acknowledgements
 
+Thanks to the amazing **[sec-deadlines](https://sec-deadlines.github.io)** page, which inspired the initial version of this hub. 🙌
