@@ -77,7 +77,7 @@ Example record:
 
 📌 **Please try to maintain consistency in the order of the fields when updating an entry.**
 
-### 📌 Special Case of Workshops
+#### 📌 Special Case of Workshops
 
 Workshops can be a bit special! Here’s what to keep in mind when adding them:
 
@@ -98,7 +98,7 @@ We use three sets of tags that act as filters to help you quickly find relevant 
 
 For the full list of tags, check out [`/_data/filters.yml`](https://github.com/mpc-deadlines/mpc-deadlines.github.io/blob/main/_data/filters.yml). 🏷️
 
-### 🔥 Special Case: `EXP` Tag
+#### 🔥 Special Case: `EXP` Tag
 
 For an event that has been **announced** but the Call for Papers is **not yet available**, you can still add an entry! Just make sure to:
 - Include the `EXP` tag.
