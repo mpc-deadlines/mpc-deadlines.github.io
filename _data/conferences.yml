@@ -318,11 +318,11 @@
   description: Annual Computer Security Applications Conference
   year: 2025
   link: https://www.acsac.org/2025
-  deadline: ["2025-05-28 23:59"]
-  rebut: August 02-07
-  date: December 08-12
-  place: Hawaii
-  comment: Early Reject - July 06. Notification - August 19.
+  deadline: ["2025-05-30 23:59"]
+  rebut: August 18-22
+  date: December 09-32
+  place: Honolulu, Hawaii, USA
+  comment: Early Reject - July 14. Notification - September 03.
   tags: [PRACT, APPLIED, CNF, COREA, EXP]
   
 - name: EuroSys
