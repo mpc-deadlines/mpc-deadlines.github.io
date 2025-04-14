@@ -1107,10 +1107,11 @@
   description: IEEE Symposium on Security and Privacy
   year: 2025
   link: https://sp2025.ieee-security.org/cftalks.html
-  deadline: ["2025-04-21 23:59"]
+  deadline: ["2025-05-12 16:59"]
+  timezone: PDT
   date: May 12-15
   place: San Francisco, California, USA
-  comment: No proceedings. Notification - April 28.
+  comment: Primary deadline till May 02.
   tags: [PRACT, APPLIED, MISC, EXP]
 
 - name: PhD Symposium at The Web Conference
