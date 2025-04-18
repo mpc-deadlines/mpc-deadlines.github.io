@@ -877,11 +877,11 @@
   description: Privacy Enhancing Technologies Symposium
   year: 2025
   link: https://petsymposium.org/2025/cfposters.php
-  deadline: ["2025-06-24 23:59"]
+  deadline: ["2025-06-01 23:59"]
   date: July 14-19
   place: Washington, DC (Hybrid)
   comment: Submit before May 13 if you need a Visa to attend PETS.
-  tags: [PRACT, APPLIED, PS, EXP]
+  tags: [PRACT, APPLIED, PS]
 
 # CryptoSchools
 
@@ -1113,7 +1113,7 @@
   date: May 12-15
   place: San Francisco, California, USA
   comment: Primary deadline till May 02.
-  tags: [PRACT, APPLIED, MISC, EXP]
+  tags: [PRACT, APPLIED, MISC]
 
 - name: PhD Symposium at The Web Conference
   description: The Web Conference (WWW)
