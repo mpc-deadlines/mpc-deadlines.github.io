@@ -838,10 +838,11 @@
   description: Annual Computer Security Applications Conference
   year: 2025
   link: https://www.acsac.org/2025/submissions/posters/
-  deadline: ["2025-09-06 23:59"]
-  date: December 09 - 13
-  place: Waikiki, Honolulu, Hawaii
-  tags: [PRACT, APPLIED, PS, EXP]
+  deadline: ["2025-09-13 23:59"]
+  date: December 08-15
+  place: Honolulu, Hawaii
+  comment: Rolling notification.
+  tags: [PRACT, APPLIED, PS]
   
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
@@ -1088,11 +1089,11 @@
   description: ACSAC
   year: 2025
   link: https://www.acsac.org/2025/submissions/artifacts_competition/
-  deadline: ["2025-09-15 23:59"]
+  deadline: ["2025-09-17 23:59"]
   date: December 08-12
-  place: Hawaii
-  comment: Cybersecurity artifacts published in all peer-reviewed venues. Notification - Oct 13.
-  tags: [MISC, EXP]
+  place: Honululu, Hawaii
+  comment: Cybersecurity artifacts published in all peer-reviewed venues. Notification - October 30.
+  tags: [MISC]
   
 - name: Enigma@USENIX Security
   description: Usenix Security Enigma Track
