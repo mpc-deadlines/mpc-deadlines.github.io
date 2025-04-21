@@ -525,12 +525,12 @@
   
 - name: SCN
   description: Conference on Security and Cryptography for Networks
-  year: 2025
-  link: https://scn.unisa.it/scn25/
-  deadline: ["2025-04-24 23:59"]
+  year: 2026
+  link: https://scn.unisa.it/scn26/
+  deadline: ["2026-04-24 23:59"]
   date: September 11-13
   place: Amalfy, Italy
-  comment: Notification - June 24.
+  comment: Notification - June 24. Occurs once in two years.
   tags: [PRACT, APPLIED, CNF, COREN, EXP]
 
 
