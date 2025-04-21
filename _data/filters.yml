@@ -44,3 +44,5 @@ filter3:
 filter4:
   - name: Expected
     tag: EXP
+  - name: Expected CFP
+    tag: EXPCFP
