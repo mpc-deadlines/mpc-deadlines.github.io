@@ -912,13 +912,13 @@
   description: Conference on Artificial Intelligence
   year: 2026
   link: https://aaai.org/conference/aaai/aaai-26/
-  abdeadline: July 08
-  deadline: ["2025-07-15 23:59"]
-  rebut: November 02-05
+  abdeadline: June 30
+  deadline: ["2025-07-07 23:59"]
+  rebut: September 28-30
   date: January 20-27
-  place: Singapore
-  comment: Notification - December 09.
-  tags: [PRACT, CNF, PPML, COREAS, EXP]
+  place: Singapore EXPO
+  comment: Notification - November 03. Early Reject - September 08.
+  tags: [PRACT, CNF, PPML, COREAS]
   
 - name: ACML
   description: Asian Conference on Machine Learning
