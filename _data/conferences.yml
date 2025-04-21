@@ -848,10 +848,10 @@
   description: IEEE European Symposium on Security and Privacy
   year: 2025
   link: https://www.ieee-security.org/TC/EuroSP2025/cfposters.html
-  deadline: ["2025-04-23 23:59"]
-  date: June 30-July 04
+  deadline: ["2025-04-30 23:59"]
+  date: June 30 - July 04
   place: Venice
-  comment: Notification - May 09. No proceedings.
+  comment: Notification - May 21. No proceedings.
   tags: [PRACT, PS]
 
 - name: IEEE S&P
