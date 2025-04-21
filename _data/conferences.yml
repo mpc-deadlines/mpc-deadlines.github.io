@@ -506,12 +506,12 @@
 - name: ICDCN
   description: International Conference on Distributed Computing and Networking
   year: 2026
-  link: https://cse.iith.ac.in/icdcn-2025/
+  link: https://sites.google.com/view/icdcn2026/
   deadline: ["2025-07-25 23:59"]
-  date: January 04-07
-  place: IIT Hyderabad, India
+  date: January 06-09
+  place: Nara, Japan
   comment: Notification - September 27.
-  tags: [THEORY, PRACT, CNF, COREN, EXP]
+  tags: [THEORY, PRACT, CNF, COREN, EXPCFP]
   
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
