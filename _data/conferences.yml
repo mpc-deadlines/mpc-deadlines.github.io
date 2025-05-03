@@ -209,18 +209,18 @@
 
 - name: CHES
   description: Cryptographic Hardware and Embedded Systems
-  year: 2025
-  link: https://ches.iacr.org/2025/
+  year: 2026
+  link: https://ches.iacr.org/2026/
   deadline:
-    - "2024-07-15 23:59"
-    - "2024-10-15 23:59"
-    - "2025-01-15 23:59"
-    - "2025-04-15 23:59"
+    - "2025-07-15 23:59"
+    - "2025-10-15 23:59"
+    - "2026-01-15 23:59"
+    - "2026-04-15 23:59"
   rebut: Aug 19-23, Nov 18-22, Feb 17-21, May 19-23
   date: September 14-18
   place: Kuala Lumpur, Malaysia
   comment: Rolling deadline every quarter. (invites MPC topics)
-  tags: [PRACT, APPLIED, CNF, COREA]
+  tags: [PRACT, APPLIED, CNF, COREA, EXP]
 
 - name: DISC
   description: International Symposium on Distributed Computing
