@@ -186,14 +186,15 @@
 - name: ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
   year: 2026
-  link: https://asiaccs2025.hust.edu.vn
+  link: https://asiaccs2026.cse.iitkgp.ac.in/call-for-papers/
   deadline:
-    - "2025-09-20 23:59"
-    - "2026-01-20 23:59"
-  date: August 25-29
-  place: Ha Noi, Vietnam
-  comment: Early Reject - October 25, February 28. Notification - December 13, Aprril 19.
-  tags: [PRACT, CNF, COREA, EXP]
+    - "2025-08-25 23:59"
+    - "2025-12-12 23:59"
+  rebut: October 27-30, February 16-19
+  date: June 01-06
+  place: Bangalore, India
+  comment: Early Reject - October 01, January 21. Notification - November 19, March 10.
+  tags: [PRACT, CNF, COREA]
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
@@ -816,13 +817,13 @@
 
 - name: ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
-  year: 2025
-  link: https://asiaccs2025.hust.edu.vn/call-for-posters/
-  deadline: ["2025-03-16 23:59"]
-  date: August 26
-  place: Hanoi, Vietnam
+  year: 2026
+  link: https://asiaccs2026.cse.iitkgp.ac.in/
+  deadline: ["2026-03-16 23:59"]
+  date: June 01-06
+  place: Bangalore, India
   comment: Notification - March 26. Has proceedings.
-  tags: [PRACT, PS]
+  tags: [PRACT, PS, EXPCFP]
   
 - name: ACM CCS
   description: ACM Conference on Computer and Communications Security
