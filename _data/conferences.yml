@@ -604,12 +604,12 @@
   description: The ACM Cloud Computing Security Workshop
   year: 2025
   link: https://ccsw.io
-  deadline: ["2025-08-04 23:59"]
+  deadline: ["2025-06-20 23:59"]
   date: October 17
   place: Taipei, Taiwan
   comment: Notification - August 29. Has proceedings.
   conference: ACM CCS.
-  tags: [PRACT, WK, EXP]
+  tags: [PRACT, WK, EXPCFP]
   
 - name: AICRYPT
   description: Workshop on Artificial Intelligence and Cryptography
@@ -626,12 +626,12 @@
   description: Workshop on Artificial Intelligence and Security
   year: 2025
   link: https://aisec.cc
-  deadline: ["2025-07-07 23:59"]
+  deadline: ["2025-06-20 23:59"]
   date: October 17
   place: Taipei, Taiwan
   comment: Notification - August 29. Has proceedings.
   conference: ACM CCS.
-  tags: [PRACT, PPML, WK, EXP]
+  tags: [PRACT, PPML, WK]
   
 - name: CAW
   description: Cryptographic Applications Workshop
@@ -648,12 +648,12 @@
   description: Workshop on CPS&IoT Security and Privacy
   year: 2025
   link: https://cpsiotsec2025.github.io
-  deadline: ["2025-07-17 23:59"]
+  deadline: ["2025-06-20 23:59"]
   date: October 17
   place: Taipei, Taiwan
-  comment: Notification - August 29. Has proceedings.
+  comment: Notification - August 08. Has proceedings.
   conference: ACM CCS.
-  tags: [APPLIED, WK, EXP]
+  tags: [APPLIED, WK]
   
 - name: CPSS
   description: ACM Cyber-Physical System Security Workshop
@@ -711,6 +711,17 @@
   comment: Notification - May 30. Has proceedings.
   conference: AsiaCCS.
   tags: [APPLIED, PPML, WK]
+  
+- name: LAMPS
+  description: Workshop on Large AI Systems and Models with Privacy and Security Analysis
+  year: 2025
+  link: https://lamps-ccs.github.io/home/
+  deadline: ["2025-06-20 23:59"]
+  date: October 13
+  place: Taipei, Taiwan
+  comment: Notification - August 01. Has proceedings.
+  conference: ACM CCS.
+  tags: [APPLIED, WK]
   
 - name: LM-SHIELD
   description: Privacy in Large Language Models (LLM) and Natural Language Processing (NLP)
@@ -795,23 +806,23 @@
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2025
   link: https://homomorphicencryption.org/wahc-2025/
-  deadline: ["2025-07-26 23:59"]
-  date: October 17
+  deadline: ["2025-06-20 23:59"]
+  date: October 13
   place: Taipei, Taiwan
-  comment: Notification - August 29. Has proceedings.
+  comment: Notification - August 08. Has proceedings.
   conference: ACM CCS.
-  tags: [APPLIED, WK, EXP]
+  tags: [APPLIED, WK]
   
 - name: WPES
   description: Workshop on Privacy in the Electronic Society
   year: 2025
-  link: https://cseapps.case.edu/wpes2025/
-  deadline: ["2025-07-15 23:59"]
-  date: October 17
+  link: http://jianying.space/WPES2025/
+  deadline: ["2025-07-07 23:59"]
+  date: October 13
   place: Taipei, Taiwan
-  comment: Notification - August 29. Has proceedings.
+  comment: Notification - August 16. Has proceedings.
   conference: ACM CCS.
-  tags: [PRACT, WK, EXP]
+  tags: [PRACT, WK]
   
 # Posters
 
