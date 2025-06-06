@@ -10,6 +10,8 @@ filter1:
     tag: PPML
   - name: Hardware
     tag: HW
+  - name: SoKs
+    tag: SOK
 
 filter2:
   - name: Conferences

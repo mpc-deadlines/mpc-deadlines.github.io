@@ -92,7 +92,7 @@
   date: May 18–21
   place: San Francisco, California, USA
   comment: Early Reject -  July 21, January 19. Notification - September 09, March 19.
-  tags: [PRACT, APPLIED, CNF, COREAS]
+  tags: [PRACT, APPLIED, SOK, CNF, COREAS]
   
 - name: NDSS
   description: Network and Distributed System Security Symposium
@@ -106,7 +106,7 @@
   date: February 23-27
   place: San Diego, CA, USA
   comment: Early Reject - May 28, September 17. Notification - July 02 and October 22.
-  tags: [PRACT, APPLIED, CNF, COREAS]
+  tags: [PRACT, APPLIED, SOK, CNF, COREAS]
 
 - name: ACM PODC
   description: ACM Symposium on Principles of Distributed Computing
@@ -131,7 +131,7 @@
   date: August 12-14
   place: Baltimore, MD, USA
   comment: Early Reject - October 15, March 04. Notification - December 11, April 30.
-  tags: [PRACT, APPLIED, CNF, COREAS, EXPCFP]
+  tags: [PRACT, APPLIED, SOK, CNF, COREAS, EXPCFP]
   
 - name: The Web Conference
   description: The Web Conference (WWW)
@@ -194,7 +194,7 @@
   date: June 01-06
   place: Bangalore, India
   comment: Early Reject - October 01, January 21. Notification - November 19, March 10.
-  tags: [PRACT, CNF, COREA]
+  tags: [PRACT, CNF, SOK, COREA]
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
@@ -221,7 +221,7 @@
   date: September 14-18
   place: Kuala Lumpur, Malaysia
   comment: Rolling deadline every quarter. (invites MPC topics)
-  tags: [PRACT, APPLIED, CNF, COREA, EXP]
+  tags: [PRACT, APPLIED, SOK, CNF, COREA, EXP]
 
 - name: DISC
   description: International Symposium on Distributed Computing
@@ -255,7 +255,7 @@
   date: April 14-18
   place: Miyakojima, Japan
   comment: Notification - December 06.
-  tags: [PRACT, CNF, COREA, EXP]
+  tags: [PRACT, CNF, SOK, COREA, EXP]
 
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
@@ -305,7 +305,7 @@
   date: July 15-20
   place: TBA
   comment: Notifications - 1st of August, November, February, May.
-  tags: [PRACT, APPLIED, CNF, COREA]
+  tags: [PRACT, APPLIED, SOK, CNF, COREA]
 
 - name: TCC
   description: Theory of Cryptography Conference
@@ -352,7 +352,7 @@
   date: June 30 - July 04
   place: Venice, Italy
   comment: Notification - February 22.
-  tags: [PRACT, APPLIED, CNF, COREA, EXP]
+  tags: [PRACT, APPLIED, SOK, CNF, COREA, EXP]
   
 # CORE B
 
@@ -400,7 +400,7 @@
   date: August 11-14
   place: Ghent, Belgium
   comment: Short paper and SoKs. Notification - May 02.
-  tags: [PRACT, CNF, COREB]
+  tags: [PRACT, SOK, CNF, COREB]
   
 - name: CANS
   description: International Conference on Cryptology and Network Security
@@ -486,7 +486,7 @@
   date: August 10-12
   place: Seattle, WA, USA
   comment: co-located with USENIX Security. Notification - May 15.
-  tags: [PRACT, CNF, COREB]
+  tags: [PRACT, CNF, SOK, COREB]
 
 # CORE C
 
@@ -631,7 +631,7 @@
   place: Taipei, Taiwan
   comment: Notification - August 29. Has proceedings.
   conference: ACM CCS.
-  tags: [PRACT, PPML, WK]
+  tags: [PRACT, PPML, SOK, WK]
   
 - name: CAW
   description: Cryptographic Applications Workshop
@@ -653,7 +653,7 @@
   place: Taipei, Taiwan
   comment: Notification - August 08. Has proceedings.
   conference: ACM CCS.
-  tags: [APPLIED, WK]
+  tags: [APPLIED, SOK, WK]
   
 - name: CPSS
   description: ACM Cyber-Physical System Security Workshop
@@ -1022,7 +1022,7 @@
   date: April 09-11
   place: Copenhagen, Denmark
   comment: Early Reject - October 31. Notification - December 12.
-  tags: [PRACT, CNF, PPML, COREO, EXP]
+  tags: [PRACT, CNF, PPML, SOK, COREO, EXP]
   
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
