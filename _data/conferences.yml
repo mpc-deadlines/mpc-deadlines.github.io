@@ -751,12 +751,12 @@
   description: Privacy-Preserving Machine Learning Workshop
   year: 2025
   link: https://crypto-ppml.github.io/2025/
-  deadline: ["2025-06-12 23:59"]
+  deadline: ["2025-06-15 23:59"]
   date: August 17
   place: Santa Barbara, USA
-  comment: Notification - June 21
+  comment: Notification - June 22
   conference: CRYPTO.
-  tags: [PRACT, PPML, WK, EXP]
+  tags: [PRACT, PPML, WK]
   
 - name: PROTECT-IT
   description: Security, Privacy and Information Theory
