@@ -515,6 +515,18 @@
   comment: Notification - September 27.
   tags: [THEORY, PRACT, CNF, COREN, EXPCFP]
   
+- name: ICISS
+  description: International Conference on Information Systems Security
+  year: 2025
+  link: https://iciss.isrdc.in
+  deadline: 
+    - "2025-07-10 23:59"
+    - "2025-08-10 23:59"
+  date: December 16-20
+  place: Indore, India
+  comment: Notification - September 30. August deadline for Industry/Demo.
+  tags: [PRACT, APPLIED, CNF, COREN]
+  
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
   year: 2025
