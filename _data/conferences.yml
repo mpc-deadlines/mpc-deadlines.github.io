@@ -616,12 +616,12 @@
   description: The ACM Cloud Computing Security Workshop
   year: 2025
   link: https://ccsw.io
-  deadline: ["2025-06-20 23:59"]
+  deadline: ["2025-06-24 23:59"]
   date: October 17
   place: Taipei, Taiwan
-  comment: Notification - August 29. Has proceedings.
+  comment: Notification - August 08. Has proceedings.
   conference: ACM CCS.
-  tags: [PRACT, WK, EXPCFP]
+  tags: [PRACT, WK]
   
 - name: AICRYPT
   description: Workshop on Artificial Intelligence and Cryptography
