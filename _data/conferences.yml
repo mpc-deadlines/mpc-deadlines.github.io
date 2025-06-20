@@ -262,12 +262,12 @@
   year: 2026
   link: https://www.ieee-security.org/TC/CSF2026/
   deadline:
-    - "2025-05-28 23:59"
-    - "2025-10-01 23:59"
-    - "2026-02-04 23:59"
-  date: July 08-12
-  place: Santa Cruz, CA, USA
-  comment: Notification - July 30, December 03, April 08.
+    - "2025-07-24 23:59"
+    - "2025-10-09 23:59"
+    - "2026-01-29 23:59"
+  date: July 26-29
+  place: Lisbon Portugal (colocated with FLoC 2026)
+  comment: Notification - September 25, December 11, April 01.
   tags: [THEORY, CNF, COREA, EXP]
   
 - name: IEEE ICDCS
