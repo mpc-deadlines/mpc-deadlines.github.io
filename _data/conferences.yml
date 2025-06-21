@@ -530,12 +530,12 @@
 - name: INDOCRYPT
   description: International Conference on Cryptology in India
   year: 2025
-  link: https://indocrypt.org
+  link: https://www.indocrypt2025.in
   deadline: ["2025-09-01 23:59"]
   date: December 14-17
   place: Bhubaneswar, Odisha, India
   comment: Notification - October 10.
-  tags: [THEORY, PRACT, CNF, COREN, EXPCFP]
+  tags: [THEORY, PRACT, CNF, COREN]
   
 - name: SCN
   description: Conference on Security and Cryptography for Networks
