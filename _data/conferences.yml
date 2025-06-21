@@ -54,10 +54,10 @@
   link: https://eurocrypt.iacr.org/2026/
   deadline: ["2025-10-02 23:59"]
   rebut: December 08-12
-  date: May 04-08
-  place: Madrid, Spain
+  date: May 10-14
+  place: Rome, Italy
   comment: Early Reject - December 08, Notification - January 31.
-  tags: [THEORY, CNF, COREAS, EXP]
+  tags: [THEORY, CNF, COREAS]
 
 - name: IEEE FOCS
   description: IEEE Symposium on Foundations of Computer Science
