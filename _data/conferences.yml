@@ -266,8 +266,8 @@
     - "2025-10-09 23:59"
     - "2026-01-29 23:59"
   date: July 26-29
-  place: Lisbon Portugal (colocated with FLoC 2026)
-  comment: Notification - September 25, December 11, April 01.
+  place: Lisbon Portugal
+  comment: co-located with FLoC 2026. Notification - September 25, December 11, April 01.
   tags: [THEORY, CNF, COREA]
   
 - name: IEEE ICDCS
