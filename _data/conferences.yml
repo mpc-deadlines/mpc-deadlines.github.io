@@ -638,10 +638,10 @@
   description: Workshop on Artificial Intelligence and Security
   year: 2025
   link: https://aisec.cc
-  deadline: ["2025-06-20 23:59"]
+  deadline: ["2025-07-03 23:59"]
   date: October 17
   place: Taipei, Taiwan
-  comment: Notification - August 29. Has proceedings.
+  comment: Notification - August 10. Has proceedings.
   conference: ACM CCS.
   tags: [PRACT, PPML, SOK, WK]
   
@@ -660,7 +660,7 @@
   description: Workshop on CPS&IoT Security and Privacy
   year: 2025
   link: https://cpsiotsec2025.github.io
-  deadline: ["2025-06-20 23:59"]
+  deadline: ["2025-06-30 23:59"]
   date: October 17
   place: Taipei, Taiwan
   comment: Notification - August 08. Has proceedings.
@@ -728,10 +728,10 @@
   description: Workshop on Large AI Systems and Models with Privacy and Security Analysis
   year: 2025
   link: https://lamps-ccs.github.io/home/
-  deadline: ["2025-06-20 23:59"]
+  deadline: ["2025-07-11 23:59"]
   date: October 13
   place: Taipei, Taiwan
-  comment: Notification - August 01. Has proceedings.
+  comment: Notification - August 15. Has proceedings.
   conference: ACM CCS.
   tags: [APPLIED, WK]
   
@@ -818,7 +818,7 @@
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2025
   link: https://homomorphicencryption.org/wahc-2025/
-  deadline: ["2025-06-20 23:59"]
+  deadline: ["2025-06-27 23:59"]
   date: October 13
   place: Taipei, Taiwan
   comment: Notification - August 08. Has proceedings.
