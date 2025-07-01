@@ -680,17 +680,6 @@
   conference: AsiaCCS.
   tags: [PRACT, APPLIED, WK]
   
-- name: DeFi
-  description: Workshop on Decentralized Finance and Security
-  year: 2025
-  link: https://defi.security
-  deadline: ["2025-07-15 23:59"]
-  date: October 17
-  place: Taipei, Taiwan
-  comment: Notification - August 29. Has proceedings.
-  conference: ACM CCS.
-  tags: [APPLIED, WK, EXP]
-  
 - name: DLSP
   description: Deep Learning Security and Privacy Workshop
   year: 2025
