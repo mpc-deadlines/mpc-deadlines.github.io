@@ -801,6 +801,17 @@
   comment: Notification - January 10.
   tags: [PRACT, APPLIED, WK, EXP]
   
+- name: SECAI
+  description: Workshop on Security and Artificial Intelligence
+  year: 2025
+  link: https://sites.google.com/view/secai2025/home
+  deadline: ["2025-07-07 23:59"]
+  date: September 25-26
+  place: Toulouse, France
+  comment: Notification - August 07. Has proceedings.
+  conference: ESORICS.
+  tags: [PRACT, WK]
+  
 - name: SecTL
   description: Secure and Trustworthy Deep Learning Systems (SecTL) Workshop
   year: 2025
