@@ -1029,12 +1029,12 @@
   description: IEEE Conference on Secure and Trustworthy Machine Learning
   year: 2026
   link: http://satml.org
-  deadline: ["2025-09-27 23:59"]
-  rebut: November 21 - December 05
-  date: April 09-11
-  place: Copenhagen, Denmark
-  comment: Early Reject - October 31. Notification - December 12.
-  tags: [PRACT, CNF, PPML, SOK, COREO, EXP]
+  deadline: ["2025-09-24 23:59"]
+  rebut: November 19 - December 03
+  date: March 23-25
+  place: Munich, Germany
+  comment: Notification - December 10.
+  tags: [PRACT, CNF, PPML, SOK, COREO]
   
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
