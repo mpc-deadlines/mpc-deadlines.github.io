@@ -1038,16 +1038,16 @@
   
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2025
-  link: https://kdd2025.kdd.org/
-  abdeadline: August 01, February 03  
+  year: 2026
+  link: https://kdd2026.kdd.org
+  abdeadline: July 24, February 03  
   deadline:
-    - "2024-08-08 23:59"
-    - "2025-02-03 23:59"
+    - "2025-07-24 23:59"
+    - "2026-01-28 23:59"
   rebut: October 04-18, April 04-18 
   date: August 03-07
-  place: Toronto, Canada
-  comment: Notification - November 16, May 16.
+  place: Jeju, Korea
+  comment: Notification - November 23, May 16.
   tags: [PRACT, CNF, PPML, COREAS]
 
 - name: NeurIPS
