@@ -1065,11 +1065,11 @@
   description: Conference on Machine Learning and Systems
   year: 2026
   link: https://mlsys.org/Conferences/2026
-  deadline: ["2025-11-01 23:59"]
-  date: May 12-15
-  place: Santa Clara, California
-  comment: Notification - February 10.
-  tags: [PRACT, CNF, PPML, COREO, EXP]
+  deadline: ["2025-10-10 23:59"]
+  date: May 17-22
+  place: Bellevue, WA
+  comment: Notification - January 28.
+  tags: [PRACT, CNF, PPML, COREO, EXPCFP]
  
 - name: PAKDD
   description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
