@@ -346,13 +346,13 @@
   description: IEEE European Symposium on Security and Privacy
   year: 2026
   link: https://www.ieee-security.org/TC/EuroSP2026/
-  abdeadline: October 21
-  deadline: ["2025-10-24 23:59"]
-  rebut: January 29 - February 01
-  date: June 30 - July 04
-  place: Venice, Italy
-  comment: Notification - February 22.
-  tags: [PRACT, APPLIED, SOK, CNF, COREA, EXP]
+  abdeadline: November 13
+  deadline: ["2025-11-20 23:59"]
+  rebut: February 11-16
+  date: July 06-10
+  place: Lisbon, Portugal
+  comment: Notification - March 05.
+  tags: [PRACT, APPLIED, SOK, CNF, COREA, EXPCFP]
   
 # CORE B
 
