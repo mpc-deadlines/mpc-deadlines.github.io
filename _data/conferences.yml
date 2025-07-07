@@ -774,11 +774,11 @@
   description: Real World Crypto
   year: 2026
   link: https://rwc.iacr.org/2026/
-  deadline: ["2025-11-16 23:59"]
+  deadline: ["2025-10-10 23:59"]
   date: March 09-11
   place: Taipei, Taiwan
-  comment: Notification - January 10.
-  tags: [PRACT, APPLIED, WK, EXP]
+  comment: Notification - December 08.
+  tags: [PRACT, APPLIED, WK]
   
 - name: RWC
   description: Real World Crypto
