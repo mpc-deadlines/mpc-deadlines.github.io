@@ -457,12 +457,12 @@
   description: International Conference on Practice and Theory of Public Key Cryptography
   year: 2026
   link: https://pkc.iacr.org/2026/
-  deadline: ["2025-10-16 23:59"]
-  rebut: December 11-18
-  date: May 12-15
-  place: Røros, Norway
-  comment: Early Reject - December 11. Notification - February 05.
-  tags: [THEORY, CNF, COREB, EXP]
+  deadline: ["2025-10-24 23:59"]
+  rebut: December 16-23
+  date: May 25-28
+  place: West Palm Beach, USA
+  comment: Early Reject - December 16. Notification - February 13.
+  tags: [THEORY, CNF, COREB, EXPCFP]
 
 - name: SAC
   description: Conference on Selected Areas in Cryptography
