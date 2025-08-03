@@ -1040,12 +1040,12 @@
  
 - name: PAKDD
   description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
-  year: 2025
-  link: https://pakdd2025.org
-  deadline: ["2024-11-30 23:59"]
-  date: June 10-13
-  place: Sydney, Australia
-  comment: Notification - January 25.
+  year: 2026
+  link: https://pakdd2026.org
+  deadline: ["2025-11-15 23:59"]
+  date: June 09-12
+  place: Hong Kong SAR, China
+  comment: Notification - February 08.
   tags: [PRACT, CNF, PPML, COREB]
 
 # Hardware
