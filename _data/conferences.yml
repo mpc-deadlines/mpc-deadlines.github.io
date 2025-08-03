@@ -24,19 +24,6 @@
   tags: [THEORY, CNF, COREAS, EXP]
   comment: Notification - February 01.
   
-- name: MobiCom
-  description: Annual International Conference On Mobile Computing And Networking
-  year: 2025
-  link: https://www.sigmobile.org/mobicom/2025/
-  abdeadline: August 29, March 11
-  deadline:
-    - "2024-09-05 23:59"
-    - "2025-03-18 23:59"
-  date: November 04-08
-  place: Hong Kong, China
-  comment: 2 deadlines. Notifications - December 10, June 24.
-  tags: [APPLIED, CNF, COREAS]
-  
 - name: CRYPTO
   description: International Cryptology Conference
   year: 2025
@@ -358,27 +345,27 @@
 
 - name: ACISP
   description: Australasian Conference on Information Security and Privacy
-  year: 2025
+  year: 2026
   link: https://uow-ic2.github.io/acisp2025/
   deadline: 
-    - "2024-11-06 23:59"
-    - "2025-02-19 23:59"
+    - "2025-11-06 23:59"
+    - "2026-02-19 23:59"
   date: July 14-16
   place: Wollongong, Australia
   comment: Notification - January 22, April 08.
-  tags: [PRACT, APPLIED, CNF, COREB]
+  tags: [PRACT, APPLIED, CNF, COREB, EXP]
   
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
-  year: 2025
-  link: https://wisec2025.gmu.edu
+  year: 2026
+  link: https://wisec26.scy-phy.net
   deadline: 
-    - "2024-11-21 23:59"
-    - "2025-03-12 23:59"
+    - "2025-11-21 23:59"
+    - "2026-03-12 23:59"
   date: June 30 - July 03
-  place: Arlington, Virginia
+  place: Saarbrücken, Germany
   comment: Notification - January 15, April 23.
-  tags: [APPLIED, CNF, COREB]
+  tags: [APPLIED, CNF, COREB, EXPCFP]
 
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
@@ -908,16 +895,6 @@
   tags: [PRACT, APPLIED, PS]
 
 # CryptoSchools
-
-- name: BIU Winter School
-  description: The 13th BIU Winter School on Cryptography 
-  year: 2023
-  link: https://cyber.biu.ac.il/event/the-13th-biu-winter-school-on-cryptography/
-  deadline: ["2023-01-30 23:59"]
-  date: February 20-23
-  place: Bar-Ilan University, Israel
-  comment: Blockchain Technologies. Early registration - January 08.
-  tags: [CRS] 
   
 - name: TPMPC
   description: Theory and Practice of Multi-Party Computation Workshop 
