@@ -2,17 +2,17 @@
 # CORE A*
 - name: ACM CCS
   description: ACM Conference on Computer and Communications Security
-  year: 2025
-  link: https://www.sigsac.org/ccs/CCS2025/
-  abdeadline: Jan 02, Apr 07
+  year: 2026
+  link: https://www.sigsac.org/ccs/CCS2026/
+  abdeadline: Jan 07, Apr 22
   deadline:
-    - "2025-01-09 23:59"
-    - "2025-04-14 23:59"
-  rebut: March 06-19, June 09-22
-  date: October 13-17
-  place: Taipei, Taiwan
-  comment: 2 deadlines. Notifications - March 27, June 30.
-  tags: [PRACT, APPLIED, CNF, COREAS] 
+    - "2026-01-14 23:59"
+    - "2026-04-29 23:59"
+  rebut: March 03-31, June 22 - July 08
+  date: November 15-19
+  place: The Hague, Netherlands
+  comment: 2 deadlines. Notifications - April 09, July 17.
+  tags: [PRACT, APPLIED, CNF, COREAS, EXPCFP] 
   
 - name: ACM STOC
   description: ACM Symposium on Theory of Computing
