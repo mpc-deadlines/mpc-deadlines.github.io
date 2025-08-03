@@ -251,11 +251,11 @@
   description: Financial Cryptography and Data Security
   year: 2026
   link: https://fc26.ifca.ai
-  deadline: ["2025-10-11 23:59"]
-  date: April 14-18
-  place: Miyakojima, Japan
-  comment: Notification - December 06.
-  tags: [PRACT, CNF, SOK, COREA, EXP]
+  deadline: ["2025-09-16 23:59"]
+  date: March 02-06
+  place: St. Kitts
+  comment: Notification - November 24.
+  tags: [PRACT, CNF, SOK, COREA]
 
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
