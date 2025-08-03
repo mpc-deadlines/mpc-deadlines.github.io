@@ -285,12 +285,12 @@
   description: Innovations in Theoretical Computer Science
   year: 2026
   link: http://itcs-conf.org/
-  abdeadline: Septermber 05
-  deadline: ["2025-09-08 19:59"]
-  date: January 30 - February 02
-  place: University of California, Berkeley
-  comment: Notification - November 08.
-  tags: [THEORY, CNF, COREA, EXP]
+  abdeadline: September 04
+  deadline: ["2025-09-06 11:59"]
+  date: January 27-30
+  place: Bocconi University
+  comment: Notification - November 10.
+  tags: [THEORY, CNF, COREA]
   
 - name: PoPETS
   description: Privacy Enhancing Technologies Symposium
