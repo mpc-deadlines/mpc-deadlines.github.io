@@ -274,12 +274,12 @@
   description: IEEE International Conference on Distributed Computing Systems
   year: 2026
   link: https://icdcs2026.icdcs.org
-  abdeadline: December 04
-  deadline: ["2025-12-11 23:59"]
+  abdeadline: December 05
+  deadline: ["2025-12-12 23:59"]
   date: July 20-23
-  place: Glasgow, Scotland, UK
+  place: South Korea
   comment: Notification - April 02.
-  tags: [THEORY, PRACT, CNF, COREA, EXP]
+  tags: [THEORY, PRACT, CNF, COREA]
   
 - name: ITCS
   description: Innovations in Theoretical Computer Science
@@ -420,17 +420,6 @@
   date: April 28 - May 01
   place: San Francisco, CA, USA
   comment: Notification - January 10.
-  tags: [THEORY, PRACT, CNF, COREB, EXP]
-
-- name: IEEE/ACM CCGRID
-  description: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
-  year: 2026
-  link: https://site.uit.no/ccgrid2025/
-  abdeadline: December 09
-  deadline: ["2025-12-23 23:59"]
-  date: May 19-22
-  place: Tromso
-  comment: Notification - February 12.
   tags: [THEORY, PRACT, CNF, COREB, EXP]
   
 - name: IEEE ISIT
