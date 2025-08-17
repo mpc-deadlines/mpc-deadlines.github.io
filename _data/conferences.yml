@@ -124,15 +124,13 @@
   description: The Web Conference (WWW)
   year: 2026
   link: https://www2026.thewebconf.org
-  abdeadline: October 07, November 11
-  deadline:
-    - "2025-10-14 23:59"
-    - "2025-11-18 23:59"
-  rebut: December 01-14
+  abdeadline: September 30
+  deadline: ["2025-10-07 23:59"]
+  rebut: November 24 - December 01
   date: April 13-17
   place: Dubai, UAE
-  comment: Notification - Feb 01. Nov deadline for industry track.
-  tags: [PRACT, APPLIED, CNF, COREAS, EXPCFP]
+  comment: Notification - January 13. Has industry track.
+  tags: [PRACT, APPLIED, CNF, COREAS]
 
 - name: VLDB
   description: International Conference on Very Large Data Bases
