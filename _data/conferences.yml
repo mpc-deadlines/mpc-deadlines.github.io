@@ -279,7 +279,7 @@
   comment: Notification - November 10.
   tags: [THEORY, CNF, COREA]
   
-- name: PoPETS
+- name: PETS
   description: Privacy Enhancing Technologies Symposium
   year: 2026
   link: https://petsymposium.org/cfp26.php
@@ -290,7 +290,7 @@
     - "2026-02-28 23:59"
   rebut: July 11-17, October 10-16, January 12-19, April 10-16.
   date: July 15-20
-  place: TBA
+  place: Calgary, Canada
   comment: Notifications - 1st of August, November, February, May.
   tags: [PRACT, APPLIED, SOK, CNF, COREA]
 
