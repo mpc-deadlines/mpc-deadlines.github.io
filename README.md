@@ -105,6 +105,16 @@ For an event that has been **announced** but the Call for Papers is **not yet av
 - Fill in details based on the **previous year’s** event.
 - This will internally set some of the fields to default placeholder values (e.g., `comment: "CFP yet to be announced"`).
 
+#### 🔥 Special Case: `EXPCFP` Tag
+
+Sometimes, an event is already **confirmed** and has public details like **dates, location, and venue**, but the **CFP hasn't been published yet**. In this case, use the `EXPCFP` tag.
+
+- This is a more specific version of the `EXP` tag.
+- Use `EXPCFP` when the event is definitely happening, but the CFP is **not yet available**.
+- As with `EXP`, base your entry on the most recent available details.
+
+This helps signal to others that the event is expected, even though submission details are still pending. 🔍
+
 🔥 **Let's make MPC deadlines easy to track—together!** 🚀
 
 

@@ -10,6 +10,8 @@ filter1:
     tag: PPML
   - name: Hardware
     tag: HW
+  - name: SoKs
+    tag: SOK
 
 filter2:
   - name: Conferences
@@ -44,3 +46,5 @@ filter3:
 filter4:
   - name: Expected
     tag: EXP
+  - name: Expected CFP
+    tag: EXPCFP

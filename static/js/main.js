@@ -135,6 +135,10 @@ $(function() {
                 conf.find(".conf-rebut").text("TBA");
                 confComment.text("CFP yet to be announced");
             },
+            "EXPCFP": () => {
+                confTitle.text(confTitle.text() + " (Expected)");
+                confComment.text("CFP yet to be announced");
+            },
             "JRN": () => {
                 confTitle.text("(Journal) " + confTitle.text());
                 let portalLink = conf.data("portal") || confTitle.attr("href");
