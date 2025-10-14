@@ -709,18 +709,16 @@
   conference: AsiaCCS.
   tags: [PRACT, PPML, WK]
 
-- name: PPAI
-  description: AAAI Workshop on Privacy-Preserving Artificial Intelligence
+- name: FLCA
+  description: AAAI Workshop on Federated Learning For Critical Applications
   year: 2026
-  link: https://ppai-workshop.github.io
-  deadline: 
-    - "2025-10-29 23:59"
-    - "2025-11-11 23:59"
+  link: https://sites.google.com/view/flca
+  deadline: ["2025-10-24 23:59"]
   date: January 26
   place: Singapore
-  comment: Notification - December 01. Second deadline - NeurIPS/AAAI fasttrack.
+  comment: Notification - November 07.
   conference: AAAI.
-  tags: [APPLIED, PPML, WK, EXP] 
+  tags: [APPLIED, PPML, WK] 
   
 - name: PPML CRYPTO
   description: Privacy-Preserving Machine Learning Workshop
