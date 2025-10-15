@@ -1102,15 +1102,15 @@
   
 - name: IACR CiC
   description: Communications in Cryptology
-  year: 2025
+  year: 2026
   link: https://cic.iacr.org/callforpapers
   deadline: 
-    - "2025-01-08 23:59"
-    - "2025-04-08 23:59"
-    - "2025-07-08 23:59"
-    - "2025-10-08 23:59"
+    - "2026-01-08 23:59"
+    - "2026-04-08 23:59"
+    - "2026-07-08 23:59"
+    - "2026-10-08 23:59"
   comment: Notification in two months. 
-  tags: [THEORY, PRACT, JRN]
+  tags: [THEORY, PRACT, JRN, EXP]
 
 - name: IACR JoC
   description: Journal of Cryptology
