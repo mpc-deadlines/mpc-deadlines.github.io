@@ -440,15 +440,15 @@
 
 - name: SAC
   description: Conference on Selected Areas in Cryptography
-  year: 2025
-  link: https://sacworkshop.org/SAC25/
+  year: 2026
+  link: https://sacworkshop.org/SAC26/
   deadline: 
-    - "2025-01-27 23:59"
-    - "2025-05-07 23:59"
-  date: August 11-15
-  place: Toronto, Ontario
+    - "2026-01-27 23:59"
+    - "2026-05-07 23:59"
+  date: August 26-28
+  place: Ottawa, Ontario
   comment: Notification - March 13, June 20
-  tags: [THEORY, PRACT, CNF, COREB]
+  tags: [THEORY, PRACT, CNF, COREB, EXPCFP]
 
 - name: SOUPS
   description: Symposium on Usable Privacy and Security
