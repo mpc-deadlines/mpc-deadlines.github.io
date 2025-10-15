@@ -669,12 +669,12 @@
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
   year: 2026
   link: https://fhe.org/conferences/conference-2026
-  deadline: ["2025-11-22 23:59"]
+  deadline: ["2025-11-01 23:59"]
   date: March 08
   place: Taipei, Taiwan
-  comment: Notification - January 22.
+  comment: Notification - December 19.
   conference: RWC.
-  tags: [THEORY, PRACT, WK, EXP]
+  tags: [THEORY, PRACT, WK]
   
 - name: FL-AsiaCCS
   description: Secure and Efficient Federated Learning
