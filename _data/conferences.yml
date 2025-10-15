@@ -929,18 +929,6 @@
   comment: Journal (May) and Conference (June) tracks. Notification - September 01. One author as mandatory reviewer.
   tags: [PRACT, CNF, PPML, COREU]
   
-- name: ECAI
-  description: European Conference on Artificial Intelligence
-  year: 2025
-  link: https://www.ecai2025.eu
-  abdeadline: April 29
-  deadline: ["2025-05-06 23:59"]
-  rebut: June 23-25
-  date: October 25-30
-  place: Bologna, Italy
-  comment: Notification - July 10.
-  tags: [PRACT, CNF, PPML, COREA]
-  
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
   year: 2025
@@ -975,17 +963,17 @@
   comment: Special track on Position papers.
   tags: [PRACT, CNF, PPML, COREAS]
   
-- name: IJCAI
+- name: IJCAI-ECAI
   description: International Joint Conference on Artificial Intelligence
-  year: 2025
-  link: https://2025.ijcai.org
+  year: 2026
+  link: https://2026.ijcai.org
   abdeadline: January 16
-  deadline: ["2025-01-23 23:59"]
+  deadline: ["2026-01-23 23:59"]
   rebut: April 06-09
-  date: August 16-22
-  place: Montreal, Canada
+  date: August 15-21
+  place: Bremen, Germany
   comment: Notification - April 28
-  tags: [PRACT, CNF, PPML, COREAS]
+  tags: [PRACT, CNF, PPML, COREAS, EXPCFP]
 
 - name: IEEE SaTML
   description: IEEE Conference on Secure and Trustworthy Machine Learning
