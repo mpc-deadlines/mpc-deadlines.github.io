@@ -344,14 +344,14 @@
 - name: ACISP
   description: Australasian Conference on Information Security and Privacy
   year: 2026
-  link: https://uow-ic2.github.io/acisp2025/
+  link: https://acisp.org
   deadline: 
-    - "2025-11-06 23:59"
-    - "2026-02-19 23:59"
-  date: July 14-16
-  place: Wollongong, Australia
-  comment: Notification - January 22, April 08.
-  tags: [PRACT, APPLIED, CNF, COREB, EXP]
+    - "2025-11-27 23:59"
+    - "2026-02-26 23:59"
+  date: July 06-09
+  place: Perth, Australia
+  comment: Notification - January 15, April 16.
+  tags: [PRACT, APPLIED, SOK, CNF, COREB]
   
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
