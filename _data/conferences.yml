@@ -597,17 +597,6 @@
   conference: ACM CCS.
   tags: [PRACT, WK]
   
-- name: AICRYPT
-  description: Workshop on Artificial Intelligence and Cryptography
-  year: 2024
-  link: https://aicrypt2024.aisylab.com
-  deadline: ["2024-04-05 23:59"]
-  date: May 26
-  place: ETH Zurich, Switzerland
-  comment: Notification - April 19.
-  conference: Eurocrypt.
-  tags: [PRACT, PPML, WK]
-  
 - name: AISec
   description: Workshop on Artificial Intelligence and Security
   year: 2025
@@ -618,17 +607,6 @@
   comment: Notification - August 10. Has proceedings.
   conference: ACM CCS.
   tags: [PRACT, PPML, SOK, WK]
-  
-- name: CAW
-  description: Cryptographic Applications Workshop
-  year: 2024
-  link: https://caw.cryptanalysis.fun
-  deadline: ["2024-03-08 23:59"]
-  date: May 26
-  place: ETH Zurich, Switzerland
-  comment: Notification - mid to end of March.
-  conference: Eurocrypt.
-  tags: [PRACT, APPLIED, WK]
   
 - name: CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
