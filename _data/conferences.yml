@@ -1059,13 +1059,13 @@
 - name: DAC
   description: Design Automation Conference
   year: 2026
-  link: https://www.dac.com/Conference/2025-Call-for-Contributions
-  abdeadline: November 12
-  deadline: ["2025-11-19 16:59"]
-  date: June 22-25
-  place: Moscone West, San Francisco
-  comment: Notification - February 26.
-  tags: [HW, APPLIED, CNF, COREU, EXP]
+  link: https://dac.com/2026/
+  abdeadline: November 11
+  deadline: ["2025-11-18 23:59"]
+  date: July 26-29
+  place: Long Beach, CA
+  comment: Notification - March 09.
+  tags: [HW, APPLIED, CNF, COREU]
   
 - name: IEEE HOST
   description: IEEE International Symposium on Hardware Oriented Security and Trust
