@@ -466,15 +466,14 @@
 
 - name: SECRYPT
   description: International Conference on Information Security and Cryptography
-  year: 2025
+  year: 2026
   link: https://secrypt.scitevents.org
   deadline: 
-    - "2025-02-06 23:59"
-    - "2025-03-10 23:59"
-    - "2025-04-07 23:59"
-  date: June 11-13
-  place: Bilbao, Spain
-  comment: Notification - March 17, April 07. April deadline for Abstracts track.
+    - "2026-03-03 23:59"
+    - "2026-04-16 23:59"
+  date: July 16-18
+  place: Porto, Portugal
+  comment: Notification - April 30, May 22. Position Papers in April deadline.
   tags: [THEORY, PRACT, CNF, COREC]
 
 # CORE National
