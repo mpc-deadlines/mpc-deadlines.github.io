@@ -222,15 +222,15 @@
 
 - name: ESORICS
   description: European Symposium on Research in Computer Security
-  year: 2025
-  link: https://esorics2025.sciencesconf.org
+  year: 2026
+  link: https://sites.google.com/di.uniroma1.it/esorics2026/
   deadline:
-    - "2025-01-10 23:59"
-    - "2025-04-29 23:59"
+    - "2026-01-10 23:59"
+    - "2026-04-29 23:59"
   date: September 22-26
-  place: Toulouse, France
+  place: Rome, Italy
   comment: Notification - March 21, June 13.
-  tags: [PRACT, CNF, COREA]
+  tags: [PRACT, CNF, COREA, EXPCFP]
 
 - name: FC
   description: Financial Cryptography and Data Security
@@ -621,16 +621,16 @@
   
 - name: CPSS
   description: ACM Cyber-Physical System Security Workshop
-  year: 2025
+  year: 2026
   link: http://jianying.space/cpss/CPSS2025/
   deadline:
-    - "2025-01-10 23:59"
-    - "2025-03-15 23:59"
-  date: August 26
-  place: Hanoi, Vietnam
+    - "2026-01-10 23:59"
+    - "2026-03-15 23:59"
+  date: June 01
+  place: Bangalore, India
   comment: Notification - February 15, April 25. Has proceedings.
   conference: AsiaCCS.
-  tags: [PRACT, APPLIED, WK]
+  tags: [PRACT, APPLIED, WK, EXP]
   
 - name: DLSP
   description: Deep Learning Security and Privacy Workshop
@@ -751,19 +751,6 @@
   conference: ESORICS.
   tags: [PRACT, WK]
   
-- name: SecTL
-  description: Secure and Trustworthy Deep Learning Systems (SecTL) Workshop
-  year: 2025
-  link: https://asiaccs-sectl.github.io/cfp/
-  deadline:
-    - "2024-12-22 23:59"
-    - "2025-04-25 23:59"
-  date: August 26
-  place: Hanoi, Vietnam
-  comment: Notification - Feburary 03, May 20. Has proceedings.
-  conference: AsiaCCS.
-  tags: [APPLIED, PPML, WK]
-  
 - name: WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2025
@@ -872,13 +859,13 @@
   
 - name: TPMPC
   description: Theory and Practice of Multi-Party Computation Workshop 
-  year: 2025
-  link: https://www.multipartycomputation.com/tpmpc-2025
-  deadline: ["2024-10-15 23:59"]
-  date: March 03-06
-  place: Bengaluru, India
-  comment: Notification - November 15.
-  tags: [CRS]
+  year: 2026
+  link: https://www.multipartycomputation.com/tpmpc-2026
+  deadline: ["2026-01-15 23:59"]
+  date: June 03-06
+  place: Aarhus, Denmark
+  comment: Notification - Marc 15.
+  tags: [CRS, EXP]
   
 # Machine Learning and Data Science
 
@@ -980,14 +967,14 @@
 
 - name: NeurIPS
   description: Conference on Neural Information Processing Systems
-  year: 2025
+  year: 2026
   link: https://neurips.cc/
   abdeadline: May 11
-  deadline: ["2025-05-15 07:59"]
+  deadline: ["2026-05-15 07:59"]
   date: December 02-07
   place: San Diego, California
-  comment: Notification - September 18.
-  tags: [PRACT, CNF, PPML, COREAS]
+  comment: Notification - September 18. Position Papers.
+  tags: [PRACT, CNF, PPML, COREAS, EXP]
   
 - name: MLSys
   description: Conference on Machine Learning and Systems
