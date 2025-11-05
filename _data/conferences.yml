@@ -474,7 +474,7 @@
   date: July 16-18
   place: Porto, Portugal
   comment: Notification - April 30, May 22. Position Papers in April deadline.
-  tags: [THEORY, PRACT, CNF, COREC]
+  tags: [THEORY, PRACT, POS, CNF, COREC]
 
 # CORE National
 
@@ -910,11 +910,11 @@
   year: 2026
   link: https://icml.cc/Conferences/2026
   abdeadline: January 23
-  deadline: ["2026-01-30 23:59"]
-  date: July 13-19
+  deadline: ["2026-01-28 23:59"]
+  date: July 07-12
   place: COEX Convention & Exhibition Center, Seoul Korea
   comment: Special track on Position papers.
-  tags: [PRACT, CNF, PPML, COREAS, EXPCFP]
+  tags: [PRACT, POS, CNF, PPML, COREAS]
   
 - name: IJCAI-ECAI
   description: International Joint Conference on Artificial Intelligence
@@ -962,7 +962,7 @@
   date: December 02-07
   place: San Diego, California
   comment: Notification - September 18. Position Papers.
-  tags: [PRACT, CNF, PPML, COREAS, EXP]
+  tags: [PRACT, POS, CNF, PPML, COREAS, EXP]
   
 - name: MLSys
   description: Conference on Machine Learning and Systems

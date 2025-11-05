@@ -12,6 +12,8 @@ filter1:
     tag: HW
   - name: SoKs
     tag: SOK
+  - name: Position
+    tag: POS
 
 filter2:
   - name: Conferences
