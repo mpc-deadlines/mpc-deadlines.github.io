@@ -1,0 +1,12 @@
+.corerank {
+  color: #C71585;
+}
+
+h2 .evtname {
+    color: #4393d5 !important;
+    font-size: 1.3em !important;
+}
+
+.past {
+  opacity: 0.5;
+}

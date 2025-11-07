@@ -760,6 +760,16 @@
   comment: Notification - August 16. Has proceedings.
   conference: ACM CCS.
   tags: [PRACT, WK]
+
+  name: APKC
+  description: ACM ASIA Public-Key Cryptography Workshop
+  year: 2026
+  link: https://iseclab.ec.t.kanazawa-u.ac.jp/en/APKC2026.html
+  comment: Co-located with ACM AsiaCCS 2026
+  deadline: ["2026-01-20 23:59"]
+  date: June 2 
+  place: Bangalore, India
+  tags: [SEC, CRYPTO, SHOP]
   
 # Posters
 
