@@ -688,14 +688,14 @@
   
 - name: LM-SHIELD
   description: Privacy in Large Language Models (LLM) and Natural Language Processing (NLP)
-  year: 2025
-  link: https://sites.google.com/view/lm-shield2025/
-  deadline: ["2025-04-25 23:59"]
-  date: August 26
-  place: Hanoi, Vietnam
-  comment: Notification - May 08. Has proceedings.
-  conference: AsiaCCS.
-  tags: [PRACT, PPML, WK]
+  year: 2026
+  link: https://sites.google.com/view/lm-shield2026/
+  deadline: ["2026-01-20 23:59"]
+  date: June 02
+  place: Bangalore, India
+  comment: Notification - March 30. Has proceedings.
+  conference: ACM ASIACCS.
+  tags: [PRACT, PPML, WK, EXPCFP]
 
 - name: FLCA
   description: AAAI Workshop on Federated Learning For Critical Applications
