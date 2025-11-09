@@ -607,6 +607,17 @@
   conference: ACM CCS.
   tags: [PRACT, PPML, SOK, WK]
   
+- name: APKC
+  description: ACM ASIA Public-Key Cryptography Workshop
+  year: 2026
+  link: https://iseclab.ec.t.kanazawa-u.ac.jp/en/APKC2026.html
+  deadline: ["2026-01-20 23:59"]
+  date: June 02
+  place: Bangalore, India
+  comment: Notification - March 30. Has proceedings.
+  conference: ACM ASIACCS.
+  tags: [THEORY, PRACT, WK]
+  
 - name: CPSIoTSec
   description: Workshop on CPS&IoT Security and Privacy
   year: 2025
