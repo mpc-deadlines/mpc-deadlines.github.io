@@ -99,12 +99,12 @@
   description: ACM Symposium on Principles of Distributed Computing
   year: 2026
   link: https://www.podc.org/podc2026/
-  abdeadline: February 04
-  deadline: ["2026-02-08 23:59"]
-  date: June 16-20
-  place: Huatulco, Mexico
-  comment: Notification - April 17. Includes Brief Announcements.
-  tags: [THEORY, CNF, COREAS, EXP]
+  abdeadline: February 11
+  deadline: ["2026-02-16 23:59"]
+  date: June 06-10
+  place: Egham, England
+  comment: Notification - April 29. Includes Brief Announcements.
+  tags: [THEORY, CNF, COREAS]
 
 - name: USENIX Security
   description: Usenix Security Symposium
