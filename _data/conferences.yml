@@ -1068,12 +1068,12 @@
 - name: PhD Symposium at The Web Conference
   description: The Web Conference (WWW)
   year: 2026
-  link: https://www2026.thewebconf.org/phd-symposium
-  deadline: ["2025-12-18 23:59"]
-  date: April 28 - May 02
-  place: Sydney, Australia
-  comment: Notification - January 20. Has proceedings.
-  tags: [APPLIED, MISC, EXP]
+  link: https://www2026.thewebconf.org/calls/phd-symposium.html
+  deadline: ["2026-01-05 23:59"]
+  date: April 14
+  place: Dubai, UAE
+  comment: Notification - February 03. Has proceedings.
+  tags: [APPLIED, MISC]
 
 # Journals
 
