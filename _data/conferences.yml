@@ -931,13 +931,13 @@
   description: International Joint Conference on Artificial Intelligence
   year: 2026
   link: https://2026.ijcai.org
-  abdeadline: January 16
-  deadline: ["2026-01-23 23:59"]
+  abdeadline: January 12
+  deadline: ["2026-01-19 23:59"]
   rebut: April 06-09
   date: August 15-21
   place: Bremen, Germany
-  comment: Notification - April 28
-  tags: [PRACT, CNF, PPML, COREAS, EXPCFP]
+  comment: Notification - April 29. Early Reject - March 04.
+  tags: [PRACT, CNF, PPML, COREAS]
 
 - name: IEEE SaTML
   description: IEEE Conference on Secure and Trustworthy Machine Learning
