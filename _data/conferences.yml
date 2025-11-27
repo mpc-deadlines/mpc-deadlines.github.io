@@ -693,9 +693,9 @@
   deadline: ["2026-01-20 23:59"]
   date: June 02
   place: Bangalore, India
-  comment: Notification - March 30. Has proceedings.
+  comment: Notification - March 16. Has proceedings.
   conference: ACM ASIACCS.
-  tags: [PRACT, PPML, WK, EXPCFP]
+  tags: [PRACT, PPML, WK]
 
 - name: FLCA
   description: AAAI Workshop on Federated Learning For Critical Applications
