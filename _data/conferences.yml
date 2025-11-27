@@ -632,15 +632,15 @@
 - name: CPSS
   description: ACM Cyber-Physical System Security Workshop
   year: 2026
-  link: http://jianying.space/cpss/CPSS2025/
+  link: https://cpss26.github.io
   deadline:
-    - "2026-01-10 23:59"
+    - "2026-01-24 23:59"
     - "2026-03-15 23:59"
-  date: June 01
+  date: June 02
   place: Bangalore, India
-  comment: Notification - February 15, April 25. Has proceedings.
+  comment: Notification - March 15, April 25. Has proceedings.
   conference: AsiaCCS.
-  tags: [PRACT, APPLIED, WK, EXP]
+  tags: [PRACT, APPLIED, WK]
   
 - name: DLSP
   description: Deep Learning Security and Privacy Workshop
