@@ -225,12 +225,12 @@
   year: 2026
   link: https://sites.google.com/di.uniroma1.it/esorics2026/
   deadline:
-    - "2026-01-10 23:59"
-    - "2026-04-29 23:59"
+    - "2026-01-09 23:59"
+    - "2026-04-21 23:59"
   date: September 22-26
   place: Rome, Italy
-  comment: Notification - March 21, June 13.
-  tags: [PRACT, CNF, COREA, EXPCFP]
+  comment: Notification - March 24, June 12.
+  tags: [PRACT, CNF, COREA]
 
 - name: FC
   description: Financial Cryptography and Data Security
