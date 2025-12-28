@@ -453,14 +453,14 @@
 - name: SOUPS
   description: Symposium on Usable Privacy and Security
   year: 2026
-  link: https://www.usenix.org/conference/soups2026
-  abdeadline: February 06
-  deadline: ["2026-02-13 23:59"]
-  rebut: April 17-24 
-  date: August 10-12
-  place: Seattle, WA, USA
-  comment: co-located with USENIX Security. Notification - May 15.
-  tags: [PRACT, CNF, SOK, COREB, EXP]
+  link: https://soups.page
+  abdeadline: February 12
+  deadline: ["2026-02-19 23:59"]
+  rebut: April 23-30 
+  date: August 23-26
+  place: Hannover, Germany
+  comment: co-located with USENIX Security. Notification - May 19.
+  tags: [PRACT, CNF, SOK, COREB]
 
 # CORE C
 
