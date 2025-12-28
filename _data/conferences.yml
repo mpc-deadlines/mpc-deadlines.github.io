@@ -1079,7 +1079,7 @@
 
 - name: ACM TOPS
   description: ACM Transactions on Privacy and Security
-  year: 2025
+  year: 2026
   link: https://dl.acm.org/journal/tops/author-guidelines
   deadline: ["%y-12-31 23:59"]
   portal: https://mc.manuscriptcentral.com/tops
@@ -1100,7 +1100,7 @@
 
 - name: IACR JoC
   description: Journal of Cryptology
-  year: 2025
+  year: 2026
   link: https://www.iacr.org/jofc/
   deadline: ["%y-12-31 23:59"]
   portal: https://www.editorialmanager.com/jcryptology/
@@ -1109,7 +1109,7 @@
   
 - name: IEEE TC
   description: IEEE Transactions on Computers
-  year: 2025
+  year: 2026
   link: https://www.computer.org/digital-library/journals/tc/call-for-papers-general-submissions
   deadline: ["%y-12-31 23:59"]
   portal: https://mc.manuscriptcentral.com/tc-cs
@@ -1118,7 +1118,7 @@
 
 - name: IEEE TDSC
   description: IEEE Transactions on Dependable and Secure Computing
-  year: 2025
+  year: 2026
   link: https://www.computer.org/csdl/journal/tq/write-for-us/15068
   deadline: ["%y-12-31 23:59"]
   portal: https://mc.manuscriptcentral.com/tdsc-cs
@@ -1127,7 +1127,7 @@
   
 - name: IEEE TIFS
   description: IEEE Transactions on Information Forensics and Security
-  year: 2025
+  year: 2026
   link: https://signalprocessingsociety.org/publications-resources/information-authors
   deadline: ["%y-12-31 23:59"]
   portal: https://mc.manuscriptcentral.com/tifs-ieee
@@ -1136,7 +1136,7 @@
   
 - name: IEEE TPDS
   description: IEEE Transactions on Parallel and Distributed Systems
-  year: 2025
+  year: 2026
   link: https://www.computer.org/csdl/journal/td/
   deadline: ["%y-12-31 23:59"]
   portal: https://mc.manuscriptcentral.com/tpds-cs
@@ -1145,7 +1145,7 @@
   
 - name: IEEE ToSC
   description: IEEE Transactions on Services Computing
-  year: 2025
+  year: 2026
   link: https://www.computer.org/csdl/journal/sc
   deadline: ["%y-12-31 23:59"]
   portal: https://mc.manuscriptcentral.com/tsc-cs
@@ -1154,7 +1154,7 @@
 
 - name: JACM
   description: Journal of the ACM
-  year: 2025
+  year: 2026
   link: https://dl.acm.org/journal/jacm
   deadline: ["%y-12-31 23:59"]
   portal: https://mc.manuscriptcentral.com/jacm
@@ -1163,7 +1163,7 @@
   
 - name: JCSS
   description: Journal of Computer and System Sciences
-  year: 2025
+  year: 2026
   link: https://www.elsevier.com/journals/journal-of-computer-and-system-sciences/0022-0000/guide-for-authors
   deadline: ["%y-12-31 23:59"]
   portal: https://www.editorialmanager.com/jcss/
@@ -1172,7 +1172,7 @@
   
 - name: JPDC
   description: Journal of Parallel and Distributed Computing
-  year: 2025
+  year: 2026
   link: https://www.elsevier.com/journals/journal-of-parallel-and-distributed-computing/0743-7315/guide-for-authors
   deadline: ["%y-12-31 23:59"]
   portal: https://www.editorialmanager.com/jpdc/
