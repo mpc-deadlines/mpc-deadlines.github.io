@@ -523,6 +523,20 @@
 
 # CORE Others
 
+- name: ACM SoCC
+  description: ACM Symposium on Cloud Computing
+  year: 2026
+  link: https://acmsocc.org/2026/papers.html
+  abdeadline: Feb 06, July 07.
+  deadline: 
+    - "2026-02-13 23:59"
+    - "2026-07-14 23:59"
+  rebut: April 12-14, September 10-12
+  date: November 18-20
+  place: Singapore
+  comment: Notification - April 29, September 26.
+  tags: [PRACT, APPLIED, CNF, COREO]
+
 - name: AfricaCrypt
   description: International Conference on Cryptology
   year: 2026
