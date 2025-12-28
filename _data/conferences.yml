@@ -866,6 +866,16 @@
   comment: Notification - March 15.
   tags: [CRS, EXPCFP]
   
+- name: IAS Winter School
+  description: Winter School on Cryptography and Machine Learning 
+  year: 2026
+  link: https://www.multipartycomputation.com/tpmpc-2026
+  deadline: ["2026-01-19 23:59"]
+  date: February 02-05
+  place: Turin, Italy
+  comment: Free registration with financial support.
+  tags: [CRS]
+  
 # Machine Learning and Data Science
 
 - name: AAAI
