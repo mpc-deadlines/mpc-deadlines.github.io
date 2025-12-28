@@ -753,6 +753,17 @@
   comment: Notification - January 10.
   tags: [PRACT, APPLIED, WK, EXPCFP]
   
+- name: RWMPC
+  description: Real World MPC
+  year: 2026
+  link: https://www.mpcalliance.org/rwmpc-2026
+  deadline: ["2026-01-31 23:59"]
+  date: March 07
+  place: Taipei, Taiwan
+  comment: Notification - February 13.
+  conference: RWC
+  tags: [PRACT, APPLIED, WK]
+  
 - name: SECAI
   description: Workshop on Security and Artificial Intelligence
   year: 2025
