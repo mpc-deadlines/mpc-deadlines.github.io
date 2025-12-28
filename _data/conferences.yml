@@ -1089,12 +1089,12 @@
 - name: IACR CiC
   description: Communications in Cryptology
   year: 2026
-  link: https://cic.iacr.org/callforpapers
+  link: https://cic.iacr.org
   deadline: 
-    - "2026-01-08 23:59"
-    - "2026-04-08 23:59"
-    - "2026-07-08 23:59"
-    - "2026-10-08 23:59"
+    - "2026-02-02 23:59"
+    - "2026-04-27 23:59"
+    - "2026-07-27 23:59"
+    - "2026-10-26 23:59"
   comment: Notification in two months. 
   tags: [THEORY, PRACT, JRN, EXP]
 
