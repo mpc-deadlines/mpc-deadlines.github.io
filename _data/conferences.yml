@@ -1152,7 +1152,7 @@
     - "2026-07-27 23:59"
     - "2026-10-26 23:59"
   comment: Notification in two months. 
-  tags: [THEORY, PRACT, JRN, EXP]
+  tags: [THEORY, PRACT, JRN]
 
 - name: IACR JoC
   description: Journal of Cryptology
