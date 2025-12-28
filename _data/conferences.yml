@@ -804,11 +804,11 @@
   description: ACM Asia Conference on Computer and Communications Security
   year: 2026
   link: https://asiaccs2026.cse.iitkgp.ac.in/
-  deadline: ["2026-03-16 23:59"]
+  deadline: ["2026-02-07 23:59"]
   date: June 01-06
   place: Bangalore, India
-  comment: Notification - March 26. Has proceedings.
-  tags: [PRACT, PS, EXPCFP]
+  comment: Notification - March 07. Has proceedings.
+  tags: [PRACT, PS]
   
 - name: ACM CCS
   description: ACM Conference on Computer and Communications Security
