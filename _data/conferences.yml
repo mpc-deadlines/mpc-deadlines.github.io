@@ -28,12 +28,12 @@
   description: International Cryptology Conference
   year: 2026
   link: https://crypto.iacr.org/2026
-  deadline: ["2026-02-13 23:59"]
+  deadline: ["2026-02-12 23:59"]
   rebut: April 07-12
-  date: August 17-21
+  date: August 17-20
   place: Santa Barbara, USA
   comment: Notification - May 03.
-  tags: [THEORY, CNF, COREAS, EXP]
+  tags: [THEORY, CNF, COREAS, EXPCFP]
   
 - name: EUROCRYPT
   description: European Cryptology Conference
