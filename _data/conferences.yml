@@ -656,17 +656,6 @@
   conference: AsiaCCS.
   tags: [PRACT, APPLIED, WK]
   
-- name: DLSP
-  description: Deep Learning Security and Privacy Workshop
-  year: 2026
-  link: https://dlsp2026.ieee-security.org
-  deadline: ["2026-02-14 23:59"]
-  date: May 18
-  place: San Francisco, California, USA
-  comment: Notification - March 14. Has proceedings.
-  conference: IEEE S&P.
-  tags: [PRACT, PPML, WK, EXP]
-  
 - name: FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
   year: 2026
