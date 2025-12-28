@@ -526,12 +526,12 @@
 - name: AfricaCrypt
   description: International Conference on Cryptology
   year: 2026
-  link: https://africacrypt2026.sciencesconf.org
-  deadline: ["2026-03-10 23:59"]
-  date: July 21-23
-  place: Rabat, Morocco
-  comment: Notification - May 01.
-  tags: [THEORY, PRACT, CNF, COREO, EXP]
+  link: https://www.africacrypt2026.tn
+  deadline: ["2026-03-01 23:59"]
+  date: July 08-10
+  place: Hammamet, Tunisia
+  comment: Notification - April 20.
+  tags: [THEORY, PRACT, CNF, COREO]
   
 - name: ArcticCrypt
   description: European Cryptology Conference
