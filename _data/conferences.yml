@@ -1006,10 +1006,10 @@
   link: https://neurips.cc/
   abdeadline: May 11
   deadline: ["2026-05-15 07:59"]
-  date: December 02-07
-  place: San Diego, California
+  date: December 06-12
+  place: Sydney, Australia
   comment: Notification - September 18. Position Papers.
-  tags: [PRACT, POS, CNF, PPML, COREAS, EXP]
+  tags: [PRACT, POS, CNF, PPML, COREAS, EXPCFP]
   
 - name: MLSys
   description: Conference on Machine Learning and Systems
