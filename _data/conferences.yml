@@ -931,14 +931,14 @@
   
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
-  year: 2025
-  link: https://ecmlpkdd.org/2025/
+  year: 2026
+  link: https://ecmlpkdd.org/2026/
   abdeadline: March 07
-  deadline: ["2025-03-14 23:59"]
-  date: September 15-19
-  place: Porto, Portugal
-  comment: Notification - June 26. Has Applied Data Science Track.
-  tags: [PRACT, CNF, PPML, COREA]
+  deadline: ["2026-03-14 23:59"]
+  date: September 07-11
+  place: Naples, Italy
+  comment: Notification - June 26. Applied Data Science and Industrial Tracks.
+  tags: [PRACT, CNF, PPML, COREA, EXPCFP]
   
 - name: ICLR
   description: International Conference on Learning Representations
