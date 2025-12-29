@@ -158,12 +158,11 @@
 - name: VLDB (Industrial Track)
   description: International Conference on Very Large Data Bases
   year: 2026
-  link: https://vldb.org/2026/?call-for-industrial-track
-  deadline: ["2025-03-17 16:59"]
-  timezone: PT
+  link: https://vldb.org/2026/call-for-industrial-track.html
+  deadline: ["2026-03-02 23:59"]
   date: August 31 - September 04
   place: Boston, MA, USA
-  comment: One author should have industry affiliation. Notification - May 19.
+  comment: One author should have industry affiliation. Notification - April 27.
   tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
 
 # CORE A
