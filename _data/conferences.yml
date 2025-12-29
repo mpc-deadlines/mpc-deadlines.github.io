@@ -60,12 +60,12 @@
   description: IEEE International Conference on Computer Communications
   year: 2027  
   link: https://infocom2027.ieee-infocom.org
-  abdeadline: July 24
-  deadline: ["2026-07-31 23:59"]
-  date: May 18-21
-  place: Tokyo, Japan
-  comment: Notification - December 08.
-  tags: [PRACT, APPLIED, CNF, COREAS, EXP]
+  abdeadline: July 17
+  deadline: ["2026-07-24 23:59"]
+  date: May 17-20
+  place: Honolulu, Hawai
+  comment: Notification - December 01.
+  tags: [PRACT, APPLIED, CNF, COREAS, EXPCFP]
 
 - name: IEEE S&P (Oakland)
   description: IEEE Symposium on Security and Privacy
