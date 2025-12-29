@@ -515,11 +515,11 @@
   description: Conference on Security and Cryptography for Networks
   year: 2026
   link: https://scn.unisa.it/scn26/
-  deadline: ["2026-04-24 23:59"]
-  date: September 11-13
+  deadline: ["2026-02-28 23:59"]
+  date: September 14-16
   place: Amalfy, Italy
-  comment: Notification - June 24. Occurs once in two years.
-  tags: [PRACT, APPLIED, CNF, COREN, EXP]
+  comment: Notification - April 28. Occurs once in two years.
+  tags: [PRACT, APPLIED, CNF, COREN]
 
 
 # CORE Others
