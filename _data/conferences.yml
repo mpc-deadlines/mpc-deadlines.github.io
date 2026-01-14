@@ -933,12 +933,22 @@
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
   year: 2026
   link: https://ecmlpkdd.org/2026/
-  abdeadline: March 07
-  deadline: ["2026-03-14 23:59"]
+  abdeadline: March 05
+  deadline: ["2026-03-12 23:59"]
   date: September 07-11
   place: Naples, Italy
-  comment: Notification - June 26. Applied Data Science and Industrial Tracks.
-  tags: [PRACT, CNF, PPML, COREA, EXPCFP]
+  comment: Notification - May 27. Applied Data Science and Industrial Tracks.
+  tags: [PRACT, CNF, PPML, COREA]
+  
+- name: ECMLPKDD (Industrial)
+  description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+  year: 2026
+  link: https://ecmlpkdd.org/2026/
+  deadline: ["2026-04-26 23:59"]
+  date: September 07-11
+  place: Naples, Italy
+  comment: Notification - May 27.
+  tags: [PRACT, CNF, PPML, COREA]
   
 - name: ICLR
   description: International Conference on Learning Representations
