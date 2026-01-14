@@ -29,11 +29,12 @@
   year: 2026
   link: https://crypto.iacr.org/2026
   deadline: ["2026-02-12 23:59"]
-  rebut: April 07-12
+  timezone: PT
+  rebut: April 07-13
   date: August 17-20
   place: Santa Barbara, USA
-  comment: Notification - May 03.
-  tags: [THEORY, CNF, COREAS, EXPCFP]
+  comment: Notification - May 04. Early reject - April 07.
+  tags: [THEORY, CNF, COREAS]
   
 - name: EUROCRYPT
   description: European Cryptology Conference
