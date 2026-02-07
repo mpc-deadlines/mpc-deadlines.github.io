@@ -170,16 +170,16 @@
 
 - name: ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
-  year: 2026
+  year: 2027
   link: https://asiaccs2026.cse.iitkgp.ac.in/call-for-papers/
   deadline:
-    - "2025-08-25 23:59"
-    - "2025-12-12 23:59"
+    - "2026-08-25 23:59"
+    - "2026-12-12 23:59"
   rebut: October 27-30, February 16-19
-  date: June 01-06
-  place: Bangalore, India
+  date: July 12-16
+  place: Macau, China
   comment: Early Reject - October 01, January 21. Notification - November 19, March 10.
-  tags: [PRACT, CNF, SOK, COREA]
+  tags: [PRACT, CNF, SOK, COREA, EXPCFP]
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
