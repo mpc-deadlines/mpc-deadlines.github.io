@@ -881,6 +881,16 @@
   tags: [PRACT, APPLIED, PS]
 
 # CryptoSchools
+
+- name: TPDP
+  description: Theory and Practice of Differential Privacy 
+  year: 2026
+  link: https://tpdp.journalprivacyconfidentiality.org/2026/
+  deadline: ["2026-02-18 23:59"]
+  date: June 01-02
+  place: Boston, USA
+  comment: Notification - April 02.
+  tags: [CRS]
   
 - name: TPMPC
   description: Theory and Practice of Multi-Party Computation Workshop 
