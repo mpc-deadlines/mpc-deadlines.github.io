@@ -1090,6 +1090,16 @@
   
 # Miscellaneous
 
+- name: CNIL-Inria Privacy Award
+  description: CNIL-Inria Privacy Award
+  year: 2026
+  link: https://www.cnil.fr/en/launch-10th-edition-cnil-inria-privacy-award
+  deadline: ["2026-02-20 23:59"]
+  date: June 24
+  place: Paris, France
+  comment: For works published between January 2023 to 2026. Notification - June 01.
+  tags: [MISC]
+
 - name: Cybersecurity Artifacts Competition and Impact Award
   description: ACSAC
   year: 2025
