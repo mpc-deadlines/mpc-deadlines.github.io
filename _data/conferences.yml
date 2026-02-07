@@ -1120,6 +1120,15 @@
   comment: Notification - May 07.
   tags: [PRACT, APPLIED, MISC]
   
+- name: IEEE Cybersecurity Award for Practice
+  description: IEEE
+  year: 2026
+  link: https://sp2026.ieee-security.org/nominations-cybersecurity-award.html
+  deadline: ["2026-02-24 23:59"]
+  date: May 18-21
+  place: San Francisco, CA
+  tags: [MISC]
+  
 - name: IEEE S&P Short Talk
   description: IEEE Symposium on Security and Privacy
   year: 2025
