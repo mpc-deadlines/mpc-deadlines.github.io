@@ -307,6 +307,18 @@
   place: Lisbon Portugal
   comment: co-located with FLoC 2026. Notification - September 25, December 11, April 01.
   tags: [THEORY, CNF, COREA, SOK]
+
+- name: IEEE Euro S&P
+  description: IEEE European Symposium on Security and Privacy
+  year: 2026
+  link: https://www.ieee-security.org/TC/EuroSP2026/
+  abdeadline: November 13
+  deadline: ["2025-11-20 23:59"]
+  rebut: February 11-16
+  date: July 06-10
+  place: Lisbon, Portugal
+  comment: Notification - March 05.
+  tags: [PRACT, APPLIED, SOK, CNF, COREA]
   
 - name: IEEE ICDCS
   description: IEEE International Conference on Distributed Computing Systems
@@ -344,18 +356,18 @@
   place: Calgary, Canada
   comment: Notifications - 1st of August, November, February, May.
   tags: [PRACT, APPLIED, SOK, CNF, COREA]
-
-- name: IEEE Euro S&P
-  description: IEEE European Symposium on Security and Privacy
+  
+- name: SOUPS
+  description: Symposium on Usable Privacy and Security
   year: 2026
-  link: https://www.ieee-security.org/TC/EuroSP2026/
-  abdeadline: November 13
-  deadline: ["2025-11-20 23:59"]
-  rebut: February 11-16
-  date: July 06-10
-  place: Lisbon, Portugal
-  comment: Notification - March 05.
-  tags: [PRACT, APPLIED, SOK, CNF, COREA]
+  link: https://soups.page
+  abdeadline: February 12
+  deadline: ["2026-02-19 23:59"]
+  rebut: April 23-30 
+  date: August 23-26
+  place: Hannover, Germany
+  comment: Notification - May 19.
+  tags: [PRACT, CNF, SOK, COREA]
   
 # CORE B
 
@@ -468,18 +480,6 @@
   place: Ottawa, Ontario
   comment: Notification - March 19, June 25
   tags: [THEORY, PRACT, CNF, COREB]
-
-- name: SOUPS
-  description: Symposium on Usable Privacy and Security
-  year: 2026
-  link: https://soups.page
-  abdeadline: February 12
-  deadline: ["2026-02-19 23:59"]
-  rebut: April 23-30 
-  date: August 23-26
-  place: Hannover, Germany
-  comment: Notification - May 19.
-  tags: [PRACT, CNF, SOK, COREB]
   
 - name: TCC
   description: Theory of Cryptography Conference
