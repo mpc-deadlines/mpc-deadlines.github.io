@@ -744,12 +744,12 @@
   description: MPC Security in Practice
   year: 2026
   link: https://mpcinthewild.github.io
-  deadline: ["2026-01-31 23:59"]
+  deadline: ["2026-03-02 23:59"]
   date: May 18
   place: Aarhus, Denmark
-  comment: Notification - February 13. Internship application deadline - Jan 07.
+  comment: Notification - March 31. Internship application deadline - Jan 07.
   conference: TPMPC
-  tags: [PRACT, APPLIED, WK, EXPCFP]
+  tags: [PRACT, APPLIED, WK]
   
 - name: PPML CRYPTO
   description: Privacy-Preserving Machine Learning Workshop
