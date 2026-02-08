@@ -912,6 +912,16 @@
   comment: Free registration with financial support.
   tags: [CRS]
   
+- name: Real World AI Security
+  description: The Real World AI Security conference 
+  year: 2026
+  link: https://seclab.stanford.edu/RealWorldAIsec/
+  deadline: ["2026-03-30 23:59"]
+  date: June 23-25
+  place: Stanford University
+  comment: Covers the most impactful AI security results of the year.
+  tags: [CRS]
+  
 # Machine Learning and Data Science
 
 - name: AAAI
