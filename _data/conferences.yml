@@ -926,15 +926,15 @@
 
 - name: AAAI
   description: Conference on Artificial Intelligence
-  year: 2026
-  link: https://aaai.org/conference/aaai/aaai-26/
+  year: 2027
+  link: https://aaai.org/conference/aaai/aaai-27/
   abdeadline: July 25
-  deadline: ["2025-08-01 23:59"]
+  deadline: ["2026-08-01 23:59"]
   rebut: October 02-08
   date: January 20-27
-  place: Singapore EXPO
+  place: Montreal, Canada
   comment: Notification - November 03. Early Reject - September 08.
-  tags: [PRACT, CNF, PPML, COREAS]
+  tags: [PRACT, CNF, PPML, COREAS, EXPCFP]
   
 - name: ACML
   description: Asian Conference on Machine Learning
