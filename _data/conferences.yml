@@ -210,15 +210,15 @@
 
 - name: DISC
   description: International Symposium on Distributed Computing
-  year: 2025
-  link: https://www.disc-conference.org/wp/disc2025/
+  year: 2026
+  link: https://www.disc-conference.org/wp/disc2026/
   abdeadline: May 20
-  deadline: ["2025-05-23 23:59"]
+  deadline: ["2026-05-23 23:59"]
   rebut: July 07-14
   date: October 27-31
-  place: Berlin, Germany
+  place: Rome, Italy
   comment: Includes Brief Announcements. Notification - August 07.
-  tags: [THEORY, PRACT, CNF, COREA]
+  tags: [THEORY, PRACT, CNF, COREA, EXPCFP]
 
 - name: ESORICS
   description: European Symposium on Research in Computer Security
