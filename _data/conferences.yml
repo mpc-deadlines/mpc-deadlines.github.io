@@ -208,6 +208,17 @@
   place: Macau, China
   comment: Early Reject - October 01, January 21. Notification - November 19, March 10.
   tags: [PRACT, CNF, SOK, COREA, EXPCFP]
+  
+- name: ACSAC
+  description: Annual Computer Security Applications Conference
+  year: 2025
+  link: https://www.acsac.org/2025
+  deadline: ["2025-05-30 23:59"]
+  rebut: August 18-22
+  date: December 09-32
+  place: Honolulu, Hawaii, USA
+  comment: Early Reject - July 14. Notification - September 03.
+  tags: [PRACT, APPLIED, CNF, COREA]
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
@@ -259,6 +270,20 @@
   place: Rome, Italy
   comment: Notification - March 24, June 12.
   tags: [PRACT, CNF, COREA]
+  
+- name: EuroSys
+  description: The European Conference on Computer Systems
+  year: 2026
+  link: https://2026.eurosys.org
+  abdeadline: May 08, September 18
+  deadline: 
+    - "2025-05-15 23:59"
+    - "2025-09-25 23:59"
+  rebut: July 30-August 01, January 07-09
+  date: April 13-16
+  place: Edinburgh
+  comment: Notification - August 22, January 30
+  tags: [THEORY, CNF, COREA]
 
 - name: FC
   description: Financial Cryptography and Data Security
@@ -319,41 +344,6 @@
   place: Calgary, Canada
   comment: Notifications - 1st of August, November, February, May.
   tags: [PRACT, APPLIED, SOK, CNF, COREA]
-
-- name: TCC
-  description: Theory of Cryptography Conference
-  year: 2025
-  link: https://tcc.iacr.org/2025/
-  deadline: ["2025-05-27 19:59"]
-  date: December 02-05
-  place: Aarhus, Denmark
-  comment: Notification - August 28.
-  tags: [THEORY, CNF, COREA]
-  
-- name: ACSAC
-  description: Annual Computer Security Applications Conference
-  year: 2025
-  link: https://www.acsac.org/2025
-  deadline: ["2025-05-30 23:59"]
-  rebut: August 18-22
-  date: December 09-32
-  place: Honolulu, Hawaii, USA
-  comment: Early Reject - July 14. Notification - September 03.
-  tags: [PRACT, APPLIED, CNF, COREA]
-  
-- name: EuroSys
-  description: The European Conference on Computer Systems
-  year: 2026
-  link: https://2026.eurosys.org
-  abdeadline: May 08, September 18
-  deadline: 
-    - "2025-05-15 23:59"
-    - "2025-09-25 23:59"
-  rebut: July 30-August 01, January 07-09
-  date: April 13-16
-  place: Edinburgh
-  comment: Notification - August 22, January 30
-  tags: [THEORY, CNF, COREA]
 
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
@@ -490,6 +480,16 @@
   place: Hannover, Germany
   comment: Notification - May 19.
   tags: [PRACT, CNF, SOK, COREB]
+  
+- name: TCC
+  description: Theory of Cryptography Conference
+  year: 2025
+  link: https://tcc.iacr.org/2025/
+  deadline: ["2025-05-27 19:59"]
+  date: December 02-05
+  place: Aarhus, Denmark
+  comment: Notification - August 28.
+  tags: [THEORY, CNF, COREB]
 
 # CORE C
 
