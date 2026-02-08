@@ -804,6 +804,17 @@
   conference: ESORICS.
   tags: [PRACT, WK]
   
+- name: SeQureDB
+  description: Workshop on Secure and Private Data Management
+  year: 2026
+  link: https://sequredb.github.io
+  deadline: ["2026-03-05 23:59"]
+  date: May 31
+  place: Bengaluru, India
+  comment: Notification - March 26. Differential privacy, private data analytics.
+  conference: ACM SIGMOD+PODS.
+  tags: [PRACT, PPML, WK]
+  
 - name: WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2025
