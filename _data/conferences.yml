@@ -599,11 +599,11 @@
   description: Information-Theoretic Cryptography
   year: 2026
   link: https://itcrypto.github.io/2026/index.html
-  deadline: ["2026-03-14 23:59"]
-  date: August 16-17
+  deadline: ["2026-03-12 23:59"]
+  date: August 15-16
   place: Santa Barbara, CA, USA
-  comment: Notification - May 30.
-  tags: [THEORY, CNF, COREO, EXP]
+  comment: Notification - May 08.
+  tags: [THEORY, CNF, COREO]
   
 - name: IEEE CNS
   description: IEEE Conference on Communications and Network Security
