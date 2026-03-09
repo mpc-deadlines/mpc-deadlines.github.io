@@ -966,16 +966,16 @@
   
 - name: ACML
   description: Asian Conference on Machine Learning
-  year: 2025
-  link: https://www.acml-conf.org/2025/
+  year: 2026
+  link: https://www.acml-conf.org/2026/
   deadline:
-    - "2025-05-30 23:59"
-    - "2025-06-26 23:59"
+    - "2026-05-30 23:59"
+    - "2026-06-26 23:59"
   rebut: August 04-11
   date: December 09-12
   place: Taipei, Taiwan
   comment: Journal (May) and Conference (June) tracks. Notification - September 01. One author as mandatory reviewer.
-  tags: [PRACT, CNF, PPML, COREC]
+  tags: [PRACT, CNF, PPML, COREC, EXP]
   
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
