@@ -70,17 +70,17 @@
 
 - name: IEEE S&P (Oakland)
   description: IEEE Symposium on Security and Privacy
-  year: 2026  
-  link: https://sp2026.ieee-security.org/
+  year: 2027  
+  link: https://sp2027.ieee-security.org/
   abdeadline: May 29, November 6
   deadline:
-    - "2025-06-05 23:59"
-    - "2025-11-13 23:59"
+    - "2026-06-05 23:59"
+    - "2026-11-13 23:59"
   rebut: August 18-29, February 12-23
   date: May 18–21
   place: San Francisco, California, USA
   comment: Early Reject -  July 21, January 19. Notification - September 09, March 09.
-  tags: [PRACT, APPLIED, SOK, CNF, COREAS]
+  tags: [PRACT, APPLIED, SOK, CNF, COREAS, EXP]
   
 - name: NDSS
   description: Network and Distributed System Security Symposium
