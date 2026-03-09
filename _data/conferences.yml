@@ -675,12 +675,10 @@
   description: ACM Cyber-Physical System Security Workshop
   year: 2026
   link: https://cpss26.github.io
-  deadline:
-    - "2026-01-24 23:59"
-    - "2026-03-15 23:59"
+  deadline: ["2026-01-31 23:59"]
   date: June 02
   place: Bangalore, India
-  comment: Notification - March 15, April 25. Has proceedings.
+  comment: Notification - March 15. Has proceedings.
   conference: AsiaCCS.
   tags: [PRACT, APPLIED, WK]
   
