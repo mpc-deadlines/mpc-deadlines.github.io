@@ -763,16 +763,6 @@
   
 - name: RWC
   description: Real World Crypto
-  year: 2026
-  link: https://rwc.iacr.org/2026/
-  deadline: ["2025-10-10 23:59"]
-  date: March 09-11
-  place: Taipei, Taiwan
-  comment: Notification - December 08.
-  tags: [PRACT, APPLIED, WK]
-  
-- name: RWC
-  description: Real World Crypto
   year: 2027
   link: https://rwc.iacr.org/2027/
   deadline: ["2026-11-16 23:59"]
