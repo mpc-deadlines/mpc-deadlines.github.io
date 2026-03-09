@@ -891,12 +891,12 @@
 - name: IEEE S&P
   description: IEEE Symposium on Security and Privacy
   year: 2026
-  link: https://www.ieee-security.org/TC/SP2026/cfposters.html
-  deadline: ["2026-04-15 23:59"]
+  link: https://sp2026.ieee-security.org/cfposters.html
+  deadline: ["2026-03-20 23:59"]
   date: May 18-21
   place: San Francisco, California, USA
-  comment: Notification - April 22. No proceedings. 
-  tags: [PRACT, PS, EXP]
+  comment: Notification - March 30. No proceedings. 
+  tags: [PRACT, PS]
 
 - name: NDSS
   description: Network and Distributed System Security Symposium
