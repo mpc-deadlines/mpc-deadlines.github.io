@@ -343,18 +343,18 @@
   
 - name: PETS
   description: Privacy Enhancing Technologies Symposium
-  year: 2026
-  link: https://petsymposium.org/cfp26.php
+  year: 2027
+  link: https://petsymposium.org/cfp27.php
   deadline:
-    - "2025-05-31 23:59"
-    - "2025-08-31 23:59"
-    - "2025-11-30 23:59"
-    - "2026-02-28 23:59"
+    - "2026-05-31 23:59"
+    - "2026-08-31 23:59"
+    - "2026-11-30 23:59"
+    - "2027-02-28 23:59"
   rebut: July 11-17, October 10-16, January 12-19, April 10-16.
   date: July 15-20
   place: Calgary, Canada
   comment: Notifications - 1st of August, November, February, May.
-  tags: [PRACT, APPLIED, SOK, CNF, COREA]
+  tags: [PRACT, APPLIED, SOK, CNF, COREA, EXP]
   
 - name: SOUPS
   description: Symposium on Usable Privacy and Security
