@@ -137,15 +137,15 @@
 
 - name: USENIX Security
   description: Usenix Security Symposium
-  year: 2026
-  link: https://www.usenix.org/conference/usenixsecurity26
-  abdeadline: August 19, January 29
+  year: 2027
+  link: https://www.usenix.org/conference/usenixsecurity27
+  abdeadline: August 18, January 19
   deadline:
-    - "2025-08-26 23:59"
-    - "2026-02-05 23:59"
+    - "2026-08-25 23:59"
+    - "2027-01-26 23:59"
   rebut: November 06-13, April 16-23
-  date: August 12-14
-  place: Baltimore, MD, USA
+  date: August 11-13
+  place: Denver, CO, USA
   comment: Early Reject - October 07, March 17. Notification - December 04, May 14. No major revision, but two week shepherding.
   tags: [PRACT, APPLIED, SOK, CNF, COREAS]
   
