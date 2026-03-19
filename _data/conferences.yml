@@ -55,8 +55,8 @@
   timezone: EDT
   date: November 08-11
   place: New York, USA
-  comment: Notification - July 3, 2026.
-  tags: [THEORY, CNF, COREAS, EXP]
+  comment: Notification - July 3.
+  tags: [THEORY, CNF, COREAS]
 
 - name: IEEE INFOCOM
   description: IEEE International Conference on Computer Communications
