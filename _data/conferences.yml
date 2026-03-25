@@ -397,15 +397,15 @@
 
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
-  year: 2026
-  link: https://acns2026.github.io
+  year: 2027
+  link: https://acns2027.isg.rhul.ac.uk
   deadline: 
-    - "2025-09-26 23:59"
-    - "2026-01-23 23:59"
-  date: June 22-25
-  place: New York, USA
+    - "2026-09-26 23:59"
+    - "2027-01-23 23:59"
+  date: June 28 - July 01
+  place: Royal Holloway, University of London, UK
   comment: Notification - November 20, March 19.
-  tags: [PRACT, APPLIED, SOK, CNF, COREB]
+  tags: [PRACT, APPLIED, SOK, CNF, COREB, EXPCFP]
   
 - name: ARES
   description: International Conference on Availability, Reliability and Security
