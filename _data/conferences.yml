@@ -200,15 +200,15 @@
 - name: ACM ASIACCS
   description: ACM Asia Conference on Computer and Communications Security
   year: 2027
-  link: https://asiaccs2026.cse.iitkgp.ac.in/call-for-papers/
+  link: https://asiaccs2027.cityu.edu.mo/home/index.html
   deadline:
-    - "2026-08-25 23:59"
-    - "2026-12-12 23:59"
-  rebut: October 27-30, February 16-19
+    - "2026-08-21 23:59"
+    - "2026-12-11 23:59"
+  rebut: October 26-30, March 08-12
   date: July 12-16
   place: Macau, China
-  comment: Early Reject - October 01, January 21. Notification - November 19, March 10.
-  tags: [PRACT, CNF, SOK, COREA, EXPCFP]
+  comment: Early Reject - Septemeber 25, February 05. Notification - November 13, March 31.
+  tags: [PRACT, CNF, SOK, COREA]
   
 - name: ACSAC
   description: Annual Computer Security Applications Conference
