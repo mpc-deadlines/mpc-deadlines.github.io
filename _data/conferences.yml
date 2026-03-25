@@ -726,6 +726,17 @@
   comment: Notification - March 16. Has proceedings.
   conference: ACM ASIACCS.
   tags: [PRACT, PPML, WK]
+  
+- name: FL4Industry
+  description: Workshop on Federated Learning for Industry
+  year: 2026
+  link: https://fedlearn-hub.github.io
+  deadline: ["2026-08-02 23:59"]
+  date: October 27
+  place: Paris, France
+  comment: Notification - September 05.
+  conference: FLTA.
+  tags: [APPLIED, PPML, WK] 
 
 - name: FLCA
   description: AAAI Workshop on Federated Learning For Critical Applications
