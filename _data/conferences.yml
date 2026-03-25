@@ -919,6 +919,36 @@
 
 # CryptoSchools
 
+- name: Federated Machine Learning International Summer School
+  description: Federated Machine Learning International Summer School at FLTA
+  year: 2026
+  link: https://school.flta-conference.org
+  deadline: ["2026-06-15 23:59"]
+  date: October 19-26
+  place: Paris, France
+  comment: Interactive lectures, hands-on labs, and real-world applications of Federated Learning.
+  tags: [CRS]
+
+- name: IAS Winter School
+  description: Winter School on Cryptography and Machine Learning 
+  year: 2026
+  link: https://ai4i.it/ias-winter-school-2026/
+  deadline: ["2026-01-19 23:59"]
+  date: February 02-05
+  place: Turin, Italy
+  comment: Free registration with financial support.
+  tags: [CRS]
+
+- name: Real World AI Security
+  description: The Real World AI Security conference 
+  year: 2026
+  link: https://seclab.stanford.edu/RealWorldAIsec/
+  deadline: ["2026-06-15 23:59"]
+  date: June 23-25
+  place: Stanford University
+  comment: Covers the most impactful AI security results of the year.
+  tags: [CRS]
+
 - name: TPDP
   description: Theory and Practice of Differential Privacy 
   year: 2026
@@ -937,26 +967,6 @@
   date: May 18-21
   place: Aarhus, Denmark
   comment: Notification - March 31.
-  tags: [CRS]
-  
-- name: IAS Winter School
-  description: Winter School on Cryptography and Machine Learning 
-  year: 2026
-  link: https://ai4i.it/ias-winter-school-2026/
-  deadline: ["2026-01-19 23:59"]
-  date: February 02-05
-  place: Turin, Italy
-  comment: Free registration with financial support.
-  tags: [CRS]
-  
-- name: Real World AI Security
-  description: The Real World AI Security conference 
-  year: 2026
-  link: https://seclab.stanford.edu/RealWorldAIsec/
-  deadline: ["2026-06-15 23:59"]
-  date: June 23-25
-  place: Stanford University
-  comment: Covers the most impactful AI security results of the year.
   tags: [CRS]
   
 # Machine Learning and Data Science
