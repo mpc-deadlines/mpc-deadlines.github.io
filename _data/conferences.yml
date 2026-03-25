@@ -212,14 +212,14 @@
   
 - name: ACSAC
   description: Annual Computer Security Applications Conference
-  year: 2025
-  link: https://www.acsac.org/2025
-  deadline: ["2025-05-30 23:59"]
+  year: 2026
+  link: https://www.acsac.org/2026
+  deadline: ["2026-05-30 23:59"]
   rebut: August 18-22
-  date: December 09-32
-  place: Honolulu, Hawaii, USA
+  date: December 07-11
+  place: Los Angeles, California
   comment: Early Reject - July 14. Notification - September 03.
-  tags: [PRACT, APPLIED, CNF, COREA]
+  tags: [PRACT, APPLIED, CNF, COREA, EXPCFP]
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
@@ -859,13 +859,13 @@
 
 - name: ACSAC
   description: Annual Computer Security Applications Conference
-  year: 2025
-  link: https://www.acsac.org/2025/submissions/posters/
-  deadline: ["2025-09-13 23:59"]
-  date: December 08-15
-  place: Honolulu, Hawaii
+  year: 2026
+  link: https://www.acsac.org/2026/submissions/posters/
+  deadline: ["2026-09-13 23:59"]
+  date: December 07-11
+  place: Los Angeles, California
   comment: Rolling notification.
-  tags: [PRACT, APPLIED, PS]
+  tags: [PRACT, APPLIED, PS, EXPCFP]
   
 - name: CHES
   description: Cryptographic Hardware and Embedded Systems
