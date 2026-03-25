@@ -770,6 +770,16 @@
   comment: Notification - January 10.
   tags: [PRACT, APPLIED, WK, EXPCFP]
   
+- name: RWC
+  description: Real World Crypto
+  year: 2028
+  link: https://rwc.iacr.org/2028/
+  deadline: ["2027-11-16 23:59"]
+  date: April 05-07
+  place: Bochum, Germany
+  comment: Notification - January 10.
+  tags: [PRACT, APPLIED, WK, EXPCFP]
+  
 - name: RWMPC
   description: Real World MPC
   year: 2026
