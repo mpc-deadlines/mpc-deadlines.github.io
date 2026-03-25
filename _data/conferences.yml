@@ -1060,13 +1060,13 @@
 - name: NeurIPS
   description: Conference on Neural Information Processing Systems
   year: 2026
-  link: https://neurips.cc/
-  abdeadline: May 11
-  deadline: ["2026-05-15 07:59"]
+  link: https://neurips.cc/Conferences/2026
+  abdeadline: May 04
+  deadline: ["2026-05-06 07:59"]
   date: December 06-12
   place: Sydney, Australia
-  comment: Notification - September 18. Position Papers.
-  tags: [PRACT, POS, CNF, PPML, COREAS, EXPCFP]
+  comment: Notification - September 24. Evaluation and Datasets Track.
+  tags: [PRACT, POS, CNF, PPML, COREAS]
   
 - name: MLSys
   description: Conference on Machine Learning and Systems
