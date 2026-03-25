@@ -483,13 +483,13 @@
   
 - name: TCC
   description: Theory of Cryptography Conference
-  year: 2025
-  link: https://tcc.iacr.org/2025/
-  deadline: ["2025-05-27 19:59"]
-  date: December 02-05
-  place: Aarhus, Denmark
+  year: 2026
+  link: https://tcc.iacr.org/2026/
+  deadline: ["2025-05-19 23:59"]
+  date: November 10-13
+  place: New York City, USA
   comment: Notification - August 28.
-  tags: [THEORY, CNF, COREB]
+  tags: [THEORY, CNF, COREB, EXPCFP]
 
 # CORE C
 
