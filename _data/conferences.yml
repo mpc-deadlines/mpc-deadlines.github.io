@@ -588,11 +588,11 @@
 
 - name: FLTA
   description: International Conference on Federated Learning Technologies and Applications
-  year: 2025
-  link: https://flta-conference.org/flta-2025/
-  deadline: ["2025-06-30 23:59"]
-  date: October 14-17
-  place: Dubrovnik, Croatia
+  year: 2026
+  link: https://flta-conference.org/flta-2026/
+  deadline: ["2026-06-01 23:59"]
+  date: October 27-30
+  place: Paris, France
   comment: Notification - July 29.
   tags: [PRACT, APPLIED, CNF, COREO]
 
