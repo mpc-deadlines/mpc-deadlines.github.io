@@ -227,10 +227,10 @@
   link: https://asiacrypt.iacr.org/2026/
   deadline: ["2026-05-22 11:59"]
   rebut: July 17-22
-  date: December 8-12  
-  place: Melbourne, Australia
+  date: December 07-11  
+  place: Hong Kong
   comment: Early Reject - July 17. Notification - August 14.
-  tags: [THEORY, CNF, COREA, EXP]
+  tags: [THEORY, CNF, COREA, EXPCFP]
 
 - name: CHES
   description: Cryptographic Hardware and Embedded Systems
