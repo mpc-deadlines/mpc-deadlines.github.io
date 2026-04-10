@@ -213,12 +213,12 @@
   description: Annual Computer Security Applications Conference
   year: 2026
   link: https://www.acsac.org/2026
-  deadline: ["2026-05-30 23:59"]
-  rebut: August 18-22
+  deadline: ["2026-05-26 23:59"]
+  rebut: August 18-25
   date: December 07-11
   place: Los Angeles, California
-  comment: Early Reject - July 14. Notification - September 03.
-  tags: [PRACT, APPLIED, CNF, COREA, EXPCFP]
+  comment: Early Reject - July 13. Notification - September 08.
+  tags: [PRACT, APPLIED, CNF, COREA]
 
 - name: ASIACRYPT
   description: International Conference on the Theory and Application of Cryptology and Information Security
