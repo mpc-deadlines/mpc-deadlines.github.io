@@ -1155,6 +1155,19 @@
   comment: Notification - October 07, January 31. 
   tags: [HW, APPLIED, CNF, COREO]
   
+- name: ISCA
+  description: International Symposium on Computer Architecture 
+  year: 2027
+  link: https://iscaconf.org/isca2027
+  abdeadline: November 10, December 05
+  deadline: 
+    - "2026-11-17 23:59"
+    - "2026-12-12 23:59"
+  date: June 26-30
+  place: Raleigh, NC
+  comment: Notification - March 27. December deadline for Industrial Track.
+  tags: [HW, APPLIED, CNF, COREAS, EXP]
+  
 # Miscellaneous
 
 - name: CNIL-Inria Privacy Award
