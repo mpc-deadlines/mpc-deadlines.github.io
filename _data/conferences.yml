@@ -87,15 +87,14 @@
   description: Network and Distributed System Security Symposium
   year: 2027
   link: https://www.ndss-symposium.org/ndss2027/
-  abdeadline: April 16, July 30
   deadline:
-    - "2026-04-23 23:59"
-    - "2026-08-06 23:59"
-  rebut: June 18-20, October 08-10
-  date: February 23-27
-  place: San Diego, CA, USA
-  comment: Early Reject - May 28, September 17. Notification - July 02 and October 22.
-  tags: [PRACT, APPLIED, SOK, CNF, COREAS, EXP]
+    - "2026-05-06 23:59"
+    - "2026-08-19 23:59"
+  rebut: June 24-28, October 08-10
+  date: TBA
+  place: Outside US (TBA)
+  comment: Early Reject - June 12, September 25. Notification - July 22 and November 04.
+  tags: [PRACT, APPLIED, SOK, CNF, COREAS]
 
 - name: ACM PODC
   description: ACM Symposium on Principles of Distributed Computing
