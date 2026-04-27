@@ -73,15 +73,15 @@
   description: IEEE Symposium on Security and Privacy
   year: 2027  
   link: https://sp2027.ieee-security.org/
-  abdeadline: May 29, November 6
+  abdeadline: June 4, November 10
   deadline:
-    - "2026-06-05 23:59"
-    - "2026-11-13 23:59"
-  rebut: August 18-29, February 12-23
-  date: May 18–21
-  place: San Francisco, California, USA
-  comment: Early Reject -  July 21, January 19. Notification - September 09, March 09.
-  tags: [PRACT, APPLIED, SOK, CNF, COREAS, EXP]
+    - "2026-06-11 23:59"
+    - "2026-11-17 23:59"
+  rebut: August 20-September 4, February 11-26
+  date: TBA likely May 2027
+  place: Montreal, Quebec, Canada
+  comment: Early Reject -  July 27, January 18. Notification - September 11, March 5.
+  tags: [PRACT, APPLIED, SOK, CNF, COREAS]
   
 - name: NDSS
   description: Network and Distributed System Security Symposium
@@ -899,13 +899,13 @@
 
 - name: IEEE S&P
   description: IEEE Symposium on Security and Privacy
-  year: 2026
+  year: 2027
   link: https://sp2026.ieee-security.org/cfposters.html
-  deadline: ["2026-03-20 23:59"]
-  date: May 18-21
-  place: San Francisco, California, USA
-  comment: Notification - March 30. No proceedings. 
-  tags: [PRACT, PS]
+  deadline: ["2027-03-20 23:59"]
+  date: TBA likely May 2027
+  place: Montreal, Quebec, Canada
+  comment: Notification - TBA. No proceedings. 
+  tags: [PRACT, PS, EXP]
 
 - name: NDSS
   description: Network and Distributed System Security Symposium
