@@ -82,39 +82,59 @@ $(function() {
 
   // Reorder list
   var today = moment();
-  var confs = $('.conf').detach();
-  
-  confs.sort(function(a, b) {
-    var aDeadline = deadlineByConf[a.id];
-    var bDeadline = deadlineByConf[b.id];
-    var aDiff = today.diff(aDeadline);
-    var bDiff = today.diff(bDeadline);
-    if (aDiff < 0 && bDiff > 0) {
-      return -1;
-    }
-    if (aDiff > 0 && bDiff < 0) {
-      return 1;
-    }
-    return bDiff - aDiff;
-  });
-  
-  var pastConfs = []; 
-  var upcomingConfs = []; 
-   
-  confs.each(function() {
-    var conf = $(this);
 
-    if (conf.hasClass("past")) {
-      pastConfs.push(conf);
+  function getEventStartDate(confEl) {
+    var dateStr = $(confEl).data('conf-date');
+    var year = $(confEl).data('conf-year');
+    if (!dateStr || String(dateStr).toLowerCase().indexOf('tba') === 0) return null;
+    // Handle "June 29 - July 03" → "June 29"; handle "November 15-19" → "November 15"
+    var firstPart = String(dateStr).split(' - ')[0].replace(/-\d+$/, '').trim();
+    var parsed = moment(firstPart + ' ' + year, 'MMMM D YYYY');
+    return parsed.isValid() ? parsed : null;
+  }
+
+  function renderConfs(sortMode) {
+    var confs = $('.conf-container .conf, #past-events-list .conf').detach();
+
+    if (sortMode === 'event-date') {
+      confs.sort(function(a, b) {
+        var aDate = getEventStartDate(a);
+        var bDate = getEventStartDate(b);
+        if (!aDate && !bDate) return 0;
+        if (!aDate) return 1;
+        if (!bDate) return -1;
+        return aDate.diff(bDate);
+      });
     } else {
-      upcomingConfs.push(conf);
+      confs.sort(function(a, b) {
+        var aDeadline = deadlineByConf[a.id];
+        var bDeadline = deadlineByConf[b.id];
+        var aDiff = today.diff(aDeadline);
+        var bDiff = today.diff(bDeadline);
+        if (aDiff < 0 && bDiff > 0) return -1;
+        if (aDiff > 0 && bDiff < 0) return 1;
+        return bDiff - aDiff;
+      });
     }
-  }); 
-   
-  //$('.conf-container').append(confs); 
-  $('.conf-container').append(upcomingConfs); 
-  $('#past-events-list').append(pastConfs);  
-   
+
+    var pastConfs = [];
+    var upcomingConfs = [];
+    confs.each(function() {
+      ($(this).hasClass('past') ? pastConfs : upcomingConfs).push(this);
+    });
+
+    $('.conf-container').append(upcomingConfs);
+    $('#past-events-list').append(pastConfs);
+  }
+
+  renderConfs('deadline');
+
+  $('.sort-btn').click(function() {
+    $('.sort-btn').removeClass('active-sort');
+    $(this).addClass('active-sort');
+    renderConfs($(this).data('sort'));
+  });
+
   // Toggle past events visibility
   $(".past-deadlines").click(function() {
     $("#past-events-list").slideToggle();

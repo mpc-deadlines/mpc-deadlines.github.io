@@ -94,6 +94,10 @@
           
           <div class="col-xs-12">
             <button id="clear-filters" class="btn btn-primary">Clear Filters</button>
+            &nbsp;&nbsp;
+            <span class="sort-label"><b>Sort by:</b></span>
+            <button class="btn btn-default btn-sm sort-btn active-sort" data-sort="deadline">Deadline</button>
+            <button class="btn btn-default btn-sm sort-btn" data-sort="event-date">Event Date</button>
           </div>
 
         </div>
@@ -110,7 +114,7 @@
         <!--{% assign conf_id = conf.name | append: conf.year | append: '-' | append: i | slugify %}-->
         {% assign conf_type = conf.tags | join: "-" | slugify %}
         {% assign conf_id = conf.name | append: conf.year | append: '-' | append: conf_type | append: '-' | append: i | slugify %}
-        <div id="{{ conf_id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
+        <div id="{{ conf_id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}" data-conf-date="{{ conf.date }}" data-conf-year="{{ conf.year }}">
           <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <a class="conf-title" href="{{conf.link}}" target="_blank">{{conf.name}} {{conf.year}}</a>

@@ -1,5 +1,7 @@
 
 .DS_Store
 static/.DS_Store
-static/.DS_Store
 .phcode.json
+_site/
+.bundle/
+.jekyll-cache/
