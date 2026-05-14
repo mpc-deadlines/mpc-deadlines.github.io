@@ -246,10 +246,25 @@ $(function() {
     filter3: new Set()
   };
 
+  var searchQuery = '';
+
   function updateConfList() {
     $(".conf").each(function () {
       let conf = $(this);
       let show = true;
+
+      // Check search query against name, description, date, and place
+      if (searchQuery) {
+        let text = (
+          conf.find('.conf-title').text() + ' ' +
+          conf.find('.meta').first().text() + ' ' +
+          conf.find('.conf-date').text() + ' ' +
+          conf.find('.conf-place').text()
+        ).toLowerCase();
+        if (text.indexOf(searchQuery) === -1) {
+          show = false;
+        }
+      }
 
       // Check each filter group
       Object.keys(selectedFilters).forEach(filterGroup => {
@@ -266,7 +281,6 @@ $(function() {
         }
       });
 
-      // Show or hide based on filter matching
       if (show) {
         conf.show();
       } else {
@@ -291,16 +305,27 @@ $(function() {
 
   // Handle "Clear Filters" button click
   $("#clear-filters").click(function () {
-    // Uncheck all checkboxes
     $(".filter-checkbox").prop("checked", false);
-
-    // Reset the selected filters
     selectedFilters = {
       filter1: new Set(),
       filter2: new Set(),
       filter3: new Set()
     };
+    searchQuery = '';
+    $('#search-input').val('');
+    updateConfList();
+  });
 
+  // Search input handler
+  $('#search-input').on('input', function () {
+    searchQuery = $(this).val().toLowerCase().trim();
+    updateConfList();
+  });
+
+  // Clear search button
+  $('#clear-search').click(function () {
+    searchQuery = '';
+    $('#search-input').val('').focus();
     updateConfList();
   });
 

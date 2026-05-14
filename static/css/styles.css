@@ -11,6 +11,45 @@ h2 .evtname {
   opacity: 0.5;
 }
 
+.search-row {
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.search-bar .input-group-addon {
+  background: #fff;
+  border-right: none;
+  color: #007bff;
+  font-size: 14px;
+}
+
+.search-bar .form-control {
+  border-left: none;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.search-bar .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.12);
+}
+
+.search-bar .input-group-btn .btn {
+  border-left: none;
+  color: #aaa;
+  box-shadow: none;
+  height: 34px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+.search-bar .input-group-btn .btn:hover {
+  color: #555;
+  background: #f8f9fa;
+}
+
 .sort-label {
   margin-left: 10px;
   margin-right: 5px;
