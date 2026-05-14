@@ -12,7 +12,8 @@ h2 .evtname {
 }
 
 .search-row {
-  margin-bottom: 14px;
+  margin-top: 16px;
+  margin-bottom: 4px;
 }
 
 .search-bar .input-group-addon {
