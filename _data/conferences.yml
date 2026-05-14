@@ -1019,13 +1019,13 @@
   year: 2026
   link: https://www.acml-conf.org/2026/
   deadline:
-    - "2026-05-30 23:59"
+    - "2026-06-06 23:59"
     - "2026-06-26 23:59"
-  rebut: August 04-11
+  rebut: August 10-15
   date: December 01-04
   place: Melbourne, Australia
-  comment: Journal (May) and Conference (June) tracks. Notification - September 01. One author as mandatory reviewer.
-  tags: [PRACT, CNF, PPML, COREC, EXPCFP]
+  comment: First deadline for Journal track. Notification - September 15. One author as mandatory reviewer.
+  tags: [PRACT, CNF, PPML, COREC]
   
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
