@@ -1,156 +1,200 @@
 body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 14px;
-  line-height: 20px;
-  font-weight: 350;
-  -webkit-font-smoothing: subpixel-antialiased;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #1e293b;
+  background: #f1f5f9;
+  -webkit-font-smoothing: antialiased;
 }
 
 body *::selection {
-  background: #e74c3c;
+  background: #6366f1;
   color: #fff;
 }
 
-.header-box {
-  display: block;
-  font-size: 20px;
-  font-weight: 600;
-  color: #333;
-  background: #f8f9fa;
-  padding: 16px 20px;
-  border-radius: 10px;
-  border-left: 5px solid #007bff;
-  margin-bottom: 15px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
-.header-box h1 {
-  margin: 0;
-  font-size: 24px;
-  line-height: 1.4;
-}
-.header-box p {
-  margin: 10px 0 0;
-  font-size: 16px;
-  font-weight: 400;
-  color: #555;
-}
-.header-box a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: 500;
-}
-.header-box a:hover {
-  text-decoration: underline;
-}
-
-
-
-
 .container {
-  max-width: 980px;
+  max-width: 1000px;
 }
 
+/* ── Top strip ─────────────────────────────────────────── */
 .top-strip {
-  background: linear-gradient(90deg, #007bff 0%, #6610f2 100%);
+  background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%);
   height: 4px;
   width: 100%;
 }
 
-h1,
-h2,
-h3 {
-  /* font-weight: 300; */
+/* ── Header ─────────────────────────────────────────────── */
+.header-box {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 55%, #4f46e5 100%);
+  color: #fff;
+  border-left: none;
+  border-radius: 14px;
+  padding: 28px 32px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 32px rgba(79, 70, 229, 0.25);
 }
 
-h1 {
+.header-box h1 {
   margin: 0 0 10px;
-  font-size: 2em;
-  line-height: 35px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
 }
 
-h2 {
-  margin: 0 0 10px;
-  font-size: 1em;
-  line-height: 30px;
+.header-box p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
 }
 
-h3 {
-  margin: 0;
-  font-size: 20px;
-  line-height: 25px;
+.header-box a {
+  color: #a5b4fc;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(165, 180, 252, 0.35);
+  font-weight: 500;
 }
 
+.header-box a:hover {
+  color: #c7d2fe;
+  border-bottom-color: rgba(199, 210, 254, 0.6);
+}
+
+.spinning-icon {
+  display: inline-block;
+  animation: spin 2s linear infinite;
+  margin-right: 10px;
+  opacity: 0.9;
+}
+
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ── Page header / filter panel ─────────────────────────── */
 .page-header {
   margin-top: 20px;
+  border-bottom: none;
 }
 
 #conf-title.page-header {
   border-bottom: none;
 }
 
-p.authors {
-  margin-bottom: 5px;
-  color: #808080;
-  font-size: 20px;
+/* ── Filter section ──────────────────────────────────────── */
+.tagtitle {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: #94a3b8;
+  background: transparent;
+  border-left: none;
+  padding: 0 0 10px;
+  box-shadow: none;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
 }
 
-p.authors a {
-  border-color: #dedede;
+.mytitle {
+  font-size: 11px;
+  font-weight: 700;
+  color: #94a3b8;
+  padding: 4px 0;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-right: 6px;
+  vertical-align: middle;
 }
 
-img {
-  max-width: 100%;
+/* Pill-style filter checkboxes */
+.checkbox {
+  display: inline-block;
+  margin: 3px 4px 3px 0;
+  padding: 0;
+  min-height: auto;
 }
 
-p {
-  text-align: justify;
-}
-
-a {
-  text-decoration: none;
-  border-bottom: 1px solid #ccc;
-  color: inherit;
-}
-
-p.lead.authors a {
-  border-bottom: none;
-}
-
-a:hover,
-a:focus {
-  color: inherit;
-  text-decoration: none;
-}
-
-.thumb {
-  margin: 20px 0;
-  border: 1px solid #808080;
-}
-
-pre {
-  color: #333;
-  font-size: 12px;
-  line-height: 17px;
-}
-
-footer {
+.checkbox label {
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 20px;
+  padding: 5px 13px;
+  cursor: pointer;
   font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  user-select: none;
+  margin: 0;
+  line-height: 1.4;
 }
 
-.conf-row {
-  margin-bottom: 5px;
+.checkbox label:hover {
+  background: #ede9fe;
+  border-color: #8b5cf6;
+  color: #5b21b6;
 }
 
+.checkbox:has(input:checked) label {
+  background: #4f46e5;
+  border-color: #4f46e5;
+  color: #fff;
+}
+
+.filter-checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+/* ── Past deadlines toggle ──────────────────────────────── */
+.past-deadlines {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+  color: #64748b;
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #94a3b8;
+  margin-bottom: 20px;
+  box-shadow: none;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.past-deadlines:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+  border-left-color: #6366f1;
+}
+
+/* ── Conference cards ────────────────────────────────────── */
 .conf {
   background: #fff;
-  border: 1px solid #e8ecf0;
-  border-radius: 8px;
-  padding: 14px 18px 6px;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px 20px 12px;
   margin-bottom: 10px;
   transition: box-shadow 0.18s ease, transform 0.18s ease;
 }
 
 .conf:hover {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   transform: translateY(-1px);
 }
 
@@ -158,112 +202,168 @@ footer {
   display: none;
 }
 
+/* Urgency left border */
+.conf.urgency-urgent  { border-left-color: #ef4444; }
+.conf.urgency-warning { border-left-color: #f59e0b; }
+.conf.urgency-ok      { border-left-color: #10b981; }
+
+.past.conf {
+  border-left-color: #cbd5e1 !important;
+}
+
 .conf-title {
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 700;
+  color: #1e293b;
   border-bottom: none;
+  letter-spacing: -0.01em;
   transition: color 0.15s ease;
 }
 
 .conf-title:hover {
-  color: #007bff;
+  color: #4f46e5;
 }
 
-.tagtitle {
-  display: block;
-  font-size: 16px;
-  font-weight: 500;
-  color: #333;
-  background: #f8f9fa;
-  padding: 12px 16px;
-  border-radius: 8px;
-  border-left: 4px solid #007bff;
-  margin-bottom: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.past-deadlines {
-  display: block;
-  font-size: 18px;
-  font-weight: 500;
-  color: #333;
-  background: #f8f9fa;
-  padding: 12px 16px;
-  border-radius: 8px;
-  border-left: 4px solid #007bff;
-  margin-bottom: 25px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-
-
-.mytitle {
-  font-size: 15px;
-  font-weight: 600;
-  color: #444;
-  padding: 8px 0;
-  display: inline-block;
-}
-
-.spinning-icon {
-  display: inline-block;
-  animation: spin 2s linear infinite;
-  margin-right: 8px; /* Adjust the spacing between the icon and the title */
-}
-
-/* Keyframes for the spinning effect */
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.conf-date i, .conf-place i {
-  margin-right: 2px; 
-  color: #007bff;
-}
-
-.conf-place {
-  margin-left: 10px; 
-}
-
-.conf-place a {
-  color: #007bff; 
-}
-
-.footer-text {
-  color: #007bff;
-}
-
-
-.deadline,
-.meta {
-  font-size: 13px;
-}
-
-.note {
-  font-size: 13px;
+.conf-row {
   margin-bottom: 5px;
 }
 
+/* ── Card meta (date, place, rank) ───────────────────────── */
+.meta {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.conf-date i,
+.conf-place i {
+  margin-right: 4px;
+  color: #6366f1;
+  font-size: 12px;
+}
+
+.conf-place {
+  margin-left: 12px;
+}
+
+.conf-place a {
+  color: #6366f1;
+}
+
+.corerank-wrap {
+  margin-top: 6px;
+}
+
+/* ── Timer / deadline ────────────────────────────────────── */
 .timer {
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.timer.urgent  { color: #dc2626; }
+.timer.warning { color: #d97706; }
+.timer.ok      { color: #059669; }
+
+.deadline {
+  font-size: 13px;
+  margin-top: 4px;
+  color: #475569;
+}
+
+.deadline-time {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.abstractdeadline {
+  display: inline-block;
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  color: #be123c;
+  border-radius: 5px;
+  padding: 1px 8px;
+  font-size: 12px;
   font-weight: 500;
+  margin-top: 4px;
 }
 
-.timer.urgent {
-  color: #dc3545;
+.conf-rebut {
+  font-size: 12px;
+  color: #64748b;
 }
 
-.timer.warning {
-  color: #fd7e14;
+.conf-comment {
+  font-size: 12px;
+  color: #94a3b8;
 }
 
-.timer.ok {
-  color: #28a745;
+/* ── Past opacity ────────────────────────────────────────── */
+.past {
+  opacity: 0.45;
+}
+
+/* ── Past events section ─────────────────────────────────── */
+#past-events-section {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#past-events-title {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #ef4444;
+}
+
+/* ── Footer ──────────────────────────────────────────────── */
+footer {
+  font-size: 13px;
+  color: #94a3b8;
+  text-align: center;
+  padding: 24px 0 16px;
+}
+
+.footer-text {
+  color: #6366f1;
+  border-bottom: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+.footer-text:hover {
+  color: #4f46e5;
+}
+
+/* ── Typography ──────────────────────────────────────────── */
+h1, h2, h3 { letter-spacing: -0.01em; }
+
+h1 { margin: 0 0 10px; font-size: 2em; line-height: 35px; }
+h2 { margin: 0 0 10px; font-size: 1em; line-height: 30px; }
+h3 { margin: 0; font-size: 20px; line-height: 25px; }
+
+p { text-align: justify; }
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #e2e8f0;
+  color: inherit;
+}
+
+a:hover, a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+img { max-width: 100%; }
+
+pre {
+  color: #333;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+/* ── Misc ────────────────────────────────────────────────── */
+.note {
+  font-size: 13px;
+  margin-bottom: 5px;
 }
 
 #conf-timer {
@@ -271,40 +371,16 @@ footer {
   color: #444;
 }
 
-.conf-sub {
-  color: rgb(36, 101, 191);
-  background: rgba(236, 240, 241, 0.7);
-  font-size: 13px;
-  padding: 3px 5px;
-  margin-right: 8px;
-  cursor: pointer;
-  font-weight: 300;
-}
-
-.conf-sub::selection {
-  background: #0097e6;
-}
-
-.checkbox input[type="checkbox"]:checked:after {
-  background-color: #0097e6;
-  border-color: #0097e6;
-}
-
-.checkbox input[type="checkbox"]:after,
-.checkbox input[type="checkbox"]:focus:after {
-  border-color: #0097e6;
-}
-
 .pwc-link {
-  color: #1198b2;
+  color: #6366f1;
   text-decoration: none;
   border: none;
   vertical-align: middle;
 }
 
 .pwc-link:hover {
-  color: #1198b2;
-  border-bottom: 1px solid #1198b2;
+  color: #4f46e5;
+  border-bottom: 1px solid #4f46e5;
 }
 
 .icon-inner {
@@ -316,74 +392,29 @@ footer {
   fill: currentColor;
 }
 
-.pwc-icon {
-  top: -2px;
-}
+.pwc-icon { top: -2px; }
 
-#past-events-section {
-  margin-top: 5px; 
-  margin-bottom: 5px; 
-  border-bottom: 2px solid #ddd;
-}
+.badge-danger { background-color: #ef4444; }
 
-#past-events-title {
-  margin-bottom: 30px;
-  padding-bottom: 15px;
-  border-bottom: 2px solid #bb2d3b;
-}
-
-.badge-danger {
-  background-color: #bb2d3b;
-}
-
-.abstractdeadline {
-  color: crimson;    
-}
-
+/* ── Responsive ──────────────────────────────────────────── */
 @media only screen and (max-width: 780px) {
-  #conf-timer {
-    font-size: 64px;
-  }
-  .calendar {
-    margin-bottom: 10px;
-  }
+  #conf-timer { font-size: 64px; }
+  .calendar   { margin-bottom: 10px; }
+  .header-box { padding: 20px 20px 16px; }
 }
 
 @media only screen and (max-width: 450px) {
-  #conf-timer {
-    font-size: 36px;
-  }
-  .note {
-    display: none;
-  }
-  .conf-row {
-    margin-bottom: 7px;
-  }
+  #conf-timer { font-size: 36px; }
+  .note       { display: none; }
+  .conf-row   { margin-bottom: 7px; }
+  .header-box { padding: 16px; border-radius: 10px; }
+  .conf       { padding: 12px 14px 10px; }
 }
 
 @media only screen and (max-width: 375px) {
-  #conf-timer {
-    font-size: 28px;
-  }
+  #conf-timer { font-size: 28px; }
 }
 
-.checkbox {
-  font-size: 14px;
-}
-
-.calendar {
-  font-size: 12px;
-  margin-top: 3px;
-}
-
-.calendar img {
-  margin-right: 5px;
-}
-
-.ind-cal {
-  margin: 0 5px;
-}
-
-.calendar img {
-  height: 20px;
-}
+.calendar { font-size: 12px; margin-top: 3px; }
+.calendar img { margin-right: 5px; height: 20px; }
+.ind-cal  { margin: 0 5px; }
