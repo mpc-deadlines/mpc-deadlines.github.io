@@ -748,6 +748,16 @@
   conference: AAAI.
   tags: [APPLIED, PPML, WK] 
   
+- name: LightSec
+  description: Workshop on Lightweight Cryptography for Security & Privacy
+  year: 2026
+  link: https://lightsec2026.com
+  deadline: ["2026-06-19 23:59"]
+  date: October 09-10
+  place: Antalya, Turkey
+  comment: Notification - August 21. Has proceedings.
+  tags: [PRACT, APPLIED, WK]
+  
 - name: MPC Security in Practice
   description: MPC Security in Practice
   year: 2026
