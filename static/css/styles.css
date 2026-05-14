@@ -37,6 +37,11 @@ h2 .evtname {
   border-left: none;
   color: #aaa;
   box-shadow: none;
+  height: 34px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  line-height: 1.42857;
 }
 
 .search-bar .input-group-btn .btn:hover {
