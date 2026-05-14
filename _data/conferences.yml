@@ -508,12 +508,12 @@
 
 - name: ICDCN
   description: International Conference on Distributed Computing and Networking
-  year: 2026
-  link: https://sites.google.com/view/icdcn2026/
-  deadline: ["2025-07-25 23:59"]
-  date: January 06-09
-  place: Nara, Japan
-  comment: Notification - September 27.
+  year: 2027
+  link: https://cs3-lab.github.io/icdcn/index.html
+  deadline: ["2026-07-30 23:59"]
+  date: January 04-07
+  place: Surathkal, Karnataka, India
+  comment: Notification - October 01.
   tags: [THEORY, PRACT, CNF, COREN]
   
 - name: ICISS
