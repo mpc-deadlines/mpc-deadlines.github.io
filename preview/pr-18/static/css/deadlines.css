@@ -115,7 +115,7 @@ body *::selection {
 /* Pill-style filter checkboxes */
 .checkbox {
   display: inline-block;
-  margin: 3px 4px 3px 0;
+  margin: 4px 6px 4px 0;
   padding: 0;
   min-height: auto;
 }
@@ -126,7 +126,7 @@ body *::selection {
   background: #fff;
   border: 1.5px solid #cbd5e1;
   border-radius: 20px;
-  padding: 5px 13px;
+  padding: 6px 16px;
   cursor: pointer;
   font-size: 13px;
   font-weight: 500;
@@ -134,7 +134,7 @@ body *::selection {
   transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
   user-select: none;
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .checkbox label:hover {
