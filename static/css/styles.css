@@ -10,3 +10,15 @@ h2 .evtname {
 .past {
   opacity: 0.5;
 }
+
+.sort-label {
+  margin-left: 10px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.sort-btn.active-sort {
+  background-color: #337ab7;
+  color: #fff;
+  border-color: #2e6da4;
+}
