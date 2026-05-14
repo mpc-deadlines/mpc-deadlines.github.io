@@ -811,6 +811,17 @@
   conference: RWC
   tags: [PRACT, APPLIED, WK]
   
+- name: SAFE-AI
+  description: Workshop on Systems & Architectures For Encrypted AI
+  year: 2026
+  link: https://cmu-caos.github.io/safeAI/2026/
+  deadline: ["2026-05-21 23:59"]
+  date: June 27
+  place: Raleigh, NC, USA
+  comment: Notification - June 01.
+  conference: ISCA.
+  tags: [PRACT, HW, WK]
+  
 - name: SECAI
   description: Workshop on Security and Artificial Intelligence
   year: 2025
