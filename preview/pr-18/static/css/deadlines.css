@@ -120,13 +120,14 @@ body *::selection {
   min-height: auto;
 }
 
-.checkbox label {
+.checkbox label,
+.form-inline .checkbox label {
   display: inline-flex;
   align-items: center;
   background: #fff;
   border: 1.5px solid #cbd5e1;
   border-radius: 20px;
-  padding: 6px 16px;
+  padding: 6px 16px !important;
   cursor: pointer;
   font-size: 13px;
   font-weight: 500;
