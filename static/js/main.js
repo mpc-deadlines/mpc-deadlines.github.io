@@ -49,14 +49,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -89,14 +86,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -163,14 +157,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -237,14 +228,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -311,14 +299,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -385,14 +370,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -459,14 +441,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -533,14 +512,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -573,14 +549,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -647,14 +620,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -687,14 +657,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -761,14 +728,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -835,14 +799,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -875,14 +836,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -949,14 +907,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -989,14 +944,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1029,14 +981,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1069,14 +1018,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1143,14 +1089,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1183,14 +1126,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1257,14 +1197,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1331,14 +1268,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1371,14 +1305,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1411,14 +1342,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1451,14 +1379,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1491,14 +1416,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1531,14 +1453,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1571,14 +1490,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1611,14 +1527,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1651,14 +1564,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1691,14 +1601,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1731,14 +1638,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1771,14 +1675,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1845,14 +1746,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1919,14 +1817,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -1959,14 +1854,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2033,14 +1925,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2107,14 +1996,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2181,14 +2067,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2221,14 +2104,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2261,14 +2141,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2301,14 +2178,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2375,14 +2249,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2449,14 +2320,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2489,14 +2357,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2563,14 +2428,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2603,14 +2465,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2677,14 +2536,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2751,14 +2607,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2791,14 +2644,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2831,14 +2681,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2905,14 +2752,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -2979,14 +2823,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3053,14 +2894,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3127,14 +2965,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3167,14 +3002,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3207,14 +3039,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3247,14 +3076,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3321,14 +3147,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3395,14 +3218,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3435,14 +3255,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3509,14 +3326,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3549,14 +3363,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3623,14 +3434,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3663,14 +3471,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3737,14 +3542,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3811,14 +3613,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3885,14 +3684,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -3959,14 +3755,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4033,14 +3826,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4107,14 +3897,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4181,14 +3968,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4221,14 +4005,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4295,14 +4076,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4369,14 +4147,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4409,14 +4184,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4483,14 +4255,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4557,14 +4326,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4597,14 +4363,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4671,14 +4434,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4745,14 +4505,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4819,14 +4576,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4859,14 +4613,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -4933,14 +4684,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5007,14 +4755,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5081,14 +4826,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5155,14 +4897,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5229,14 +4968,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5303,14 +5039,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5377,14 +5110,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5451,14 +5181,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5525,14 +5252,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5599,14 +5323,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5673,14 +5394,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5747,14 +5465,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5821,14 +5536,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5895,14 +5607,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -5969,14 +5678,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6043,14 +5749,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6117,14 +5820,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6191,14 +5891,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6265,14 +5962,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6339,14 +6033,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6413,14 +6104,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6487,14 +6175,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6561,14 +6246,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6635,14 +6317,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6709,14 +6388,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6783,14 +6459,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6857,14 +6530,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -6931,14 +6601,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7005,14 +6672,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7079,14 +6743,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7153,14 +6814,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7227,14 +6885,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7301,14 +6956,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7375,14 +7027,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7449,14 +7098,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7523,14 +7169,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7597,14 +7240,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7671,14 +7311,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7745,14 +7382,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7819,14 +7453,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7893,14 +7524,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -7967,14 +7595,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8041,14 +7666,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8081,14 +7703,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8155,14 +7774,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8229,14 +7845,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8303,14 +7916,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8377,14 +7987,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8451,14 +8058,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8525,14 +8129,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8599,14 +8200,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8639,14 +8237,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8713,14 +8308,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8787,14 +8379,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8861,14 +8450,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -8935,14 +8521,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9009,14 +8592,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9083,14 +8663,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9123,14 +8700,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9197,14 +8771,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9237,14 +8808,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9311,14 +8879,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9385,14 +8950,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9459,14 +9021,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9533,14 +9092,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9607,14 +9163,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9681,14 +9234,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9755,14 +9305,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9829,14 +9376,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9903,14 +9447,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -9977,14 +9518,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10017,14 +9555,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10057,14 +9592,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10097,14 +9629,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10171,14 +9700,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10245,14 +9771,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10319,14 +9842,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10393,14 +9913,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10467,14 +9984,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10541,14 +10055,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10615,14 +10126,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10689,14 +10197,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -10763,14 +10268,11 @@ $(function() {
           if (diff <= 0) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
             var daysLeft = -diff / 86400000;
-            $(this).removeClass('urgent warning ok');
-            if (daysLeft < 7) {
-              $(this).addClass('urgent');
-            } else if (daysLeft < 30) {
-              $(this).addClass('warning');
-            } else {
-              $(this).addClass('ok');
-            }
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
           } else {
             $(this).html(confDeadline.fromNow());
           }
