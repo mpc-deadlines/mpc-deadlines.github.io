@@ -57,9 +57,18 @@ $(function() {
     if (confDeadline) {
       function make_update_countdown_fn(confDeadline) {
         return function(event) {
-          diff = moment() - confDeadline
+          diff = moment() - confDeadline;
           if (diff <= 0) {
-             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            $(this).removeClass('urgent warning ok');
+            if (daysLeft < 7) {
+              $(this).addClass('urgent');
+            } else if (daysLeft < 30) {
+              $(this).addClass('warning');
+            } else {
+              $(this).addClass('ok');
+            }
           } else {
             $(this).html(confDeadline.fromNow());
           }
