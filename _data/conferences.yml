@@ -844,6 +844,17 @@
   conference: ACM SIGMOD+PODS.
   tags: [PRACT, PPML, WK]
   
+- name: SysteMPC
+  description: Workshop on Systems for Secure Multi-Party Computation
+  year: 2026
+  link: https://www.bu.edu/riscs/systempc-2026/
+  deadline: ["2026-07-10 23:59"]
+  date: September 29
+  place: Prague, Czechia
+  comment: Notification - July 24.
+  conference: Symposium on Operating Systems Principles (SOSP).
+  tags: [PRACT, PPML, WK]
+  
 - name: WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2026
