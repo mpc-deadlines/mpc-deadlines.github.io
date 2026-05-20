@@ -629,23 +629,23 @@
 
 - name: ACM CCSW
   description: The ACM Cloud Computing Security Workshop
-  year: 2025
+  year: 2026
   link: https://ccsw.io
-  deadline: ["2025-07-08 23:59"]
-  date: October 17
-  place: Taipei, Taiwan
+  deadline: ["2026-07-08 23:59"]
+  date: November 19
+  place: The Hague, Netherlands
   comment: Notification - August 12. Has proceedings.
   conference: ACM CCS.
-  tags: [PRACT, WK]
+  tags: [PRACT, WK, EXP]
   
 - name: AISec
   description: Workshop on Artificial Intelligence and Security
-  year: 2025
+  year: 2026
   link: https://aisec.cc
-  deadline: ["2025-07-03 23:59"]
-  date: October 17
-  place: Taipei, Taiwan
-  comment: Notification - August 10. Has proceedings.
+  deadline: ["2026-07-24 23:59"]
+  date: November 19
+  place: The Hague, Netherlands
+  comment: Notification - September 03. Has proceedings.
   conference: ACM CCS.
   tags: [PRACT, PPML, SOK, WK]
   
@@ -706,14 +706,14 @@
   
 - name: LAMPS
   description: Workshop on Large AI Systems and Models with Privacy and Security Analysis
-  year: 2025
+  year: 2026
   link: https://lamps-ccs.github.io/home/
-  deadline: ["2025-07-11 23:59"]
-  date: October 13
-  place: Taipei, Taiwan
+  deadline: ["2026-07-11 23:59"]
+  date: November 15
+  place: The Hague, Netherlands
   comment: Notification - August 15. Has proceedings.
   conference: ACM CCS.
-  tags: [APPLIED, WK]
+  tags: [APPLIED, WK, EXP]
   
 - name: LM-SHIELD
   description: Privacy in Large Language Models (LLM) and Natural Language Processing (NLP)
@@ -846,25 +846,25 @@
   
 - name: WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
-  year: 2025
-  link: https://homomorphicencryption.org/wahc-2025/
-  deadline: ["2025-06-27 23:59"]
-  date: October 13
-  place: Taipei, Taiwan
+  year: 2026
+  link: https://homomorphicencryption.org/wahc-2026/
+  deadline: ["2026-06-27 23:59"]
+  date: November 15
+  place: The Hague, Netherlands
   comment: Notification - August 08. Has proceedings.
   conference: ACM CCS.
-  tags: [APPLIED, WK]
+  tags: [APPLIED, WK, EXP]
   
 - name: WPES
   description: Workshop on Privacy in the Electronic Society
-  year: 2025
-  link: http://jianying.space/WPES2025/
-  deadline: ["2025-07-07 23:59"]
-  date: October 13
-  place: Taipei, Taiwan
+  year: 2026
+  link: http://jianying.space/WPES2026/
+  deadline: ["2026-07-07 23:59"]
+  date: November 15
+  place: The Hague, Netherlands
   comment: Notification - August 16. Has proceedings.
   conference: ACM CCS.
-  tags: [PRACT, WK]
+  tags: [PRACT, WK, EXP]
   
 # Posters
 
