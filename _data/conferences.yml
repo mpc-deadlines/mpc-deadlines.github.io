@@ -1221,6 +1221,16 @@
   comment: Cybersecurity artifacts published in all peer-reviewed venues. Notification - October 30.
   tags: [MISC]
   
+- name: Doctoral Symposium at ACM CCS
+  description: ACM CCS’26 Doctoral Symposium
+  year: 2026
+  link: https://www.sigsac.org/ccs/CCS2026/call-for/call-for-doctoral-symposium.html
+  deadline: ["2026-07-30 23:59"]
+  date: November 15-19
+  place: The Hague, Netherlands
+  comment: Notification - September 05. Invited PhD student receives student travel grant.
+  tags: [APPLIED, MISC]
+  
 - name: Enigma@USENIX Security
   description: Usenix Security Enigma Track
   year: 2026
