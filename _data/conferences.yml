@@ -853,7 +853,7 @@
   place: Prague, Czechia
   comment: Notification - July 24.
   conference: Symposium on Operating Systems Principles (SOSP).
-  tags: [PRACT, PPML, WK]
+  tags: [PRACT, HW, WK]
   
 - name: WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
