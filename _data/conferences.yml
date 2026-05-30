@@ -468,6 +468,16 @@
   comment: Early Reject - December 16. Notification - February 13.
   tags: [THEORY, CNF, COREB]
 
+- name: PKC
+  year: 2027
+  link: "https://pkc.iacr.org/2027/"
+  deadline: ["2026-08-03 23:59"]
+  rebut: "Oct 5-10, 2026"
+  date: "March 1-4, 2027"
+  place: "Taipei, Taiwan"
+  comment: "First round notification - September 28, Final notification - November 19"
+  tags: [THEORY, CNF, COREB]
+
 - name: SAC
   description: Conference on Selected Areas in Cryptography
   year: 2026
