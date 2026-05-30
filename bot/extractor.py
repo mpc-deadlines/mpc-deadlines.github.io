@@ -40,8 +40,8 @@ _TOOL: dict = {
                 ),
             },
             "out_of_scope_reason": {
-                "type": "string",
-                "description": "Required when in_scope is false. Explain which criterion failed.",
+                "type": ["string", "null"],
+                "description": "Required when in_scope is false. Explain which criterion failed. null when in_scope is true.",
             },
             # Core fields
             "name": {
