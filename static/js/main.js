@@ -3389,7 +3389,7 @@ $(function() {
   
   // ACNS 2027
   
-  var rawDeadlines = ["2026-09-26 23:59","2027-01-23 23:59"] || [];
+  var rawDeadlines = ["2026-09-24 23:59","2027-01-21 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -3444,13 +3444,13 @@ $(function() {
           }
         }
       }
-      $('#acns2027-pract-applied-sok-cnf-coreb-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#acns2027-pract-applied-sok-cnf-coreb-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#acns2027-pract-applied-sok-cnf-coreb-expcfp-0').addClass('past');
+        $('#acns2027-pract-applied-sok-cnf-coreb-0').addClass('past');
       }
-      $('#acns2027-pract-applied-sok-cnf-coreb-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["acns2027-pract-applied-sok-cnf-coreb-expcfp-0"] = confDeadline;
+      $('#acns2027-pract-applied-sok-cnf-coreb-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["acns2027-pract-applied-sok-cnf-coreb-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -3481,13 +3481,13 @@ $(function() {
           }
         }
       }
-      $('#acns2027-pract-applied-sok-cnf-coreb-expcfp-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#acns2027-pract-applied-sok-cnf-coreb-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#acns2027-pract-applied-sok-cnf-coreb-expcfp-1').addClass('past');
+        $('#acns2027-pract-applied-sok-cnf-coreb-1').addClass('past');
       }
-      $('#acns2027-pract-applied-sok-cnf-coreb-expcfp-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["acns2027-pract-applied-sok-cnf-coreb-expcfp-1"] = confDeadline;
+      $('#acns2027-pract-applied-sok-cnf-coreb-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["acns2027-pract-applied-sok-cnf-coreb-1"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
