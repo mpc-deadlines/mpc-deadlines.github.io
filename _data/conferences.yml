@@ -1395,4 +1395,13 @@
   portal: https://www.editorialmanager.com/jpdc/
   comment: Accepts submission throughout the year.
   tags: [THEORY, PRACT, JRN]
-  
+
+- name: Indocrypt
+  description: 27th Annual International Conference on Cryptology in India
+  year: 2026
+  link: "https://indocrypt2026.cdacb.in/#home"
+  deadline: ["2026-08-15 23:59"]
+  date: December 13-16
+  place: "Bengaluru, India"
+  tags: [THEORY, PRACT, APPLIED, CNF, COREA]
+
