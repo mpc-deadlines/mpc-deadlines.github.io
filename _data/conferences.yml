@@ -480,6 +480,19 @@
   comment: Notification - March 19, June 25
   tags: [THEORY, PRACT, CNF, COREB]
   
+- name: SPACE
+  description: Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering
+  year: 2026
+  link: "https://space2026.isec.tugraz.at"
+  abdeadline: June 12, 2026, August 21, 2026
+  deadline:
+    - "2026-06-19 23:59"
+    - "2026-08-28 23:59"
+  date: December 18-21
+  place: Bangalore, India
+  comment: Double-blind review process with named program chairs.
+  tags: [THEORY, PRACT, APPLIED, CNF, COREB]
+
 - name: TCC
   description: Theory of Cryptography Conference
   year: 2026
