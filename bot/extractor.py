@@ -166,6 +166,7 @@ TYPE TAG (pick exactly one):
 CORE RANK (pick one):
   COREAS  A* | COREA  A | COREB  B | COREC  C | COREN  National | COREU  Unranked | COREO  Not classified
   If a prior entry is given → copy its CORE tag unchanged unless you have strong evidence it changed.
+  IMPORTANT: Workshops (WK), poster sessions (PS), crypto schools (CRS), and MISC events are NOT ranked by CORE — always use COREO for these.
 
 STATUS RULES:
   FULL    → the page has actual submission deadline date(s)
@@ -240,7 +241,11 @@ def to_entry(data: dict) -> dict:
     Convert Groq's raw output dict into a conferences.yml-ready dict,
     with fields in the canonical order and correct tag list.
     """
-    tags = list(data["domain_tags"]) + [data["type_tag"], data["core_tag"]]
+    # Workshops, poster sessions, crypto schools and misc events have no CORE ranking
+    _unranked_types = {"WK", "PS", "CRS", "MISC"}
+    core_tag = "COREO" if data["type_tag"] in _unranked_types else data["core_tag"]
+
+    tags = list(data["domain_tags"]) + [data["type_tag"], core_tag]
     if data["status"] == "EXP":
         tags.append("EXP")
     elif data["status"] == "EXPCFP":
