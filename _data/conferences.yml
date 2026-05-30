@@ -784,11 +784,11 @@
   description: Real World Crypto
   year: 2027
   link: https://rwc.iacr.org/2027/
-  deadline: ["2026-11-16 23:59"]
+  deadline: ["2026-10-15 23:59"]
   date: April 05-07
   place: Seattle
-  comment: Notification - January 10.
-  tags: [PRACT, APPLIED, WK, EXPCFP]
+  comment: Notification - December 10.
+  tags: [PRACT, APPLIED, WK]
   
 - name: RWC
   description: Real World Crypto
