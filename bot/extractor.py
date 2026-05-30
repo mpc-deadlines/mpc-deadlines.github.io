@@ -170,7 +170,8 @@ TYPE TAG (pick exactly one):
 CORE RANK (pick one):
   COREAS  A* | COREA  A | COREB  B | COREC  C | COREN  National | COREU  Unranked | COREO  Not classified
   If a prior entry is given → copy its CORE tag unchanged unless you have strong evidence it changed.
-  IMPORTANT: Workshops (WK), poster sessions (PS), crypto schools (CRS), and MISC events do NOT have a CORE ranking — still provide a value for core_tag (use COREO) but it will be dropped automatically.
+  IMPORTANT: Workshops (WK), poster sessions (PS), crypto schools (CRS), and MISC events do NOT have a CORE ranking — still provide core_tag as COREO, it will be dropped automatically.
+  For conferences and journals, use COREO if you are not certain — the rank will be verified against the CORE portal automatically.
 
 STATUS RULES:
   FULL    → the page has actual submission deadline date(s)
@@ -264,7 +265,8 @@ def to_entry(data: dict) -> dict:
 
     if data.get("abdeadline"):
         ab = data["abdeadline"]
-        entry["abdeadline"] = ", ".join(ab) if isinstance(ab, list) else ab
+        ab_str = ", ".join(ab) if isinstance(ab, list) else ab
+        entry["abdeadline"] = _strip_years(ab_str)
 
     if data.get("deadline"):
         entry["deadline"] = data["deadline"]

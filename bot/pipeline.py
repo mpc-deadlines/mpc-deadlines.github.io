@@ -13,6 +13,9 @@ from scraper import scrape
 from extractor import extract, to_entry
 from yaml_handler import find_existing, apply_change
 from github_pr import get_conferences_content, create_pr
+from core_lookup import lookup as core_lookup
+
+_RANKED_TYPES = {"CNF", "JRN"}
 
 logger = logging.getLogger(__name__)
 
@@ -74,6 +77,14 @@ async def process_url(url: str, message_link: str = "") -> str:
     except Exception as exc:
         logger.error("Entry construction failed: %s", exc)
         return f"⚠️ Could not build entry ({e(exc)}). Please add manually."
+
+    # ── 5b. Verify CORE rank from portal (conferences and journals only) ──────
+    tags = entry.get("tags", [])
+    type_tag = next((t for t in tags if t in ("CNF", "JRN", "WK", "PS", "CRS", "MISC")), None)
+    if type_tag in _RANKED_TYPES:
+        verified_rank = await core_lookup(entry.get("name", ""))
+        entry["tags"] = [t for t in tags if not t.startswith("CORE")] + [verified_rank]
+        logger.info("CORE rank verified: %s → %s", entry.get("name"), verified_rank)
 
     # ── 6. Determine insert vs update ─────────────────────────────────────────
     try:
