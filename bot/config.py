@@ -15,8 +15,8 @@ ALLOWED_CHATS: set[str] = (
     if _ALLOWED_RAW else set()
 )
 
-# Anthropic
-ANTHROPIC_API_KEY: str = os.environ["ANTHROPIC_API_KEY"]
+# Groq
+GROQ_API_KEY: str = os.environ["GROQ_API_KEY"]
 
 # GitHub
 GITHUB_TOKEN: str = os.environ["GITHUB_TOKEN"]
