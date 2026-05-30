@@ -4,6 +4,7 @@ When a prior-year entry exists in conferences.yml, it is passed in so the model
 can inherit stable fields (domain tags, type, CORE rank) rather than guessing.
 """
 import json
+import re
 import yaml
 from openai import OpenAI
 from config import GROQ_API_KEY
@@ -219,9 +220,24 @@ def extract(page_text: str, url: str, prior_entry: dict | None = None) -> dict:
     raise RuntimeError("Groq did not invoke the extraction tool")
 
 
+_TRAILING_YEAR_RE = re.compile(r",?\s*\b(19|20)\d{2}\b\.?\s*$")
+_INLINE_YEAR_RE  = re.compile(r",?\s*\b(19|20)\d{2}\b")
+
+
+def _strip_years(value: str) -> str:
+    """
+    Remove year references from rebut/date fields.
+    'Oct 5-10, 2026'      → 'Oct 5-10'
+    'March 1-4, 2027'     → 'March 1-4'
+    'Dec 8-12, 2025'      → 'Dec 8-12'
+    'Sep 28, Oct 5, 2026' → 'Sep 28, Oct 5'
+    """
+    return _INLINE_YEAR_RE.sub("", value).strip().rstrip(",").strip()
+
+
 def to_entry(data: dict) -> dict:
     """
-    Convert Claude's raw output dict into a conferences.yml-ready dict,
+    Convert Groq's raw output dict into a conferences.yml-ready dict,
     with fields in the canonical order and correct tag list.
     """
     tags = list(data["domain_tags"]) + [data["type_tag"], data["core_tag"]]
@@ -244,9 +260,17 @@ def to_entry(data: dict) -> dict:
     elif data["status"] in ("EXP", "EXPCFP"):
         entry["deadline"] = ["TBD"]
 
-    for key in ("rebut", "timezone", "date", "place"):
-        if data.get(key):
-            entry[key] = data[key]
+    if data.get("rebut"):
+        entry["rebut"] = _strip_years(data["rebut"])
+
+    if data.get("timezone"):
+        entry["timezone"] = data["timezone"]
+
+    if data.get("date"):
+        entry["date"] = _strip_years(data["date"])
+
+    if data.get("place"):
+        entry["place"] = data["place"]
 
     if data.get("comment"):
         entry["comment"] = data["comment"]

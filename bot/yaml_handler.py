@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import re
 import yaml
+from datetime import datetime, timezone
 from typing import Optional
 
 _YEAR_RE = re.compile(r"\s*\b(19|20)\d{2}\b\s*")
@@ -41,7 +42,8 @@ _FIELD_ORDER = [
     "date", "place", "comment", "conference", "tags",
 ]
 
-_NEEDS_QUOTE = re.compile(r'[:#\{\}\[\]\|>&\*!,\"]')
+# Commas are safe in YAML block scalars — only quote chars that truly need it
+_NEEDS_QUOTE = re.compile(r'[:#\{\}\[\]\|>&\*!\"]')
 
 
 def _scalar(val: object) -> str:
@@ -127,6 +129,33 @@ def _norm_name(name: str) -> str:
     return _YEAR_RE.sub(" ", name).strip().lower()
 
 
+def _all_deadlines_passed(entry: dict) -> bool:
+    """
+    Return True if every submission deadline in *entry* is in the past.
+    Entries with no deadline, TBD deadline, or EXP/EXPCFP status are never pruned.
+    """
+    tags = entry.get("tags", [])
+    if "EXP" in tags or "EXPCFP" in tags:
+        return False
+
+    deadlines = entry.get("deadline", [])
+    if not deadlines:
+        return False
+
+    now = datetime.now(tz=timezone.utc)
+    parsed = []
+    for d in deadlines:
+        if isinstance(d, str) and d.strip().upper() != "TBD":
+            try:
+                parsed.append(datetime.strptime(d.strip(), "%Y-%m-%d %H:%M").replace(tzinfo=timezone.utc))
+            except ValueError:
+                return False  # can't parse → be conservative, don't remove
+        else:
+            return False  # TBD → keep
+
+    return bool(parsed) and all(dt < now for dt in parsed)
+
+
 def find_existing(content: str, name: str) -> list[dict]:
     """Return all entries in *content* whose name matches (case-insensitive, year-stripped)."""
     try:
@@ -173,6 +202,14 @@ def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
         else "FULL"
     )
 
+    # ── Inherit description from prior year when LLM missed it ───────────────
+    if not new_entry.get("description"):
+        prior_entries = [e for e in all_entries if _norm_name(e.get("name", "")) == needle]
+        for pe in sorted(prior_entries, key=lambda e: e.get("year", 0), reverse=True):
+            if pe.get("description"):
+                new_entry["description"] = pe["description"]
+                break
+
     if same_year:
         old_tags = same_year[0].get("tags", [])
         old_status = (
@@ -191,19 +228,39 @@ def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
             start, end = bounds
             new_content = content[:start] + new_block + content[end:]
         else:
-            # Fallback: append
             new_content = content.rstrip() + "\n\n" + new_block
         return new_content, f"upgrade ({old_status} → {new_status})"
 
     # ── Insert new entry ──────────────────────────────────────────────────────
+    # Remove stale prior-year entries (all deadlines passed) for the same conference
+    stale = [
+        e for e in all_entries
+        if _norm_name(e.get("name", "")) == needle
+        and e.get("year") != year
+        and _all_deadlines_passed(e)
+    ]
+    working_content = content
+    for stale_entry in stale:
+        bounds = _entry_bounds(working_content, stale_entry["name"], stale_entry["year"])
+        if bounds:
+            start, end = bounds
+            working_content = working_content[:start] + working_content[end:]
+
     new_rank = _rank(new_entry.get("tags", []))
     new_name_lower = _norm_name(name)
 
-    # Find the first entry that should come AFTER the new one
-    insert_before: Optional[dict] = None
-    for entry in all_entries:
+    new_block = format_entry(new_entry) + "\n\n"
+
+    # Re-parse after stale removal to find correct insert position
+    try:
+        remaining = yaml.safe_load(working_content) or []
+    except Exception:
+        remaining = all_entries
+
+    insert_before = None
+    for entry in remaining:
         e_rank = _rank(entry.get("tags", []))
-        e_name = entry.get("name", "").strip().lower()
+        e_name = _norm_name(entry.get("name", ""))
         if e_rank == new_rank and e_name > new_name_lower:
             insert_before = entry
             break
@@ -211,19 +268,18 @@ def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
             insert_before = entry
             break
 
-    new_block = format_entry(new_entry) + "\n\n"
-
     if insert_before is None:
-        # Append at end of file
-        new_content = content.rstrip() + "\n\n" + new_block
+        new_content = working_content.rstrip() + "\n\n" + new_block
     else:
         ib_year = insert_before.get("year", 0)
         ib_name = insert_before.get("name", "")
-        bounds = _entry_bounds(content, ib_name, ib_year)
+        bounds = _entry_bounds(working_content, ib_name, ib_year)
         if bounds:
             start, _ = bounds
-            new_content = content[:start] + new_block + content[start:]
+            new_content = working_content[:start] + new_block + working_content[start:]
         else:
-            new_content = content.rstrip() + "\n\n" + new_block
+            new_content = working_content.rstrip() + "\n\n" + new_block
 
-    return new_content, "insert"
+    removed = len(stale)
+    action = "insert" + (f" (removed {removed} stale {'entry' if removed == 1 else 'entries'})" if removed else "")
+    return new_content, action
