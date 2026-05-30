@@ -63,8 +63,12 @@ _TOOL: dict = {
                 ),
             },
             "abdeadline": {
-                "type": ["string", "null"],
-                "description": "Abstract / registration deadline(s) as human-readable text.",
+                "anyOf": [
+                    {"type": "string"},
+                    {"type": "array", "items": {"type": "string"}},
+                    {"type": "null"},
+                ],
+                "description": "Abstract / registration deadline(s) as human-readable text. Use a single comma-separated string when there are multiple (e.g. 'Jun 12, Aug 21').",
             },
             "rebut": {
                 "type": ["string", "null"],
@@ -259,7 +263,8 @@ def to_entry(data: dict) -> dict:
             entry[key] = data[key]
 
     if data.get("abdeadline"):
-        entry["abdeadline"] = data["abdeadline"]
+        ab = data["abdeadline"]
+        entry["abdeadline"] = ", ".join(ab) if isinstance(ab, list) else ab
 
     if data.get("deadline"):
         entry["deadline"] = data["deadline"]
