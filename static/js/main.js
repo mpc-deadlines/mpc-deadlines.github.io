@@ -3850,9 +3850,9 @@ $(function() {
   
   
   
-  // PKC 2026
+  // PKC 2027
   
-  var rawDeadlines = ["2025-10-24 23:59"] || [];
+  var rawDeadlines = ["2026-08-03 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -3860,7 +3860,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2026;
+    year = 2027;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -3907,13 +3907,13 @@ $(function() {
           }
         }
       }
-      $('#pkc2026-theory-cnf-coreb-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#pkc2027-theory-cnf-coreb-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#pkc2026-theory-cnf-coreb-0').addClass('past');
+        $('#pkc2027-theory-cnf-coreb-0').addClass('past');
       }
-      $('#pkc2026-theory-cnf-coreb-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["pkc2026-theory-cnf-coreb-0"] = confDeadline;
+      $('#pkc2027-theory-cnf-coreb-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["pkc2027-theory-cnf-coreb-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
