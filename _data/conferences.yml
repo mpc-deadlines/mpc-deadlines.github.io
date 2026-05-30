@@ -459,13 +459,13 @@
   
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
-  year: 2026
-  link: https://pkc.iacr.org/2026/
-  deadline: ["2025-10-24 23:59"]
-  rebut: December 16-23
-  date: May 25-28
-  place: West Palm Beach, USA
-  comment: Early Reject - December 16. Notification - February 13.
+  year: 2027
+  link: "https://pkc.iacr.org/2027/"
+  deadline: ["2026-08-03 23:59"]
+  rebut: Oct 5-12
+  date: March 1-4
+  place: Taipei, Taiwan
+  comment: First round notification - September 28. Final notification - November 19.
   tags: [THEORY, CNF, COREB]
 
 - name: SAC
