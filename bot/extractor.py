@@ -63,8 +63,12 @@ _TOOL: dict = {
                 ),
             },
             "abdeadline": {
-                "type": ["string", "null"],
-                "description": "Abstract / registration deadline(s) as human-readable text.",
+                "anyOf": [
+                    {"type": "string"},
+                    {"type": "array", "items": {"type": "string"}},
+                    {"type": "null"},
+                ],
+                "description": "Abstract / registration deadline(s) as human-readable text. Use a single comma-separated string when there are multiple (e.g. 'Jun 12, Aug 21').",
             },
             "rebut": {
                 "type": ["string", "null"],
@@ -166,6 +170,7 @@ TYPE TAG (pick exactly one):
 CORE RANK (pick one):
   COREAS  A* | COREA  A | COREB  B | COREC  C | COREN  National | COREU  Unranked | COREO  Not classified
   If a prior entry is given → copy its CORE tag unchanged unless you have strong evidence it changed.
+  IMPORTANT: Workshops (WK), poster sessions (PS), crypto schools (CRS), and MISC events do NOT have a CORE ranking — still provide a value for core_tag (use COREO) but it will be dropped automatically.
 
 STATUS RULES:
   FULL    → the page has actual submission deadline date(s)
@@ -240,7 +245,12 @@ def to_entry(data: dict) -> dict:
     Convert Groq's raw output dict into a conferences.yml-ready dict,
     with fields in the canonical order and correct tag list.
     """
-    tags = list(data["domain_tags"]) + [data["type_tag"], data["core_tag"]]
+    # Workshops, poster sessions, crypto schools and misc events have no CORE ranking
+    _unranked_types = {"WK", "PS", "CRS", "MISC"}
+    if data["type_tag"] in _unranked_types:
+        tags = list(data["domain_tags"]) + [data["type_tag"]]
+    else:
+        tags = list(data["domain_tags"]) + [data["type_tag"], data["core_tag"]]
     if data["status"] == "EXP":
         tags.append("EXP")
     elif data["status"] == "EXPCFP":
@@ -253,7 +263,8 @@ def to_entry(data: dict) -> dict:
             entry[key] = data[key]
 
     if data.get("abdeadline"):
-        entry["abdeadline"] = data["abdeadline"]
+        ab = data["abdeadline"]
+        entry["abdeadline"] = ", ".join(ab) if isinstance(ab, list) else ab
 
     if data.get("deadline"):
         entry["deadline"] = data["deadline"]
