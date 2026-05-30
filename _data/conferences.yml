@@ -868,6 +868,16 @@
   conference: Symposium on Operating Systems Principles (SOSP).
   tags: [PRACT, HW, WK]
   
+- name: TrustFL-SIS
+  description: Trustworthy Federated Learning for Smart Industrial Systems
+  year: 2026
+  link: "https://modal-unina.github.io/TrustFL-SIS/"
+  deadline: ["2026-08-20 23:59"]
+  date: To be announced
+  comment: TrustFL-SIS is a half-day workshop at IEEE ICDM 2026
+  conference: IEEE ICDM 2026
+  tags: [PRACT, APPLIED, WK]
+
 - name: WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2026
