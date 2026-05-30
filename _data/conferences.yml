@@ -479,19 +479,6 @@
   place: Ottawa, Ontario
   comment: Notification - March 19, June 25
   tags: [THEORY, PRACT, CNF, COREB]
-  
-- name: SPACE
-  description: Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering
-  year: 2026
-  link: "https://space2026.isec.tugraz.at"
-  abdeadline: June 12, 2026, August 21, 2026
-  deadline:
-    - "2026-06-19 23:59"
-    - "2026-08-28 23:59"
-  date: December 18-21
-  place: Bangalore, India
-  comment: Double-blind review process with named program chairs.
-  tags: [THEORY, PRACT, APPLIED, CNF, COREB]
 
 - name: TCC
   description: Theory of Cryptography Conference
@@ -637,6 +624,19 @@
   place: Medellín, Colombia
   comment: Notification - July 18.
   tags: [THEORY, PRACT, CNF, COREO]
+
+- name: SPACE
+  description: Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering
+  year: 2026
+  link: "https://space2026.isec.tugraz.at"
+  abdeadline: June 12, August 21
+  deadline:
+    - "2026-06-19 23:59"
+    - "2026-08-28 23:59"
+  date: December 18-21
+  place: Bangalore, India
+  comment: Co-located with INDOCRYPT.
+  tags: [THEORY, PRACT, APPLIED, CNF, COREO]
 
 # Workshops
 
