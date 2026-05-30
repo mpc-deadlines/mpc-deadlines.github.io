@@ -771,12 +771,12 @@
   
 - name: PPML CRYPTO
   description: Privacy-Preserving Machine Learning Workshop
-  year: 2025
-  link: https://crypto-ppml.github.io/2025/
-  deadline: ["2025-06-15 23:59"]
-  date: August 17
+  year: 2026
+  link: https://crypto-ppml.github.io/2026/
+  deadline: ["2026-06-10 23:59"]
+  date: August 16
   place: Santa Barbara, USA
-  comment: Notification - June 22
+  comment: Notification - June 19
   conference: CRYPTO.
   tags: [PRACT, PPML, WK]
   
