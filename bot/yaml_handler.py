@@ -16,6 +16,8 @@ import re
 import yaml
 from typing import Optional
 
+_YEAR_RE = re.compile(r"\s*\b(19|20)\d{2}\b\s*")
+
 # ── CORE rank ordering ─────────────────────────────────────────────────────────
 
 _RANK_ORDER: dict[str, int] = {
@@ -120,14 +122,19 @@ def _entry_bounds(content: str, name: str, year: int) -> Optional[tuple[int, int
 
 # ── Public API ─────────────────────────────────────────────────────────────────
 
+def _norm_name(name: str) -> str:
+    """Lowercase and strip any 4-digit year so 'INDOCRYPT 2026' matches 'INDOCRYPT'."""
+    return _YEAR_RE.sub(" ", name).strip().lower()
+
+
 def find_existing(content: str, name: str) -> list[dict]:
-    """Return all entries in *content* whose name matches (case-insensitive)."""
+    """Return all entries in *content* whose name matches (case-insensitive, year-stripped)."""
     try:
         all_entries: list[dict] = yaml.safe_load(content) or []
     except Exception:
         return []
-    name_lower = name.strip().lower()
-    return [e for e in all_entries if e.get("name", "").strip().lower() == name_lower]
+    needle = _norm_name(name)
+    return [e for e in all_entries if _norm_name(e.get("name", "")) == needle]
 
 
 def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
@@ -151,11 +158,11 @@ def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
 
     name = new_entry["name"]
     year = new_entry["year"]
-    name_lower = name.strip().lower()
+    needle = _norm_name(name)
 
     same_year = [
         e for e in all_entries
-        if e.get("name", "").strip().lower() == name_lower
+        if _norm_name(e.get("name", "")) == needle
         and e.get("year") == year
     ]
 
@@ -190,7 +197,7 @@ def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
 
     # ── Insert new entry ──────────────────────────────────────────────────────
     new_rank = _rank(new_entry.get("tags", []))
-    new_name_lower = name.strip().lower()
+    new_name_lower = _norm_name(name)
 
     # Find the first entry that should come AFTER the new one
     insert_before: Optional[dict] = None

@@ -110,6 +110,6 @@ def create_pr(
 
 
 def _preview_yaml(entry: dict) -> str:
-    """Compact YAML preview for the PR body (not the file-ready format)."""
-    import yaml
-    return yaml.dump(entry, default_flow_style=False, allow_unicode=True).strip()
+    """Render the entry in canonical field order, matching conferences.yml style."""
+    from yaml_handler import format_entry
+    return format_entry(entry)
