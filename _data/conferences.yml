@@ -479,7 +479,7 @@
   place: Ottawa, Ontario
   comment: Notification - March 19, June 25
   tags: [THEORY, PRACT, CNF, COREB]
-  
+
 - name: TCC
   description: Theory of Cryptography Conference
   year: 2026
@@ -624,6 +624,19 @@
   place: Medellín, Colombia
   comment: Notification - July 18.
   tags: [THEORY, PRACT, CNF, COREO]
+
+- name: SPACE
+  description: Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering
+  year: 2026
+  link: "https://space2026.isec.tugraz.at"
+  abdeadline: June 12, August 21
+  deadline:
+    - "2026-06-19 23:59"
+    - "2026-08-28 23:59"
+  date: December 18-21
+  place: Bangalore, India
+  comment: Co-located with INDOCRYPT.
+  tags: [THEORY, PRACT, APPLIED, CNF, COREO]
 
 # Workshops
 
@@ -856,6 +869,16 @@
   conference: Symposium on Operating Systems Principles (SOSP).
   tags: [PRACT, HW, WK]
   
+- name: TrustFL-SIS
+  description: Trustworthy Federated Learning for Smart Industrial Systems
+  year: 2026
+  link: "https://modal-unina.github.io/TrustFL-SIS/"
+  deadline: ["2026-08-20 23:59"]
+  date: November 12
+  comment: TrustFL-SIS is a half-day workshop at IEEE ICDM 2026
+  conference: IEEE ICDM 2026
+  tags: [PRACT, APPLIED, WK]
+
 - name: WAHC
   description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
   year: 2026
