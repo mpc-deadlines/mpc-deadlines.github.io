@@ -166,7 +166,7 @@ TYPE TAG (pick exactly one):
 CORE RANK (pick one):
   COREAS  A* | COREA  A | COREB  B | COREC  C | COREN  National | COREU  Unranked | COREO  Not classified
   If a prior entry is given → copy its CORE tag unchanged unless you have strong evidence it changed.
-  IMPORTANT: Workshops (WK), poster sessions (PS), crypto schools (CRS), and MISC events are NOT ranked by CORE — always use COREO for these.
+  IMPORTANT: Workshops (WK), poster sessions (PS), crypto schools (CRS), and MISC events do NOT have a CORE ranking — still provide a value for core_tag (use COREO) but it will be dropped automatically.
 
 STATUS RULES:
   FULL    → the page has actual submission deadline date(s)
@@ -243,9 +243,10 @@ def to_entry(data: dict) -> dict:
     """
     # Workshops, poster sessions, crypto schools and misc events have no CORE ranking
     _unranked_types = {"WK", "PS", "CRS", "MISC"}
-    core_tag = "COREO" if data["type_tag"] in _unranked_types else data["core_tag"]
-
-    tags = list(data["domain_tags"]) + [data["type_tag"], core_tag]
+    if data["type_tag"] in _unranked_types:
+        tags = list(data["domain_tags"]) + [data["type_tag"]]
+    else:
+        tags = list(data["domain_tags"]) + [data["type_tag"], data["core_tag"]]
     if data["status"] == "EXP":
         tags.append("EXP")
     elif data["status"] == "EXPCFP":
