@@ -4,7 +4,7 @@ Watches the [@mpc_deadlines](https://t.me/mpc_deadlines) channel. When anyone po
 
 1. Scrapes the page
 2. Looks up any prior-year entry in `conferences.yml` (to inherit stable tags)
-3. Asks Claude to extract structured data and assign tags
+3. Asks Groq (Llama 3.3 70B) to extract structured data and assign tags
 4. Scope-checks the event (CFP + MPC topics + peer review)
 5. Inserts or upgrades the entry (EXP → EXPCFP → FULL) in alphabetical order
 6. Opens a GitHub PR for human review
@@ -22,7 +22,15 @@ Watches the [@mpc_deadlines](https://t.me/mpc_deadlines) channel. When anyone po
 
 Get the channel's numeric ID by forwarding any channel message to [@userinfobot](https://t.me/userinfobot), then add it to `ALLOWED_CHATS`.
 
-### 2. Create a GitHub fine-grained PAT
+### 2. Get a Groq API key
+
+1. Sign up free at [console.groq.com](https://console.groq.com)
+2. Go to **API Keys** → **Create API Key**
+3. Copy the key into `.env` as `GROQ_API_KEY`
+
+No credit card required — Groq has a free tier.
+
+### 3. Create a GitHub fine-grained PAT
 
 Go to **GitHub → Settings → Developer settings → Fine-grained tokens**.  
 Grant on `mpc-deadlines/mpc-deadlines.github.io`:

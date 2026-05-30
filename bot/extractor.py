@@ -1,20 +1,27 @@
 """
-Use Claude to extract structured conference data from a scraped page.
-When a prior-year entry exists in conferences.yml, it is passed in so Claude
+Use Groq (Llama 3.3 70B) to extract structured conference data from a scraped page.
+When a prior-year entry exists in conferences.yml, it is passed in so the model
 can inherit stable fields (domain tags, type, CORE rank) rather than guessing.
 """
+import json
 import yaml
-import anthropic
-from config import ANTHROPIC_API_KEY
+from openai import OpenAI
+from config import GROQ_API_KEY
 
-_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+_client = OpenAI(
+    api_key=GROQ_API_KEY,
+    base_url="https://api.groq.com/openai/v1",
+)
+_MODEL = "llama-3.3-70b-versatile"
 
-# ── Tool schema ────────────────────────────────────────────────────────────────
+# ── Tool schema (OpenAI function-calling format) ───────────────────────────────
 
 _TOOL: dict = {
+    "type": "function",
+    "function": {
     "name": "submit_conference_entry",
     "description": "Submit extracted and validated conference deadline data.",
-    "input_schema": {
+    "parameters": {
         "type": "object",
         "required": [
             "in_scope", "name", "year", "link",
@@ -117,6 +124,11 @@ _TOOL: dict = {
                 ),
             },
         },
+        "required": [
+            "in_scope", "name", "year", "link",
+            "domain_tags", "type_tag", "core_tag", "status",
+        ],
+    },
     },
 }
 
@@ -183,27 +195,28 @@ def extract(page_text: str, url: str, prior_entry: dict | None = None) -> dict:
             f"```yaml\n{prior_yaml}```\n"
         )
 
-    response = _client.messages.create(
-        model="claude-opus-4-5",
-        max_tokens=2048,
-        system=_SYSTEM,
+    response = _client.chat.completions.create(
+        model=_MODEL,
         tools=[_TOOL],
-        tool_choice={"type": "tool", "name": "submit_conference_entry"},
-        messages=[{
-            "role": "user",
-            "content": (
-                f"URL: {url}"
-                f"{prior_block}"
-                f"\n\nPAGE TEXT:\n{page_text}"
-            ),
-        }],
+        tool_choice={"type": "function", "function": {"name": "submit_conference_entry"}},
+        messages=[
+            {"role": "system", "content": _SYSTEM},
+            {
+                "role": "user",
+                "content": (
+                    f"URL: {url}"
+                    f"{prior_block}"
+                    f"\n\nPAGE TEXT:\n{page_text}"
+                ),
+            },
+        ],
     )
 
-    for block in response.content:
-        if block.type == "tool_use" and block.name == "submit_conference_entry":
-            return block.input  # type: ignore[return-value]
+    tool_calls = response.choices[0].message.tool_calls
+    if tool_calls and tool_calls[0].function.name == "submit_conference_entry":
+        return json.loads(tool_calls[0].function.arguments)
 
-    raise RuntimeError("Claude did not invoke the extraction tool")
+    raise RuntimeError("Groq did not invoke the extraction tool")
 
 
 def to_entry(data: dict) -> dict:
