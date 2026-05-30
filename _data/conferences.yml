@@ -951,12 +951,12 @@
   
 - name: PoPETS
   description: Privacy Enhancing Technologies Symposium
-  year: 2025
-  link: https://petsymposium.org/2025/cfposters.php
-  deadline: ["2025-06-01 23:59"]
-  date: July 14-19
-  place: Washington, DC (Hybrid)
-  comment: Submit before May 13 if you need a Visa to attend PETS.
+  year: 2026
+  link: https://petsymposium.org/2026/cfposters.php
+  deadline: ["2026-07-10 23:59"]
+  date: July 20-25
+  place: Calgary, Canada
+  comment: Accepted on a rolling basis until all slots are filled.
   tags: [PRACT, APPLIED, PS]
 
 # CryptoSchools
