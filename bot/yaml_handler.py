@@ -90,7 +90,11 @@ def format_entry(entry: dict) -> str:
 
 # ── Low-level text manipulation ────────────────────────────────────────────────
 
+# A "boundary" is either a new list entry OR a section comment (# CORE ...).
+# Using both as boundary markers means we never swallow section headers when
+# replacing or removing an entry.
 _LIST_ITEM_RE = re.compile(r"^- name:", re.MULTILINE)
+_BOUNDARY_RE  = re.compile(r"^(?:- name:|#)", re.MULTILINE)
 
 
 def _all_item_starts(content: str) -> list[int]:
@@ -98,15 +102,25 @@ def _all_item_starts(content: str) -> list[int]:
     return [m.start() for m in _LIST_ITEM_RE.finditer(content)]
 
 
+def _all_boundaries(content: str) -> list[int]:
+    """Character offsets of every '- name:' OR '# comment' line."""
+    return [m.start() for m in _BOUNDARY_RE.finditer(content)]
+
+
 def _entry_bounds(content: str, name: str, year: int) -> Optional[tuple[int, int]]:
     """
     Return (start, end) char offsets for the entry matching *name* + *year*.
-    *end* points to the character just after the last newline of the entry
-    (i.e. the start of the next entry, or EOF).
+    *end* stops at the next boundary (another entry OR a section comment),
+    so section headers like '# CORE C' are never consumed.
     """
-    starts = _all_item_starts(content)
-    for i, start in enumerate(starts):
-        end = starts[i + 1] if i + 1 < len(starts) else len(content)
+    item_starts = _all_item_starts(content)
+    boundaries  = _all_boundaries(content)
+
+    for i, start in enumerate(item_starts):
+        # End = next boundary AFTER this entry's start
+        next_boundaries = [b for b in boundaries if b > start]
+        end = next_boundaries[0] if next_boundaries else len(content)
+
         chunk = content[start:end]
         try:
             parsed = yaml.safe_load(chunk)
@@ -154,6 +168,40 @@ def _all_deadlines_passed(entry: dict) -> bool:
             return False  # TBD → keep
 
     return bool(parsed) and all(dt < now for dt in parsed)
+
+
+def _conservative_merge(existing: dict, new: dict) -> dict:
+    """
+    Merge *new* data into *existing* entry conservatively:
+    - Start from the existing entry as the base (preserves all its fields/structure)
+    - Always update: deadline, link (core facts that change each year)
+    - Update only if field already exists in the original: every other field
+    - Never add a field that wasn't in the original (prevents hallucinated fields
+      like `conference` or `abdeadline` appearing out of nowhere)
+    - Remove EXP / EXPCFP status tags since we are upgrading to a fuller status
+    """
+    merged = dict(existing)
+
+    # Fields we always update if the new entry has real data
+    always_update = {"deadline", "link"}
+    for field in always_update:
+        val = new.get(field)
+        if val and val != ["TBD"]:
+            merged[field] = val
+
+    # Fields updated only when they already exist in the original
+    update_if_present = {
+        "abdeadline", "rebut", "date", "place", "comment",
+        "timezone", "description",
+    }
+    for field in update_if_present:
+        if field in existing and new.get(field):
+            merged[field] = new[field]
+
+    # Strip EXP / EXPCFP from tags — keep everything else (domain, type, CORE)
+    merged["tags"] = [t for t in existing.get("tags", []) if t not in ("EXP", "EXPCFP")]
+
+    return merged
 
 
 def find_existing(content: str, name: str) -> list[dict]:
@@ -221,9 +269,11 @@ def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
         if old_status == "FULL" and new_status == "FULL":
             return content, "duplicate"
 
-        # Replace existing entry in-place
+        # Merge conservatively — patch only what changed, keep existing structure
+        merged_entry = _conservative_merge(same_year[0], new_entry)
+
         bounds = _entry_bounds(content, name, year)
-        new_block = format_entry(new_entry) + "\n\n"
+        new_block = format_entry(merged_entry) + "\n\n"
         if bounds:
             start, end = bounds
             new_content = content[:start] + new_block + content[end:]

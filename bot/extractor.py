@@ -292,7 +292,8 @@ def to_entry(data: dict) -> dict:
     elif data["status"] == "EXPCFP":
         entry["comment"] = "Submission details TBA"
 
-    if data.get("conference"):
+    # Only add `conference` for actual workshops — never for conferences/journals
+    if data.get("conference") and data["type_tag"] == "WK":
         entry["conference"] = data["conference"]
 
     entry["tags"] = tags
