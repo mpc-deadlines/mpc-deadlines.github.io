@@ -1,5 +1,6 @@
 """Fetch a conference URL and return clean plain text for the LLM to parse."""
 import logging
+import re
 import httpx
 from bs4 import BeautifulSoup
 
@@ -19,9 +20,31 @@ _HEADERS = {
     "Upgrade-Insecure-Requests": "1",
 }
 _MAX_CHARS = 8000
-
-# If parsed text is shorter than this the page is almost certainly a JS shell
 _MIN_USEFUL_CHARS = 200
+
+# Patterns that indicate a garbage / error page
+_GARBAGE_PATTERNS = [
+    re.compile(r"java\.(io|lang|util)\.\w+"),   # Java stack traces
+    re.compile(r"HttpServlet(Request|Response)"),
+    re.compile(r"at [a-z][\w\.]+\([\w\.]+:\d+\)"),  # Java stack frame
+    re.compile(r"<function=\w+"),                # LLM tool-call markup leaked in
+]
+
+# Strip tool-call markup from scraped text so it never confuses the LLM
+_TOOL_CALL_RE = re.compile(r"<function=\w+[^>]*>.*?(?:</function>|(?=<function=)|\Z)", re.DOTALL)
+
+
+def _is_garbage(text: str) -> bool:
+    """Return True if the text looks like a server error or corrupted cache page."""
+    for pattern in _GARBAGE_PATTERNS:
+        if pattern.search(text):
+            return True
+    return False
+
+
+def _sanitize(text: str) -> str:
+    """Remove patterns that would break LLM tool-call parsing."""
+    return _TOOL_CALL_RE.sub("", text).strip()
 
 
 async def scrape(url: str) -> str:
@@ -31,43 +54,60 @@ async def scrape(url: str) -> str:
     Fallback chain:
     1. Direct fetch (with browser headers)
     2. If 404 or JS-only shell → try Google Cache
-    3. SSL failure at any step → retry without verification
+    3. Validate content quality at each step — reject garbage pages
+    4. SSL failure → retry without verification
     """
     try:
         html = await _fetch(url, verify=True)
+        text = _parse(html)
     except httpx.HTTPStatusError as exc:
         if exc.response.status_code == 404:
             logger.warning("404 for %s — trying Google Cache", url)
-            return await _scrape_via_cache(url)
+            return await _try_cache(url)
         raise
 
-    text = _parse(html)
-
-    # Detect JS-only shells: page loaded but has almost no readable content
+    # JS shell detection
     if len(text) < _MIN_USEFUL_CHARS:
-        logger.warning("Page appears JS-rendered (%d chars) for %s — trying Google Cache", len(text), url)
-        try:
-            cached = await _scrape_via_cache(url)
-            if len(cached) >= _MIN_USEFUL_CHARS:
-                return cached
-        except Exception as cache_exc:
-            logger.warning("Google Cache also failed: %s", cache_exc)
-
-    if len(text) < _MIN_USEFUL_CHARS:
+        logger.warning("Page looks JS-rendered (%d chars) for %s — trying Google Cache", len(text), url)
+        cached = await _try_cache(url)
+        if cached:
+            return cached
         raise ValueError(
-            "Page appears to be JavaScript-rendered and no cached version was found. "
+            "Page is JavaScript-rendered and no cached version was found. "
             "Try linking directly to the CFP page instead."
         )
 
-    return text
+    # Garbage detection
+    if _is_garbage(text):
+        logger.warning("Direct fetch returned garbage for %s — trying Google Cache", url)
+        cached = await _try_cache(url)
+        if cached:
+            return cached
+        raise ValueError(
+            "Could not retrieve clean content from this page. "
+            "Try linking directly to the CFP page instead."
+        )
+
+    return _sanitize(text)
 
 
-async def _scrape_via_cache(url: str) -> str:
-    """Attempt to fetch via Google Cache."""
+async def _try_cache(url: str) -> str:
+    """
+    Try Google Cache. Returns clean text if usable, empty string if not.
+    Never raises — caller decides what to do with an empty result.
+    """
     cache_url = f"https://webcache.googleusercontent.com/search?q=cache:{url}&hl=en"
-    logger.info("Fetching Google Cache: %s", cache_url)
-    html = await _fetch(cache_url, verify=True)
-    return _parse(html)
+    logger.info("Trying Google Cache: %s", cache_url)
+    try:
+        html = await _fetch(cache_url, verify=True)
+        text = _parse(html)
+        if len(text) < _MIN_USEFUL_CHARS or _is_garbage(text):
+            logger.warning("Google Cache also returned garbage/empty for %s", url)
+            return ""
+        return _sanitize(text)
+    except Exception as exc:
+        logger.warning("Google Cache failed for %s: %s", url, exc)
+        return ""
 
 
 _SSL_HINTS = ("ssl", "certificate", "verify failed", "unknown ca")
