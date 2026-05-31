@@ -483,12 +483,12 @@
 - name: TCC
   description: Theory of Cryptography Conference
   year: 2026
-  link: https://tcc.iacr.org/2026/
-  deadline: ["2025-05-19 23:59"]
+  link: "https://tcc.iacr.org/2026/"
+  deadline: ["2026-05-19 23:59"]
   date: November 10-13
   place: New York City, USA
-  comment: Notification - August 28.
-  tags: [THEORY, CNF, COREB, EXPCFP]
+  comment: Notification - August 20. Co-located with FOCS 2026
+  tags: [THEORY, CNF, COREB]
 
 # CORE C
 
