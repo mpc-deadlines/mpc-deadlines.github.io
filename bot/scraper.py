@@ -20,15 +20,54 @@ _HEADERS = {
 }
 _MAX_CHARS = 8000
 
+# If parsed text is shorter than this the page is almost certainly a JS shell
+_MIN_USEFUL_CHARS = 200
+
 
 async def scrape(url: str) -> str:
     """
     Return up to 8 000 chars of meaningful text from *url*.
-    If SSL verification fails (common with academic/govt sites), retries
-    without verification and logs a warning.
+
+    Fallback chain:
+    1. Direct fetch (with browser headers)
+    2. If 404 or JS-only shell → try Google Cache
+    3. SSL failure at any step → retry without verification
     """
-    text = await _fetch(url, verify=True)
-    return _parse(text)
+    try:
+        html = await _fetch(url, verify=True)
+    except httpx.HTTPStatusError as exc:
+        if exc.response.status_code == 404:
+            logger.warning("404 for %s — trying Google Cache", url)
+            return await _scrape_via_cache(url)
+        raise
+
+    text = _parse(html)
+
+    # Detect JS-only shells: page loaded but has almost no readable content
+    if len(text) < _MIN_USEFUL_CHARS:
+        logger.warning("Page appears JS-rendered (%d chars) for %s — trying Google Cache", len(text), url)
+        try:
+            cached = await _scrape_via_cache(url)
+            if len(cached) >= _MIN_USEFUL_CHARS:
+                return cached
+        except Exception as cache_exc:
+            logger.warning("Google Cache also failed: %s", cache_exc)
+
+    if len(text) < _MIN_USEFUL_CHARS:
+        raise ValueError(
+            "Page appears to be JavaScript-rendered and no cached version was found. "
+            "Try linking directly to the CFP page instead."
+        )
+
+    return text
+
+
+async def _scrape_via_cache(url: str) -> str:
+    """Attempt to fetch via Google Cache."""
+    cache_url = f"https://webcache.googleusercontent.com/search?q=cache:{url}&hl=en"
+    logger.info("Fetching Google Cache: %s", cache_url)
+    html = await _fetch(cache_url, verify=True)
+    return _parse(html)
 
 
 _SSL_HINTS = ("ssl", "certificate", "verify failed", "unknown ca")
@@ -43,11 +82,8 @@ async def _fetch(url: str, verify: bool) -> str:
             resp.raise_for_status()
             return resp.text
     except Exception as exc:
-        # If SSL-related and we haven't already disabled verification, retry
         if verify and any(h in str(exc).lower() for h in _SSL_HINTS):
-            logger.warning(
-                "SSL verification failed for %s — retrying without verification", url
-            )
+            logger.warning("SSL verification failed for %s — retrying without verification", url)
             return await _fetch(url, verify=False)
         raise
 
