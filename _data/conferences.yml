@@ -271,16 +271,12 @@
   
 - name: EuroSys
   description: The European Conference on Computer Systems
-  year: 2026
-  link: https://2026.eurosys.org
-  abdeadline: May 08, September 18
-  deadline: 
-    - "2025-05-15 23:59"
-    - "2025-09-25 23:59"
-  rebut: July 30-August 01, January 07-09
-  date: April 13-16
-  place: Edinburgh
-  comment: Notification - August 22, January 30
+  year: 2027
+  link: "https://2027.eurosys.org/cfp.html"
+  deadline:
+    - "2026-05-14 23:59"
+    - "2026-09-24 23:59"
+  place: Morocco
   tags: [THEORY, CNF, COREA]
 
 - name: FC
