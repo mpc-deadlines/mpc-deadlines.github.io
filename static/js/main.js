@@ -1221,9 +1221,9 @@ $(function() {
   
   
   
-  // VLDB 2026
+  // VLDB 2027
   
-  var rawDeadlines = ["2025-04-01 16:59","2025-05-01 16:59","2025-06-01 16:59","2025-07-01 16:59","2025-08-01 16:59","2025-09-01 16:59","2025-10-01 16:59","2025-11-01 16:59","2025-12-01 16:59","2026-01-01 16:59","2026-02-01 16:59","2026-03-01 16:59"] || [];
+  var rawDeadlines = ["2026-04-01 16:59","2026-05-01 16:59","2026-06-01 16:59","2026-07-01 16:59","2026-08-01 16:59","2026-09-01 16:59","2026-10-01 16:59","2026-11-01 16:59","2026-12-01 16:59","2027-01-01 16:59","2027-02-01 16:59","2027-03-01 16:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -1231,485 +1231,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2026;
-    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
-    // adjust date according to deadline timezone
-    
-    var deadline = moment.tz(rawDeadline, "PT");
-    
-
-    // post-process date
-    if (deadline.minutes() === 0) {
-      deadline.subtract(1, 'seconds');
-    }
-    if (deadline.minutes() === 59) {
-      deadline.seconds(59);
-    }
-    parsedDeadlines.push(deadline);
-  }
-  // due to pop before; we need to reverse such that the i index later matches
-  // the right parsed deadline
-  parsedDeadlines.reverse();
-
-  
-  
-  //
-  
-  
-  var deadlineId = 0;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-0').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-0"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 1;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-1').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-1"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 2;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-2 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-2').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-2 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-2"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 3;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-3 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-3').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-3 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-3"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 4;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-4 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-4').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-4 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-4"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 5;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-5 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-5').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-5 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-5"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 6;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-6 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-6').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-6 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-6"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 7;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-7 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-7').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-7 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-7"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 8;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-8 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-8').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-8 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-8"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 9;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-9 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-9').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-9 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-9"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 10;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-10 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-10').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-10 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-10"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 11;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-11 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#vldb2026-theory-pract-applied-cnf-coreas-11').addClass('past');
-      }
-      $('#vldb2026-theory-pract-applied-cnf-coreas-11 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb2026-theory-pract-applied-cnf-coreas-11"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  
-  
-  // VLDB (Industrial Track) 2026
-  
-  var rawDeadlines = ["2026-03-02 23:59"] || [];
-  if (rawDeadlines.constructor !== Array) {
-    rawDeadlines = [rawDeadlines];
-  }
-  var parsedDeadlines = [];
-  while (rawDeadlines.length > 0) {
-    var rawDeadline = rawDeadlines.pop();
-    // deal with year template in deadline
-    year = 2026;
+    year = 2027;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -1756,13 +1278,491 @@ $(function() {
           }
         }
       }
-      $('#vldb-industrial-track-2026-theory-pract-applied-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#vldb2027-theory-pract-applied-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#vldb-industrial-track-2026-theory-pract-applied-cnf-coreas-0').addClass('past');
+        $('#vldb2027-theory-pract-applied-cnf-coreas-0').addClass('past');
       }
-      $('#vldb-industrial-track-2026-theory-pract-applied-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["vldb-industrial-track-2026-theory-pract-applied-cnf-coreas-0"] = confDeadline;
+      $('#vldb2027-theory-pract-applied-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 1;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-1').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-1"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 2;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-2 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-2').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-2 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-2"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 3;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-3 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-3').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-3 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-3"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 4;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-4 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-4').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-4 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-4"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 5;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-5 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-5').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-5 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-5"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 6;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-6 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-6').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-6 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-6"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 7;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-7 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-7').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-7 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-7"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 8;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-8 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-8').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-8 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-8"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 9;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-9 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-9').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-9 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-9"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 10;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-10 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-10').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-10 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-10"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 11;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-11 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb2027-theory-pract-applied-cnf-coreas-11').addClass('past');
+      }
+      $('#vldb2027-theory-pract-applied-cnf-coreas-11 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb2027-theory-pract-applied-cnf-coreas-11"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // VLDB (Industrial Track) 2027
+  
+  var rawDeadlines = ["2027-03-02 23:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2027;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  //
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#vldb-industrial-track-2027-theory-pract-applied-cnf-coreas-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#vldb-industrial-track-2027-theory-pract-applied-cnf-coreas-expcfp-0').addClass('past');
+      }
+      $('#vldb-industrial-track-2027-theory-pract-applied-cnf-coreas-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["vldb-industrial-track-2027-theory-pract-applied-cnf-coreas-expcfp-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
