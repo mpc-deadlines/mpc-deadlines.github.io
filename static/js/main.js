@@ -252,9 +252,9 @@ $(function() {
   
   
   
-  // EUROCRYPT 2026
+  // EUROCRYPT 2027
   
-  var rawDeadlines = ["2025-10-02 23:59"] || [];
+  var rawDeadlines = ["2026-09-17 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -262,7 +262,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2026;
+    year = 2027;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -309,13 +309,13 @@ $(function() {
           }
         }
       }
-      $('#eurocrypt2026-theory-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#eurocrypt2027-theory-cnf-coreas-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#eurocrypt2026-theory-cnf-coreas-0').addClass('past');
+        $('#eurocrypt2027-theory-cnf-coreas-expcfp-0').addClass('past');
       }
-      $('#eurocrypt2026-theory-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["eurocrypt2026-theory-cnf-coreas-0"] = confDeadline;
+      $('#eurocrypt2027-theory-cnf-coreas-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["eurocrypt2027-theory-cnf-coreas-expcfp-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
