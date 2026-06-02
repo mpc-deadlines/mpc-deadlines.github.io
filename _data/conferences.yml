@@ -24,6 +24,13 @@
   tags: [THEORY, CNF, COREAS]
   comment: Notification - February 01.
   
+- name: Computer Conference
+  year: 2027
+  link: "https://host.conferences.computer.org/2027/"
+  deadline: ["TBD"]
+  comment: CFP yet to be announced
+  tags: [THEORY, PRACT, APPLIED, CNF, EXP, COREAS]
+
 - name: CRYPTO
   description: International Cryptology Conference
   year: 2026
