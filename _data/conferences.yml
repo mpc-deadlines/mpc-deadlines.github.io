@@ -44,7 +44,7 @@
   date: April 11-15
   place: Eindhoven
   comment: "Early Reject Notification: November 20, 2026, Notification: January 18, 2027"
-  tags: [THEORY, CNF, COREAS]
+  tags: [THEORY, CNF, COREAS, EXPCFP]
 
 - name: IEEE FOCS
   description: IEEE Symposium on Foundations of Computer Science
