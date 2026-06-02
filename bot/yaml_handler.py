@@ -204,6 +204,44 @@ def _conservative_merge(existing: dict, new: dict) -> dict:
     return merged
 
 
+def _merge_new_year(prior: dict, new: dict) -> dict:
+    """
+    Build the entry for a new year from *prior* (template) and *new* (LLM output).
+
+    Rules:
+    - Always take from new:  year, link, tags
+    - Take from new if non-empty, else keep prior:  deadline, abdeadline, rebut,
+                                                     date, place, comment, timezone
+    - Always keep from prior:  name, description, conference  (stable across years)
+    - Never add a field that didn't exist in prior (blocks hallucinated fields)
+    """
+    # Start with prior as the base — this preserves field order and all keys
+    merged = dict(prior)
+
+    # Always override with the new year / link
+    merged["year"] = new["year"]
+    merged["link"] = new["link"]
+
+    # Override with LLM value if it found something real; else keep prior's value
+    # as a placeholder so the field isn't lost
+    for field in ("deadline", "abdeadline", "rebut", "date", "place",
+                  "comment", "timezone"):
+        val = new.get(field)
+        real = val and val != ["TBD"] and val != "TBD"
+        if real:
+            merged[field] = val
+        # else: leave prior's value in place (acts as a human-review placeholder)
+
+    # Tags: use new tags (domain/type/CORE already verified by pipeline)
+    # but preserve conference field from prior if it existed
+    merged["tags"] = new.get("tags", prior.get("tags", []))
+
+    # Strip any EXP/EXPCFP from prior that shouldn't carry over
+    merged["tags"] = [t for t in merged["tags"] if t not in ("EXP", "EXPCFP")]
+
+    return merged
+
+
 def find_existing(content: str, name: str) -> list[dict]:
     """Return all entries in *content* whose name matches (case-insensitive, year-stripped)."""
     try:
@@ -282,6 +320,17 @@ def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
         return new_content, f"upgrade ({old_status} → {new_status})"
 
     # ── Insert new entry ──────────────────────────────────────────────────────
+    # If a prior-year entry exists, use it as the field template so we never
+    # lose fields like place, comment, rebut that the LLM may have missed.
+    prior_entries = [
+        e for e in all_entries
+        if _norm_name(e.get("name", "")) == needle
+        and e.get("year") != year
+    ]
+    if prior_entries:
+        prior = max(prior_entries, key=lambda e: e.get("year", 0))
+        new_entry = _merge_new_year(prior, new_entry)
+
     # Remove stale prior-year entries (all deadlines passed) for the same conference
     stale = [
         e for e in all_entries
