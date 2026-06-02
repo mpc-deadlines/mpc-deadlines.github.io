@@ -162,27 +162,22 @@
 
 - name: VLDB
   description: International Conference on Very Large Data Bases
-  year: 2026
-  link: https://vldb.org/2026/
+  year: 2027
+  link: "https://vldb.org/2027/call-for-research-track.html"
+  abdeadline: Rolling deadline every month
   deadline:
-    - "2025-04-01 16:59"
-    - "2025-05-01 16:59"
-    - "2025-06-01 16:59"
-    - "2025-07-01 16:59"
-    - "2025-08-01 16:59"
-    - "2025-09-01 16:59"
-    - "2025-10-01 16:59"
-    - "2025-11-01 16:59"
-    - "2025-12-01 16:59"
-    - "2026-01-01 16:59"
-    - "2026-02-01 16:59"
-    - "2026-03-01 16:59"
-  timezone: PT
-  date: August 31 - September 04
-  place: Boston, MA, USA
+    - "2027-01-01 16:59"
+    - "2027-02-01 16:59"
+    - "2027-03-01 16:59"
+    - "2027-04-01 16:59"
+    - "2027-05-01 16:59"
+    - "2027-06-01 16:59"
+    - "2027-07-01 16:59"
+  date: August 23-27
+  place: Athens, Greece
   comment: Rolling deadline every month. Notification on 15th of next month. Multiple tracks.
   tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
-  
+
 - name: VLDB (Industrial Track)
   description: International Conference on Very Large Data Bases
   year: 2026
