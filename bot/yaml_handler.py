@@ -16,6 +16,7 @@ import re
 import yaml
 from datetime import datetime, timezone
 from typing import Optional
+from urllib.parse import urlparse
 
 _YEAR_RE = re.compile(r"\s*\b(19|20)\d{2}\b\s*")
 
@@ -250,6 +251,61 @@ def find_existing(content: str, name: str) -> list[dict]:
         return []
     needle = _norm_name(name)
     return [e for e in all_entries if _norm_name(e.get("name", "")) == needle]
+
+
+def _conf_slug_from_url(url: str) -> str:
+    """
+    Extract a short conference identifier from a URL.
+    Examples:
+      https://ches.iacr.org/2027/        → 'ches'
+      https://eurocrypt.iacr.org/2026/   → 'eurocrypt'
+      https://cns2026.ieee-cns.org/      → 'cns'
+      https://pkc.iacr.org/2027/         → 'pkc'
+    """
+    parsed = urlparse(url)
+    host = parsed.netloc.lower().lstrip("www.")
+
+    # Try subdomain (e.g. ches.iacr.org → 'ches')
+    parts = host.split(".")
+    if len(parts) >= 3:
+        sub = parts[0]
+        # Skip generic subdomains
+        if sub not in ("www", "sites", "dl", "ieeexplore", "portal", "conf"):
+            return re.sub(r"\d+", "", sub).strip("-")  # strip trailing years
+
+    # Try first non-numeric path segment
+    for seg in parsed.path.strip("/").split("/"):
+        clean = re.sub(r"\d+", "", seg).strip("-")
+        if clean and len(clean) > 2:
+            return clean.lower()
+
+    return ""
+
+
+def find_existing_by_url(content: str, url: str) -> list[dict]:
+    """
+    Fallback: find existing entries whose stored link shares the same
+    conference slug as *url*. Handles cases where the LLM can't identify
+    the conference name from a sparse/pre-CFP page.
+    """
+    slug = _conf_slug_from_url(url)
+    if not slug or len(slug) < 2:
+        return []
+    try:
+        all_entries: list[dict] = yaml.safe_load(content) or []
+    except Exception:
+        return []
+
+    matches = []
+    for entry in all_entries:
+        link = entry.get("link", "")
+        entry_slug = _conf_slug_from_url(link)
+        if entry_slug and entry_slug == slug:
+            matches.append(entry)
+        elif _norm_name(entry.get("name", "")) == slug:
+            matches.append(entry)
+
+    return matches
 
 
 def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
