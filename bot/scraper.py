@@ -1,6 +1,7 @@
 """Fetch a conference URL and return clean plain text for the LLM to parse."""
 import logging
 import re
+import unicodedata
 import httpx
 from bs4 import BeautifulSoup
 
@@ -22,20 +23,54 @@ _HEADERS = {
 _MAX_CHARS = 8000
 _MIN_USEFUL_CHARS = 200
 
+# Invisible / zero-width Unicode characters injected by some sites as fingerprinting
+# (IACR uses zero-width spaces inside URLs to prevent easy copying)
+_INVISIBLE_RE = re.compile(
+    r"[­"          # soft hyphen
+    r"​-‏"    # zero-width space, ZWNJ, ZWJ, LRM, RLM
+    r"⁠-⁤"    # word joiner, invisible times/plus/separator
+    r"  "     # line/paragraph separator
+    r"﻿"           # BOM / zero-width no-break space
+    r" ]"          # non-breaking space → replace with regular space
+)
+
+# Strip tool-call markup so it never bleeds into the LLM prompt
+_TOOL_CALL_RE = re.compile(
+    r"<function=\w+[^>]*?>[\s\S]*?(?=<function=|\Z)",
+    re.DOTALL,
+)
+
 # Patterns that indicate a garbage / error page
 _GARBAGE_PATTERNS = [
-    re.compile(r"java\.(io|lang|util)\.\w+"),   # Java stack traces
+    re.compile(r"java\.(io|lang|util)\.\w+"),          # Java stack traces
     re.compile(r"HttpServlet(Request|Response)"),
-    re.compile(r"at [a-z][\w\.]+\([\w\.]+:\d+\)"),  # Java stack frame
-    re.compile(r"<function=\w+"),                # LLM tool-call markup leaked in
+    re.compile(r"\bat [a-z][\w.]+\([\w.]+:\d+\)"),     # Java stack frame
+    re.compile(r"<function=\w+"),                       # LLM tool-call markup in content
 ]
 
-# Strip tool-call markup from scraped text so it never confuses the LLM
-_TOOL_CALL_RE = re.compile(r"<function=\w+[^>]*>.*?(?:</function>|(?=<function=)|\Z)", re.DOTALL)
+
+def _strip_invisible(text: str) -> str:
+    """Remove zero-width / invisible Unicode characters that confuse the LLM."""
+    # Replace non-breaking space with regular space, remove the rest
+    text = _INVISIBLE_RE.sub(lambda m: " " if m.group() == " " else "", text)
+    # Also strip any remaining Unicode control characters (category Cc/Cf)
+    text = "".join(
+        ch if unicodedata.category(ch) not in ("Cc", "Cf") or ch in "\n\r\t" else ""
+        for ch in text
+    )
+    return text
+
+
+def _has_binary_garbage(text: str) -> bool:
+    """Return True if the first 500 chars have too many non-printable bytes."""
+    sample = text[:500]
+    bad = sum(1 for c in sample if ord(c) < 32 and c not in "\n\r\t")
+    return bad > 8
 
 
 def _is_garbage(text: str) -> bool:
-    """Return True if the text looks like a server error or corrupted cache page."""
+    if _has_binary_garbage(text):
+        return True
     for pattern in _GARBAGE_PATTERNS:
         if pattern.search(text):
             return True
@@ -43,18 +78,20 @@ def _is_garbage(text: str) -> bool:
 
 
 def _sanitize(text: str) -> str:
-    """Remove patterns that would break LLM tool-call parsing."""
-    return _TOOL_CALL_RE.sub("", text).strip()
+    """Strip zero-width chars and LLM tool-call markup."""
+    text = _strip_invisible(text)
+    text = _TOOL_CALL_RE.sub("", text)
+    return text.strip()
 
 
 async def scrape(url: str) -> str:
     """
-    Return up to 8 000 chars of meaningful text from *url*.
+    Return up to 8 000 chars of clean, meaningful text from *url*.
 
     Fallback chain:
-    1. Direct fetch (with browser headers)
-    2. If 404 or JS-only shell → try Google Cache
-    3. Validate content quality at each step — reject garbage pages
+    1. Direct fetch (browser headers)
+    2. 404 or JS-only shell → Google Cache
+    3. Validate quality — reject garbage / binary / invisible-char-heavy pages
     4. SSL failure → retry without verification
     """
     try:
@@ -77,7 +114,7 @@ async def scrape(url: str) -> str:
             "Try linking directly to the CFP page instead."
         )
 
-    # Garbage detection
+    # Garbage detection (binary junk, Java errors, tool-call bleed-through)
     if _is_garbage(text):
         logger.warning("Direct fetch returned garbage for %s — trying Google Cache", url)
         cached = await _try_cache(url)
@@ -88,14 +125,18 @@ async def scrape(url: str) -> str:
             "Try linking directly to the CFP page instead."
         )
 
-    return _sanitize(text)
+    cleaned = _sanitize(text)
+
+    # After sanitisation, log if zero-width chars were stripped
+    if len(cleaned) < len(text):
+        logger.info(
+            "Stripped %d invisible chars from %s", len(text) - len(cleaned), url
+        )
+
+    return cleaned
 
 
 async def _try_cache(url: str) -> str:
-    """
-    Try Google Cache. Returns clean text if usable, empty string if not.
-    Never raises — caller decides what to do with an empty result.
-    """
     cache_url = f"https://webcache.googleusercontent.com/search?q=cache:{url}&hl=en"
     logger.info("Trying Google Cache: %s", cache_url)
     try:
