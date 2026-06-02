@@ -40,12 +40,12 @@ _TOOL_CALL_RE = re.compile(
     re.DOTALL,
 )
 
-# Patterns that indicate a garbage / error page
+# Patterns that indicate a genuine garbage / error page
+# NOTE: tool-call markup (<function=) is handled by _sanitize before this check
 _GARBAGE_PATTERNS = [
-    re.compile(r"java\.(io|lang|util)\.\w+"),          # Java stack traces
+    re.compile(r"java\.(io|lang|util)\.\w+"),       # Java stack traces
     re.compile(r"HttpServlet(Request|Response)"),
-    re.compile(r"\bat [a-z][\w.]+\([\w.]+:\d+\)"),     # Java stack frame
-    re.compile(r"<function=\w+"),                       # LLM tool-call markup in content
+    re.compile(r"\bat [a-z][\w.]+\([\w.]+:\d+\)"),  # Java stack frame
 ]
 
 
@@ -103,7 +103,12 @@ async def scrape(url: str) -> str:
             return await _try_cache(url)
         raise
 
-    # JS shell detection
+    # ── Sanitize first (strip invisible chars + tool-call markup) ────────────
+    # Must happen BEFORE garbage detection so zero-width spaces and
+    # <function=...> bleed-through don't trigger false positives.
+    text = _sanitize(text)
+
+    # ── JS shell detection ────────────────────────────────────────────────────
     if len(text) < _MIN_USEFUL_CHARS:
         logger.warning("Page looks JS-rendered (%d chars) for %s — trying Google Cache", len(text), url)
         cached = await _try_cache(url)
@@ -114,7 +119,7 @@ async def scrape(url: str) -> str:
             "Try linking directly to the CFP page instead."
         )
 
-    # Garbage detection (binary junk, Java errors, tool-call bleed-through)
+    # ── Garbage detection (binary junk, Java errors) ──────────────────────────
     if _is_garbage(text):
         logger.warning("Direct fetch returned garbage for %s — trying Google Cache", url)
         cached = await _try_cache(url)
@@ -125,15 +130,7 @@ async def scrape(url: str) -> str:
             "Try linking directly to the CFP page instead."
         )
 
-    cleaned = _sanitize(text)
-
-    # After sanitisation, log if zero-width chars were stripped
-    if len(cleaned) < len(text):
-        logger.info(
-            "Stripped %d invisible chars from %s", len(text) - len(cleaned), url
-        )
-
-    return cleaned
+    return text
 
 
 async def _try_cache(url: str) -> str:
@@ -141,11 +138,11 @@ async def _try_cache(url: str) -> str:
     logger.info("Trying Google Cache: %s", cache_url)
     try:
         html = await _fetch(cache_url, verify=True)
-        text = _parse(html)
+        text = _sanitize(_parse(html))   # sanitize before garbage check
         if len(text) < _MIN_USEFUL_CHARS or _is_garbage(text):
             logger.warning("Google Cache also returned garbage/empty for %s", url)
             return ""
-        return _sanitize(text)
+        return text
     except Exception as exc:
         logger.warning("Google Cache failed for %s: %s", url, exc)
         return ""
