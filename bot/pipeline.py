@@ -11,7 +11,7 @@ import html as _html
 
 from scraper import scrape
 from extractor import extract, to_entry
-from yaml_handler import find_existing, apply_change
+from yaml_handler import find_existing, find_existing_by_url, apply_change
 from github_pr import get_conferences_content, create_pr
 from core_lookup import lookup as core_lookup
 
@@ -54,13 +54,21 @@ async def process_url(url: str, message_link: str = "") -> str:
     conf_name: str = raw.get("name", "")
 
     # ── 4. Look up prior-year entries and re-extract with context ─────────────
+    # Try name-based lookup first; fall back to URL-based lookup when the page
+    # is too sparse for the LLM to extract the conference name (e.g. pre-CFP pages).
     existing = find_existing(content, conf_name) if conf_name else []
+    if not existing:
+        existing = find_existing_by_url(content, url)
+        if existing:
+            logger.info("URL-based lookup found %s for %s", existing[0].get("name"), url)
 
     if existing:
         # Conference is already tracked — skip scope check entirely.
         # It passed scope when it was first added; re-checking for updates
         # is unreliable (CFP may not be live yet, page may be sparse).
         prior = max(existing, key=lambda e: e.get("year", 0))
+        if not conf_name:
+            conf_name = prior.get("name", "")
         logger.info(
             "Known conference %s (prior year %s) — skipping scope check, re-extracting with context",
             conf_name, prior.get("year"),
