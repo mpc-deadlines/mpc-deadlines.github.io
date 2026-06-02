@@ -594,6 +594,15 @@
   comment: Notification - July 29.
   tags: [PRACT, APPLIED, CNF, COREO]
 
+- name: IEEE CNS
+  description: IEEE Conference on Communications and Network Security
+  year: 2026
+  link: "https://cns2026.ieee-cns.org/authors/call-papers"
+  deadline: ["2026-05-18 23:59"]
+  date: September 08-11
+  comment: Notification - July 18.
+  tags: [PRACT, CNF, COREO]
+
 - name: ITC
   description: Information-Theoretic Cryptography
   year: 2026
@@ -604,16 +613,6 @@
   comment: Notification - May 08.
   tags: [THEORY, CNF, COREO]
   
-- name: IEEE CNS
-  description: IEEE Conference on Communications and Network Security
-  year: 2025
-  link: https://cns2025.ieee-cns.org
-  deadline: ["2025-05-05 23:59"]
-  date: September 08-11
-  place: Avignon, France
-  comment: Notification - July 07.
-  tags: [PRACT, CNF, COREO]
-
 - name: LATINCRYPT
   description: International Conference On Cryptology And Information Security In Latin America
   year: 2025
