@@ -51,24 +51,28 @@ async def process_url(url: str, message_link: str = "") -> str:
         logger.error("Extraction failed: %s", exc)
         return f"⚠️ Extraction failed ({e(exc)}). Please add the entry manually."
 
-    if not raw.get("in_scope", True):
-        reason = raw.get("out_of_scope_reason") or "Does not meet MPC Deadlines scope criteria."
-        return f"⚠️ Out of scope — {e(reason)}"
-
     conf_name: str = raw.get("name", "")
 
     # ── 4. Look up prior-year entries and re-extract with context ─────────────
     existing = find_existing(content, conf_name) if conf_name else []
 
     if existing:
+        # Conference is already tracked — skip scope check entirely.
+        # It passed scope when it was first added; re-checking for updates
+        # is unreliable (CFP may not be live yet, page may be sparse).
         prior = max(existing, key=lambda e: e.get("year", 0))
-        logger.info("Found prior entry for %s (year %s) — re-extracting with context", conf_name, prior.get("year"))
+        logger.info(
+            "Known conference %s (prior year %s) — skipping scope check, re-extracting with context",
+            conf_name, prior.get("year"),
+        )
         try:
             raw = extract(page_text, url, prior_entry=prior)
         except Exception as exc:
             logger.warning("Re-extraction with prior entry failed: %s — using first-pass result", exc)
+    else:
+        # Brand-new conference — enforce scope check
         if not raw.get("in_scope", True):
-            reason = raw.get("out_of_scope_reason") or "Does not meet scope criteria."
+            reason = raw.get("out_of_scope_reason") or "Does not meet MPC Deadlines scope criteria."
             return f"⚠️ Out of scope — {e(reason)}"
 
     # ── 5. Build the YAML entry dict ──────────────────────────────────────────
