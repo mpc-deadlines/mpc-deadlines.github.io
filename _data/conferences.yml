@@ -162,36 +162,36 @@
 
 - name: VLDB
   description: International Conference on Very Large Data Bases
-  year: 2026
-  link: https://vldb.org/2026/
+  year: 2027
+  link: "https://vldb.org/2027/"
+  abdeadline: 25th of previous month
   deadline:
-    - "2025-04-01 16:59"
-    - "2025-05-01 16:59"
-    - "2025-06-01 16:59"
-    - "2025-07-01 16:59"
-    - "2025-08-01 16:59"
-    - "2025-09-01 16:59"
-    - "2025-10-01 16:59"
-    - "2025-11-01 16:59"
-    - "2025-12-01 16:59"
-    - "2026-01-01 16:59"
-    - "2026-02-01 16:59"
-    - "2026-03-01 16:59"
-  timezone: PT
-  date: August 31 - September 04
-  place: Boston, MA, USA
+    - "2026-04-01 16:59"
+    - "2026-05-01 16:59"
+    - "2026-06-01 16:59"
+    - "2026-07-01 16:59"
+    - "2026-08-01 16:59"
+    - "2026-09-01 16:59"
+    - "2026-10-01 16:59"
+    - "2026-11-01 16:59"
+    - "2026-12-01 16:59"
+    - "2027-01-01 16:59"
+    - "2027-02-01 16:59"
+    - "2027-03-01 16:59"
+  date: August 23-27
+  place: Athens, Greece
   comment: Rolling deadline every month. Notification on 15th of next month. Multiple tracks.
   tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
-  
+
 - name: VLDB (Industrial Track)
   description: International Conference on Very Large Data Bases
-  year: 2026
-  link: https://vldb.org/2026/call-for-industrial-track.html
-  deadline: ["2026-03-02 23:59"]
-  date: August 31 - September 04
-  place: Boston, MA, USA
+  year: 2027
+  link: https://vldb.org/2027/call-for-industrial-track.html
+  deadline: ["2027-03-02 23:59"]
+  date: August 23-27
+  place: Athens, Greece
   comment: One author should have industry affiliation. Notification - April 27.
-  tags: [THEORY, PRACT, APPLIED, CNF, COREAS]
+  tags: [THEORY, PRACT, APPLIED, CNF, COREAS, EXPCFP]
 
 # CORE A
 
