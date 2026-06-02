@@ -232,8 +232,8 @@
 
 - name: CHES
   description: Cryptographic Hardware and Embedded Systems
-  year: 2026
-  link: https://ches.iacr.org/2026/
+  year: 2027
+  link: "https://ches.iacr.org/2027/"
   deadline:
     - "2025-07-15 23:59"
     - "2025-10-15 23:59"
@@ -242,7 +242,7 @@
   rebut: Aug 28-31, Nov 27-30, Feb 26-Mar 01, May 28-31
   date: October 11-15
   place: Turkey
-  comment: Notification in two months. Long paper requires pre-approval.
+  comment: CFP yet to be announced
   tags: [PRACT, APPLIED, SOK, CNF, COREA]
 
 - name: DISC
@@ -940,16 +940,6 @@
   place: Los Angeles, California
   comment: Rolling notification.
   tags: [PRACT, APPLIED, PS, EXPCFP]
-  
-- name: CHES
-  description: Cryptographic Hardware and Embedded Systems
-  year: 2025
-  link: https://ches.iacr.org/2025/callforposters.php
-  deadline: ["2025-07-07 23:59"]
-  date: September 14-18
-  place: Kuala Lumpur, Malaysia
-  comment: Notification - August 11.
-  tags: [PRACT, APPLIED, PS]
   
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
