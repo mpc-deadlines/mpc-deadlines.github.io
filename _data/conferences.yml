@@ -491,6 +491,14 @@
 
 # CORE C
 
+- name: TRUST
+  description: International Conference on Trust and Privacy in Digital Business
+  year: 2027
+  link: "https://eigtrust.acm.org/trust2027/#calls"
+  deadline: ["TBD"]
+  comment: CFP yet to be announced
+  tags: [THEORY, PRACT, APPLIED, CNF, EXP, COREB]
+
 - name: SECRYPT
   description: International Conference on Information Security and Cryptography
   year: 2026
