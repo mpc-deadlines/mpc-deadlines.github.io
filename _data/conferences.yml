@@ -888,16 +888,16 @@
   tags: [PRACT, APPLIED, WK]
 
 - name: WAHC
-  description: Workshop on Encrypted Computing & Applied Homomorphic Cryptography
+  description: "14th Workshop on Encrypted Computing & Applied Homomorphic Cryptography"
   year: 2026
-  link: https://homomorphicencryption.org/wahc-2026/
-  deadline: ["2026-06-27 23:59"]
+  link: "https://homomorphicencryption.org/wahc-2026-14th-workshop-on-encrypted-computing-applied-homomorphic-cryptography/"
+  deadline: ["2026-06-20 23:59"]
   date: November 15
   place: The Hague, Netherlands
-  comment: Notification - August 08. Has proceedings.
+  comment: Notification - TBA. Has proceedings.
   conference: ACM CCS.
-  tags: [APPLIED, WK, EXP]
-  
+  tags: [APPLIED, WK]
+
 - name: WPES
   description: Workshop on Privacy in the Electronic Society
   year: 2026
