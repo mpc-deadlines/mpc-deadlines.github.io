@@ -584,6 +584,13 @@
   comment: Notification - October 23.
   tags: [THEORY, CNF, COREO]
 
+- name: CONFERENCES.COMPUTER.ORG
+  year: 2027
+  link: "https://host.conferences.computer.org/2027/call-for-papers/"
+  deadline: ["TBD"]
+  comment: CFP yet to be announced
+  tags: [THEORY, PRACT, APPLIED, CNF, EXP, COREO]
+
 - name: FLTA
   description: International Conference on Federated Learning Technologies and Applications
   year: 2026
