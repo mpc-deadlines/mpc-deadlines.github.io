@@ -30,12 +30,11 @@ _TOOL: dict = {
             "in_scope": {
                 "type": "boolean",
                 "description": (
-                    "True only if ALL THREE hold: (1) has a CFP with submission "
-                    "link and formatting guidelines, (2) topics include any of: "
+                    "True if the page is a CFP or conference/workshop page AND topics include any of: "
                     "MPC / secure multi-party computation / privacy-preserving computing / "
                     "cryptography / trusted execution environments / trusted computing / "
-                    "TEEs / secure enclaves / security and privacy / privacy-enhancing, "
-                    "(3) has a peer-review process with named chairs or a program committee."
+                    "TEEs / secure enclaves / security and privacy / privacy-enhancing. "
+                    "A CFP page with topics listed is sufficient even if the submission link is not yet live."
                 ),
             },
             "out_of_scope_reason": {
@@ -145,12 +144,16 @@ You extract academic conference information for the MPC Deadlines Hub, which tra
 deadlines for Multi-Party Computation (MPC), cryptography, privacy-preserving computing, \
 and closely related security/theory venues.
 
-SCOPE — an event is in-scope only when ALL THREE are true:
-  1. Has a Call for Papers (CFP) with a submission link and formatting guidelines
-  2. Topics include any of: MPC / secure multi-party computation / \
-privacy-preserving computing / cryptography / trusted execution environments / \
-trusted computing / TEEs / secure enclaves / security and privacy / privacy-enhancing
-  3. Has a peer-review process with named general/program chairs or a program committee
+SCOPE — an event is in-scope when BOTH are true:
+  1. The page is a CFP or conference/workshop page with academic topics listed.
+     A CFP page is sufficient even if the submission link or formatting guidelines
+     are not yet live — many conferences post the call before the submission system opens.
+  2. Topics include any of: MPC / secure multi-party computation /
+     privacy-preserving computing / cryptography / trusted execution environments /
+     trusted computing / TEEs / secure enclaves / security and privacy / privacy-enhancing
+
+Only mark in_scope=false if the page is clearly not a research venue (e.g. a product page,
+a blog post, a company announcement, or completely unrelated to security/cryptography).
 
 DOMAIN TAGS (pick all that apply):
   THEORY  – theoretical / foundational research
