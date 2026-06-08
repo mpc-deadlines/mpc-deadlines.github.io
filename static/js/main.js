@@ -5778,7 +5778,7 @@ $(function() {
   
   // LAMPS 2026
   
-  var rawDeadlines = ["2026-07-11 23:59"] || [];
+  var rawDeadlines = ["2026-07-03 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -5833,13 +5833,13 @@ $(function() {
           }
         }
       }
-      $('#lamps2026-applied-wk-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#lamps2026-applied-wk-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#lamps2026-applied-wk-exp-0').addClass('past');
+        $('#lamps2026-applied-wk-0').addClass('past');
       }
-      $('#lamps2026-applied-wk-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["lamps2026-applied-wk-exp-0"] = confDeadline;
+      $('#lamps2026-applied-wk-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["lamps2026-applied-wk-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
