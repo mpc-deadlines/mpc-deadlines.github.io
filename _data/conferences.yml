@@ -637,6 +637,18 @@
   comment: Co-located with INDOCRYPT.
   tags: [THEORY, PRACT, APPLIED, CNF, COREO]
 
+- name: TRUST
+  description: ACM Conference on Trustworthy and Responsible AI and Computing Systems
+  year: 2027
+  link: "https://eigtrust.acm.org/trust2027/"
+  deadline:
+    - "2026-06-15 23:59"
+    - "2026-10-31 23:59"
+  date: March 07-09
+  place: Washington DC
+  comment: June deadline for Emerging Area Track.
+  tags: [PRACT, APPLIED, CNF, EXP, COREO]
+
 # Workshops
 
 - name: ACM CCSW
