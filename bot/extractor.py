@@ -24,10 +24,7 @@ _TOOL: dict = {
     "description": "Submit extracted and validated conference deadline data.",
     "parameters": {
         "type": "object",
-        "required": [
-            "in_scope", "name", "year", "link",
-            "domain_tags", "type_tag", "core_tag", "status",
-        ],
+        "required": ["in_scope"],
         "properties": {
             # Scope gate
             "in_scope": {
@@ -134,6 +131,9 @@ _TOOL: dict = {
             "in_scope", "name", "year", "link",
             "domain_tags", "type_tag", "core_tag", "status",
         ],
+        # Note: outer required is just ["in_scope"] — these inner fields are
+        # required when in_scope=true but Groq validates at schema level so
+        # we rely on the prompt to instruct the model to fill them.
     },
     },
 }
@@ -248,15 +248,20 @@ def to_entry(data: dict) -> dict:
     Convert Groq's raw output dict into a conferences.yml-ready dict,
     with fields in the canonical order and correct tag list.
     """
+    # Guard against empty enum values when LLM couldn't determine them
+    type_tag = data.get("type_tag") or "CNF"
+    core_tag = data.get("core_tag") or "COREO"
+
     # Workshops, poster sessions, crypto schools and misc events have no CORE ranking
     _unranked_types = {"WK", "PS", "CRS", "MISC"}
-    if data["type_tag"] in _unranked_types:
-        tags = list(data["domain_tags"]) + [data["type_tag"]]
+    if type_tag in _unranked_types:
+        tags = list(data.get("domain_tags") or []) + [type_tag]
     else:
-        tags = list(data["domain_tags"]) + [data["type_tag"], data["core_tag"]]
-    if data["status"] == "EXP":
+        tags = list(data.get("domain_tags") or []) + [type_tag, core_tag]
+    status = data.get("status") or "FULL"
+    if status == "EXP":
         tags.append("EXP")
-    elif data["status"] == "EXPCFP":
+    elif status == "EXPCFP":
         tags.append("EXPCFP")
 
     entry: dict = {}
