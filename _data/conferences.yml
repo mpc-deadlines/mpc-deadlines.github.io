@@ -491,14 +491,6 @@
 
 # CORE C
 
-- name: TRUST
-  description: International Conference on Trust and Privacy in Digital Business
-  year: 2027
-  link: "https://eigtrust.acm.org/trust2027/#calls"
-  deadline: ["TBD"]
-  comment: CFP yet to be announced
-  tags: [THEORY, PRACT, APPLIED, CNF, EXP, COREB]
-
 - name: SECRYPT
   description: International Conference on Information Security and Cryptography
   year: 2026
@@ -644,6 +636,18 @@
   place: Bangalore, India
   comment: Co-located with INDOCRYPT.
   tags: [THEORY, PRACT, APPLIED, CNF, COREO]
+
+- name: TRUST
+  description: ACM Conference on Trustworthy and Responsible AI and Computing Systems
+  year: 2027
+  link: "https://eigtrust.acm.org/trust2027/"
+  deadline:
+    - "2026-06-15 23:59"
+    - "2026-10-31 23:59"
+  date: March 07-09
+  place: Washington DC
+  comment: June deadline for Emerging Area Track.
+  tags: [PRACT, APPLIED, CNF, EXP, COREO]
 
 # Workshops
 
