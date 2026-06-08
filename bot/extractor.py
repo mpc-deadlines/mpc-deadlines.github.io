@@ -34,10 +34,11 @@ _TOOL: dict = {
                 "type": "boolean",
                 "description": (
                     "True only if ALL THREE hold: (1) has a CFP with submission "
-                    "link and formatting guidelines, (2) mentions MPC / secure "
-                    "multi-party computation / privacy-preserving computing / "
-                    "cryptography in its topics, (3) has a peer-review process "
-                    "with named chairs or a program committee."
+                    "link and formatting guidelines, (2) topics include any of: "
+                    "MPC / secure multi-party computation / privacy-preserving computing / "
+                    "cryptography / trusted execution environments / trusted computing / "
+                    "TEEs / secure enclaves / security and privacy / privacy-enhancing, "
+                    "(3) has a peer-review process with named chairs or a program committee."
                 ),
             },
             "out_of_scope_reason": {
@@ -146,8 +147,9 @@ and closely related security/theory venues.
 
 SCOPE — an event is in-scope only when ALL THREE are true:
   1. Has a Call for Papers (CFP) with a submission link and formatting guidelines
-  2. Topics explicitly include MPC / secure multi-party computation / \
-privacy-preserving computing / cryptography
+  2. Topics include any of: MPC / secure multi-party computation / \
+privacy-preserving computing / cryptography / trusted execution environments / \
+trusted computing / TEEs / secure enclaves / security and privacy / privacy-enhancing
   3. Has a peer-review process with named general/program chairs or a program committee
 
 DOMAIN TAGS (pick all that apply):
