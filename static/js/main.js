@@ -9045,9 +9045,9 @@ $(function() {
   
   
   
-  // IEEE HOST 2026
+  // IEEE HOST 2027
   
-  var rawDeadlines = ["2025-08-26 23:59","2025-12-08 23:59"] || [];
+  var rawDeadlines = ["2026-07-22 23:59","2026-11-08 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -9055,7 +9055,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2026;
+    year = 2027;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -9102,13 +9102,13 @@ $(function() {
           }
         }
       }
-      $('#ieee-host2026-hw-applied-cnf-coreo-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#ieee-host2027-hw-applied-cnf-coreo-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#ieee-host2026-hw-applied-cnf-coreo-0').addClass('past');
+        $('#ieee-host2027-hw-applied-cnf-coreo-0').addClass('past');
       }
-      $('#ieee-host2026-hw-applied-cnf-coreo-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["ieee-host2026-hw-applied-cnf-coreo-0"] = confDeadline;
+      $('#ieee-host2027-hw-applied-cnf-coreo-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ieee-host2027-hw-applied-cnf-coreo-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -9139,13 +9139,13 @@ $(function() {
           }
         }
       }
-      $('#ieee-host2026-hw-applied-cnf-coreo-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#ieee-host2027-hw-applied-cnf-coreo-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#ieee-host2026-hw-applied-cnf-coreo-1').addClass('past');
+        $('#ieee-host2027-hw-applied-cnf-coreo-1').addClass('past');
       }
-      $('#ieee-host2026-hw-applied-cnf-coreo-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["ieee-host2026-hw-applied-cnf-coreo-1"] = confDeadline;
+      $('#ieee-host2027-hw-applied-cnf-coreo-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ieee-host2027-hw-applied-cnf-coreo-1"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
