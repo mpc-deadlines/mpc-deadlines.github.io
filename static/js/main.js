@@ -2489,7 +2489,7 @@ $(function() {
   
   
   
-  // FC 2026
+  // FC 2027
   
   var rawDeadlines = ["2025-09-16 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
@@ -2499,7 +2499,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2026;
+    year = 2027;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -2546,13 +2546,13 @@ $(function() {
           }
         }
       }
-      $('#fc2026-pract-cnf-sok-corea-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#fc2027-pract-sok-cnf-corea-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#fc2026-pract-cnf-sok-corea-0').addClass('past');
+        $('#fc2027-pract-sok-cnf-corea-expcfp-0').addClass('past');
       }
-      $('#fc2026-pract-cnf-sok-corea-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["fc2026-pract-cnf-sok-corea-0"] = confDeadline;
+      $('#fc2027-pract-sok-cnf-corea-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["fc2027-pract-sok-cnf-corea-expcfp-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
