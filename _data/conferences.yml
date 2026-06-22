@@ -287,11 +287,11 @@
   description: Financial Cryptography and Data Security
   year: 2027
   link: "https://fc27.ifca.ai"
-  deadline: ["2025-09-16 23:59"]
+  deadline: ["2026-09-17 23:59"]
   date: February 8-12
   place: Barbados
-  comment: Submission details TBA
-  tags: [PRACT, SOK, CNF, COREA, EXPCFP]
+  comment: "Paper Notification: November 5, 2026, Final Pre-Proceedings Papers: December 22, 2026"
+  tags: [PRACT, SOK, CNF, COREA]
 
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
