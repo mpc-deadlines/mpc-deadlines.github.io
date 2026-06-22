@@ -6985,7 +6985,7 @@ $(function() {
   
   // WPES 2026
   
-  var rawDeadlines = ["2026-07-07 23:59"] || [];
+  var rawDeadlines = ["2026-07-17 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -7040,13 +7040,13 @@ $(function() {
           }
         }
       }
-      $('#wpes2026-pract-wk-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#wpes2026-pract-wk-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#wpes2026-pract-wk-exp-0').addClass('past');
+        $('#wpes2026-pract-wk-0').addClass('past');
       }
-      $('#wpes2026-pract-wk-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["wpes2026-pract-wk-exp-0"] = confDeadline;
+      $('#wpes2026-pract-wk-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["wpes2026-pract-wk-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
