@@ -39,12 +39,12 @@
 - name: EUROCRYPT
   description: European Cryptology Conference
   year: 2027
-  link: "https://eurocrypt.iacr.org/2027/"
+  link: "https://eurocrypt.iacr.org/2027/callforpapers.php"
   deadline: ["2026-09-17 23:59"]
   date: April 11-15
   place: Eindhoven
-  comment: "Early Reject Notification: November 20, 2026, Notification: January 18, 2027"
-  tags: [THEORY, CNF, COREAS, EXPCFP]
+  comment: "Early Reject Notification: November 30, Notification: January 18, 2027"
+  tags: [THEORY, CNF, COREAS]
 
 - name: IEEE FOCS
   description: IEEE Symposium on Foundations of Computer Science
