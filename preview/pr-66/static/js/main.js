@@ -2491,7 +2491,7 @@ $(function() {
   
   // FC 2027
   
-  var rawDeadlines = ["2025-09-16 23:59"] || [];
+  var rawDeadlines = ["2026-09-17 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -2546,13 +2546,13 @@ $(function() {
           }
         }
       }
-      $('#fc2027-pract-sok-cnf-corea-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#fc2027-pract-sok-cnf-corea-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#fc2027-pract-sok-cnf-corea-expcfp-0').addClass('past');
+        $('#fc2027-pract-sok-cnf-corea-0').addClass('past');
       }
-      $('#fc2027-pract-sok-cnf-corea-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["fc2027-pract-sok-cnf-corea-expcfp-0"] = confDeadline;
+      $('#fc2027-pract-sok-cnf-corea-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["fc2027-pract-sok-cnf-corea-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
