@@ -3852,7 +3852,7 @@ $(function() {
   
   // PKC 2027
   
-  var rawDeadlines = ["2026-08-03 23:59"] || [];
+  var rawDeadlines = ["2026-08-16 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
