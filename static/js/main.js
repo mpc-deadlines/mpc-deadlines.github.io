@@ -309,13 +309,13 @@ $(function() {
           }
         }
       }
-      $('#eurocrypt2027-theory-cnf-coreas-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#eurocrypt2027-theory-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#eurocrypt2027-theory-cnf-coreas-expcfp-0').addClass('past');
+        $('#eurocrypt2027-theory-cnf-coreas-0').addClass('past');
       }
-      $('#eurocrypt2027-theory-cnf-coreas-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["eurocrypt2027-theory-cnf-coreas-expcfp-0"] = confDeadline;
+      $('#eurocrypt2027-theory-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["eurocrypt2027-theory-cnf-coreas-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
