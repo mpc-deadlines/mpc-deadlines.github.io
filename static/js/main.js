@@ -5065,7 +5065,7 @@ $(function() {
   
   // SPACE 2026
   
-  var rawDeadlines = ["2026-06-19 23:59","2026-08-28 23:59"] || [];
+  var rawDeadlines = ["2026-06-26 23:59","2026-08-28 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
