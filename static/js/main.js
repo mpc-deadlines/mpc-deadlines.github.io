@@ -396,7 +396,7 @@ $(function() {
   
   // IEEE INFOCOM 2027
   
-  var rawDeadlines = ["2026-07-24 23:59"] || [];
+  var rawDeadlines = ["2026-07-31 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -451,13 +451,13 @@ $(function() {
           }
         }
       }
-      $('#ieee-infocom2027-pract-applied-cnf-coreas-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#ieee-infocom2027-pract-applied-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#ieee-infocom2027-pract-applied-cnf-coreas-expcfp-0').addClass('past');
+        $('#ieee-infocom2027-pract-applied-cnf-coreas-0').addClass('past');
       }
-      $('#ieee-infocom2027-pract-applied-cnf-coreas-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["ieee-infocom2027-pract-applied-cnf-coreas-expcfp-0"] = confDeadline;
+      $('#ieee-infocom2027-pract-applied-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ieee-infocom2027-pract-applied-cnf-coreas-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
