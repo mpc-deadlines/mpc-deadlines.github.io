@@ -910,6 +910,17 @@
   conference: ACM CCS.
   tags: [APPLIED, WK]
 
+- name: WATCH
+  description: Second International Workshop on Analytics, Telemetry, and Cybersecurity for HPCC (WATCH 2026)
+  year: 2026
+  link: "https://watch-miniconf.github.io"
+  deadline: ["2026-07-17 23:59"]
+  timezone: Etc/GMT-12
+  date: November 15
+  place: The Hague, The Netherlands
+  conference: ACM CCS 2026
+  tags: [PRACT, SOK, WK]
+
 - name: WPES
   description: Workshop on Privacy in the Electronic Society
   year: 2026
