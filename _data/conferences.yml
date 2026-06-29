@@ -594,6 +594,17 @@
   comment: Notification - July 29.
   tags: [PRACT, APPLIED, CNF, COREO]
 
+- name: IEEE SaTML
+  description: IEEE Conference on Secure and Trustworthy Machine Learning
+  year: 2027
+  link: "https://satml.org/"
+  deadline: ["2026-09-29 23:59"]
+  rebut: November 25 - December 9
+  date: Early May
+  place: Reykjavik, Iceland
+  comment: "Notification - December 16. Early reject notification: November 4. Interactive discussion & revision phase: November 25 - December 9."
+  tags: [PRACT, PPML, SOK, CNF, COREO]
+
 - name: ITC
   description: Information-Theoretic Cryptography
   year: 2026
@@ -1138,17 +1149,6 @@
   comment: Notification - April 29. Early Reject - March 04.
   tags: [PRACT, CNF, PPML, COREAS]
 
-- name: IEEE SaTML
-  description: IEEE Conference on Secure and Trustworthy Machine Learning
-  year: 2026
-  link: http://satml.org
-  deadline: ["2025-09-24 23:59"]
-  rebut: November 19 - December 03
-  date: March 23-25
-  place: Munich, Germany
-  comment: Notification - December 10.
-  tags: [PRACT, CNF, PPML, SOK, COREO]
-  
 - name: KDD
   description: SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2026
