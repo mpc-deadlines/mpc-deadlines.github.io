@@ -426,6 +426,19 @@
   comment: Notification - August 10.
   tags: [PRACT, CNF, COREB]
   
+- name: CT-RSA
+  description: CT-RSAC 2027 – Cryptographers' Track (CT-RSA)
+  year: 2027
+  link: "https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/"
+  abdeadline: null
+  deadline: ["2026-10-22 23:59"]
+  rebut: null
+  timezone: Etc/GMT-12
+  date: April 5-8
+  place: San Francisco, California, USA
+  comment: null
+  tags: [THEORY, PRACT, APPLIED, CNF, COREB]
+
 - name: CT-RSAC
   description: RSA Conference Cryptographers’ Track
   year: 2026
