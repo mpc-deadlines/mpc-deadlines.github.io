@@ -35,6 +35,17 @@ def _rank(tags: list[str]) -> int:
     return 7  # unrecognised → append last
 
 
+_TYPE_TAGS = {"CNF", "JRN", "WK", "PS", "CRS", "MISC"}
+
+
+def _get_type_tag(entry: dict) -> str:
+    """Return the type tag (CNF, WK, PS, etc.) for an entry, or '' if none."""
+    for t in entry.get("tags", []):
+        if t in _TYPE_TAGS:
+            return t
+    return ""
+
+
 # ── Entry text formatter ───────────────────────────────────────────────────────
 
 _FIELD_ORDER = [
@@ -387,26 +398,74 @@ def apply_change(content: str, new_entry: dict) -> tuple[str, str]:
         prior = max(prior_entries, key=lambda e: e.get("year", 0))
         new_entry = _merge_new_year(prior, new_entry)
 
-    # Remove stale prior-year entries (all deadlines passed) for the same conference
+    new_type = _get_type_tag(new_entry)
+
+    # Remove stale prior-year entries for the same conference.
+    # An entry is stale when:
+    #   (a) all its deadlines are in the past, OR
+    #   (b) it is an EXP/EXPCFP placeholder from a PREVIOUS year
+    #       (once a newer year entry is being added, the old placeholder
+    #        is superseded regardless of whether deadlines ever went live).
+    # Only match entries with the same type tag so that sibling entries (e.g. a
+    # Poster submission for "ACM CCS" alongside the main "ACM CCS" conference) are
+    # never accidentally deleted when the main conference is updated.
+    def _is_stale_prior(e: dict) -> bool:
+        if e.get("year", 0) >= year:
+            return False
+        if not new_type or _get_type_tag(e) != new_type:
+            return False
+        e_tags = e.get("tags", [])
+        if "EXP" in e_tags or "EXPCFP" in e_tags:
+            return True  # prior-year placeholder is always superseded by a newer entry
+        return _all_deadlines_passed(e)
+
     stale = [
         e for e in all_entries
         if _norm_name(e.get("name", "")) == needle
         and e.get("year") != year
-        and _all_deadlines_passed(e)
+        and _is_stale_prior(e)
     ]
+
+    new_block = format_entry(new_entry) + "\n\n"
     working_content = content
-    for stale_entry in stale:
-        bounds = _entry_bounds(working_content, stale_entry["name"], stale_entry["year"])
+
+    # Bug fix: when there are stale entries to remove, replace the most recent one
+    # in-place rather than removing-then-re-inserting alphabetically.  This preserves
+    # any manual positioning in the file (e.g. ML conferences grouped together).
+    if stale:
+        replace_target = max(stale, key=lambda e: e.get("year", 0))
+        other_stale = [e for e in stale if e is not replace_target]
+
+        # Remove all older stale entries first (doesn't shift the replace_target
+        # if they appear before it, but _entry_bounds rescans each time so it's safe)
+        for stale_entry in other_stale:
+            bounds = _entry_bounds(working_content, stale_entry["name"], stale_entry["year"])
+            if bounds:
+                s, e = bounds
+                working_content = working_content[:s] + working_content[e:]
+
+        # Replace the most-recent stale entry in-place
+        bounds = _entry_bounds(working_content, replace_target["name"], replace_target["year"])
         if bounds:
             start, end = bounds
-            working_content = working_content[:start] + working_content[end:]
+            new_content = working_content[:start] + new_block + working_content[end:]
+            removed = len(other_stale)
+            action = "insert" + (f" (removed {removed} older stale {'entry' if removed == 1 else 'entries'})" if removed else "")
+            return new_content, action
 
+        # bounds not found after removal — fall through to alphabetical insert below
+        # (working_content already has the replace_target deleted from the other_stale loop
+        #  if it was the only one; if not, remove it now)
+        bounds = _entry_bounds(working_content, replace_target["name"], replace_target["year"])
+        if bounds:
+            s, e = bounds
+            working_content = working_content[:s] + working_content[e:]
+    # else: no stale entries — keep working_content == content
+
+    # No in-place replacement was possible; fall back to alphabetical+rank insertion.
     new_rank = _rank(new_entry.get("tags", []))
     new_name_lower = _norm_name(name)
 
-    new_block = format_entry(new_entry) + "\n\n"
-
-    # Re-parse after stale removal to find correct insert position
     try:
         remaining = yaml.safe_load(working_content) or []
     except Exception:
