@@ -2383,7 +2383,7 @@ $(function() {
   
   // EuroSys 2027
   
-  var rawDeadlines = ["2025-05-15 23:59","2025-09-25 23:59"] || [];
+  var rawDeadlines = ["2026-05-14 23:59","2026-09-24 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
