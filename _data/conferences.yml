@@ -273,14 +273,14 @@
   description: The European Conference on Computer Systems
   year: 2027
   link: "https://2027.eurosys.org"
-  abdeadline: May 08, September 18
+  abdeadline: May 07, September 17
   deadline:
-    - "2025-05-15 23:59"
-    - "2025-09-25 23:59"
-  rebut: July 30-August 01, January 07-09
-  date: April 13-16
+    - "2026-05-14 23:59"
+    - "2026-09-24 23:59"
+  rebut: July 29-31, January 06-08
+  date: April 19-23
   place: Rabat, Morocco
-  comment: CFP yet to be announced
+  comment: Notification - August 21, January 29.
   tags: [THEORY, CNF, COREA]
 
 - name: FC
