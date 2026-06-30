@@ -573,114 +573,6 @@ $(function() {
   
   
   
-  // KDD 2027
-  
-  var rawDeadlines = ["2025-07-24 23:59","2026-01-28 23:59"] || [];
-  if (rawDeadlines.constructor !== Array) {
-    rawDeadlines = [rawDeadlines];
-  }
-  var parsedDeadlines = [];
-  while (rawDeadlines.length > 0) {
-    var rawDeadline = rawDeadlines.pop();
-    // deal with year template in deadline
-    year = 2027;
-    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
-    // adjust date according to deadline timezone
-    
-    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
-    
-
-    // post-process date
-    if (deadline.minutes() === 0) {
-      deadline.subtract(1, 'seconds');
-    }
-    if (deadline.minutes() === 59) {
-      deadline.seconds(59);
-    }
-    parsedDeadlines.push(deadline);
-  }
-  // due to pop before; we need to reverse such that the i index later matches
-  // the right parsed deadline
-  parsedDeadlines.reverse();
-
-  
-  
-  //
-  
-  
-  var deadlineId = 0;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#kdd2027-pract-ppml-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#kdd2027-pract-ppml-cnf-coreas-0').addClass('past');
-      }
-      $('#kdd2027-pract-ppml-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["kdd2027-pract-ppml-cnf-coreas-0"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  //
-  
-  
-  var deadlineId = 1;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline;
-          if (diff <= 0) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-            var daysLeft = -diff / 86400000;
-            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
-            $(this).removeClass('urgent warning ok').addClass(urgency);
-            $(this).closest('.conf')
-              .removeClass('urgency-urgent urgency-warning urgency-ok')
-              .addClass('urgency-' + urgency);
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#kdd2027-pract-ppml-cnf-coreas-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#kdd2027-pract-ppml-cnf-coreas-1').addClass('past');
-      }
-      $('#kdd2027-pract-ppml-cnf-coreas-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["kdd2027-pract-ppml-cnf-coreas-1"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  
-  
   // NDSS 2027
   
   var rawDeadlines = ["2026-05-06 23:59","2026-08-19 23:59"] || [];
@@ -2489,9 +2381,9 @@ $(function() {
   
   
   
-  // EuroSys 2026
+  // EuroSys 2027
   
-  var rawDeadlines = ["2025-05-15 23:59","2025-09-25 23:59"] || [];
+  var rawDeadlines = ["2026-05-14 23:59","2026-09-24 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -2499,7 +2391,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2026;
+    year = 2027;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -2546,13 +2438,13 @@ $(function() {
           }
         }
       }
-      $('#eurosys2026-theory-cnf-corea-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#eurosys2027-theory-cnf-corea-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#eurosys2026-theory-cnf-corea-0').addClass('past');
+        $('#eurosys2027-theory-cnf-corea-0').addClass('past');
       }
-      $('#eurosys2026-theory-cnf-corea-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["eurosys2026-theory-cnf-corea-0"] = confDeadline;
+      $('#eurosys2027-theory-cnf-corea-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["eurosys2027-theory-cnf-corea-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -2583,13 +2475,13 @@ $(function() {
           }
         }
       }
-      $('#eurosys2026-theory-cnf-corea-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#eurosys2027-theory-cnf-corea-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#eurosys2026-theory-cnf-corea-1').addClass('past');
+        $('#eurosys2027-theory-cnf-corea-1').addClass('past');
       }
-      $('#eurosys2026-theory-cnf-corea-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["eurosys2026-theory-cnf-corea-1"] = confDeadline;
+      $('#eurosys2027-theory-cnf-corea-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["eurosys2027-theory-cnf-corea-1"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -8683,6 +8575,114 @@ $(function() {
       }
       $('#ieee-satml2026-pract-cnf-ppml-sok-coreo-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
       deadlineByConf["ieee-satml2026-pract-cnf-ppml-sok-coreo-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // KDD 2027
+  
+  var rawDeadlines = ["2026-07-26 23:59","2027-01-28 23:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2027;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  //
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#kdd2027-pract-ppml-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#kdd2027-pract-ppml-cnf-coreas-0').addClass('past');
+      }
+      $('#kdd2027-pract-ppml-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["kdd2027-pract-ppml-cnf-coreas-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  //
+  
+  
+  var deadlineId = 1;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#kdd2027-pract-ppml-cnf-coreas-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#kdd2027-pract-ppml-cnf-coreas-1').addClass('past');
+      }
+      $('#kdd2027-pract-ppml-cnf-coreas-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["kdd2027-pract-ppml-cnf-coreas-1"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
