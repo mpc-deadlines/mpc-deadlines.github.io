@@ -2381,9 +2381,9 @@ $(function() {
   
   
   
-  // EuroSys 2026
+  // EuroSys 2027
   
-  var rawDeadlines = ["2025-05-15 23:59","2025-09-25 23:59"] || [];
+  var rawDeadlines = ["2026-05-14 23:59","2026-09-24 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -2391,7 +2391,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2026;
+    year = 2027;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -2438,13 +2438,13 @@ $(function() {
           }
         }
       }
-      $('#eurosys2026-theory-cnf-corea-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#eurosys2027-theory-cnf-corea-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#eurosys2026-theory-cnf-corea-0').addClass('past');
+        $('#eurosys2027-theory-cnf-corea-0').addClass('past');
       }
-      $('#eurosys2026-theory-cnf-corea-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["eurosys2026-theory-cnf-corea-0"] = confDeadline;
+      $('#eurosys2027-theory-cnf-corea-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["eurosys2027-theory-cnf-corea-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -2475,13 +2475,13 @@ $(function() {
           }
         }
       }
-      $('#eurosys2026-theory-cnf-corea-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#eurosys2027-theory-cnf-corea-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#eurosys2026-theory-cnf-corea-1').addClass('past');
+        $('#eurosys2027-theory-cnf-corea-1').addClass('past');
       }
-      $('#eurosys2026-theory-cnf-corea-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["eurosys2026-theory-cnf-corea-1"] = confDeadline;
+      $('#eurosys2027-theory-cnf-corea-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["eurosys2027-theory-cnf-corea-1"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
