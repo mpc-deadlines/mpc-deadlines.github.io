@@ -81,20 +81,6 @@
   place: Montreal, Quebec, Canada
   comment: Early Reject -  July 27, January 18. Notification - September 11, March 5.
   tags: [PRACT, APPLIED, SOK, CNF, COREAS]
-  
-- name: KDD
-  description: SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2027
-  link: "https://kdd2027.kdd.org"
-  abdeadline: July 24, February 03
-  deadline:
-    - "2025-07-24 23:59"
-    - "2026-01-28 23:59"
-  rebut: October 04-18, April 04-18
-  date: August 09-13
-  place: Jeju, Korea
-  comment: CFP yet to be announced
-  tags: [PRACT, PPML, CNF, COREAS]
 
 - name: NDSS
   description: Network and Distributed System Security Symposium
@@ -1162,6 +1148,20 @@
   place: Munich, Germany
   comment: Notification - December 10.
   tags: [PRACT, CNF, PPML, SOK, COREO]
+  
+- name: KDD
+  description: SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2027
+  link: "https://kdd2027.kdd.org"
+  abdeadline: July 19, February 03
+  deadline:
+    - "2026-07-26 23:59"
+    - "2027-01-28 23:59"
+  rebut: September 29 - October 13, April 04-18
+  date: August 09-13
+  place: San Jose, USA
+  comment: Notofocation - November 14, May 19.
+  tags: [PRACT, PPML, CNF, COREAS]
   
 - name: NeurIPS
   description: Conference on Neural Information Processing Systems
