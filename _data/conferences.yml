@@ -706,6 +706,20 @@
   conference: AsiaCCS.
   tags: [PRACT, APPLIED, WK]
   
+- name: DeCaF
+  description: 7th MICCAI Workshop on Distributed, Collaborative and Federated Learning
+  year: 2026
+  link: "https://workshop-decaf.github.io/decaf-2026/"
+  abdeadline: July 1, July 24
+  deadline:
+    - "2026-07-01 23:59"
+    - "2026-07-24 23:59"
+  timezone: Etc/GMT-8
+  date: September 27 - October 1
+  place: Strasbourg, France
+  comment: In conjunction with MICCAI 2026
+  tags: [APPLIED, PPML, WK]
+
 - name: FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
   year: 2026
