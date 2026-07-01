@@ -911,6 +911,17 @@
   conference: IEEE ICDM 2026
   tags: [PRACT, APPLIED, WK]
 
+- name: WATCH
+  description: Workshop on Analytics, Telemetry, and Cybersecurity for HPCC
+  year: 2026
+  link: https://watch-miniconf.github.io
+  deadline: ["2026-07-17 23:59"]
+  date: November 15
+  place: The Hague, Netherlands
+  comment: Notification - August 21. Has proceedings.
+  conference: ACM CCS.
+  tags: [APPLIED, SOK, WK]
+
 - name: WAHC
   description: "14th Workshop on Encrypted Computing & Applied Homomorphic Cryptography"
   year: 2026
