@@ -988,12 +988,12 @@
 - name: IEEE S&P
   description: IEEE Symposium on Security and Privacy
   year: 2027
-  link: https://sp2026.ieee-security.org/cfposters.html
+  link: https://sp2027.ieee-security.org/cfposters.html
   deadline: ["2027-03-20 23:59"]
   date: TBA likely May 2027
   place: Montreal, Quebec, Canada
   comment: Notification - TBA. No proceedings. 
-  tags: [PRACT, PS, EXP]
+  tags: [PRACT, PS]
 
 - name: NDSS
   description: Network and Distributed System Security Symposium
