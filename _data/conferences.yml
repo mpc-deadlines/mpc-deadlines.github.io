@@ -1118,15 +1118,15 @@
   
 - name: ICLR
   description: International Conference on Learning Representations
-  year: 2026
-  link: https://iclr.cc/Conferences/2026
+  year: 2027
+  link: https://iclr.cc/Conferences/2027
   abdeadline: September 19
-  deadline: ["2025-09-24 23:59"]
+  deadline: ["2026-09-24 23:59"]
   rebut: November 11 - December 03
   date: April 24-28
   place: Brazil
   comment: Notification - January 22.
-  tags: [PRACT, CNF, PPML, COREAS]
+  tags: [PRACT, CNF, PPML, COREAS, EXP]
   
 - name: ICML
   description: International Conference on Machine Learning
