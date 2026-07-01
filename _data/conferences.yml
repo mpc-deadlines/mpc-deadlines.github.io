@@ -308,15 +308,15 @@
 
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
-  year: 2026
-  link: https://www.ieee-security.org/TC/EuroSP2026/
+  year: 2027
+  link: https://www.ieee-security.org/TC/EuroSP2027/
   abdeadline: November 13
-  deadline: ["2025-11-20 23:59"]
+  deadline: ["2026-11-20 23:59"]
   rebut: February 11-16
   date: July 06-10
   place: Lisbon, Portugal
   comment: Notification - March 05.
-  tags: [PRACT, APPLIED, SOK, CNF, COREA]
+  tags: [PRACT, APPLIED, SOK, CNF, COREA, EXP]
   
 - name: IEEE ICDCS
   description: IEEE International Conference on Distributed Computing Systems
@@ -978,13 +978,13 @@
   
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
-  year: 2025
-  link: https://www.ieee-security.org/TC/EuroSP2025/cfposters.html
-  deadline: ["2025-04-30 23:59"]
+  year: 2027
+  link: https://www.ieee-security.org/TC/EuroSP2027/cfposters.html
+  deadline: ["2027-04-30 23:59"]
   date: June 30 - July 04
   place: Venice
   comment: Notification - May 21. No proceedings.
-  tags: [PRACT, PS]
+  tags: [PRACT, PS, EXP]
 
 - name: IEEE S&P
   description: IEEE Symposium on Security and Privacy
