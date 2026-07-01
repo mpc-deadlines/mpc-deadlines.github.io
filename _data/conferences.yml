@@ -1140,13 +1140,13 @@
 
 - name: IEEE SaTML
   description: IEEE Conference on Secure and Trustworthy Machine Learning
-  year: 2026
+  year: 2027
   link: http://satml.org
-  deadline: ["2025-09-24 23:59"]
-  rebut: November 19 - December 03
-  date: March 23-25
-  place: Munich, Germany
-  comment: Notification - December 10.
+  deadline: ["2026-09-29 23:59"]
+  rebut: November 25 - December 09
+  date: May 08-10
+  place: Reykjavik, Iceland
+  comment: Notification - December 16. Position papers, Competitions and Workshops.
   tags: [PRACT, CNF, PPML, SOK, COREO]
   
 - name: KDD
