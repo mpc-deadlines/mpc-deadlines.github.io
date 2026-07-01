@@ -232,17 +232,17 @@
 
 - name: CHES
   description: Cryptographic Hardware and Embedded Systems
-  year: 2026
-  link: https://ches.iacr.org/2026/
+  year: 2027
+  link: https://ches.iacr.org/2027/
   deadline:
-    - "2025-07-15 23:59"
-    - "2025-10-15 23:59"
-    - "2026-01-15 23:59"
-    - "2026-04-15 23:59"
-  rebut: Aug 28-31, Nov 27-30, Feb 26-Mar 01, May 28-31
-  date: October 11-15
-  place: Turkey
-  comment: Notification in two months. Long paper requires pre-approval.
+    - "2026-07-15 23:59"
+    - "2026-10-15 23:59"
+    - "2027-01-15 23:59"
+    - "2027-04-15 23:59"
+  rebut: Aug 23-28, Nov 23-28, Feb 23-28, May 23-28
+  date: September 06-09
+  place: Cancún, Mexico
+  comment: Extended-review long paper spanning two issues. Long paper requires pre-approval.
   tags: [PRACT, APPLIED, SOK, CNF, COREA]
 
 - name: DISC
