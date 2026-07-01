@@ -16,13 +16,13 @@
   
 - name: ACM STOC
   description: ACM Symposium on Theory of Computing
-  year: 2026
-  link: https://acm-stoc.org/stoc2026/
-  deadline: ["2025-11-04 19:59"]
+  year: 2027
+  link: https://acm-stoc.org/stoc2027/
+  deadline: ["2026-11-04 19:59"]
   date: June 22-26
   place: Salt Lake City, Utah, USA
-  tags: [THEORY, CNF, COREAS]
   comment: Notification - February 01.
+  tags: [THEORY, CNF, COREAS, EXP]
   
 - name: CRYPTO
   description: International Cryptology Conference
@@ -150,15 +150,15 @@
   
 - name: The Web Conference
   description: The Web Conference (WWW)
-  year: 2026
-  link: https://www2026.thewebconf.org
+  year: 2027
+  link: https://www2027.thewebconf.org
   abdeadline: September 30
-  deadline: ["2025-10-07 23:59"]
+  deadline: ["2026-10-07 23:59"]
   rebut: November 24 - December 01
   date: June 29 - July 03
   place: Dubai, UAE
   comment: Notification - January 13. Has industry track.
-  tags: [PRACT, APPLIED, CNF, COREAS]
+  tags: [PRACT, APPLIED, CNF, COREAS, EXP]
 
 - name: VLDB
   description: International Conference on Very Large Data Bases
@@ -295,16 +295,16 @@
 
 - name: IEEE CSF
   description: IEEE Computer Security Foundations Symposium
-  year: 2026
-  link: https://www.ieee-security.org/TC/CSF2026/
+  year: 2027
+  link: https://www.ieee-security.org/TC/CSF2027/
   deadline:
-    - "2025-07-24 23:59"
-    - "2025-10-09 23:59"
-    - "2026-01-29 23:59"
+    - "2026-07-24 23:59"
+    - "2026-10-09 23:59"
+    - "2027-01-29 23:59"
   date: July 26-29
   place: Lisbon Portugal
   comment: co-located with FLoC 2026. Notification - September 25, December 11, April 01.
-  tags: [THEORY, CNF, COREA, SOK]
+  tags: [THEORY, CNF, COREA, SOK, EXP]
 
 - name: IEEE Euro S&P
   description: IEEE European Symposium on Security and Privacy
@@ -331,14 +331,14 @@
   
 - name: ITCS
   description: Innovations in Theoretical Computer Science
-  year: 2026
+  year: 2027
   link: http://itcs-conf.org/
   abdeadline: September 04
-  deadline: ["2025-09-06 11:59"]
+  deadline: ["2026-09-06 11:59"]
   date: January 27-30
   place: Bocconi University
   comment: Notification - November 10.
-  tags: [THEORY, CNF, COREA]
+  tags: [THEORY, CNF, COREA, EXP]
   
 - name: PETS
   description: Privacy Enhancing Technologies Symposium
@@ -371,27 +371,27 @@
 
 - name: ACISP
   description: Australasian Conference on Information Security and Privacy
-  year: 2026
+  year: 2027
   link: https://acisp.org
   deadline: 
-    - "2025-11-27 23:59"
-    - "2026-02-26 23:59"
+    - "2026-11-27 23:59"
+    - "2027-02-26 23:59"
   date: July 06-09
   place: Perth, Australia
   comment: Notification - January 15, April 16.
-  tags: [PRACT, APPLIED, SOK, CNF, COREB]
+  tags: [PRACT, APPLIED, SOK, CNF, COREB, EXP]
   
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
-  year: 2026
-  link: https://wisec26.events.cispa.de
+  year: 2027
+  link: https://wisec27.events.cispa.de
   deadline: 
-    - "2025-11-18 23:59"
-    - "2026-03-03 23:59"
+    - "2026-11-18 23:59"
+    - "2027-03-03 23:59"
   date: June 30 - July 03
   place: Saarbrücken, Germany
   comment: Notification - January 13, April 14.
-  tags: [APPLIED, CNF, COREB]
+  tags: [APPLIED, CNF, COREB, EXP]
 
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
@@ -448,13 +448,13 @@
   
 - name: IEEE ITW
   description: IEEE Information Theory Workshop
-  year: 2025
-  link: http://www.ieee-itw2025.org
-  deadline: ["2025-04-18 23:59"]
-  date: September 29-October 03
-  place: Sydney, Australia
+  year: 2027
+  link: https://2027.ieee-itw.org
+  deadline: ["2027-05-03 23:59"]
+  date: November 10-13
+  place: Arizona, USA
   comment: Notification - June 27.
-  tags: [THEORY, CNF, COREB]
+  tags: [THEORY, CNF, COREB, EXP]
   
 - name: PKC
   description: International Conference on Practice and Theory of Public Key Cryptography
@@ -517,14 +517,12 @@
   
 - name: ICISS
   description: International Conference on Information Systems Security
-  year: 2025
-  link: https://iciss.isrdc.in
-  deadline: 
-    - "2025-07-25 23:59"
-    - "2025-08-10 23:59"
+  year: 2026
+  link: https://iciss.in
+  deadline: ["2026-07-30 23:59"]"
   date: December 16-20
-  place: Indore, India
-  comment: Notification - September 30. August deadline for Industry/Demo.
+  place: Chennai, India
+  comment: Notification - September 10.
   tags: [PRACT, APPLIED, CNF, COREN]
   
 - name: INDOCRYPT
@@ -606,23 +604,23 @@
   
 - name: IEEE CNS
   description: IEEE Conference on Communications and Network Security
-  year: 2025
-  link: https://cns2025.ieee-cns.org
-  deadline: ["2025-05-05 23:59"]
+  year: 2027
+  link: https://cns2027.ieee-cns.org
+  deadline: ["2027-05-05 23:59"]
   date: September 08-11
   place: Avignon, France
   comment: Notification - July 07.
-  tags: [PRACT, CNF, COREO]
+  tags: [PRACT, CNF, COREO, EXP]
 
 - name: LATINCRYPT
   description: International Conference On Cryptology And Information Security In Latin America
-  year: 2025
+  year: 2027
   link: https://ciencias.medellin.unal.edu.co/eventos/latincrypt/
-  deadline: ["2025-05-16 23:59"]
+  deadline: ["2027-05-16 23:59"]
   date: October 01-03
   place: Medellín, Colombia
   comment: Notification - July 18.
-  tags: [THEORY, PRACT, CNF, COREO]
+  tags: [THEORY, PRACT, CNF, COREO, EXP]
 
 - name: SPACE
   description: Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering
@@ -710,14 +708,14 @@
   
 - name: FHE Conference
   description: Annual FHE.org Conference on Fully Homomorphic Encryption
-  year: 2026
-  link: https://fhe.org/conferences/conference-2026
-  deadline: ["2025-11-01 23:59"]
+  year: 2027
+  link: https://fhe.org/conferences/conference-2027
+  deadline: ["2026-11-01 23:59"]
   date: March 08
   place: Taipei, Taiwan
   comment: Notification - December 19.
   conference: RWC.
-  tags: [THEORY, PRACT, WK]
+  tags: [THEORY, PRACT, WK, EXP]
   
 - name: FL-AsiaCCS
   description: Secure and Efficient Federated Learning
@@ -761,17 +759,6 @@
   place: Paris, France
   comment: Notification - September 05.
   conference: FLTA.
-  tags: [APPLIED, PPML, WK] 
-
-- name: FLCA
-  description: AAAI Workshop on Federated Learning For Critical Applications
-  year: 2026
-  link: https://sites.google.com/view/flca
-  deadline: ["2025-10-24 23:59"]
-  date: January 26
-  place: Singapore
-  comment: Notification - November 07.
-  conference: AAAI.
   tags: [APPLIED, PPML, WK] 
   
 - name: LightSec
@@ -860,14 +847,14 @@
   
 - name: SECAI
   description: Workshop on Security and Artificial Intelligence
-  year: 2025
-  link: https://sites.google.com/view/secai2025/home
-  deadline: ["2025-07-07 23:59"]
+  year: 2027
+  link: https://sites.google.com/view/secai2027
+  deadline: ["2027-06-07 23:59"]
   date: September 25-26
   place: Toulouse, France
   comment: Notification - August 07. Has proceedings.
   conference: ESORICS.
-  tags: [PRACT, WK]
+  tags: [PRACT, WK, EXP]
   
 - name: SeQureDB
   description: Workshop on Secure and Private Data Management
@@ -1189,24 +1176,24 @@
   
 - name: MLSys
   description: Conference on Machine Learning and Systems
-  year: 2026
-  link: https://mlsys.org/Conferences/2026
-  deadline: ["2025-10-30 23:59"]
+  year: 2027
+  link: https://mlsys.org/Conferences/2027
+  deadline: ["2026-10-30 23:59"]
   rebut: Jan 12-16
   date: May 17-22
   place: Bellevue, WA
   comment: Notification - January 26. Industry Track (New)
-  tags: [PRACT, CNF, PPML, COREO]
+  tags: [PRACT, CNF, PPML, COREO, EXP]
  
 - name: PAKDD
   description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
-  year: 2026
+  year: 2027
   link: https://pakdd2026.org
-  deadline: ["2025-11-15 23:59"]
+  deadline: ["2026-11-15 23:59"]
   date: June 09-12
   place: Hong Kong SAR, China
   comment: Notification - February 08.
-  tags: [PRACT, CNF, PPML, COREB]
+  tags: [PRACT, CNF, PPML, COREB, EXP]
 
 # Hardware
 
@@ -1222,14 +1209,14 @@
   
 - name: DAC
   description: Design Automation Conference
-  year: 2026
-  link: https://dac.com/2026/
+  year: 2027
+  link: https://dac.com/2027/
   abdeadline: November 11
-  deadline: ["2025-11-18 23:59"]
+  deadline: ["2026-11-18 23:59"]
   date: July 26-29
   place: Long Beach, CA
   comment: Notification - March 09.
-  tags: [HW, APPLIED, CNF, COREAS]
+  tags: [HW, APPLIED, CNF, COREAS, EXP]
   
 - name: IEEE HOST
   description: IEEE International Symposium on Hardware Oriented Security and Trust
@@ -1281,12 +1268,12 @@
 
 - name: Cybersecurity Artifacts Competition and Impact Award
   description: ACSAC
-  year: 2025
-  link: https://www.acsac.org/2025/submissions/artifacts_competition/
-  deadline: ["2025-09-17 23:59"]
-  date: December 08-12
-  place: Honululu, Hawaii
-  comment: Cybersecurity artifacts published in all peer-reviewed venues. Notification - October 30.
+  year: 2026
+  link: https://www.acsac.org/2026/submissions/artifacts_competition/
+  deadline: ["2026-10-17 23:59"]
+  date: December 07-11
+  place: Los Angeles, USA
+  comment: Cybersecurity artifacts published in all peer-reviewed venues. Notification - October 31.
   tags: [MISC]
   
 - name: Doctoral Symposium at ACM CCS
@@ -1317,17 +1304,6 @@
   date: May 18-21
   place: San Francisco, CA
   tags: [MISC]
-  
-- name: IEEE S&P Short Talk
-  description: IEEE Symposium on Security and Privacy
-  year: 2025
-  link: https://sp2025.ieee-security.org/cftalks.html
-  deadline: ["2025-05-12 16:59"]
-  timezone: PDT
-  date: May 12-15
-  place: San Francisco, California, USA
-  comment: Primary deadline till May 02.
-  tags: [PRACT, APPLIED, MISC]
 
 - name: PhD Symposium at The Web Conference
   description: The Web Conference (WWW)
