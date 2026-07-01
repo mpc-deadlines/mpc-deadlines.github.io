@@ -651,17 +651,6 @@
 
 # Workshops
 
-- name: ACM CCSW
-  description: The ACM Cloud Computing Security Workshop
-  year: 2026
-  link: https://ccsw.io
-  deadline: ["2026-07-08 23:59"]
-  date: November 19
-  place: The Hague, Netherlands
-  comment: Notification - August 12. Has proceedings.
-  conference: ACM CCS.
-  tags: [PRACT, WK, EXP]
-  
 - name: AISec
   description: Workshop on Artificial Intelligence and Security
   year: 2026
