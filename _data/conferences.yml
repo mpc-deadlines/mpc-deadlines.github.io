@@ -910,6 +910,15 @@
   conference: ACM CCS.
   tags: [APPLIED, WK]
 
+- name: Workshop on Cryptography for Bitcoin
+  description: Workshop on Cryptography for Bitcoin
+  year: 2026
+  link: "https://bitcoin-cryptography-workshop.github.io/"
+  date: July 31
+  place: Frances C. Arrillaga Alumni Center, Stanford, CA
+  conference: Science of Blockchain Conference 2026
+  tags: [THEORY, PRACT, APPLIED, WK]
+
 - name: WPES
   description: Workshop on Privacy in the Electronic Society
   year: 2026
