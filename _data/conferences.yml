@@ -586,7 +586,7 @@
   description: International Conference on Federated Learning Technologies and Applications
   year: 2026
   link: https://flta-conference.org/flta-2026/
-  deadline: ["2026-07-01 23:59"]
+  deadline: ["2026-07-30 23:59"]
   date: October 27-30
   place: Paris, France
   comment: Notification - July 29.
@@ -626,9 +626,9 @@
   description: Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering
   year: 2026
   link: "https://space2026.isec.tugraz.at"
-  abdeadline: June 23, August 21
+  abdeadline: July 07, August 21
   deadline:
-    - "2026-06-26 23:59"
+    - "2026-07-10 23:59"
     - "2026-08-28 23:59"
   date: December 18-21
   place: Bangalore, India
@@ -732,7 +732,7 @@
   description: Workshop on Large AI Systems and Models with Privacy and Security Analysis
   year: 2026
   link: "https://lamps2026-ccs.github.io/home/"
-  deadline: ["2026-07-03 23:59"]
+  deadline: ["2026-07-19 23:59"]
   date: November 15
   place: The Hague, Netherlands
   comment: Notification - August 8, 2026. Has proceedings.
@@ -903,7 +903,7 @@
   description: "14th Workshop on Encrypted Computing & Applied Homomorphic Cryptography"
   year: 2026
   link: "https://homomorphicencryption.org/wahc-2026-14th-workshop-on-encrypted-computing-applied-homomorphic-cryptography/"
-  deadline: ["2026-06-20 23:59"]
+  deadline: ["2026-07-19 23:59"]
   date: November 15
   place: The Hague, Netherlands
   comment: Notification - TBA. Has proceedings.
@@ -1009,7 +1009,7 @@
   description: Federated Machine Learning International Summer School at FLTA
   year: 2026
   link: https://school.flta-conference.org
-  deadline: ["2026-06-15 23:59"]
+  deadline: ["2026-08-15 23:59"]
   date: October 19-27
   place: Paris, France
   comment: Interactive lectures, hands-on labs, and real-world applications of Federated Learning.
@@ -1075,7 +1075,7 @@
   link: https://www.acml-conf.org/2026/
   deadline:
     - "2026-06-06 23:59"
-    - "2026-06-26 23:59"
+    - "2026-07-05 23:59"
   rebut: August 10-15
   date: December 01-04
   place: Melbourne, Australia
