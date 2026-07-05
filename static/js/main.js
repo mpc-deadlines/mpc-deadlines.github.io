@@ -2562,7 +2562,7 @@ $(function() {
   
   // IEEE CSF 2027
   
-  var rawDeadlines = ["2026-07-24 23:59","2026-10-09 23:59","2027-01-29 23:59"] || [];
+  var rawDeadlines = ["2026-08-03 23:59","2026-10-15 23:59","2027-01-28 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -2617,13 +2617,13 @@ $(function() {
           }
         }
       }
-      $('#ieee-csf2027-theory-cnf-corea-sok-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#ieee-csf2027-theory-cnf-corea-sok-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#ieee-csf2027-theory-cnf-corea-sok-exp-0').addClass('past');
+        $('#ieee-csf2027-theory-cnf-corea-sok-0').addClass('past');
       }
-      $('#ieee-csf2027-theory-cnf-corea-sok-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["ieee-csf2027-theory-cnf-corea-sok-exp-0"] = confDeadline;
+      $('#ieee-csf2027-theory-cnf-corea-sok-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ieee-csf2027-theory-cnf-corea-sok-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -2654,13 +2654,13 @@ $(function() {
           }
         }
       }
-      $('#ieee-csf2027-theory-cnf-corea-sok-exp-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#ieee-csf2027-theory-cnf-corea-sok-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#ieee-csf2027-theory-cnf-corea-sok-exp-1').addClass('past');
+        $('#ieee-csf2027-theory-cnf-corea-sok-1').addClass('past');
       }
-      $('#ieee-csf2027-theory-cnf-corea-sok-exp-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["ieee-csf2027-theory-cnf-corea-sok-exp-1"] = confDeadline;
+      $('#ieee-csf2027-theory-cnf-corea-sok-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ieee-csf2027-theory-cnf-corea-sok-1"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -2691,13 +2691,13 @@ $(function() {
           }
         }
       }
-      $('#ieee-csf2027-theory-cnf-corea-sok-exp-2 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#ieee-csf2027-theory-cnf-corea-sok-2 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#ieee-csf2027-theory-cnf-corea-sok-exp-2').addClass('past');
+        $('#ieee-csf2027-theory-cnf-corea-sok-2').addClass('past');
       }
-      $('#ieee-csf2027-theory-cnf-corea-sok-exp-2 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["ieee-csf2027-theory-cnf-corea-sok-exp-2"] = confDeadline;
+      $('#ieee-csf2027-theory-cnf-corea-sok-2 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ieee-csf2027-theory-cnf-corea-sok-2"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -4744,7 +4744,7 @@ $(function() {
   
   // FLTA 2026
   
-  var rawDeadlines = ["2026-07-01 23:59"] || [];
+  var rawDeadlines = ["2026-07-30 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -5028,7 +5028,7 @@ $(function() {
   
   // SPACE 2026
   
-  var rawDeadlines = ["2026-06-26 23:59","2026-08-28 23:59"] || [];
+  var rawDeadlines = ["2026-07-10 23:59","2026-08-28 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -5741,7 +5741,7 @@ $(function() {
   
   // LAMPS 2026
   
-  var rawDeadlines = ["2026-07-03 23:59"] || [];
+  var rawDeadlines = ["2026-07-19 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -5954,7 +5954,7 @@ $(function() {
   
   // LightSec 2026
   
-  var rawDeadlines = ["2026-06-19 23:59"] || [];
+  var rawDeadlines = ["2026-07-13 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -6877,7 +6877,7 @@ $(function() {
   
   // WAHC 2026
   
-  var rawDeadlines = ["2026-06-20 23:59"] || [];
+  var rawDeadlines = ["2026-07-19 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -7587,7 +7587,7 @@ $(function() {
   
   // Federated Machine Learning International Summer School 2026
   
-  var rawDeadlines = ["2026-06-15 23:59"] || [];
+  var rawDeadlines = ["2026-08-15 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -8013,7 +8013,7 @@ $(function() {
   
   // ACML 2026
   
-  var rawDeadlines = ["2026-06-06 23:59","2026-06-26 23:59"] || [];
+  var rawDeadlines = ["2026-06-06 23:59","2026-07-05 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
