@@ -1,0 +1,103 @@
+/* ── CORE rank badge ─────────────────────────────────────── */
+.corerank {
+  display: inline-block;
+  background: #faf5ff;
+  border: 1px solid #e9d5ff;
+  color: #7e22ce;
+  border-radius: 5px;
+  padding: 1px 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+h2 .evtname {
+  color: #6366f1 !important;
+  font-size: 1.3em !important;
+}
+
+/* ── Past opacity (kept in sync with deadlines.css) ─────── */
+.past {
+  opacity: 0.45;
+}
+
+/* ── Search bar ──────────────────────────────────────────── */
+.search-row {
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.search-bar .input-group-addon {
+  background: #fff;
+  border-right: none;
+  color: #6366f1;
+  font-size: 14px;
+}
+
+.search-bar .form-control {
+  border-left: none;
+  box-shadow: none;
+  font-size: 14px;
+  background: #fff;
+}
+
+.search-bar .form-control:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+.search-bar .input-group-btn .btn {
+  border-left: none;
+  color: #aaa;
+  box-shadow: none;
+  height: 34px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  line-height: 1.42857;
+  background: #fff;
+}
+
+.search-bar .input-group-btn .btn:hover {
+  color: #555;
+  background: #f8fafc;
+}
+
+/* ── Sort toggle buttons ─────────────────────────────────── */
+.sort-label {
+  margin-left: 10px;
+  margin-right: 5px;
+  vertical-align: middle;
+  font-size: 11px;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+.sort-btn {
+  border-radius: 0 !important;
+  margin-left: -1px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.sort-btn[data-sort="deadline"] {
+  border-radius: 4px 0 0 4px !important;
+  margin-left: 0;
+}
+
+.sort-btn[data-sort="event-date"] {
+  border-radius: 0 4px 4px 0 !important;
+}
+
+.sort-btn.active-sort {
+  background-color: #4f46e5;
+  color: #fff;
+  border-color: #4338ca;
+  z-index: 1;
+  position: relative;
+}
+
+.sort-btn.active-sort:hover {
+  background-color: #4338ca;
+}
