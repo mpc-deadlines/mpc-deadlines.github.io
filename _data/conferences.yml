@@ -910,6 +910,16 @@
   conference: ACM CCS.
   tags: [APPLIED, WK]
 
+- name: WPEC
+  description: NIST Workshop on Privacy-Enhancing Cryptography 2026
+  year: 2026
+  link: "https://csrc.nist.gov/Events/2026/wpec2026"
+  deadline: ["2026-09-14 23:59"]
+  date: October 26-29
+  place: Online
+  comment: Notification by October 05. Rolling deadline from August 26th.
+  tags: [THEORY, PRACT, APPLIED, WK]
+
 - name: WPES
   description: Workshop on Privacy in the Electronic Society
   year: 2026
