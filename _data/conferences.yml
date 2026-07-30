@@ -333,12 +333,12 @@
   description: Innovations in Theoretical Computer Science
   year: 2027
   link: http://itcs-conf.org/
-  abdeadline: September 04
-  deadline: ["2026-09-06 11:59"]
-  date: January 27-30
-  place: Bocconi University
-  comment: Notification - November 10.
-  tags: [THEORY, CNF, COREA, EXP]
+  abdeadline: September 02
+  deadline: ["2026-09-04 11:59"]
+  date: January 12-15
+  place: UC Berkeley
+  comment: Notification - November 06.
+  tags: [THEORY, CNF, COREA]
   
 - name: PETS
   description: Privacy Enhancing Technologies Symposium
