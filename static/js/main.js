@@ -1152,7 +1152,7 @@ $(function() {
   
   // The Web Conference 2027
   
-  var rawDeadlines = ["2026-10-07 23:59"] || [];
+  var rawDeadlines = ["2026-10-18 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -1207,13 +1207,13 @@ $(function() {
           }
         }
       }
-      $('#the-web-conference2027-pract-applied-cnf-coreas-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#the-web-conference2027-pract-applied-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#the-web-conference2027-pract-applied-cnf-coreas-exp-0').addClass('past');
+        $('#the-web-conference2027-pract-applied-cnf-coreas-0').addClass('past');
       }
-      $('#the-web-conference2027-pract-applied-cnf-coreas-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["the-web-conference2027-pract-applied-cnf-coreas-exp-0"] = confDeadline;
+      $('#the-web-conference2027-pract-applied-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["the-web-conference2027-pract-applied-cnf-coreas-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -2762,13 +2762,13 @@ $(function() {
           }
         }
       }
-      $('#ieee-euro-s-p2027-pract-applied-sok-cnf-corea-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#ieee-euro-s-p2027-pract-applied-sok-cnf-corea-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#ieee-euro-s-p2027-pract-applied-sok-cnf-corea-exp-0').addClass('past');
+        $('#ieee-euro-s-p2027-pract-applied-sok-cnf-corea-expcfp-0').addClass('past');
       }
-      $('#ieee-euro-s-p2027-pract-applied-sok-cnf-corea-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["ieee-euro-s-p2027-pract-applied-sok-cnf-corea-exp-0"] = confDeadline;
+      $('#ieee-euro-s-p2027-pract-applied-sok-cnf-corea-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ieee-euro-s-p2027-pract-applied-sok-cnf-corea-expcfp-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -2849,7 +2849,7 @@ $(function() {
   
   // ITCS 2027
   
-  var rawDeadlines = ["2026-09-06 11:59"] || [];
+  var rawDeadlines = ["2026-09-04 11:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -2904,13 +2904,13 @@ $(function() {
           }
         }
       }
-      $('#itcs2027-theory-cnf-corea-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#itcs2027-theory-cnf-corea-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#itcs2027-theory-cnf-corea-exp-0').addClass('past');
+        $('#itcs2027-theory-cnf-corea-0').addClass('past');
       }
-      $('#itcs2027-theory-cnf-corea-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["itcs2027-theory-cnf-corea-exp-0"] = confDeadline;
+      $('#itcs2027-theory-cnf-corea-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["itcs2027-theory-cnf-corea-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -5654,13 +5654,13 @@ $(function() {
           }
         }
       }
-      $('#fhe-conference2027-theory-pract-wk-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#fhe-conference2027-theory-pract-wk-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#fhe-conference2027-theory-pract-wk-exp-0').addClass('past');
+        $('#fhe-conference2027-theory-pract-wk-expcfp-0').addClass('past');
       }
-      $('#fhe-conference2027-theory-pract-wk-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["fhe-conference2027-theory-pract-wk-exp-0"] = confDeadline;
+      $('#fhe-conference2027-theory-pract-wk-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["fhe-conference2027-theory-pract-wk-expcfp-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -8334,7 +8334,7 @@ $(function() {
   
   // ICLR 2027
   
-  var rawDeadlines = ["2026-09-24 23:59"] || [];
+  var rawDeadlines = ["2026-09-25 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -8389,13 +8389,13 @@ $(function() {
           }
         }
       }
-      $('#iclr2027-pract-cnf-ppml-coreas-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#iclr2027-pract-cnf-ppml-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#iclr2027-pract-cnf-ppml-coreas-exp-0').addClass('past');
+        $('#iclr2027-pract-cnf-ppml-coreas-0').addClass('past');
       }
-      $('#iclr2027-pract-cnf-ppml-coreas-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["iclr2027-pract-cnf-ppml-coreas-exp-0"] = confDeadline;
+      $('#iclr2027-pract-cnf-ppml-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["iclr2027-pract-cnf-ppml-coreas-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
