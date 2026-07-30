@@ -314,9 +314,9 @@
   deadline: ["2026-11-20 23:59"]
   rebut: February 11-16
   date: July 06-10
-  place: Lisbon, Portugal
+  place: Madrid, Spain
   comment: Notification - March 05.
-  tags: [PRACT, APPLIED, SOK, CNF, COREA, EXP]
+  tags: [PRACT, APPLIED, SOK, CNF, COREA, EXPCFP]
   
 - name: IEEE ICDCS
   description: IEEE International Conference on Distributed Computing Systems
