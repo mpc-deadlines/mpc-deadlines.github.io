@@ -151,14 +151,14 @@
 - name: The Web Conference
   description: The Web Conference (WWW)
   year: 2027
-  link: https://www2027.thewebconf.org
-  abdeadline: September 30
-  deadline: ["2026-10-07 23:59"]
-  rebut: November 24 - December 01
-  date: June 29 - July 03
-  place: Dubai, UAE
+  link: https://acmweb2027.org
+  abdeadline: October 11
+  deadline: ["2026-10-18 23:59"]
+  rebut: December 12-19
+  date: May 10-14
+  place: Dublin, Ireland
   comment: Notification - January 13. Has industry track.
-  tags: [PRACT, APPLIED, CNF, COREAS, EXP]
+  tags: [PRACT, APPLIED, CNF, COREAS]
 
 - name: VLDB
   description: International Conference on Very Large Data Bases
