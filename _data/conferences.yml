@@ -711,11 +711,11 @@
   year: 2027
   link: https://fhe.org/conferences/conference-2027
   deadline: ["2026-11-01 23:59"]
-  date: March 08
-  place: Taipei, Taiwan
+  date: April 04
+  place: Seattle, USA
   comment: Notification - December 19.
   conference: RWC.
-  tags: [THEORY, PRACT, WK, EXP]
+  tags: [THEORY, PRACT, WK, EXPCFP]
   
 - name: FL-AsiaCCS
   description: Secure and Efficient Federated Learning
