@@ -329,6 +329,14 @@
   comment: Notification - April 02.
   tags: [THEORY, PRACT, CNF, COREA]
   
+- name: "IEEE Security & Privacy"
+  description: "IEEE Security & Privacy"
+  year: 2027
+  link: "https://www.computer.org/digital-library/magazines/sp/cfp-one-decade-gdpr-challenges"
+  deadline: ["2026-12-01 23:59"]
+  comment: Special Issue on One Decade of GDPR
+  tags: [APPLIED, PRACT, JRN, COREA]
+
 - name: ITCS
   description: Innovations in Theoretical Computer Science
   year: 2027
