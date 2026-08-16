@@ -374,12 +374,12 @@
   year: 2027
   link: https://acisp.org
   deadline: 
-    - "2026-11-27 23:59"
-    - "2027-02-26 23:59"
-  date: July 06-09
-  place: Perth, Australia
+    - "2026-11-30 23:59"
+    - "2027-03-01 23:59"
+  date: July 07-10
+  place: Melbourne, Australia
   comment: Notification - January 15, April 16.
-  tags: [PRACT, APPLIED, SOK, CNF, COREB, EXP]
+  tags: [PRACT, APPLIED, SOK, CNF, COREB]
   
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
