@@ -626,10 +626,10 @@
   description: Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering
   year: 2026
   link: "https://space2026.isec.tugraz.at"
-  abdeadline: July 07, August 21
+  abdeadline: July 07, September 04
   deadline:
     - "2026-07-10 23:59"
-    - "2026-08-28 23:59"
+    - "2026-09-11 23:59"
   date: December 18-21
   place: Bangalore, India
   comment: Co-located with INDOCRYPT.
