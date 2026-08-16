@@ -694,6 +694,16 @@
   conference: AsiaCCS.
   tags: [PRACT, APPLIED, WK]
   
+- name: Data Privacy in Machine Learning
+  description: Privacy-preserving Machine Learning and Privacy in Distributed Settings
+  year: 2026
+  link: https://p1dpml.github.io/workshops/workshop-2.html
+  deadline: ["2026-09-10 23:59"]
+  date: November 02-04
+  place: Aarhus, Denmark
+  comment: Notification - September 17.
+  tags: [PRACT, APPLIED, WK]
+  
 - name: DeCaF
   description: 7th MICCAI Workshop on Distributed, Collaborative and Federated Learning
   year: 2026
