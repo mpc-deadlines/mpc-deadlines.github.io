@@ -862,7 +862,7 @@ $(function() {
   
   // ACM SIGMOD+PODS (SIGMOD) 2027
   
-  var rawDeadlines = ["2026-01-17 23:59","2026-04-17 23:59","2026-08-17 23:59","2026-10-17 23:59"] || [];
+  var rawDeadlines = ["2026-01-17 23:59","2026-04-17 23:59","2026-07-17 23:59","2026-10-17 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -3173,7 +3173,7 @@ $(function() {
   
   // ACISP 2027
   
-  var rawDeadlines = ["2026-11-27 23:59","2027-02-26 23:59"] || [];
+  var rawDeadlines = ["2026-11-30 23:59","2027-03-01 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -3228,13 +3228,13 @@ $(function() {
           }
         }
       }
-      $('#acisp2027-pract-applied-sok-cnf-coreb-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#acisp2027-pract-applied-sok-cnf-coreb-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#acisp2027-pract-applied-sok-cnf-coreb-exp-0').addClass('past');
+        $('#acisp2027-pract-applied-sok-cnf-coreb-0').addClass('past');
       }
-      $('#acisp2027-pract-applied-sok-cnf-coreb-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["acisp2027-pract-applied-sok-cnf-coreb-exp-0"] = confDeadline;
+      $('#acisp2027-pract-applied-sok-cnf-coreb-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["acisp2027-pract-applied-sok-cnf-coreb-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -3265,13 +3265,13 @@ $(function() {
           }
         }
       }
-      $('#acisp2027-pract-applied-sok-cnf-coreb-exp-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#acisp2027-pract-applied-sok-cnf-coreb-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#acisp2027-pract-applied-sok-cnf-coreb-exp-1').addClass('past');
+        $('#acisp2027-pract-applied-sok-cnf-coreb-1').addClass('past');
       }
-      $('#acisp2027-pract-applied-sok-cnf-coreb-exp-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["acisp2027-pract-applied-sok-cnf-coreb-exp-1"] = confDeadline;
+      $('#acisp2027-pract-applied-sok-cnf-coreb-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["acisp2027-pract-applied-sok-cnf-coreb-1"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -4352,7 +4352,7 @@ $(function() {
   
   // INDOCRYPT 2026
   
-  var rawDeadlines = ["2026-08-15 23:59"] || [];
+  var rawDeadlines = ["2026-08-20 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -5028,7 +5028,7 @@ $(function() {
   
   // SPACE 2026
   
-  var rawDeadlines = ["2026-07-10 23:59","2026-08-28 23:59"] || [];
+  var rawDeadlines = ["2026-07-10 23:59","2026-09-11 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -5519,6 +5519,77 @@ $(function() {
       }
       $('#cpss2026-pract-applied-wk-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
       deadlineByConf["cpss2026-pract-applied-wk-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // Data Privacy in Machine Learning 2026
+  
+  var rawDeadlines = ["2026-09-10 23:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2026;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  //
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline;
+          if (diff <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            var daysLeft = -diff / 86400000;
+            var urgency = daysLeft < 7 ? 'urgent' : daysLeft < 30 ? 'warning' : 'ok';
+            $(this).removeClass('urgent warning ok').addClass(urgency);
+            $(this).closest('.conf')
+              .removeClass('urgency-urgent urgency-warning urgency-ok')
+              .addClass('urgency-' + urgency);
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#data-privacy-in-machine-learning2026-pract-applied-wk-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#data-privacy-in-machine-learning2026-pract-applied-wk-0').addClass('past');
+      }
+      $('#data-privacy-in-machine-learning2026-pract-applied-wk-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["data-privacy-in-machine-learning2026-pract-applied-wk-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -7232,7 +7303,7 @@ $(function() {
   
   // ACSAC 2026
   
-  var rawDeadlines = ["2026-09-13 23:59"] || [];
+  var rawDeadlines = ["2026-09-19 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
