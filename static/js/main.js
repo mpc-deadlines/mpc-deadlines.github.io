@@ -4352,7 +4352,7 @@ $(function() {
   
   // INDOCRYPT 2026
   
-  var rawDeadlines = ["2026-08-20 23:59"] || [];
+  var rawDeadlines = ["2026-08-27 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
