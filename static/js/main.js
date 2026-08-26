@@ -8960,13 +8960,13 @@ $(function() {
           }
         }
       }
-      $('#mlsys2027-pract-cnf-ppml-coreo-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#mlsys2027-pract-cnf-ppml-coreo-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#mlsys2027-pract-cnf-ppml-coreo-exp-0').addClass('past');
+        $('#mlsys2027-pract-cnf-ppml-coreo-0').addClass('past');
       }
-      $('#mlsys2027-pract-cnf-ppml-coreo-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["mlsys2027-pract-cnf-ppml-coreo-exp-0"] = confDeadline;
+      $('#mlsys2027-pract-cnf-ppml-coreo-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["mlsys2027-pract-cnf-ppml-coreo-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
