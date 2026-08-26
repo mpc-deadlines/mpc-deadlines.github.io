@@ -152,12 +152,14 @@
   description: The Web Conference (WWW)
   year: 2027
   link: https://acmweb2027.org
-  abdeadline: October 11
-  deadline: ["2026-10-18 23:59"]
+  abdeadline: October 18, November 09
+  deadline:
+    - "2026-10-25 23:59"
+    - "2026-11-16 23:59"
   rebut: December 12-19
   date: May 10-14
   place: Dublin, Ireland
-  comment: Notification - January 13. Has industry track.
+  comment: Notification - January 21. Nov track for AI4Good.
   tags: [PRACT, APPLIED, CNF, COREAS]
 
 - name: VLDB
@@ -1162,6 +1164,7 @@
   description: IEEE Conference on Secure and Trustworthy Machine Learning
   year: 2027
   link: http://satml.org
+  abdeadline: September 22
   deadline: ["2026-09-29 23:59"]
   rebut: November 25 - December 09
   date: May 08-10
