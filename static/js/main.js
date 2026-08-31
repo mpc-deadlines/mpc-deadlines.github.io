@@ -5762,13 +5762,13 @@ $(function() {
           }
         }
       }
-      $('#fhe-conference2027-theory-pract-wk-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#fhe-conference2027-theory-pract-wk-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#fhe-conference2027-theory-pract-wk-expcfp-0').addClass('past');
+        $('#fhe-conference2027-theory-pract-wk-0').addClass('past');
       }
-      $('#fhe-conference2027-theory-pract-wk-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["fhe-conference2027-theory-pract-wk-expcfp-0"] = confDeadline;
+      $('#fhe-conference2027-theory-pract-wk-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["fhe-conference2027-theory-pract-wk-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
