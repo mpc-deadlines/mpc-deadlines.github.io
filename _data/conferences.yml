@@ -19,10 +19,10 @@
   year: 2027
   link: https://acm-stoc.org/stoc2027/
   deadline: ["2026-11-04 19:59"]
-  date: June 22-26
-  place: Salt Lake City, Utah, USA
+  date: June 06-11
+  place: Atlanta, Georgia
   comment: Notification - February 01.
-  tags: [THEORY, CNF, COREAS, EXP]
+  tags: [THEORY, CNF, COREAS, EXPCFP]
   
 - name: CRYPTO
   description: International Cryptology Conference
