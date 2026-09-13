@@ -312,13 +312,13 @@
   description: IEEE European Symposium on Security and Privacy
   year: 2027
   link: https://www.ieee-security.org/TC/EuroSP2027/
-  abdeadline: November 13
-  deadline: ["2026-11-20 23:59"]
-  rebut: February 11-16
-  date: July 06-10
+  abdeadline: November 25
+  deadline: ["2026-12-02 23:59"]
+  rebut: February 24 - March 01
+  date: July 05-09
   place: Madrid, Spain
-  comment: Notification - March 05.
-  tags: [PRACT, APPLIED, SOK, CNF, COREA, EXPCFP]
+  comment: Notification - March 18. Early Reject - January 28.
+  tags: [PRACT, APPLIED, SOK, CNF, COREA]
   
 - name: IEEE ICDCS
   description: IEEE International Conference on Distributed Computing Systems
