@@ -1104,6 +1104,18 @@
   comment: First deadline for Journal track. Notification - September 15. One author as mandatory reviewer.
   tags: [PRACT, CNF, PPML, COREC]
   
+- name: AISTATS
+  description: Annual Conference on Artificial Intelligence and Statistics
+  year: 2027
+  link: https://virtual.aistats.org
+  abdeadline: September 29
+  deadline: ["2026-10-06 23:59"]
+  rebut: November 16-23
+  date: May 03-06
+  place: Montreal, Canada
+  comment: Notification - January 20.
+  tags: [PRACT, CNF, PPML, COREA]
+  
 - name: ECMLPKDD
   description:  European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
   year: 2026
