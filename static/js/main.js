@@ -112,7 +112,7 @@ $(function() {
   
   // ACM STOC 2027
   
-  var rawDeadlines = ["2026-11-04 19:59"] || [];
+  var rawDeadlines = ["2026-11-02 19:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -167,13 +167,13 @@ $(function() {
           }
         }
       }
-      $('#acm-stoc2027-theory-cnf-coreas-expcfp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#acm-stoc2027-theory-cnf-coreas-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#acm-stoc2027-theory-cnf-coreas-expcfp-0').addClass('past');
+        $('#acm-stoc2027-theory-cnf-coreas-0').addClass('past');
       }
-      $('#acm-stoc2027-theory-cnf-coreas-expcfp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["acm-stoc2027-theory-cnf-coreas-expcfp-0"] = confDeadline;
+      $('#acm-stoc2027-theory-cnf-coreas-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["acm-stoc2027-theory-cnf-coreas-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -9047,7 +9047,7 @@ $(function() {
   
   // PAKDD 2027
   
-  var rawDeadlines = ["2026-11-15 23:59"] || [];
+  var rawDeadlines = ["2026-11-20 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -9102,13 +9102,13 @@ $(function() {
           }
         }
       }
-      $('#pakdd2027-pract-cnf-ppml-coreb-exp-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#pakdd2027-pract-cnf-ppml-coreb-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#pakdd2027-pract-cnf-ppml-coreb-exp-0').addClass('past');
+        $('#pakdd2027-pract-cnf-ppml-coreb-0').addClass('past');
       }
-      $('#pakdd2027-pract-cnf-ppml-coreb-exp-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["pakdd2027-pract-cnf-ppml-coreb-exp-0"] = confDeadline;
+      $('#pakdd2027-pract-cnf-ppml-coreb-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["pakdd2027-pract-cnf-ppml-coreb-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
