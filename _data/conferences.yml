@@ -18,11 +18,11 @@
   description: ACM Symposium on Theory of Computing
   year: 2027
   link: https://acm-stoc.org/stoc2027/
-  deadline: ["2026-11-04 19:59"]
+  deadline: ["2026-11-02 19:59"]
   date: June 06-11
   place: Atlanta, Georgia
   comment: Notification - February 01.
-  tags: [THEORY, CNF, COREAS, EXPCFP]
+  tags: [THEORY, CNF, COREAS]
   
 - name: CRYPTO
   description: International Cryptology Conference
