@@ -623,6 +623,17 @@
   place: Medellín, Colombia
   comment: Notification - July 18.
   tags: [THEORY, PRACT, CNF, COREO, EXP]
+  
+- name: SAIS
+  description: USENIX Conference on Secure Agentic-AI Systems
+  year: 2027
+  link: https://www.usenix.org/conference/sais27/call-for-papers
+  deadline: ["2027-02-04 23:59"]
+  rebut: April 23-30 
+  date: June 07-08
+  place: Hannover, Germany
+  comment: Notification - March 16.
+  tags: [PRACT, CNF, COREO]
 
 - name: SPACE
   description: Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering
@@ -921,6 +932,17 @@
   comment: Notification - TBA. Has proceedings.
   conference: ACM CCS.
   tags: [APPLIED, WK]
+  
+- name: WICE
+  description: 1st Workshop on Incentives and Contribution Evaluation
+  year: 2027
+  link: https://wice-satml.github.io
+  deadline: ["2026-12-18 23:59"]
+  date: May 03
+  place: Reykjavik, Iceland
+  comment: Notification - January 31. Has proceedings.
+  conference: IEEE SaTML.
+  tags: [THEORY, PRACT, PPML, WK]
 
 - name: WPEC
   description: NIST Workshop on Privacy-Enhancing Cryptography 2026
