@@ -1417,13 +1417,13 @@
   
 - name: IACR CiC
   description: Communications in Cryptology
-  year: 2026
+  year: 2027
   link: https://cic.iacr.org
   deadline: 
-    - "2026-02-02 23:59"
-    - "2026-04-27 23:59"
-    - "2026-07-27 23:59"
-    - "2026-10-26 23:59"
+    - "2027-02-02 23:59"
+    - "2027-04-27 23:59"
+    - "2027-07-27 23:59"
+    - "2027-10-26 23:59"
   comment: Notification in two months. 
   tags: [THEORY, PRACT, JRN]
 
