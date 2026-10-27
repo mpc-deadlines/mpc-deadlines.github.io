@@ -593,6 +593,18 @@
   place: Paris, France
   comment: Notification - July 29.
   tags: [PRACT, APPLIED, CNF, COREO]
+  
+- name: FORC
+  description: Symposium on Foundations of Responsible Computing
+  year: 2027
+  link: https://responsiblecomputing.org/forc-2027-call-for-papers/
+  deadline: 
+    - "2026-11-11 23:59"
+    - "2027-02-17 23:59"
+  date: June 02-04
+  place: Stanford University
+  comment: Notification - December 23, March 31.
+  tags: [THEORY, PRACT, CNF, COREO]
 
 - name: ITC
   description: Information-Theoretic Cryptography
