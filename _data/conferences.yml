@@ -1027,6 +1027,16 @@
 
 # CryptoSchools
 
+- name: Cryptography and Machine Learning Winter School
+  description: Cryptography and Machine Learning 2027 Winter School
+  year: 2027
+  link: https://bidsa.unibocconi.eu/cryptography-and-machine-learning-2027-winter-school
+  deadline: ["2026-12-15 23:59"]
+  date: January 25-28
+  place: Milan, Italy
+  comment: Attendance via registration confirmation.
+  tags: [CRS]
+
 - name: Federated Machine Learning International Summer School
   description: Federated Machine Learning International Summer School at FLTA
   year: 2026
