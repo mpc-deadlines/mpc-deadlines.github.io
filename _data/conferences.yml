@@ -604,7 +604,7 @@
   date: June 02-04
   place: Stanford University
   comment: Notification - December 23, March 31.
-  tags: [THEORY, PRACT, CNF, COREO]
+  tags: [THEORY, PRACT, CNF, PPML, COREO]
 
 - name: ITC
   description: Information-Theoretic Cryptography
