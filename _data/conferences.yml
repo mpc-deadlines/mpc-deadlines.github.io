@@ -1292,10 +1292,10 @@
   link: https://dac.com/2027/
   abdeadline: November 11
   deadline: ["2026-11-18 23:59"]
-  date: July 26-29
-  place: Long Beach, CA
-  comment: Notification - March 09.
-  tags: [HW, APPLIED, CNF, COREAS, EXP]
+  date: July 11-14
+  place: San Jose, CA
+  comment: Notification - March 08.
+  tags: [HW, APPLIED, CNF, COREAS]
   
 - name: IEEE HOST
   description: IEEE International Symposium on Hardware Oriented Security and Trust
@@ -1321,7 +1321,7 @@
   date: June 05-09
   place: Atlanta, GA, USA
   comment: Notification - March 27. December deadline for Industrial Track.
-  tags: [HW, APPLIED, CNF, COREAS, EXPCFP]
+  tags: [HW, APPLIED, CNF, COREAS]
   
 # Miscellaneous
 
