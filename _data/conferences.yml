@@ -785,6 +785,17 @@
   conference: ACM ASIACCS.
   tags: [PRACT, PPML, WK]
   
+- name: FL@FM
+  description: International Workshop on Federated Foundation Models for the Web
+  year: 2027
+  link: https://federated-learning.org/fl@fm-www-2027/
+  deadline: ["2027-01-04 23:59"]
+  date: May 10-14
+  place: Dublin, Ireland
+  comment: Notification - February 01.
+  conference: WWW.
+  tags: [APPLIED, PPML, WK] 
+  
 - name: FL4Industry
   description: Workshop on Federated Learning for Industry
   year: 2026
@@ -794,6 +805,17 @@
   place: Paris, France
   comment: Notification - September 05.
   conference: FLTA.
+  tags: [APPLIED, PPML, WK] 
+  
+- name: HybridPETs
+  description: 1st International Workshop on Hybrid Privacy-Enhancing Technologies
+  year: 2027
+  link: https://hybridpets.github.io
+  deadline: ["2027-02-19 23:59"]
+  date: June 28 - July 01
+  place: Egham, United Kingdom
+  comment: Notification - March 21.
+  conference: ACNS.
   tags: [APPLIED, PPML, WK] 
   
 - name: LightSec
@@ -901,6 +923,17 @@
   comment: Notification - March 31. Differential privacy, private data analytics.
   conference: ACM SIGMOD+PODS.
   tags: [PRACT, PPML, WK]
+  
+- name: SiMLA
+  description: International Workshop on Security in Machine Learning and its Applications
+  year: 2027
+  link: https://simla-acns.github.io/simla2027/
+  deadline: ["2027-02-19 23:59"]
+  date: June 28 - July 01
+  place: Egham, United Kingdom
+  comment: Notification - April 11.
+  conference: ACNS.
+  tags: [APPLIED, PPML, WK] 
   
 - name: SysteMPC
   description: Workshop on Systems for Secure Multi-Party Computation
