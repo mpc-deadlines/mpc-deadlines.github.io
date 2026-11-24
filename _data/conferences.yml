@@ -386,14 +386,14 @@
 - name: ACM WiSec
   description: Security and Privacy in Wireless and Mobile Networks
   year: 2027
-  link: https://wisec27.events.cispa.de
+  link: https://ntu-dtc.github.io/wisec2027/
   deadline: 
-    - "2026-11-18 23:59"
-    - "2027-03-03 23:59"
-  date: June 30 - July 03
-  place: Saarbrücken, Germany
-  comment: Notification - January 13, April 14.
-  tags: [APPLIED, CNF, COREB, EXP]
+    - "2026-11-30 23:59"
+    - "2027-02-15 23:59"
+  date: June 29 - July 02
+  place: Singapore
+  comment: Notification - January 11, April 12.
+  tags: [APPLIED, CNF, COREB]
 
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
