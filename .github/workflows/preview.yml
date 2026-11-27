@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - uses: ruby/setup-ruby@v1.230.0
+      - uses: ruby/setup-ruby@v1.345.0
         with:
           ruby-version: '3.1'
           bundler-cache: true
